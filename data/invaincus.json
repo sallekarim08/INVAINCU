@@ -1,0 +1,98 @@
+{
+  "genereLe": "2026-09-15T23:50:28.122Z",
+  "serieExigee": 8,
+  "competitionsAnalysees": [
+    "Premier League",
+    "La Liga",
+    "Serie A",
+    "Bundesliga",
+    "Ligue 1",
+    "Eredivisie",
+    "Primeira Liga",
+    "Championship",
+    "Série A"
+  ],
+  "competitionsEnEchec": [],
+  "equipes": [
+    {
+      "id": 1777,
+      "nom": "Bahia",
+      "blason": "https://crests.football-data.org/1777.png",
+      "competition": "Série A",
+      "pays": "Brésil",
+      "forme": [
+        "N",
+        "N",
+        "N",
+        "N",
+        "V",
+        "V",
+        "V",
+        "V"
+      ],
+      "victoires": 4,
+      "nuls": 4,
+      "butsMarques": 14,
+      "butsEncaisses": 9,
+      "dernierMatch": "2026-09-14T23:00:00Z",
+      "detail": [
+        {
+          "date": "2026-07-26T19:00:00Z",
+          "adversaire": "Corinthians",
+          "domicile": true,
+          "score": "1-1",
+          "issue": "N"
+        },
+        {
+          "date": "2026-07-30T00:30:00Z",
+          "adversaire": "Fluminense",
+          "domicile": false,
+          "score": "0-0",
+          "issue": "N"
+        },
+        {
+          "date": "2026-08-09T19:00:00Z",
+          "adversaire": "Vasco da Gama",
+          "domicile": true,
+          "score": "0-0",
+          "issue": "N"
+        },
+        {
+          "date": "2026-08-16T14:00:00Z",
+          "adversaire": "Chapecoense",
+          "domicile": false,
+          "score": "3-3",
+          "issue": "N"
+        },
+        {
+          "date": "2026-08-23T19:00:00Z",
+          "adversaire": "Vitória",
+          "domicile": false,
+          "score": "2-0",
+          "issue": "V"
+        },
+        {
+          "date": "2026-08-30T22:30:00Z",
+          "adversaire": "Internacional",
+          "domicile": true,
+          "score": "3-2",
+          "issue": "V"
+        },
+        {
+          "date": "2026-09-05T19:00:00Z",
+          "adversaire": "Bragantino",
+          "domicile": false,
+          "score": "3-2",
+          "issue": "V"
+        },
+        {
+          "date": "2026-09-14T23:00:00Z",
+          "adversaire": "Clube do Remo",
+          "domicile": true,
+          "score": "2-1",
+          "issue": "V"
+        }
+      ]
+    }
+  ]
+}
