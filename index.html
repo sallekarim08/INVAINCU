@@ -524,7 +524,7 @@ function aVenirHtml(equipe) {
 }
 
 function detailHtml(equipe, def) {
-  const lignes = equipe.detail.map((m) => `
+  const lignes = [...equipe.detail].reverse().map((m) => `
     <tr>
       <td>${dateCourte(m.date)}</td>
       <td>${m.domicile ? "reçoit" : "se déplace à"} ${m.adversaire}</td>
