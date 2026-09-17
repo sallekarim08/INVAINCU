@@ -23,6 +23,39 @@
 
   *, *::before, *::after { box-sizing: border-box; }
 
+  /* ---------- Bande d'annonce défilante ---------- */
+
+  .bande {
+    background: #cfe4f5;
+    color: var(--encre);
+    overflow: hidden;
+    white-space: nowrap;
+    padding: 0.55rem 0;
+  }
+
+  .bande-piste {
+    display: inline-flex;
+    animation: defiler 22s linear infinite;
+  }
+
+  .bande-piste span {
+    padding: 0 2.5rem;
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 600;
+    font-size: 0.85rem;
+    letter-spacing: 0.02em;
+  }
+
+  @keyframes defiler {
+    from { transform: translateX(0); }
+    to   { transform: translateX(-50%); }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .bande-piste { animation: none; }
+    .bande { overflow-x: auto; }
+  }
+
   body {
     margin: 0;
     background: var(--craie);
@@ -322,6 +355,12 @@
 </style>
 </head>
 <body>
+<div class="bande" role="note" aria-label="Annonce">
+  <div class="bande-piste">
+    <span>Ce site est exclusivement réalisé par Monsieur SALLE Abdoul Karim et KONATE Abdoul Razak pour le succès de leur projet Phoenix.</span>
+    <span>Ce site est exclusivement réalisé par Monsieur SALLE Abdoul Karim et KONATE Abdoul Razak pour le succès de leur projet Phoenix.</span>
+  </div>
+</div>
 <div class="enveloppe">
 
   <header class="entete">
