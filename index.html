@@ -555,7 +555,7 @@ function ligneEquipe(equipe, def, idDetail) {
     ${blasonHtml(equipe)}
     <span class="equipe"></span>
     <span class="provenance"></span>
-    <span class="forme">${equipe.detail
+    <span class="forme">${[...equipe.detail].reverse()
       .map((m) => `<span class="case ${def.couleurCase(m)}">${def.icone(m)}</span>`)
       .join("")}</span>`;
   bouton.querySelector(".equipe").textContent = equipe.nom;
