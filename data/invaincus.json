@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-09-17T00:21:09.953Z",
+  "genereLe": "2026-09-17T06:21:41.410Z",
   "fenetre": 8,
   "serieMin": 3,
   "seuilButs": 2,
@@ -425,6 +425,109 @@
           "competition": "Campeonato Brasileiro Série A",
           "domicile": "Palmeiras",
           "exterieur": "Corinthians"
+        }
+      ]
+    },
+    {
+      "id": 1770,
+      "nom": "Botafogo",
+      "blason": "https://crests.football-data.org/1770.png",
+      "competition": "Série A",
+      "pays": "Brésil",
+      "dernierMatch": "2026-09-16T22:30:00Z",
+      "detail": [
+        {
+          "date": "2026-07-26T19:00:00Z",
+          "adversaire": "Cruzeiro",
+          "domicile": false,
+          "butsPour": 1,
+          "butsContre": 0,
+          "score": "1-0",
+          "issue": "V"
+        },
+        {
+          "date": "2026-08-09T00:00:00Z",
+          "adversaire": "Fluminense",
+          "domicile": true,
+          "butsPour": 1,
+          "butsContre": 1,
+          "score": "1-1",
+          "issue": "N"
+        },
+        {
+          "date": "2026-08-16T21:30:00Z",
+          "adversaire": "Vitória",
+          "domicile": false,
+          "butsPour": 0,
+          "butsContre": 1,
+          "score": "0-1",
+          "issue": "D"
+        },
+        {
+          "date": "2026-08-24T23:00:00Z",
+          "adversaire": "Paranaense",
+          "domicile": true,
+          "butsPour": 2,
+          "butsContre": 3,
+          "score": "2-3",
+          "issue": "D"
+        },
+        {
+          "date": "2026-08-30T19:00:00Z",
+          "adversaire": "Flamengo",
+          "domicile": false,
+          "butsPour": 0,
+          "butsContre": 3,
+          "score": "0-3",
+          "issue": "D"
+        },
+        {
+          "date": "2026-09-06T21:30:00Z",
+          "adversaire": "Palmeiras",
+          "domicile": true,
+          "butsPour": 0,
+          "butsContre": 0,
+          "score": "0-0",
+          "issue": "N"
+        },
+        {
+          "date": "2026-09-12T23:30:00Z",
+          "adversaire": "Bragantino",
+          "domicile": true,
+          "butsPour": 1,
+          "butsContre": 1,
+          "score": "1-1",
+          "issue": "N"
+        },
+        {
+          "date": "2026-09-16T22:30:00Z",
+          "adversaire": "Grêmio",
+          "domicile": true,
+          "butsPour": 3,
+          "butsContre": 2,
+          "score": "3-2",
+          "issue": "V"
+        }
+      ],
+      "serie": 3,
+      "prochainsMatchs": [
+        {
+          "date": "2026-09-19T20:00:00Z",
+          "competition": "Campeonato Brasileiro Série A",
+          "domicile": "Mirassol",
+          "exterieur": "Botafogo"
+        },
+        {
+          "date": "2026-10-07T23:30:00Z",
+          "competition": "Campeonato Brasileiro Série A",
+          "domicile": "Botafogo",
+          "exterieur": "Vasco da Gama"
+        },
+        {
+          "date": "2026-10-11T22:30:00Z",
+          "competition": "Campeonato Brasileiro Série A",
+          "domicile": "Coritiba",
+          "exterieur": "Botafogo"
         }
       ]
     }
