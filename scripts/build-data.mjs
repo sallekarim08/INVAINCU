@@ -187,8 +187,12 @@ async function main() {
 
       for (const equipe of historique.values()) {
         for (const categorie of CATEGORIES) {
+          // On regarde au maximum `fenetre` matchs (le plafond), mais si l'équipe
+          // n'en a pas encore joué autant cette saison, on travaille avec ce qu'elle
+          // a réellement joué — à condition d'avoir au moins SERIE_MIN matchs, sinon
+          // une série n'a pas de sens.
           const recents = equipe.rencontres.slice(-categorie.fenetre);
-          if (recents.length < categorie.fenetre) continue; // pas assez d'historique cette saison
+          if (recents.length < SERIE_MIN) continue; // vraiment trop peu de matchs joués
 
           const serie = longueurSerie(recents, categorie.condition);
           if (serie < SERIE_MIN) continue;
@@ -261,3 +265,4 @@ main().catch((erreur) => {
   console.error(erreur);
   process.exit(1);
 });
+
