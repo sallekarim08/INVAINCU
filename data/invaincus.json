@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-09-17T18:35:38.936Z",
+  "genereLe": "2026-09-18T00:37:53.310Z",
   "serieMin": 3,
   "fenetres": {
     "invaincues": 8,
@@ -3765,6 +3765,91 @@
           "competition": "Premier League",
           "domicile": "Nottingham",
           "exterieur": "Arsenal"
+        }
+      ]
+    },
+    {
+      "id": 90,
+      "nom": "Real Betis",
+      "blason": "https://crests.football-data.org/90.png",
+      "competition": "La Liga",
+      "pays": "Espagne",
+      "dernierMatch": "2026-09-17T17:00:00Z",
+      "detail": [
+        {
+          "date": "2026-08-21T19:00:00Z",
+          "adversaire": "Real Sociedad",
+          "domicile": true,
+          "butsPour": 1,
+          "butsContre": 0,
+          "score": "1-0",
+          "issue": "V"
+        },
+        {
+          "date": "2026-08-25T19:00:00Z",
+          "adversaire": "Valencia",
+          "domicile": false,
+          "butsPour": 1,
+          "butsContre": 0,
+          "score": "1-0",
+          "issue": "V"
+        },
+        {
+          "date": "2026-08-29T15:00:00Z",
+          "adversaire": "Levante",
+          "domicile": false,
+          "butsPour": 2,
+          "butsContre": 5,
+          "score": "2-5",
+          "issue": "D"
+        },
+        {
+          "date": "2026-09-04T19:00:00Z",
+          "adversaire": "Real Madrid",
+          "domicile": true,
+          "butsPour": 1,
+          "butsContre": 0,
+          "score": "1-0",
+          "issue": "V"
+        },
+        {
+          "date": "2026-09-14T19:00:00Z",
+          "adversaire": "Villarreal",
+          "domicile": false,
+          "butsPour": 2,
+          "butsContre": 1,
+          "score": "2-1",
+          "issue": "V"
+        },
+        {
+          "date": "2026-09-17T17:00:00Z",
+          "adversaire": "Getafe",
+          "domicile": true,
+          "butsPour": 1,
+          "butsContre": 0,
+          "score": "1-0",
+          "issue": "V"
+        }
+      ],
+      "serie": 3,
+      "prochainsMatchs": [
+        {
+          "date": "2026-09-20T16:30:00Z",
+          "competition": "Primera Division",
+          "domicile": "Deportivo",
+          "exterieur": "Real Betis"
+        },
+        {
+          "date": "2026-10-11T16:30:00Z",
+          "competition": "Primera Division",
+          "domicile": "Real Betis",
+          "exterieur": "Osasuna"
+        },
+        {
+          "date": "2026-10-14T19:00:00Z",
+          "competition": "UEFA Champions League",
+          "domicile": "Real Betis",
+          "exterieur": "Porto"
         }
       ]
     },
@@ -9425,6 +9510,91 @@
       ]
     },
     {
+      "id": 90,
+      "nom": "Real Betis",
+      "blason": "https://crests.football-data.org/90.png",
+      "competition": "La Liga",
+      "pays": "Espagne",
+      "dernierMatch": "2026-09-17T17:00:00Z",
+      "detail": [
+        {
+          "date": "2026-08-21T19:00:00Z",
+          "adversaire": "Real Sociedad",
+          "domicile": true,
+          "butsPour": 1,
+          "butsContre": 0,
+          "score": "1-0",
+          "issue": "V"
+        },
+        {
+          "date": "2026-08-25T19:00:00Z",
+          "adversaire": "Valencia",
+          "domicile": false,
+          "butsPour": 1,
+          "butsContre": 0,
+          "score": "1-0",
+          "issue": "V"
+        },
+        {
+          "date": "2026-08-29T15:00:00Z",
+          "adversaire": "Levante",
+          "domicile": false,
+          "butsPour": 2,
+          "butsContre": 5,
+          "score": "2-5",
+          "issue": "D"
+        },
+        {
+          "date": "2026-09-04T19:00:00Z",
+          "adversaire": "Real Madrid",
+          "domicile": true,
+          "butsPour": 1,
+          "butsContre": 0,
+          "score": "1-0",
+          "issue": "V"
+        },
+        {
+          "date": "2026-09-14T19:00:00Z",
+          "adversaire": "Villarreal",
+          "domicile": false,
+          "butsPour": 2,
+          "butsContre": 1,
+          "score": "2-1",
+          "issue": "V"
+        },
+        {
+          "date": "2026-09-17T17:00:00Z",
+          "adversaire": "Getafe",
+          "domicile": true,
+          "butsPour": 1,
+          "butsContre": 0,
+          "score": "1-0",
+          "issue": "V"
+        }
+      ],
+      "serie": 6,
+      "prochainsMatchs": [
+        {
+          "date": "2026-09-20T16:30:00Z",
+          "competition": "Primera Division",
+          "domicile": "Deportivo",
+          "exterieur": "Real Betis"
+        },
+        {
+          "date": "2026-10-11T16:30:00Z",
+          "competition": "Primera Division",
+          "domicile": "Real Betis",
+          "exterieur": "Osasuna"
+        },
+        {
+          "date": "2026-10-14T19:00:00Z",
+          "competition": "UEFA Champions League",
+          "domicile": "Real Betis",
+          "exterieur": "Porto"
+        }
+      ]
+    },
+    {
       "id": 5530,
       "nom": "Santa Clara",
       "blason": "https://crests.football-data.org/5530.png",
@@ -10419,82 +10589,6 @@
           "competition": "Eredivisie",
           "domicile": "Cambuur",
           "exterieur": "AZ"
-        }
-      ]
-    },
-    {
-      "id": 90,
-      "nom": "Real Betis",
-      "blason": "https://crests.football-data.org/90.png",
-      "competition": "La Liga",
-      "pays": "Espagne",
-      "dernierMatch": "2026-09-14T19:00:00Z",
-      "detail": [
-        {
-          "date": "2026-08-21T19:00:00Z",
-          "adversaire": "Real Sociedad",
-          "domicile": true,
-          "butsPour": 1,
-          "butsContre": 0,
-          "score": "1-0",
-          "issue": "V"
-        },
-        {
-          "date": "2026-08-25T19:00:00Z",
-          "adversaire": "Valencia",
-          "domicile": false,
-          "butsPour": 1,
-          "butsContre": 0,
-          "score": "1-0",
-          "issue": "V"
-        },
-        {
-          "date": "2026-08-29T15:00:00Z",
-          "adversaire": "Levante",
-          "domicile": false,
-          "butsPour": 2,
-          "butsContre": 5,
-          "score": "2-5",
-          "issue": "D"
-        },
-        {
-          "date": "2026-09-04T19:00:00Z",
-          "adversaire": "Real Madrid",
-          "domicile": true,
-          "butsPour": 1,
-          "butsContre": 0,
-          "score": "1-0",
-          "issue": "V"
-        },
-        {
-          "date": "2026-09-14T19:00:00Z",
-          "adversaire": "Villarreal",
-          "domicile": false,
-          "butsPour": 2,
-          "butsContre": 1,
-          "score": "2-1",
-          "issue": "V"
-        }
-      ],
-      "serie": 5,
-      "prochainsMatchs": [
-        {
-          "date": "2026-09-20T16:30:00Z",
-          "competition": "Primera Division",
-          "domicile": "Deportivo",
-          "exterieur": "Real Betis"
-        },
-        {
-          "date": "2026-10-11T16:30:00Z",
-          "competition": "Primera Division",
-          "domicile": "Real Betis",
-          "exterieur": "Osasuna"
-        },
-        {
-          "date": "2026-10-14T19:00:00Z",
-          "competition": "UEFA Champions League",
-          "domicile": "Real Betis",
-          "exterieur": "Porto"
         }
       ]
     },
@@ -14199,6 +14293,91 @@
       ]
     },
     {
+      "id": 94,
+      "nom": "Villarreal",
+      "blason": "https://crests.football-data.org/94.png",
+      "competition": "La Liga",
+      "pays": "Espagne",
+      "dernierMatch": "2026-09-17T19:30:00Z",
+      "detail": [
+        {
+          "date": "2026-08-16T15:00:00Z",
+          "adversaire": "Santander",
+          "domicile": false,
+          "butsPour": 2,
+          "butsContre": 2,
+          "score": "2-2",
+          "issue": "N"
+        },
+        {
+          "date": "2026-08-23T15:00:00Z",
+          "adversaire": "Atleti",
+          "domicile": false,
+          "butsPour": 2,
+          "butsContre": 2,
+          "score": "2-2",
+          "issue": "N"
+        },
+        {
+          "date": "2026-08-28T19:30:00Z",
+          "adversaire": "Alavés",
+          "domicile": false,
+          "butsPour": 0,
+          "butsContre": 1,
+          "score": "0-1",
+          "issue": "D"
+        },
+        {
+          "date": "2026-09-05T19:00:00Z",
+          "adversaire": "Deportivo",
+          "domicile": true,
+          "butsPour": 2,
+          "butsContre": 3,
+          "score": "2-3",
+          "issue": "D"
+        },
+        {
+          "date": "2026-09-14T19:00:00Z",
+          "adversaire": "Real Betis",
+          "domicile": true,
+          "butsPour": 1,
+          "butsContre": 2,
+          "score": "1-2",
+          "issue": "D"
+        },
+        {
+          "date": "2026-09-17T19:30:00Z",
+          "adversaire": "Málaga",
+          "domicile": false,
+          "butsPour": 3,
+          "butsContre": 1,
+          "score": "3-1",
+          "issue": "V"
+        }
+      ],
+      "serie": 3,
+      "prochainsMatchs": [
+        {
+          "date": "2026-09-20T16:30:00Z",
+          "competition": "Primera Division",
+          "domicile": "Villarreal",
+          "exterieur": "Levante"
+        },
+        {
+          "date": "2026-10-10T19:00:00Z",
+          "competition": "Primera Division",
+          "domicile": "Real Madrid",
+          "exterieur": "Villarreal"
+        },
+        {
+          "date": "2026-10-13T19:00:00Z",
+          "competition": "UEFA Champions League",
+          "domicile": "Villarreal",
+          "exterieur": "Napoli"
+        }
+      ]
+    },
+    {
       "id": 1782,
       "nom": "Vitória",
       "blason": "https://crests.football-data.org/1782.png",
@@ -16869,6 +17048,91 @@
       ]
     },
     {
+      "id": 94,
+      "nom": "Villarreal",
+      "blason": "https://crests.football-data.org/94.png",
+      "competition": "La Liga",
+      "pays": "Espagne",
+      "dernierMatch": "2026-09-17T19:30:00Z",
+      "detail": [
+        {
+          "date": "2026-08-16T15:00:00Z",
+          "adversaire": "Santander",
+          "domicile": false,
+          "butsPour": 2,
+          "butsContre": 2,
+          "score": "2-2",
+          "issue": "N"
+        },
+        {
+          "date": "2026-08-23T15:00:00Z",
+          "adversaire": "Atleti",
+          "domicile": false,
+          "butsPour": 2,
+          "butsContre": 2,
+          "score": "2-2",
+          "issue": "N"
+        },
+        {
+          "date": "2026-08-28T19:30:00Z",
+          "adversaire": "Alavés",
+          "domicile": false,
+          "butsPour": 0,
+          "butsContre": 1,
+          "score": "0-1",
+          "issue": "D"
+        },
+        {
+          "date": "2026-09-05T19:00:00Z",
+          "adversaire": "Deportivo",
+          "domicile": true,
+          "butsPour": 2,
+          "butsContre": 3,
+          "score": "2-3",
+          "issue": "D"
+        },
+        {
+          "date": "2026-09-14T19:00:00Z",
+          "adversaire": "Real Betis",
+          "domicile": true,
+          "butsPour": 1,
+          "butsContre": 2,
+          "score": "1-2",
+          "issue": "D"
+        },
+        {
+          "date": "2026-09-17T19:30:00Z",
+          "adversaire": "Málaga",
+          "domicile": false,
+          "butsPour": 3,
+          "butsContre": 1,
+          "score": "3-1",
+          "issue": "V"
+        }
+      ],
+      "serie": 6,
+      "prochainsMatchs": [
+        {
+          "date": "2026-09-20T16:30:00Z",
+          "competition": "Primera Division",
+          "domicile": "Villarreal",
+          "exterieur": "Levante"
+        },
+        {
+          "date": "2026-10-10T19:00:00Z",
+          "competition": "Primera Division",
+          "domicile": "Real Madrid",
+          "exterieur": "Villarreal"
+        },
+        {
+          "date": "2026-10-13T19:00:00Z",
+          "competition": "UEFA Champions League",
+          "domicile": "Villarreal",
+          "exterieur": "Napoli"
+        }
+      ]
+    },
+    {
       "id": 672,
       "nom": "Willem II",
       "blason": "https://crests.football-data.org/672.png",
@@ -17492,82 +17756,6 @@
           "competition": "Campeonato Brasileiro Série A",
           "domicile": "Vasco da Gama",
           "exterieur": "Clube do Remo"
-        }
-      ]
-    },
-    {
-      "id": 94,
-      "nom": "Villarreal",
-      "blason": "https://crests.football-data.org/94.png",
-      "competition": "La Liga",
-      "pays": "Espagne",
-      "dernierMatch": "2026-09-14T19:00:00Z",
-      "detail": [
-        {
-          "date": "2026-08-16T15:00:00Z",
-          "adversaire": "Santander",
-          "domicile": false,
-          "butsPour": 2,
-          "butsContre": 2,
-          "score": "2-2",
-          "issue": "N"
-        },
-        {
-          "date": "2026-08-23T15:00:00Z",
-          "adversaire": "Atleti",
-          "domicile": false,
-          "butsPour": 2,
-          "butsContre": 2,
-          "score": "2-2",
-          "issue": "N"
-        },
-        {
-          "date": "2026-08-28T19:30:00Z",
-          "adversaire": "Alavés",
-          "domicile": false,
-          "butsPour": 0,
-          "butsContre": 1,
-          "score": "0-1",
-          "issue": "D"
-        },
-        {
-          "date": "2026-09-05T19:00:00Z",
-          "adversaire": "Deportivo",
-          "domicile": true,
-          "butsPour": 2,
-          "butsContre": 3,
-          "score": "2-3",
-          "issue": "D"
-        },
-        {
-          "date": "2026-09-14T19:00:00Z",
-          "adversaire": "Real Betis",
-          "domicile": true,
-          "butsPour": 1,
-          "butsContre": 2,
-          "score": "1-2",
-          "issue": "D"
-        }
-      ],
-      "serie": 5,
-      "prochainsMatchs": [
-        {
-          "date": "2026-09-17T19:30:00Z",
-          "competition": "Primera Division",
-          "domicile": "Málaga",
-          "exterieur": "Villarreal"
-        },
-        {
-          "date": "2026-09-20T16:30:00Z",
-          "competition": "Primera Division",
-          "domicile": "Villarreal",
-          "exterieur": "Levante"
-        },
-        {
-          "date": "2026-10-10T19:00:00Z",
-          "competition": "Primera Division",
-          "domicile": "Real Madrid",
-          "exterieur": "Villarreal"
         }
       ]
     },
@@ -18256,6 +18444,91 @@
           "competition": "Serie A",
           "domicile": "Roma",
           "exterieur": "Genoa"
+        }
+      ]
+    },
+    {
+      "id": 82,
+      "nom": "Getafe",
+      "blason": "https://crests.football-data.org/82.png",
+      "competition": "La Liga",
+      "pays": "Espagne",
+      "dernierMatch": "2026-09-17T17:00:00Z",
+      "detail": [
+        {
+          "date": "2026-08-15T17:30:00Z",
+          "adversaire": "Alavés",
+          "domicile": false,
+          "butsPour": 0,
+          "butsContre": 3,
+          "score": "0-3",
+          "issue": "D"
+        },
+        {
+          "date": "2026-08-23T17:30:00Z",
+          "adversaire": "Santander",
+          "domicile": true,
+          "butsPour": 1,
+          "butsContre": 0,
+          "score": "1-0",
+          "issue": "V"
+        },
+        {
+          "date": "2026-08-31T17:30:00Z",
+          "adversaire": "Osasuna",
+          "domicile": false,
+          "butsPour": 0,
+          "butsContre": 1,
+          "score": "0-1",
+          "issue": "D"
+        },
+        {
+          "date": "2026-09-07T17:00:00Z",
+          "adversaire": "Celta",
+          "domicile": true,
+          "butsPour": 1,
+          "butsContre": 1,
+          "score": "1-1",
+          "issue": "N"
+        },
+        {
+          "date": "2026-09-13T16:30:00Z",
+          "adversaire": "Deportivo",
+          "domicile": true,
+          "butsPour": 1,
+          "butsContre": 1,
+          "score": "1-1",
+          "issue": "N"
+        },
+        {
+          "date": "2026-09-17T17:00:00Z",
+          "adversaire": "Real Betis",
+          "domicile": false,
+          "butsPour": 0,
+          "butsContre": 1,
+          "score": "0-1",
+          "issue": "D"
+        }
+      ],
+      "serie": 4,
+      "prochainsMatchs": [
+        {
+          "date": "2026-09-20T12:00:00Z",
+          "competition": "Primera Division",
+          "domicile": "Getafe",
+          "exterieur": "Málaga"
+        },
+        {
+          "date": "2026-10-10T16:30:00Z",
+          "competition": "Primera Division",
+          "domicile": "Barça",
+          "exterieur": "Getafe"
+        },
+        {
+          "date": "2026-10-19T19:00:00Z",
+          "competition": "Primera Division",
+          "domicile": "Getafe",
+          "exterieur": "Rayo Vallecano"
         }
       ]
     },
@@ -20165,82 +20438,6 @@
           "competition": "Bundesliga",
           "domicile": "Frankfurt",
           "exterieur": "1. FC Köln"
-        }
-      ]
-    },
-    {
-      "id": 82,
-      "nom": "Getafe",
-      "blason": "https://crests.football-data.org/82.png",
-      "competition": "La Liga",
-      "pays": "Espagne",
-      "dernierMatch": "2026-09-13T16:30:00Z",
-      "detail": [
-        {
-          "date": "2026-08-15T17:30:00Z",
-          "adversaire": "Alavés",
-          "domicile": false,
-          "butsPour": 0,
-          "butsContre": 3,
-          "score": "0-3",
-          "issue": "D"
-        },
-        {
-          "date": "2026-08-23T17:30:00Z",
-          "adversaire": "Santander",
-          "domicile": true,
-          "butsPour": 1,
-          "butsContre": 0,
-          "score": "1-0",
-          "issue": "V"
-        },
-        {
-          "date": "2026-08-31T17:30:00Z",
-          "adversaire": "Osasuna",
-          "domicile": false,
-          "butsPour": 0,
-          "butsContre": 1,
-          "score": "0-1",
-          "issue": "D"
-        },
-        {
-          "date": "2026-09-07T17:00:00Z",
-          "adversaire": "Celta",
-          "domicile": true,
-          "butsPour": 1,
-          "butsContre": 1,
-          "score": "1-1",
-          "issue": "N"
-        },
-        {
-          "date": "2026-09-13T16:30:00Z",
-          "adversaire": "Deportivo",
-          "domicile": true,
-          "butsPour": 1,
-          "butsContre": 1,
-          "score": "1-1",
-          "issue": "N"
-        }
-      ],
-      "serie": 3,
-      "prochainsMatchs": [
-        {
-          "date": "2026-09-20T12:00:00Z",
-          "competition": "Primera Division",
-          "domicile": "Getafe",
-          "exterieur": "Málaga"
-        },
-        {
-          "date": "2026-10-10T16:30:00Z",
-          "competition": "Primera Division",
-          "domicile": "Barça",
-          "exterieur": "Getafe"
-        },
-        {
-          "date": "2026-10-19T19:00:00Z",
-          "competition": "Primera Division",
-          "domicile": "Getafe",
-          "exterieur": "Rayo Vallecano"
         }
       ]
     },
