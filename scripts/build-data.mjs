@@ -1,14 +1,33 @@
 /**
- * Calcule, pour chaque championnat, cinq catégories d'équipes :
- *   - invaincues          : série en cours sans défaite (V ou N)               — fenêtre 8, seuil série 2
- *   - quiMarquent         : série en cours avec ≥ 2 buts marqués par match     — fenêtre 8, seuil buts 2
- *   - quiEncaissent       : série en cours avec ≥ 2 buts encaissés par match   — fenêtre 8, seuil buts 2
- *   - marqueToujours      : série en cours avec ≥ 1 but marqué par match       — fenêtre 10, seuil buts 1
- *   - encaisseToujours    : série en cours avec ≥ 1 but encaissé par match     — fenêtre 10, seuil buts 1
+ * Calcule, pour chaque championnat :
+ *   - six catégories d'équipes (séries en cours) ;
+ *   - les rencontres à venir (fixtures) ;
+ *   - les probabilités « Stratège » pour le prochain match de championnat
+ *     des équipes des catégories invaincue / marque beaucoup / marque toujours.
  *
- * Une série se compte à partir du match le plus récent, en remontant,
- * et s'arrête au premier match qui ne respecte pas la condition.
- * Seules les séries d'au moins SERIE_MIN matchs sont conservées.
+ * CATÉGORIES (séries en cours, calculées à partir du match le plus récent) :
+ *   - invaincues          : V ou N                    — fenêtre 8,  seuil buts —
+ *   - quiMarquent         : ≥ 2 buts marqués           — fenêtre 8,  seuil buts 2
+ *   - quiEncaissent       : ≥ 2 buts encaissés         — fenêtre 8,  seuil buts 2
+ *   - marqueToujours      : ≥ 1 but marqué             — fenêtre 10, seuil buts 1
+ *   - encaisseToujours    : ≥ 1 but encaissé           — fenêtre 10, seuil buts 1
+ *   - btts                : les deux équipes marquent  — fenêtre 8,  seuil buts —
+ *
+ * STRATÈGE — méthode (volontairement simple et documentée, aucune valeur inventée) :
+ *   λ_marque(équipe)   = moyenne des buts marqués par l'équipe sur sa fenêtre récente
+ *   λ_encaisse(équipe) = moyenne des buts encaissés par l'équipe sur sa fenêtre récente
+ *   λ_effectif(équipe face à adversaire) = (λ_marque(équipe) + λ_encaisse(adversaire)) / 2
+ *   Ensuite, loi de Poisson : P(X = k) = e^-λ · λ^k / k!
+ *     - « marque toujours »  → P(X ≥ 1) = 1 − P(0)
+ *     - « marque beaucoup »  → P(X ≥ 2) = 1 − P(0) − P(1)
+ *     - « invaincue »        → on calcule λ_effectif pour les DEUX équipes, on construit
+ *                              la grille des scores possibles (0 à 6 buts chacune) et on
+ *                              additionne les cas où l'équipe ne perd pas (victoire + nul).
+ *   Le prochain match est cherché UNIQUEMENT dans le même championnat (jamais coupe,
+ *   Ligue des champions ou amical). Sans match de championnat trouvé, l'équipe est
+ *   marquée « aucun prochain match de championnat programmé ».
+ *   Fiabilité : moins de 3 matchs exploitables (équipe ou adversaire) → équipe exclue ;
+ *   entre 3 et (fenêtre − 1) → « échantillon réduit » ; fenêtre complète → « calcul normal ».
  *
  * Source : football-data.org (API v4, offre gratuite).
  * Sortie  : data/invaincus.json
@@ -33,8 +52,11 @@ if (!TOKEN) {
 /** Longueur minimale d'une série pour être affichée, quelle que soit la catégorie. */
 const SERIE_MIN = 3;
 
+/** Nombre de jours à l'avance pour lesquels on récupère les rencontres à venir. */
+const JOURS_A_VENIR = 14;
+
 /**
- * Définition des cinq catégories. Chacune a sa propre fenêtre d'analyse
+ * Définition des six catégories. Chacune a sa propre fenêtre d'analyse
  * (nombre de derniers matchs regardés) et son propre critère match par match.
  */
 const CATEGORIES = [
@@ -43,7 +65,11 @@ const CATEGORIES = [
   { cle: "quiEncaissent",    fenetre: 8,  condition: (m) => m.butsContre >= 2 },
   { cle: "marqueToujours",   fenetre: 10, condition: (m) => m.butsPour   >= 1 },
   { cle: "encaisseToujours", fenetre: 10, condition: (m) => m.butsContre >= 1 },
+  { cle: "btts",             fenetre: 8,  condition: (m) => m.butsPour >= 1 && m.butsContre >= 1 },
 ];
+
+/** Les trois catégories pour lesquelles le module Stratège calcule une probabilité. */
+const CATEGORIES_STRATEGE = ["invaincues", "quiMarquent", "marqueToujours"];
 
 /**
  * Compétitions incluses dans l'offre gratuite de football-data.org.
@@ -91,17 +117,14 @@ async function matchsTermines(code) {
   return data.matches ?? [];
 }
 
-/** Récupère les prochains matchs programmés d'une équipe (toutes compétitions confondues). */
-async function prochainsMatchs(idEquipe, limite = 3) {
-  const url = `https://api.football-data.org/v4/teams/${idEquipe}/matches?status=SCHEDULED&limit=${limite}`;
+/** Récupère les matchs programmés d'une compétition dans les JOURS_A_VENIR prochains jours. */
+async function matchsAVenir(code) {
+  const aujourdhui = new Date();
+  const dans2Semaines = new Date(aujourdhui.getTime() + JOURS_A_VENIR * 86_400_000);
+  const fmt = (d) => d.toISOString().slice(0, 10);
+  const url = `https://api.football-data.org/v4/competitions/${code}/matches?status=SCHEDULED&dateFrom=${fmt(aujourdhui)}&dateTo=${fmt(dans2Semaines)}`;
   const data = await appelApi(url);
-
-  return (data.matches ?? []).map((match) => ({
-    date: match.utcDate,
-    competition: match.competition?.name ?? "—",
-    domicile: match.homeTeam?.shortName || match.homeTeam?.name || "—",
-    exterieur: match.awayTeam?.shortName || match.awayTeam?.name || "—",
-  }));
+  return data.matches ?? [];
 }
 
 /**
@@ -174,18 +197,163 @@ function trierParSerie(liste) {
   return [...liste].sort((a, b) => b.serie - a.serie || a.nom.localeCompare(b.nom));
 }
 
+/** Moyenne de buts marqués / encaissés sur une fenêtre de matchs. */
+function moyenneButs(recents, cle) {
+  if (!recents.length) return 0;
+  return recents.reduce((total, m) => total + m[cle], 0) / recents.length;
+}
+
+/** Probabilité de Poisson P(X = k) pour un paramètre λ donné. */
+function poisson(k, lambda) {
+  let factorielle = 1;
+  for (let i = 2; i <= k; i++) factorielle *= i;
+  return (Math.exp(-lambda) * lambda ** k) / factorielle;
+}
+
+/**
+ * Niveau de fiabilité selon le plus petit nombre de matchs exploitables
+ * (équipe ou adversaire, celui qui a le moins de recul).
+ */
+function fiabilite(nEquipe, nAdversaire, fenetreRef) {
+  const n = Math.min(nEquipe, nAdversaire);
+  if (n < SERIE_MIN) return null; // exclu
+  if (n < fenetreRef) return "Échantillon réduit";
+  return "Calcul normal";
+}
+
+/**
+ * Cherche, dans la liste des rencontres à venir de la compétition, le PROCHAIN
+ * match de cette équipe (championnat uniquement, jamais une autre compétition).
+ */
+function prochainMatchChampionnat(idEquipe, fixturesCompetition) {
+  const matchs = fixturesCompetition
+    .filter((m) => m.homeTeam?.id === idEquipe || m.awayTeam?.id === idEquipe)
+    .sort((a, b) => new Date(a.utcDate) - new Date(b.utcDate));
+
+  if (!matchs.length) return null;
+
+  const m = matchs[0];
+  const domicile = m.homeTeam?.id === idEquipe;
+  return {
+    date: m.utcDate,
+    domicile,
+    adversaireId: domicile ? m.awayTeam?.id : m.homeTeam?.id,
+    adversaireNom: domicile
+      ? (m.awayTeam?.shortName || m.awayTeam?.name)
+      : (m.homeTeam?.shortName || m.homeTeam?.name),
+  };
+}
+
+/** Construit l'entrée Stratège pour une équipe d'une des trois catégories concernées. */
+function calculerStratege(categorieCle, equipeEntree, historique, fixturesCompetition, fenetreCategorie) {
+  const base = {
+    id: equipeEntree.id,
+    nom: equipeEntree.nom,
+    blason: equipeEntree.blason,
+    competition: equipeEntree.competition,
+  };
+
+  const equipeComplete = historique.get(equipeEntree.id);
+  const prochain = prochainMatchChampionnat(equipeEntree.id, fixturesCompetition);
+
+  if (!prochain) {
+    return { ...base, statut: "aucun_prochain_match" };
+  }
+
+  const adversaireComplet = historique.get(prochain.adversaireId);
+  if (!adversaireComplet) {
+    // L'adversaire n'a aucun match terminé enregistré cette saison : pas de base de calcul fiable.
+    return { ...base, statut: "donnees_insuffisantes", adversaire: prochain.adversaireNom, date: prochain.date };
+  }
+
+  const recentsEquipe = equipeComplete.rencontres.slice(-fenetreCategorie);
+  const recentsAdversaire = adversaireComplet.rencontres.slice(-fenetreCategorie);
+
+  const niveauFiabilite = fiabilite(recentsEquipe.length, recentsAdversaire.length, fenetreCategorie);
+  if (!niveauFiabilite) {
+    return { ...base, statut: "donnees_insuffisantes", adversaire: prochain.adversaireNom, date: prochain.date };
+  }
+
+  const infosCommunes = {
+    ...base,
+    statut: "ok",
+    adversaire: prochain.adversaireNom,
+    domicile: prochain.domicile,
+    date: prochain.date,
+    fiabilite: niveauFiabilite,
+    matchsUtilisesEquipe: recentsEquipe.length,
+    matchsUtilisesAdversaire: recentsAdversaire.length,
+  };
+
+  if (categorieCle === "quiMarquent" || categorieCle === "marqueToujours") {
+    const lambdaMarqueEquipe = moyenneButs(recentsEquipe, "butsPour");
+    const lambdaEncaisseAdversaire = moyenneButs(recentsAdversaire, "butsContre");
+    const lambda = (lambdaMarqueEquipe + lambdaEncaisseAdversaire) / 2;
+
+    const probabilite = categorieCle === "marqueToujours"
+      ? 1 - poisson(0, lambda)
+      : 1 - poisson(0, lambda) - poisson(1, lambda);
+
+    return {
+      ...infosCommunes,
+      lambda: Math.round(lambda * 100) / 100,
+      probabilite: Math.round(probabilite * 1000) / 10, // en %, 1 décimale
+    };
+  }
+
+  // categorieCle === "invaincues" : probabilité de ne pas perdre (victoire + nul)
+  const lambdaEquipe = (moyenneButs(recentsEquipe, "butsPour") + moyenneButs(recentsAdversaire, "butsContre")) / 2;
+  const lambdaAdversaire = (moyenneButs(recentsAdversaire, "butsPour") + moyenneButs(recentsEquipe, "butsContre")) / 2;
+
+  const MAX_BUTS = 6;
+  let probaVictoire = 0, probaNul = 0;
+  for (let i = 0; i <= MAX_BUTS; i++) {
+    for (let j = 0; j <= MAX_BUTS; j++) {
+      const p = poisson(i, lambdaEquipe) * poisson(j, lambdaAdversaire);
+      if (i > j) probaVictoire += p;
+      else if (i === j) probaNul += p;
+    }
+  }
+
+  return {
+    ...infosCommunes,
+    lambdaEquipe: Math.round(lambdaEquipe * 100) / 100,
+    lambdaAdversaire: Math.round(lambdaAdversaire * 100) / 100,
+    probabilite: Math.round((probaVictoire + probaNul) * 1000) / 10,
+  };
+}
+
 async function main() {
   const resultats = Object.fromEntries(CATEGORIES.map((c) => [c.cle, []]));
+  const rencontresAVenir = [];
+  const stratege = Object.fromEntries(CATEGORIES_STRATEGE.map((c) => [c, []]));
   const echecs = [];
 
   for (const competition of COMPETITIONS) {
     try {
       console.log(`Lecture de ${competition.nom}…`);
       const matchs = await matchsTermines(competition.code);
+      await pause(6_500); // reste sous les 10 requêtes/minute
+      const fixtures = await matchsAVenir(competition.code);
+
       const historique = historiqueParEquipe(matchs);
       const compteurs = Object.fromEntries(CATEGORIES.map((c) => [c.cle, 0]));
+      const entreesParCategorieCeChampionnat = Object.fromEntries(CATEGORIES.map((c) => [c.cle, []]));
 
       for (const equipe of historique.values()) {
+        // Les 3 prochains matchs de cette équipe DANS CE MÊME championnat (pas de coupe,
+        // pas de Ligue des champions), utiles pour l'affichage du détail de l'équipe.
+        const prochainsMatchs = fixtures
+          .filter((m) => m.homeTeam?.id === equipe.id || m.awayTeam?.id === equipe.id)
+          .sort((a, b) => new Date(a.utcDate) - new Date(b.utcDate))
+          .slice(0, 3)
+          .map((m) => ({
+            date: m.utcDate,
+            competition: competition.nom,
+            domicile: m.homeTeam?.shortName || m.homeTeam?.name || "—",
+            exterieur: m.awayTeam?.shortName || m.awayTeam?.name || "—",
+          }));
+
         for (const categorie of CATEGORIES) {
           // On regarde au maximum `fenetre` matchs (le plafond), mais si l'équipe
           // n'en a pas encore joué autant cette saison, on travaille avec ce qu'elle
@@ -197,7 +365,7 @@ async function main() {
           const serie = longueurSerie(recents, categorie.condition);
           if (serie < SERIE_MIN) continue;
 
-          resultats[categorie.cle].push({
+          const entree = {
             id: equipe.id,
             nom: equipe.nom,
             blason: equipe.blason,
@@ -206,13 +374,39 @@ async function main() {
             dernierMatch: recents.at(-1).date,
             detail: recents,
             serie,
-          });
+            prochainsMatchs,
+          };
+
+          resultats[categorie.cle].push(entree);
+          entreesParCategorieCeChampionnat[categorie.cle].push(entree);
           compteurs[categorie.cle]++;
         }
       }
 
+      // Rencontres à venir de ce championnat, pour l'onglet « Rencontres ».
+      for (const m of fixtures) {
+        if (!m.homeTeam || !m.awayTeam) continue;
+        rencontresAVenir.push({
+          date: m.utcDate,
+          championnat: competition.nom,
+          domicile: { nom: m.homeTeam.shortName || m.homeTeam.name, blason: m.homeTeam.crest ?? null },
+          exterieur: { nom: m.awayTeam.shortName || m.awayTeam.name, blason: m.awayTeam.crest ?? null },
+        });
+      }
+
+      // Module Stratège : uniquement pour les équipes des 3 catégories concernées,
+      // en cherchant leur prochain match DANS CE MÊME championnat.
+      for (const categorieCle of CATEGORIES_STRATEGE) {
+        const fenetreCategorie = CATEGORIES.find((c) => c.cle === categorieCle).fenetre;
+        for (const entree of entreesParCategorieCeChampionnat[categorieCle]) {
+          stratege[categorieCle].push(
+            calculerStratege(categorieCle, entree, historique, fixtures, fenetreCategorie)
+          );
+        }
+      }
+
       const resume = CATEGORIES.map((c) => `${c.cle}: ${compteurs[c.cle]}`).join(", ");
-      console.log(`  ${matchs.length} matchs analysés — ${resume}`);
+      console.log(`  ${matchs.length} matchs terminés, ${fixtures.length} à venir — ${resume}`);
     } catch (erreur) {
       console.error(`  Échec sur ${competition.nom} : ${erreur.message}`);
       echecs.push(competition.nom);
@@ -220,35 +414,26 @@ async function main() {
     await pause(6_500); // reste sous les 10 requêtes/minute
   }
 
-  // Une même équipe peut apparaître dans plusieurs catégories : on ne va
-  // chercher ses prochains matchs qu'une seule fois.
-  const toutesLesEntrees = Object.values(resultats).flat();
-  const equipesUniques = new Map();
-  for (const e of toutesLesEntrees) {
-    if (!equipesUniques.has(e.id)) equipesUniques.set(e.id, e.nom);
-  }
+  rencontresAVenir.sort((a, b) => new Date(a.date) - new Date(b.date));
 
-  const prochainsParEquipe = new Map();
-  for (const [id, nom] of equipesUniques) {
-    try {
-      prochainsParEquipe.set(id, await prochainsMatchs(id));
-    } catch (erreur) {
-      console.error(`  Impossible de récupérer les prochains matchs de ${nom} : ${erreur.message}`);
-      prochainsParEquipe.set(id, []);
-    }
-    await pause(6_500);
-  }
-
-  for (const e of toutesLesEntrees) {
-    e.prochainsMatchs = prochainsParEquipe.get(e.id) ?? [];
+  for (const categorieCle of CATEGORIES_STRATEGE) {
+    stratege[categorieCle].sort((a, b) => {
+      if (a.statut !== "ok" && b.statut !== "ok") return 0;
+      if (a.statut !== "ok") return 1;
+      if (b.statut !== "ok") return -1;
+      return b.probabilite - a.probabilite;
+    });
   }
 
   const sortie = {
     genereLe: new Date().toISOString(),
     serieMin: SERIE_MIN,
     fenetres: Object.fromEntries(CATEGORIES.map((c) => [c.cle, c.fenetre])),
+    joursAVenir: JOURS_A_VENIR,
     competitionsAnalysees: COMPETITIONS.filter((c) => !echecs.includes(c.nom)).map((c) => c.nom),
     competitionsEnEchec: echecs,
+    rencontresAVenir,
+    stratege,
   };
   for (const categorie of CATEGORIES) {
     sortie[categorie.cle] = trierParSerie(resultats[categorie.cle]);
@@ -258,11 +443,10 @@ async function main() {
   await writeFile(OUTPUT, JSON.stringify(sortie, null, 2), "utf8");
 
   const bilan = CATEGORIES.map((c) => `${sortie[c.cle].length} ${c.cle}`).join(", ");
-  console.log(`\nTerminé : ${bilan} → data/invaincus.json`);
+  console.log(`\nTerminé : ${bilan}, ${rencontresAVenir.length} rencontres à venir → data/invaincus.json`);
 }
 
 main().catch((erreur) => {
   console.error(erreur);
   process.exit(1);
 });
-
