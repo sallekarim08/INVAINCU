@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-09-19T06:19:49.995Z",
+  "genereLe": "2026-09-19T12:19:45.060Z",
   "serieMin": 3,
   "fenetres": {
     "invaincues": 8,
@@ -23,66 +23,6 @@
   ],
   "competitionsEnEchec": [],
   "rencontresAVenir": [
-    {
-      "date": "2026-09-19T11:30:00Z",
-      "championnat": "Premier League",
-      "domicile": {
-        "nom": "Tottenham",
-        "blason": "https://crests.football-data.org/73.png"
-      },
-      "exterieur": {
-        "nom": "Aston Villa",
-        "blason": "https://crests.football-data.org/58.png"
-      }
-    },
-    {
-      "date": "2026-09-19T11:30:00Z",
-      "championnat": "Championship",
-      "domicile": {
-        "nom": "Stoke",
-        "blason": "https://crests.football-data.org/70.png"
-      },
-      "exterieur": {
-        "nom": "Sheffield Utd",
-        "blason": "https://crests.football-data.org/356.png"
-      }
-    },
-    {
-      "date": "2026-09-19T11:30:00Z",
-      "championnat": "Championship",
-      "domicile": {
-        "nom": "Millwall",
-        "blason": "https://crests.football-data.org/384.png"
-      },
-      "exterieur": {
-        "nom": "West Ham",
-        "blason": "https://crests.football-data.org/563.png"
-      }
-    },
-    {
-      "date": "2026-09-19T11:30:00Z",
-      "championnat": "Championship",
-      "domicile": {
-        "nom": "Cardiff",
-        "blason": "https://crests.football-data.org/715.png"
-      },
-      "exterieur": {
-        "nom": "Charlton",
-        "blason": "https://crests.football-data.org/348.png"
-      }
-    },
-    {
-      "date": "2026-09-19T12:00:00Z",
-      "championnat": "La Liga",
-      "domicile": {
-        "nom": "Osasuna",
-        "blason": "https://crests.football-data.org/79.png"
-      },
-      "exterieur": {
-        "nom": "Rayo Vallecano",
-        "blason": "https://crests.football-data.org/87.png"
-      }
-    },
     {
       "date": "2026-09-19T13:00:00Z",
       "championnat": "Serie A",
@@ -1279,22 +1219,6 @@
         "probabilite": 74.3
       },
       {
-        "id": 563,
-        "nom": "West Ham",
-        "blason": "https://crests.football-data.org/563.png",
-        "competition": "Championship",
-        "statut": "ok",
-        "adversaire": "Millwall",
-        "domicile": false,
-        "date": "2026-09-19T11:30:00Z",
-        "fiabilite": "Échantillon réduit",
-        "matchsUtilisesEquipe": 7,
-        "matchsUtilisesAdversaire": 7,
-        "lambdaEquipe": 2.36,
-        "lambdaAdversaire": 1.57,
-        "probabilite": 73.7
-      },
-      {
         "id": 322,
         "nom": "Hull City",
         "blason": "https://crests.football-data.org/322.png",
@@ -1567,22 +1491,6 @@
         "probabilite": 64.4
       },
       {
-        "id": 70,
-        "nom": "Stoke",
-        "blason": "https://crests.football-data.org/70.png",
-        "competition": "Championship",
-        "statut": "ok",
-        "adversaire": "Sheffield Utd",
-        "domicile": true,
-        "date": "2026-09-19T11:30:00Z",
-        "fiabilite": "Échantillon réduit",
-        "matchsUtilisesEquipe": 7,
-        "matchsUtilisesAdversaire": 7,
-        "lambdaEquipe": 1.43,
-        "lambdaAdversaire": 1.36,
-        "probabilite": 64.2
-      },
-      {
         "id": 90,
         "nom": "Real Betis",
         "blason": "https://crests.football-data.org/90.png",
@@ -1817,6 +1725,20 @@
         "blason": "https://crests.football-data.org/677.png",
         "competition": "Eredivisie",
         "statut": "aucun_prochain_match"
+      },
+      {
+        "id": 70,
+        "nom": "Stoke",
+        "blason": "https://crests.football-data.org/70.png",
+        "competition": "Championship",
+        "statut": "aucun_prochain_match"
+      },
+      {
+        "id": 563,
+        "nom": "West Ham",
+        "blason": "https://crests.football-data.org/563.png",
+        "competition": "Championship",
+        "statut": "aucun_prochain_match"
       }
     ],
     "quiMarquent": [
@@ -1879,21 +1801,6 @@
         "matchsUtilisesAdversaire": 3,
         "lambda": 2.5,
         "probabilite": 71.3
-      },
-      {
-        "id": 563,
-        "nom": "West Ham",
-        "blason": "https://crests.football-data.org/563.png",
-        "competition": "Championship",
-        "statut": "ok",
-        "adversaire": "Millwall",
-        "domicile": false,
-        "date": "2026-09-19T11:30:00Z",
-        "fiabilite": "Échantillon réduit",
-        "matchsUtilisesEquipe": 7,
-        "matchsUtilisesAdversaire": 7,
-        "lambda": 2.36,
-        "probabilite": 68.2
       },
       {
         "id": 100,
@@ -2074,6 +1981,13 @@
         "matchsUtilisesAdversaire": 8,
         "lambda": 1.13,
         "probabilite": 31
+      },
+      {
+        "id": 563,
+        "nom": "West Ham",
+        "blason": "https://crests.football-data.org/563.png",
+        "competition": "Championship",
+        "statut": "aucun_prochain_match"
       }
     ],
     "marqueToujours": [
@@ -2181,21 +2095,6 @@
         "matchsUtilisesAdversaire": 3,
         "lambda": 2.5,
         "probabilite": 91.8
-      },
-      {
-        "id": 563,
-        "nom": "West Ham",
-        "blason": "https://crests.football-data.org/563.png",
-        "competition": "Championship",
-        "statut": "ok",
-        "adversaire": "Millwall",
-        "domicile": false,
-        "date": "2026-09-19T11:30:00Z",
-        "fiabilite": "Échantillon réduit",
-        "matchsUtilisesEquipe": 7,
-        "matchsUtilisesAdversaire": 7,
-        "lambda": 2.36,
-        "probabilite": 90.5
       },
       {
         "id": 721,
@@ -2406,21 +2305,6 @@
         "matchsUtilisesAdversaire": 6,
         "lambda": 1.92,
         "probabilite": 85.3
-      },
-      {
-        "id": 87,
-        "nom": "Rayo Vallecano",
-        "blason": "https://crests.football-data.org/87.png",
-        "competition": "La Liga",
-        "statut": "ok",
-        "adversaire": "Osasuna",
-        "domicile": false,
-        "date": "2026-09-19T12:00:00Z",
-        "fiabilite": "Échantillon réduit",
-        "matchsUtilisesEquipe": 6,
-        "matchsUtilisesAdversaire": 6,
-        "lambda": 1.83,
-        "probabilite": 84
       },
       {
         "id": 3,
@@ -2723,21 +2607,6 @@
         "probabilite": 79.5
       },
       {
-        "id": 384,
-        "nom": "Millwall",
-        "blason": "https://crests.football-data.org/384.png",
-        "competition": "Championship",
-        "statut": "ok",
-        "adversaire": "West Ham",
-        "domicile": true,
-        "date": "2026-09-19T11:30:00Z",
-        "fiabilite": "Échantillon réduit",
-        "matchsUtilisesEquipe": 7,
-        "matchsUtilisesAdversaire": 7,
-        "lambda": 1.57,
-        "probabilite": 79.2
-      },
-      {
         "id": 74,
         "nom": "West Brom",
         "blason": "https://crests.football-data.org/74.png",
@@ -2871,21 +2740,6 @@
         "matchsUtilisesAdversaire": 10,
         "lambda": 1.45,
         "probabilite": 76.5
-      },
-      {
-        "id": 70,
-        "nom": "Stoke",
-        "blason": "https://crests.football-data.org/70.png",
-        "competition": "Championship",
-        "statut": "ok",
-        "adversaire": "Sheffield Utd",
-        "domicile": true,
-        "date": "2026-09-19T11:30:00Z",
-        "fiabilite": "Échantillon réduit",
-        "matchsUtilisesEquipe": 7,
-        "matchsUtilisesAdversaire": 7,
-        "lambda": 1.43,
-        "probabilite": 76
       },
       {
         "id": 332,
@@ -3330,6 +3184,13 @@
         "statut": "aucun_prochain_match"
       },
       {
+        "id": 87,
+        "nom": "Rayo Vallecano",
+        "blason": "https://crests.football-data.org/87.png",
+        "competition": "La Liga",
+        "statut": "aucun_prochain_match"
+      },
+      {
         "id": 80,
         "nom": "Espanyol",
         "blason": "https://crests.football-data.org/80.png",
@@ -3369,6 +3230,27 @@
         "nom": "Groningen",
         "blason": "https://crests.football-data.org/677.png",
         "competition": "Eredivisie",
+        "statut": "aucun_prochain_match"
+      },
+      {
+        "id": 384,
+        "nom": "Millwall",
+        "blason": "https://crests.football-data.org/384.png",
+        "competition": "Championship",
+        "statut": "aucun_prochain_match"
+      },
+      {
+        "id": 70,
+        "nom": "Stoke",
+        "blason": "https://crests.football-data.org/70.png",
+        "competition": "Championship",
+        "statut": "aucun_prochain_match"
+      },
+      {
+        "id": 563,
+        "nom": "West Ham",
+        "blason": "https://crests.football-data.org/563.png",
+        "competition": "Championship",
         "statut": "aucun_prochain_match"
       }
     ]
@@ -4725,14 +4607,7 @@
         }
       ],
       "serie": 5,
-      "prochainsMatchs": [
-        {
-          "date": "2026-09-19T11:30:00Z",
-          "competition": "Championship",
-          "domicile": "Millwall",
-          "exterieur": "West Ham"
-        }
-      ]
+      "prochainsMatchs": []
     },
     {
       "id": 57,
@@ -5862,14 +5737,7 @@
         }
       ],
       "serie": 4,
-      "prochainsMatchs": [
-        {
-          "date": "2026-09-19T11:30:00Z",
-          "competition": "Championship",
-          "domicile": "Stoke",
-          "exterieur": "Sheffield Utd"
-        }
-      ]
+      "prochainsMatchs": []
     },
     {
       "id": 74,
@@ -7565,14 +7433,7 @@
         }
       ],
       "serie": 4,
-      "prochainsMatchs": [
-        {
-          "date": "2026-09-19T11:30:00Z",
-          "competition": "Championship",
-          "domicile": "Millwall",
-          "exterieur": "West Ham"
-        }
-      ]
+      "prochainsMatchs": []
     },
     {
       "id": 16,
@@ -9210,14 +9071,7 @@
         }
       ],
       "serie": 3,
-      "prochainsMatchs": [
-        {
-          "date": "2026-09-19T12:00:00Z",
-          "competition": "La Liga",
-          "domicile": "Osasuna",
-          "exterieur": "Rayo Vallecano"
-        }
-      ]
+      "prochainsMatchs": []
     },
     {
       "id": 496,
@@ -10202,14 +10056,7 @@
         }
       ],
       "serie": 7,
-      "prochainsMatchs": [
-        {
-          "date": "2026-09-19T11:30:00Z",
-          "competition": "Championship",
-          "domicile": "Stoke",
-          "exterieur": "Sheffield Utd"
-        }
-      ]
+      "prochainsMatchs": []
     },
     {
       "id": 74,
@@ -10366,14 +10213,7 @@
         }
       ],
       "serie": 7,
-      "prochainsMatchs": [
-        {
-          "date": "2026-09-19T11:30:00Z",
-          "competition": "Championship",
-          "domicile": "Millwall",
-          "exterieur": "West Ham"
-        }
-      ]
+      "prochainsMatchs": []
     },
     {
       "id": 678,
@@ -11505,14 +11345,7 @@
         }
       ],
       "serie": 6,
-      "prochainsMatchs": [
-        {
-          "date": "2026-09-19T12:00:00Z",
-          "competition": "La Liga",
-          "domicile": "Osasuna",
-          "exterieur": "Rayo Vallecano"
-        }
-      ]
+      "prochainsMatchs": []
     },
     {
       "id": 90,
@@ -15185,14 +15018,7 @@
         }
       ],
       "serie": 3,
-      "prochainsMatchs": [
-        {
-          "date": "2026-09-19T11:30:00Z",
-          "competition": "Championship",
-          "domicile": "Millwall",
-          "exterieur": "West Ham"
-        }
-      ]
+      "prochainsMatchs": []
     },
     {
       "id": 68,
@@ -16137,14 +15963,7 @@
         }
       ],
       "serie": 7,
-      "prochainsMatchs": [
-        {
-          "date": "2026-09-19T11:30:00Z",
-          "competition": "Championship",
-          "domicile": "Cardiff",
-          "exterieur": "Charlton"
-        }
-      ]
+      "prochainsMatchs": []
     },
     {
       "id": 4287,
@@ -17451,14 +17270,7 @@
         }
       ],
       "serie": 6,
-      "prochainsMatchs": [
-        {
-          "date": "2026-09-19T12:00:00Z",
-          "competition": "La Liga",
-          "domicile": "Osasuna",
-          "exterieur": "Rayo Vallecano"
-        }
-      ]
+      "prochainsMatchs": []
     },
     {
       "id": 5335,
@@ -18490,14 +18302,7 @@
         }
       ],
       "serie": 5,
-      "prochainsMatchs": [
-        {
-          "date": "2026-09-19T11:30:00Z",
-          "competition": "Championship",
-          "domicile": "Stoke",
-          "exterieur": "Sheffield Utd"
-        }
-      ]
+      "prochainsMatchs": []
     },
     {
       "id": 1780,
@@ -21488,14 +21293,7 @@
         }
       ],
       "serie": 3,
-      "prochainsMatchs": [
-        {
-          "date": "2026-09-19T12:00:00Z",
-          "competition": "La Liga",
-          "domicile": "Osasuna",
-          "exterieur": "Rayo Vallecano"
-        }
-      ]
+      "prochainsMatchs": []
     },
     {
       "id": 86,
@@ -22457,14 +22255,7 @@
         }
       ],
       "serie": 6,
-      "prochainsMatchs": [
-        {
-          "date": "2026-09-19T12:00:00Z",
-          "competition": "La Liga",
-          "domicile": "Osasuna",
-          "exterieur": "Rayo Vallecano"
-        }
-      ]
+      "prochainsMatchs": []
     },
     {
       "id": 676,
