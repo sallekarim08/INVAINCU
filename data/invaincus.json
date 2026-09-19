@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-09-18T18:34:15.109Z",
+  "genereLe": "2026-09-19T00:37:19.445Z",
   "serieMin": 3,
   "fenetres": {
     "invaincues": 8,
@@ -984,6 +984,82 @@
       ]
     },
     {
+      "id": 402,
+      "nom": "Brentford",
+      "blason": "https://crests.football-data.org/402.png",
+      "competition": "Premier League",
+      "pays": "Angleterre",
+      "dernierMatch": "2026-09-18T19:00:00Z",
+      "detail": [
+        {
+          "date": "2026-08-22T16:30:00Z",
+          "adversaire": "Tottenham",
+          "domicile": true,
+          "butsPour": 3,
+          "butsContre": 0,
+          "score": "3-0",
+          "issue": "V"
+        },
+        {
+          "date": "2026-08-30T13:00:00Z",
+          "adversaire": "Leeds United",
+          "domicile": false,
+          "butsPour": 1,
+          "butsContre": 1,
+          "score": "1-1",
+          "issue": "N"
+        },
+        {
+          "date": "2026-09-05T14:00:00Z",
+          "adversaire": "Sunderland",
+          "domicile": true,
+          "butsPour": 1,
+          "butsContre": 1,
+          "score": "1-1",
+          "issue": "N"
+        },
+        {
+          "date": "2026-09-12T14:00:00Z",
+          "adversaire": "Bournemouth",
+          "domicile": false,
+          "butsPour": 2,
+          "butsContre": 2,
+          "score": "2-2",
+          "issue": "N"
+        },
+        {
+          "date": "2026-09-18T19:00:00Z",
+          "adversaire": "Chelsea",
+          "domicile": true,
+          "butsPour": 3,
+          "butsContre": 0,
+          "score": "3-0",
+          "issue": "V"
+        }
+      ],
+      "serie": 5,
+      "prochainsMatchs": [
+        {
+          "date": "2026-10-10T14:00:00Z",
+          "competition": "Premier League",
+          "domicile": "Aston Villa",
+          "exterieur": "Brentford"
+        },
+        {
+          "date": "2026-10-17T14:00:00Z",
+          "competition": "Premier League",
+          "domicile": "Brentford",
+          "exterieur": "Liverpool"
+        },
+        {
+          "date": "2026-10-25T14:00:00Z",
+          "competition": "Premier League",
+          "domicile": "Hull City",
+          "exterieur": "Brentford"
+        }
+      ]
+    },
+    {
       "id": 1126,
       "nom": "Lincoln City",
       "blason": "https://crests.football-data.org/1126.png",
@@ -1168,6 +1244,82 @@
           "competition": "Championship",
           "domicile": "Stoke",
           "exterieur": "Middlesbrough"
+        }
+      ]
+    },
+    {
+      "id": 548,
+      "nom": "Monaco",
+      "blason": "https://crests.football-data.org/548.png",
+      "competition": "Ligue 1",
+      "pays": "France",
+      "dernierMatch": "2026-09-18T18:45:00Z",
+      "detail": [
+        {
+          "date": "2026-08-23T15:15:00Z",
+          "adversaire": "Le Havre",
+          "domicile": false,
+          "butsPour": 1,
+          "butsContre": 0,
+          "score": "1-0",
+          "issue": "V"
+        },
+        {
+          "date": "2026-08-30T18:45:00Z",
+          "adversaire": "Marseille",
+          "domicile": true,
+          "butsPour": 2,
+          "butsContre": 0,
+          "score": "2-0",
+          "issue": "V"
+        },
+        {
+          "date": "2026-09-04T19:05:00Z",
+          "adversaire": "PSG",
+          "domicile": false,
+          "butsPour": 2,
+          "butsContre": 1,
+          "score": "2-1",
+          "issue": "V"
+        },
+        {
+          "date": "2026-09-12T15:15:00Z",
+          "adversaire": "Strasbourg",
+          "domicile": false,
+          "butsPour": 1,
+          "butsContre": 1,
+          "score": "1-1",
+          "issue": "N"
+        },
+        {
+          "date": "2026-09-18T18:45:00Z",
+          "adversaire": "RC Lens",
+          "domicile": true,
+          "butsPour": 2,
+          "butsContre": 1,
+          "score": "2-1",
+          "issue": "V"
+        }
+      ],
+      "serie": 5,
+      "prochainsMatchs": [
+        {
+          "date": "2026-10-10T18:45:00Z",
+          "competition": "Ligue 1",
+          "domicile": "Monaco",
+          "exterieur": "Toulouse"
+        },
+        {
+          "date": "2026-10-18T15:15:00Z",
+          "competition": "Ligue 1",
+          "domicile": "Lorient",
+          "exterieur": "Monaco"
+        },
+        {
+          "date": "2026-10-25T14:00:00Z",
+          "competition": "Ligue 1",
+          "domicile": "Monaco",
+          "exterieur": "Lille"
         }
       ]
     },
@@ -1521,69 +1673,69 @@
       ]
     },
     {
-      "id": 402,
-      "nom": "Brentford",
-      "blason": "https://crests.football-data.org/402.png",
-      "competition": "Premier League",
-      "pays": "Angleterre",
-      "dernierMatch": "2026-09-12T14:00:00Z",
+      "id": 5,
+      "nom": "Bayern",
+      "blason": "https://crests.football-data.org/5.png",
+      "competition": "Bundesliga",
+      "pays": "Allemagne",
+      "dernierMatch": "2026-09-18T18:30:00Z",
       "detail": [
         {
-          "date": "2026-08-22T16:30:00Z",
-          "adversaire": "Tottenham",
+          "date": "2026-08-28T18:30:00Z",
+          "adversaire": "Stuttgart",
           "domicile": true,
-          "butsPour": 3,
-          "butsContre": 0,
-          "score": "3-0",
+          "butsPour": 5,
+          "butsContre": 1,
+          "score": "5-1",
           "issue": "V"
         },
         {
-          "date": "2026-08-30T13:00:00Z",
-          "adversaire": "Leeds United",
+          "date": "2026-09-05T16:30:00Z",
+          "adversaire": "Schalke",
           "domicile": false,
-          "butsPour": 1,
-          "butsContre": 1,
-          "score": "1-1",
+          "butsPour": 0,
+          "butsContre": 0,
+          "score": "0-0",
           "issue": "N"
         },
         {
-          "date": "2026-09-05T14:00:00Z",
-          "adversaire": "Sunderland",
-          "domicile": true,
-          "butsPour": 1,
-          "butsContre": 1,
-          "score": "1-1",
-          "issue": "N"
-        },
-        {
-          "date": "2026-09-12T14:00:00Z",
-          "adversaire": "Bournemouth",
+          "date": "2026-09-13T15:30:00Z",
+          "adversaire": "Elversberg",
           "domicile": false,
           "butsPour": 2,
-          "butsContre": 2,
-          "score": "2-2",
-          "issue": "N"
+          "butsContre": 1,
+          "score": "2-1",
+          "issue": "V"
+        },
+        {
+          "date": "2026-09-18T18:30:00Z",
+          "adversaire": "Union Berlin",
+          "domicile": true,
+          "butsPour": 7,
+          "butsContre": 0,
+          "score": "7-0",
+          "issue": "V"
         }
       ],
       "serie": 4,
       "prochainsMatchs": [
         {
-          "date": "2026-09-18T19:00:00Z",
-          "competition": "Premier League",
-          "domicile": "Brentford",
-          "exterieur": "Chelsea"
+          "date": "2026-10-10T13:30:00Z",
+          "competition": "Bundesliga",
+          "domicile": "Augsburg",
+          "exterieur": "Bayern"
         },
         {
-          "date": "2026-10-10T14:00:00Z",
-          "competition": "Premier League",
-          "domicile": "Aston Villa",
-          "exterieur": "Brentford"
+          "date": "2026-10-13T19:00:00Z",
+          "competition": "UEFA Champions League",
+          "domicile": "Viking",
+          "exterieur": "Bayern"
         },
         {
-          "date": "2026-10-17T14:00:00Z",
-          "competition": "Premier League",
-          "domicile": "Brentford",
-          "exterieur": "Liverpool"
+          "date": "2026-10-17T16:30:00Z",
+          "competition": "Bundesliga",
+          "domicile": "Bayern",
+          "exterieur": "RB Leipzig"
         }
       ]
     },
@@ -2361,73 +2513,6 @@
       ]
     },
     {
-      "id": 548,
-      "nom": "Monaco",
-      "blason": "https://crests.football-data.org/548.png",
-      "competition": "Ligue 1",
-      "pays": "France",
-      "dernierMatch": "2026-09-12T15:15:00Z",
-      "detail": [
-        {
-          "date": "2026-08-23T15:15:00Z",
-          "adversaire": "Le Havre",
-          "domicile": false,
-          "butsPour": 1,
-          "butsContre": 0,
-          "score": "1-0",
-          "issue": "V"
-        },
-        {
-          "date": "2026-08-30T18:45:00Z",
-          "adversaire": "Marseille",
-          "domicile": true,
-          "butsPour": 2,
-          "butsContre": 0,
-          "score": "2-0",
-          "issue": "V"
-        },
-        {
-          "date": "2026-09-04T19:05:00Z",
-          "adversaire": "PSG",
-          "domicile": false,
-          "butsPour": 2,
-          "butsContre": 1,
-          "score": "2-1",
-          "issue": "V"
-        },
-        {
-          "date": "2026-09-12T15:15:00Z",
-          "adversaire": "Strasbourg",
-          "domicile": false,
-          "butsPour": 1,
-          "butsContre": 1,
-          "score": "1-1",
-          "issue": "N"
-        }
-      ],
-      "serie": 4,
-      "prochainsMatchs": [
-        {
-          "date": "2026-09-18T18:45:00Z",
-          "competition": "Ligue 1",
-          "domicile": "Monaco",
-          "exterieur": "RC Lens"
-        },
-        {
-          "date": "2026-10-10T18:45:00Z",
-          "competition": "Ligue 1",
-          "domicile": "Monaco",
-          "exterieur": "Toulouse"
-        },
-        {
-          "date": "2026-10-18T15:15:00Z",
-          "competition": "Ligue 1",
-          "domicile": "Lorient",
-          "exterieur": "Monaco"
-        }
-      ]
-    },
-    {
       "id": 523,
       "nom": "Olympique Lyon",
       "blason": "https://crests.football-data.org/523.png",
@@ -3121,64 +3206,6 @@
       ]
     },
     {
-      "id": 5,
-      "nom": "Bayern",
-      "blason": "https://crests.football-data.org/5.png",
-      "competition": "Bundesliga",
-      "pays": "Allemagne",
-      "dernierMatch": "2026-09-13T15:30:00Z",
-      "detail": [
-        {
-          "date": "2026-08-28T18:30:00Z",
-          "adversaire": "Stuttgart",
-          "domicile": true,
-          "butsPour": 5,
-          "butsContre": 1,
-          "score": "5-1",
-          "issue": "V"
-        },
-        {
-          "date": "2026-09-05T16:30:00Z",
-          "adversaire": "Schalke",
-          "domicile": false,
-          "butsPour": 0,
-          "butsContre": 0,
-          "score": "0-0",
-          "issue": "N"
-        },
-        {
-          "date": "2026-09-13T15:30:00Z",
-          "adversaire": "Elversberg",
-          "domicile": false,
-          "butsPour": 2,
-          "butsContre": 1,
-          "score": "2-1",
-          "issue": "V"
-        }
-      ],
-      "serie": 3,
-      "prochainsMatchs": [
-        {
-          "date": "2026-09-18T18:30:00Z",
-          "competition": "Bundesliga",
-          "domicile": "Bayern",
-          "exterieur": "Union Berlin"
-        },
-        {
-          "date": "2026-10-10T13:30:00Z",
-          "competition": "Bundesliga",
-          "domicile": "Augsburg",
-          "exterieur": "Bayern"
-        },
-        {
-          "date": "2026-10-13T19:00:00Z",
-          "competition": "UEFA Champions League",
-          "domicile": "Viking",
-          "exterieur": "Bayern"
-        }
-      ]
-    },
-    {
       "id": 1770,
       "nom": "Botafogo",
       "blason": "https://crests.football-data.org/1770.png",
@@ -3702,6 +3729,100 @@
       ]
     },
     {
+      "id": 677,
+      "nom": "Groningen",
+      "blason": "https://crests.football-data.org/677.png",
+      "competition": "Eredivisie",
+      "pays": "Pays-Bas",
+      "dernierMatch": "2026-09-18T18:00:00Z",
+      "detail": [
+        {
+          "date": "2026-08-09T12:30:00Z",
+          "adversaire": "Utrecht",
+          "domicile": true,
+          "butsPour": 2,
+          "butsContre": 1,
+          "score": "2-1",
+          "issue": "V"
+        },
+        {
+          "date": "2026-08-16T10:15:00Z",
+          "adversaire": "Den Haag",
+          "domicile": false,
+          "butsPour": 4,
+          "butsContre": 1,
+          "score": "4-1",
+          "issue": "V"
+        },
+        {
+          "date": "2026-08-23T12:30:00Z",
+          "adversaire": "PSV",
+          "domicile": false,
+          "butsPour": 1,
+          "butsContre": 5,
+          "score": "1-5",
+          "issue": "D"
+        },
+        {
+          "date": "2026-08-28T18:00:00Z",
+          "adversaire": "Sittard",
+          "domicile": true,
+          "butsPour": 2,
+          "butsContre": 3,
+          "score": "2-3",
+          "issue": "D"
+        },
+        {
+          "date": "2026-09-06T10:15:00Z",
+          "adversaire": "Twente",
+          "domicile": true,
+          "butsPour": 2,
+          "butsContre": 2,
+          "score": "2-2",
+          "issue": "N"
+        },
+        {
+          "date": "2026-09-12T16:45:00Z",
+          "adversaire": "Go Ahead",
+          "domicile": false,
+          "butsPour": 1,
+          "butsContre": 1,
+          "score": "1-1",
+          "issue": "N"
+        },
+        {
+          "date": "2026-09-18T18:00:00Z",
+          "adversaire": "Zwolle",
+          "domicile": true,
+          "butsPour": 3,
+          "butsContre": 0,
+          "score": "3-0",
+          "issue": "V"
+        }
+      ],
+      "serie": 3,
+      "prochainsMatchs": [
+        {
+          "date": "2026-10-11T14:45:00Z",
+          "competition": "Eredivisie",
+          "domicile": "Excelsior",
+          "exterieur": "Groningen"
+        },
+        {
+          "date": "2026-10-18T14:45:00Z",
+          "competition": "Eredivisie",
+          "domicile": "Groningen",
+          "exterieur": "Ajax"
+        },
+        {
+          "date": "2026-10-25T13:30:00Z",
+          "competition": "Eredivisie",
+          "domicile": "NEC",
+          "exterieur": "Groningen"
+        }
+      ]
+    },
+    {
       "id": 351,
       "nom": "Nottingham",
       "blason": "https://crests.football-data.org/351.png",
@@ -3850,73 +3971,6 @@
           "competition": "UEFA Champions League",
           "domicile": "Real Betis",
           "exterieur": "Porto"
-        }
-      ]
-    },
-    {
-      "id": 471,
-      "nom": "Sassuolo",
-      "blason": "https://crests.football-data.org/471.png",
-      "competition": "Serie A",
-      "pays": "Italie",
-      "dernierMatch": "2026-09-13T18:45:00Z",
-      "detail": [
-        {
-          "date": "2026-08-23T18:45:00Z",
-          "adversaire": "Atalanta",
-          "domicile": false,
-          "butsPour": 1,
-          "butsContre": 2,
-          "score": "1-2",
-          "issue": "D"
-        },
-        {
-          "date": "2026-08-29T16:30:00Z",
-          "adversaire": "Torino",
-          "domicile": true,
-          "butsPour": 2,
-          "butsContre": 1,
-          "score": "2-1",
-          "issue": "V"
-        },
-        {
-          "date": "2026-09-06T16:00:00Z",
-          "adversaire": "Bologna",
-          "domicile": false,
-          "butsPour": 2,
-          "butsContre": 2,
-          "score": "2-2",
-          "issue": "N"
-        },
-        {
-          "date": "2026-09-13T18:45:00Z",
-          "adversaire": "Juventus",
-          "domicile": true,
-          "butsPour": 3,
-          "butsContre": 2,
-          "score": "3-2",
-          "issue": "V"
-        }
-      ],
-      "serie": 3,
-      "prochainsMatchs": [
-        {
-          "date": "2026-09-18T18:45:00Z",
-          "competition": "Serie A",
-          "domicile": "Monza",
-          "exterieur": "Sassuolo"
-        },
-        {
-          "date": "2026-10-11T16:00:00Z",
-          "competition": "Serie A",
-          "domicile": "Sassuolo",
-          "exterieur": "Milan"
-        },
-        {
-          "date": "2026-10-16T18:45:00Z",
-          "competition": "Serie A",
-          "domicile": "Frosinone",
-          "exterieur": "Sassuolo"
         }
       ]
     },
@@ -5428,73 +5482,6 @@
           "exterieur": "Southampton"
         }
       ]
-    },
-    {
-      "id": 471,
-      "nom": "Sassuolo",
-      "blason": "https://crests.football-data.org/471.png",
-      "competition": "Serie A",
-      "pays": "Italie",
-      "dernierMatch": "2026-09-13T18:45:00Z",
-      "detail": [
-        {
-          "date": "2026-08-23T18:45:00Z",
-          "adversaire": "Atalanta",
-          "domicile": false,
-          "butsPour": 1,
-          "butsContre": 2,
-          "score": "1-2",
-          "issue": "D"
-        },
-        {
-          "date": "2026-08-29T16:30:00Z",
-          "adversaire": "Torino",
-          "domicile": true,
-          "butsPour": 2,
-          "butsContre": 1,
-          "score": "2-1",
-          "issue": "V"
-        },
-        {
-          "date": "2026-09-06T16:00:00Z",
-          "adversaire": "Bologna",
-          "domicile": false,
-          "butsPour": 2,
-          "butsContre": 2,
-          "score": "2-2",
-          "issue": "N"
-        },
-        {
-          "date": "2026-09-13T18:45:00Z",
-          "adversaire": "Juventus",
-          "domicile": true,
-          "butsPour": 3,
-          "butsContre": 2,
-          "score": "3-2",
-          "issue": "V"
-        }
-      ],
-      "serie": 3,
-      "prochainsMatchs": [
-        {
-          "date": "2026-09-18T18:45:00Z",
-          "competition": "Serie A",
-          "domicile": "Monza",
-          "exterieur": "Sassuolo"
-        },
-        {
-          "date": "2026-10-11T16:00:00Z",
-          "competition": "Serie A",
-          "domicile": "Sassuolo",
-          "exterieur": "Milan"
-        },
-        {
-          "date": "2026-10-16T18:45:00Z",
-          "competition": "Serie A",
-          "domicile": "Frosinone",
-          "exterieur": "Sassuolo"
-        }
-      ]
     }
   ],
   "quiEncaissent": [
@@ -5589,7 +5576,7 @@
       "blason": "https://crests.football-data.org/61.png",
       "competition": "Premier League",
       "pays": "Angleterre",
-      "dernierMatch": "2026-09-12T14:00:00Z",
+      "dernierMatch": "2026-09-18T19:00:00Z",
       "detail": [
         {
           "date": "2026-08-24T19:00:00Z",
@@ -5626,16 +5613,19 @@
           "butsContre": 2,
           "score": "2-2",
           "issue": "N"
-        }
-      ],
-      "serie": 4,
-      "prochainsMatchs": [
+        },
         {
           "date": "2026-09-18T19:00:00Z",
-          "competition": "Premier League",
-          "domicile": "Brentford",
-          "exterieur": "Chelsea"
-        },
+          "adversaire": "Brentford",
+          "domicile": false,
+          "butsPour": 0,
+          "butsContre": 3,
+          "score": "0-3",
+          "issue": "D"
+        }
+      ],
+      "serie": 5,
+      "prochainsMatchs": [
         {
           "date": "2026-10-10T14:00:00Z",
           "competition": "Premier League",
@@ -5647,6 +5637,12 @@
           "competition": "Premier League",
           "domicile": "Everton",
           "exterieur": "Chelsea"
+        },
+        {
+          "date": "2026-10-24T16:30:00Z",
+          "competition": "Premier League",
+          "domicile": "Chelsea",
+          "exterieur": "Tottenham"
         }
       ]
     },
@@ -6143,6 +6139,73 @@
       ]
     },
     {
+      "id": 28,
+      "nom": "Union Berlin",
+      "blason": "https://crests.football-data.org/28.png",
+      "competition": "Bundesliga",
+      "pays": "Allemagne",
+      "dernierMatch": "2026-09-18T18:30:00Z",
+      "detail": [
+        {
+          "date": "2026-08-29T13:30:00Z",
+          "adversaire": "Frankfurt",
+          "domicile": true,
+          "butsPour": 3,
+          "butsContre": 3,
+          "score": "3-3",
+          "issue": "N"
+        },
+        {
+          "date": "2026-09-05T13:30:00Z",
+          "adversaire": "Leverkusen",
+          "domicile": false,
+          "butsPour": 0,
+          "butsContre": 4,
+          "score": "0-4",
+          "issue": "D"
+        },
+        {
+          "date": "2026-09-11T18:30:00Z",
+          "adversaire": "Schalke",
+          "domicile": true,
+          "butsPour": 1,
+          "butsContre": 3,
+          "score": "1-3",
+          "issue": "D"
+        },
+        {
+          "date": "2026-09-18T18:30:00Z",
+          "adversaire": "Bayern",
+          "domicile": false,
+          "butsPour": 0,
+          "butsContre": 7,
+          "score": "0-7",
+          "issue": "D"
+        }
+      ],
+      "serie": 4,
+      "prochainsMatchs": [
+        {
+          "date": "2026-10-10T13:30:00Z",
+          "competition": "Bundesliga",
+          "domicile": "Union Berlin",
+          "exterieur": "Elversberg"
+        },
+        {
+          "date": "2026-10-17T13:30:00Z",
+          "competition": "Bundesliga",
+          "domicile": "Union Berlin",
+          "exterieur": "Dortmund"
+        },
+        {
+          "date": "2026-10-24T13:30:00Z",
+          "competition": "Bundesliga",
+          "domicile": "Augsburg",
+          "exterieur": "Union Berlin"
+        }
+      ]
+    },
+    {
       "id": 454,
       "nom": "Venezia FC",
       "blason": "https://crests.football-data.org/454.png",
@@ -6206,6 +6269,100 @@
           "competition": "Serie A",
           "domicile": "Venezia FC",
           "exterieur": "Napoli"
+        }
+      ]
+    },
+    {
+      "id": 684,
+      "nom": "Zwolle",
+      "blason": "https://crests.football-data.org/684.png",
+      "competition": "Eredivisie",
+      "pays": "Pays-Bas",
+      "dernierMatch": "2026-09-18T18:00:00Z",
+      "detail": [
+        {
+          "date": "2026-08-09T12:30:00Z",
+          "adversaire": "Ajax",
+          "domicile": true,
+          "butsPour": 0,
+          "butsContre": 2,
+          "score": "0-2",
+          "issue": "D"
+        },
+        {
+          "date": "2026-08-16T12:30:00Z",
+          "adversaire": "Twente",
+          "domicile": false,
+          "butsPour": 1,
+          "butsContre": 3,
+          "score": "1-3",
+          "issue": "D"
+        },
+        {
+          "date": "2026-08-22T19:00:00Z",
+          "adversaire": "Heerenveen",
+          "domicile": false,
+          "butsPour": 2,
+          "butsContre": 0,
+          "score": "2-0",
+          "issue": "V"
+        },
+        {
+          "date": "2026-08-29T19:00:00Z",
+          "adversaire": "NEC",
+          "domicile": true,
+          "butsPour": 1,
+          "butsContre": 3,
+          "score": "1-3",
+          "issue": "D"
+        },
+        {
+          "date": "2026-09-04T18:00:00Z",
+          "adversaire": "Sparta",
+          "domicile": false,
+          "butsPour": 2,
+          "butsContre": 2,
+          "score": "2-2",
+          "issue": "N"
+        },
+        {
+          "date": "2026-09-13T14:45:00Z",
+          "adversaire": "Feyenoord",
+          "domicile": true,
+          "butsPour": 0,
+          "butsContre": 7,
+          "score": "0-7",
+          "issue": "D"
+        },
+        {
+          "date": "2026-09-18T18:00:00Z",
+          "adversaire": "Groningen",
+          "domicile": false,
+          "butsPour": 0,
+          "butsContre": 3,
+          "score": "0-3",
+          "issue": "D"
+        }
+      ],
+      "serie": 4,
+      "prochainsMatchs": [
+        {
+          "date": "2026-10-11T12:30:00Z",
+          "competition": "Eredivisie",
+          "domicile": "Zwolle",
+          "exterieur": "Cambuur"
+        },
+        {
+          "date": "2026-10-18T10:15:00Z",
+          "competition": "Eredivisie",
+          "domicile": "Zwolle",
+          "exterieur": "Go Ahead"
+        },
+        {
+          "date": "2026-10-24T14:30:00Z",
+          "competition": "Eredivisie",
+          "domicile": "Utrecht",
+          "exterieur": "Zwolle"
         }
       ]
     },
@@ -6894,6 +7051,82 @@
       ]
     },
     {
+      "id": 471,
+      "nom": "Sassuolo",
+      "blason": "https://crests.football-data.org/471.png",
+      "competition": "Serie A",
+      "pays": "Italie",
+      "dernierMatch": "2026-09-18T18:45:00Z",
+      "detail": [
+        {
+          "date": "2026-08-23T18:45:00Z",
+          "adversaire": "Atalanta",
+          "domicile": false,
+          "butsPour": 1,
+          "butsContre": 2,
+          "score": "1-2",
+          "issue": "D"
+        },
+        {
+          "date": "2026-08-29T16:30:00Z",
+          "adversaire": "Torino",
+          "domicile": true,
+          "butsPour": 2,
+          "butsContre": 1,
+          "score": "2-1",
+          "issue": "V"
+        },
+        {
+          "date": "2026-09-06T16:00:00Z",
+          "adversaire": "Bologna",
+          "domicile": false,
+          "butsPour": 2,
+          "butsContre": 2,
+          "score": "2-2",
+          "issue": "N"
+        },
+        {
+          "date": "2026-09-13T18:45:00Z",
+          "adversaire": "Juventus",
+          "domicile": true,
+          "butsPour": 3,
+          "butsContre": 2,
+          "score": "3-2",
+          "issue": "V"
+        },
+        {
+          "date": "2026-09-18T18:45:00Z",
+          "adversaire": "Monza",
+          "domicile": false,
+          "butsPour": 1,
+          "butsContre": 2,
+          "score": "1-2",
+          "issue": "D"
+        }
+      ],
+      "serie": 3,
+      "prochainsMatchs": [
+        {
+          "date": "2026-10-11T16:00:00Z",
+          "competition": "Serie A",
+          "domicile": "Sassuolo",
+          "exterieur": "Milan"
+        },
+        {
+          "date": "2026-10-16T18:45:00Z",
+          "competition": "Serie A",
+          "domicile": "Frosinone",
+          "exterieur": "Sassuolo"
+        },
+        {
+          "date": "2026-10-24T13:00:00Z",
+          "competition": "Serie A",
+          "domicile": "Como 1907",
+          "exterieur": "Sassuolo"
+        }
+      ]
+    },
+    {
       "id": 115,
       "nom": "Udinese",
       "blason": "https://crests.football-data.org/115.png",
@@ -6957,149 +7190,6 @@
           "competition": "Serie A",
           "domicile": "Udinese",
           "exterieur": "Lecce"
-        }
-      ]
-    },
-    {
-      "id": 28,
-      "nom": "Union Berlin",
-      "blason": "https://crests.football-data.org/28.png",
-      "competition": "Bundesliga",
-      "pays": "Allemagne",
-      "dernierMatch": "2026-09-11T18:30:00Z",
-      "detail": [
-        {
-          "date": "2026-08-29T13:30:00Z",
-          "adversaire": "Frankfurt",
-          "domicile": true,
-          "butsPour": 3,
-          "butsContre": 3,
-          "score": "3-3",
-          "issue": "N"
-        },
-        {
-          "date": "2026-09-05T13:30:00Z",
-          "adversaire": "Leverkusen",
-          "domicile": false,
-          "butsPour": 0,
-          "butsContre": 4,
-          "score": "0-4",
-          "issue": "D"
-        },
-        {
-          "date": "2026-09-11T18:30:00Z",
-          "adversaire": "Schalke",
-          "domicile": true,
-          "butsPour": 1,
-          "butsContre": 3,
-          "score": "1-3",
-          "issue": "D"
-        }
-      ],
-      "serie": 3,
-      "prochainsMatchs": [
-        {
-          "date": "2026-09-18T18:30:00Z",
-          "competition": "Bundesliga",
-          "domicile": "Bayern",
-          "exterieur": "Union Berlin"
-        },
-        {
-          "date": "2026-10-10T13:30:00Z",
-          "competition": "Bundesliga",
-          "domicile": "Union Berlin",
-          "exterieur": "Elversberg"
-        },
-        {
-          "date": "2026-10-17T13:30:00Z",
-          "competition": "Bundesliga",
-          "domicile": "Union Berlin",
-          "exterieur": "Dortmund"
-        }
-      ]
-    },
-    {
-      "id": 684,
-      "nom": "Zwolle",
-      "blason": "https://crests.football-data.org/684.png",
-      "competition": "Eredivisie",
-      "pays": "Pays-Bas",
-      "dernierMatch": "2026-09-13T14:45:00Z",
-      "detail": [
-        {
-          "date": "2026-08-09T12:30:00Z",
-          "adversaire": "Ajax",
-          "domicile": true,
-          "butsPour": 0,
-          "butsContre": 2,
-          "score": "0-2",
-          "issue": "D"
-        },
-        {
-          "date": "2026-08-16T12:30:00Z",
-          "adversaire": "Twente",
-          "domicile": false,
-          "butsPour": 1,
-          "butsContre": 3,
-          "score": "1-3",
-          "issue": "D"
-        },
-        {
-          "date": "2026-08-22T19:00:00Z",
-          "adversaire": "Heerenveen",
-          "domicile": false,
-          "butsPour": 2,
-          "butsContre": 0,
-          "score": "2-0",
-          "issue": "V"
-        },
-        {
-          "date": "2026-08-29T19:00:00Z",
-          "adversaire": "NEC",
-          "domicile": true,
-          "butsPour": 1,
-          "butsContre": 3,
-          "score": "1-3",
-          "issue": "D"
-        },
-        {
-          "date": "2026-09-04T18:00:00Z",
-          "adversaire": "Sparta",
-          "domicile": false,
-          "butsPour": 2,
-          "butsContre": 2,
-          "score": "2-2",
-          "issue": "N"
-        },
-        {
-          "date": "2026-09-13T14:45:00Z",
-          "adversaire": "Feyenoord",
-          "domicile": true,
-          "butsPour": 0,
-          "butsContre": 7,
-          "score": "0-7",
-          "issue": "D"
-        }
-      ],
-      "serie": 3,
-      "prochainsMatchs": [
-        {
-          "date": "2026-10-11T12:30:00Z",
-          "competition": "Eredivisie",
-          "domicile": "Zwolle",
-          "exterieur": "Cambuur"
-        },
-        {
-          "date": "2026-10-18T10:15:00Z",
-          "competition": "Eredivisie",
-          "domicile": "Zwolle",
-          "exterieur": "Go Ahead"
-        },
-        {
-          "date": "2026-10-24T14:30:00Z",
-          "competition": "Eredivisie",
-          "domicile": "Utrecht",
-          "exterieur": "Zwolle"
         }
       ]
     }
@@ -7559,6 +7649,194 @@
           "competition": "Campeonato Brasileiro Série A",
           "domicile": "Bragantino",
           "exterieur": "Cruzeiro"
+        }
+      ]
+    },
+    {
+      "id": 80,
+      "nom": "Espanyol",
+      "blason": "https://crests.football-data.org/80.png",
+      "competition": "La Liga",
+      "pays": "Espagne",
+      "dernierMatch": "2026-09-18T19:00:00Z",
+      "detail": [
+        {
+          "date": "2026-08-16T17:00:00Z",
+          "adversaire": "Levante",
+          "domicile": true,
+          "butsPour": 3,
+          "butsContre": 0,
+          "score": "3-0",
+          "issue": "V"
+        },
+        {
+          "date": "2026-08-22T19:30:00Z",
+          "adversaire": "Real Madrid",
+          "domicile": true,
+          "butsPour": 1,
+          "butsContre": 2,
+          "score": "1-2",
+          "issue": "D"
+        },
+        {
+          "date": "2026-08-29T17:00:00Z",
+          "adversaire": "Real Sociedad",
+          "domicile": false,
+          "butsPour": 1,
+          "butsContre": 2,
+          "score": "1-2",
+          "issue": "D"
+        },
+        {
+          "date": "2026-09-06T19:00:00Z",
+          "adversaire": "Sevilla FC",
+          "domicile": true,
+          "butsPour": 1,
+          "butsContre": 1,
+          "score": "1-1",
+          "issue": "N"
+        },
+        {
+          "date": "2026-09-12T14:15:00Z",
+          "adversaire": "Osasuna",
+          "domicile": false,
+          "butsPour": 2,
+          "butsContre": 0,
+          "score": "2-0",
+          "issue": "V"
+        },
+        {
+          "date": "2026-09-15T17:00:00Z",
+          "adversaire": "Rayo Vallecano",
+          "domicile": false,
+          "butsPour": 1,
+          "butsContre": 2,
+          "score": "1-2",
+          "issue": "D"
+        },
+        {
+          "date": "2026-09-18T19:00:00Z",
+          "adversaire": "Elche",
+          "domicile": true,
+          "butsPour": 1,
+          "butsContre": 3,
+          "score": "1-3",
+          "issue": "D"
+        }
+      ],
+      "serie": 7,
+      "prochainsMatchs": [
+        {
+          "date": "2026-10-09T19:00:00Z",
+          "competition": "Primera Division",
+          "domicile": "Málaga",
+          "exterieur": "Espanyol"
+        },
+        {
+          "date": "2026-10-17T12:00:00Z",
+          "competition": "Primera Division",
+          "domicile": "Espanyol",
+          "exterieur": "Atleti"
+        },
+        {
+          "date": "2026-10-25T00:00:00Z",
+          "competition": "Primera Division",
+          "domicile": "Santander",
+          "exterieur": "Espanyol"
+        }
+      ]
+    },
+    {
+      "id": 677,
+      "nom": "Groningen",
+      "blason": "https://crests.football-data.org/677.png",
+      "competition": "Eredivisie",
+      "pays": "Pays-Bas",
+      "dernierMatch": "2026-09-18T18:00:00Z",
+      "detail": [
+        {
+          "date": "2026-08-09T12:30:00Z",
+          "adversaire": "Utrecht",
+          "domicile": true,
+          "butsPour": 2,
+          "butsContre": 1,
+          "score": "2-1",
+          "issue": "V"
+        },
+        {
+          "date": "2026-08-16T10:15:00Z",
+          "adversaire": "Den Haag",
+          "domicile": false,
+          "butsPour": 4,
+          "butsContre": 1,
+          "score": "4-1",
+          "issue": "V"
+        },
+        {
+          "date": "2026-08-23T12:30:00Z",
+          "adversaire": "PSV",
+          "domicile": false,
+          "butsPour": 1,
+          "butsContre": 5,
+          "score": "1-5",
+          "issue": "D"
+        },
+        {
+          "date": "2026-08-28T18:00:00Z",
+          "adversaire": "Sittard",
+          "domicile": true,
+          "butsPour": 2,
+          "butsContre": 3,
+          "score": "2-3",
+          "issue": "D"
+        },
+        {
+          "date": "2026-09-06T10:15:00Z",
+          "adversaire": "Twente",
+          "domicile": true,
+          "butsPour": 2,
+          "butsContre": 2,
+          "score": "2-2",
+          "issue": "N"
+        },
+        {
+          "date": "2026-09-12T16:45:00Z",
+          "adversaire": "Go Ahead",
+          "domicile": false,
+          "butsPour": 1,
+          "butsContre": 1,
+          "score": "1-1",
+          "issue": "N"
+        },
+        {
+          "date": "2026-09-18T18:00:00Z",
+          "adversaire": "Zwolle",
+          "domicile": true,
+          "butsPour": 3,
+          "butsContre": 0,
+          "score": "3-0",
+          "issue": "V"
+        }
+      ],
+      "serie": 7,
+      "prochainsMatchs": [
+        {
+          "date": "2026-10-11T14:45:00Z",
+          "competition": "Eredivisie",
+          "domicile": "Excelsior",
+          "exterieur": "Groningen"
+        },
+        {
+          "date": "2026-10-18T14:45:00Z",
+          "competition": "Eredivisie",
+          "domicile": "Groningen",
+          "exterieur": "Ajax"
+        },
+        {
+          "date": "2026-10-25T13:30:00Z",
+          "competition": "Eredivisie",
+          "domicile": "NEC",
+          "exterieur": "Groningen"
         }
       ]
     },
@@ -8459,7 +8737,7 @@
           "exterieur": "Birmingham"
         },
         {
-          "date": "2026-10-13T18:45:00Z",
+          "date": "2026-10-13T19:00:00Z",
           "competition": "Championship",
           "domicile": "Birmingham",
           "exterieur": "Preston NE"
@@ -8584,91 +8862,6 @@
           "competition": "Campeonato Brasileiro Série A",
           "domicile": "Coritiba",
           "exterieur": "Botafogo"
-        }
-      ]
-    },
-    {
-      "id": 80,
-      "nom": "Espanyol",
-      "blason": "https://crests.football-data.org/80.png",
-      "competition": "La Liga",
-      "pays": "Espagne",
-      "dernierMatch": "2026-09-15T17:00:00Z",
-      "detail": [
-        {
-          "date": "2026-08-16T17:00:00Z",
-          "adversaire": "Levante",
-          "domicile": true,
-          "butsPour": 3,
-          "butsContre": 0,
-          "score": "3-0",
-          "issue": "V"
-        },
-        {
-          "date": "2026-08-22T19:30:00Z",
-          "adversaire": "Real Madrid",
-          "domicile": true,
-          "butsPour": 1,
-          "butsContre": 2,
-          "score": "1-2",
-          "issue": "D"
-        },
-        {
-          "date": "2026-08-29T17:00:00Z",
-          "adversaire": "Real Sociedad",
-          "domicile": false,
-          "butsPour": 1,
-          "butsContre": 2,
-          "score": "1-2",
-          "issue": "D"
-        },
-        {
-          "date": "2026-09-06T19:00:00Z",
-          "adversaire": "Sevilla FC",
-          "domicile": true,
-          "butsPour": 1,
-          "butsContre": 1,
-          "score": "1-1",
-          "issue": "N"
-        },
-        {
-          "date": "2026-09-12T14:15:00Z",
-          "adversaire": "Osasuna",
-          "domicile": false,
-          "butsPour": 2,
-          "butsContre": 0,
-          "score": "2-0",
-          "issue": "V"
-        },
-        {
-          "date": "2026-09-15T17:00:00Z",
-          "adversaire": "Rayo Vallecano",
-          "domicile": false,
-          "butsPour": 1,
-          "butsContre": 2,
-          "score": "1-2",
-          "issue": "D"
-        }
-      ],
-      "serie": 6,
-      "prochainsMatchs": [
-        {
-          "date": "2026-09-18T19:00:00Z",
-          "competition": "Primera Division",
-          "domicile": "Espanyol",
-          "exterieur": "Elche"
-        },
-        {
-          "date": "2026-10-09T19:00:00Z",
-          "competition": "Primera Division",
-          "domicile": "Málaga",
-          "exterieur": "Espanyol"
-        },
-        {
-          "date": "2026-10-17T12:00:00Z",
-          "competition": "Primera Division",
-          "domicile": "Espanyol",
-          "exterieur": "Atleti"
         }
       ]
     },
@@ -9045,91 +9238,6 @@
           "competition": "Eredivisie",
           "domicile": "Zwolle",
           "exterieur": "Go Ahead"
-        }
-      ]
-    },
-    {
-      "id": 677,
-      "nom": "Groningen",
-      "blason": "https://crests.football-data.org/677.png",
-      "competition": "Eredivisie",
-      "pays": "Pays-Bas",
-      "dernierMatch": "2026-09-12T16:45:00Z",
-      "detail": [
-        {
-          "date": "2026-08-09T12:30:00Z",
-          "adversaire": "Utrecht",
-          "domicile": true,
-          "butsPour": 2,
-          "butsContre": 1,
-          "score": "2-1",
-          "issue": "V"
-        },
-        {
-          "date": "2026-08-16T10:15:00Z",
-          "adversaire": "Den Haag",
-          "domicile": false,
-          "butsPour": 4,
-          "butsContre": 1,
-          "score": "4-1",
-          "issue": "V"
-        },
-        {
-          "date": "2026-08-23T12:30:00Z",
-          "adversaire": "PSV",
-          "domicile": false,
-          "butsPour": 1,
-          "butsContre": 5,
-          "score": "1-5",
-          "issue": "D"
-        },
-        {
-          "date": "2026-08-28T18:00:00Z",
-          "adversaire": "Sittard",
-          "domicile": true,
-          "butsPour": 2,
-          "butsContre": 3,
-          "score": "2-3",
-          "issue": "D"
-        },
-        {
-          "date": "2026-09-06T10:15:00Z",
-          "adversaire": "Twente",
-          "domicile": true,
-          "butsPour": 2,
-          "butsContre": 2,
-          "score": "2-2",
-          "issue": "N"
-        },
-        {
-          "date": "2026-09-12T16:45:00Z",
-          "adversaire": "Go Ahead",
-          "domicile": false,
-          "butsPour": 1,
-          "butsContre": 1,
-          "score": "1-1",
-          "issue": "N"
-        }
-      ],
-      "serie": 6,
-      "prochainsMatchs": [
-        {
-          "date": "2026-10-11T14:45:00Z",
-          "competition": "Eredivisie",
-          "domicile": "Excelsior",
-          "exterieur": "Groningen"
-        },
-        {
-          "date": "2026-10-18T14:45:00Z",
-          "competition": "Eredivisie",
-          "domicile": "Groningen",
-          "exterieur": "Ajax"
-        },
-        {
-          "date": "2026-10-25T13:30:00Z",
-          "competition": "Eredivisie",
-          "domicile": "NEC",
-          "exterieur": "Groningen"
         }
       ]
     },
@@ -10508,6 +10616,82 @@
       ]
     },
     {
+      "id": 402,
+      "nom": "Brentford",
+      "blason": "https://crests.football-data.org/402.png",
+      "competition": "Premier League",
+      "pays": "Angleterre",
+      "dernierMatch": "2026-09-18T19:00:00Z",
+      "detail": [
+        {
+          "date": "2026-08-22T16:30:00Z",
+          "adversaire": "Tottenham",
+          "domicile": true,
+          "butsPour": 3,
+          "butsContre": 0,
+          "score": "3-0",
+          "issue": "V"
+        },
+        {
+          "date": "2026-08-30T13:00:00Z",
+          "adversaire": "Leeds United",
+          "domicile": false,
+          "butsPour": 1,
+          "butsContre": 1,
+          "score": "1-1",
+          "issue": "N"
+        },
+        {
+          "date": "2026-09-05T14:00:00Z",
+          "adversaire": "Sunderland",
+          "domicile": true,
+          "butsPour": 1,
+          "butsContre": 1,
+          "score": "1-1",
+          "issue": "N"
+        },
+        {
+          "date": "2026-09-12T14:00:00Z",
+          "adversaire": "Bournemouth",
+          "domicile": false,
+          "butsPour": 2,
+          "butsContre": 2,
+          "score": "2-2",
+          "issue": "N"
+        },
+        {
+          "date": "2026-09-18T19:00:00Z",
+          "adversaire": "Chelsea",
+          "domicile": true,
+          "butsPour": 3,
+          "butsContre": 0,
+          "score": "3-0",
+          "issue": "V"
+        }
+      ],
+      "serie": 5,
+      "prochainsMatchs": [
+        {
+          "date": "2026-10-10T14:00:00Z",
+          "competition": "Premier League",
+          "domicile": "Aston Villa",
+          "exterieur": "Brentford"
+        },
+        {
+          "date": "2026-10-17T14:00:00Z",
+          "competition": "Premier League",
+          "domicile": "Brentford",
+          "exterieur": "Liverpool"
+        },
+        {
+          "date": "2026-10-25T14:00:00Z",
+          "competition": "Premier League",
+          "domicile": "Hull City",
+          "exterieur": "Brentford"
+        }
+      ]
+    },
+    {
       "id": 1909,
       "nom": "Cambuur",
       "blason": "https://crests.football-data.org/1909.png",
@@ -10589,6 +10773,252 @@
           "competition": "Eredivisie",
           "domicile": "Cambuur",
           "exterieur": "AZ"
+        }
+      ]
+    },
+    {
+      "id": 285,
+      "nom": "Elche",
+      "blason": "https://crests.football-data.org/285.png",
+      "competition": "La Liga",
+      "pays": "Espagne",
+      "dernierMatch": "2026-09-18T19:00:00Z",
+      "detail": [
+        {
+          "date": "2026-08-17T19:00:00Z",
+          "adversaire": "Deportivo",
+          "domicile": false,
+          "butsPour": 1,
+          "butsContre": 1,
+          "score": "1-1",
+          "issue": "N"
+        },
+        {
+          "date": "2026-08-23T19:30:00Z",
+          "adversaire": "Barça",
+          "domicile": true,
+          "butsPour": 0,
+          "butsContre": 5,
+          "score": "0-5",
+          "issue": "D"
+        },
+        {
+          "date": "2026-08-28T17:00:00Z",
+          "adversaire": "Santander",
+          "domicile": false,
+          "butsPour": 2,
+          "butsContre": 3,
+          "score": "2-3",
+          "issue": "D"
+        },
+        {
+          "date": "2026-09-07T19:30:00Z",
+          "adversaire": "Real Sociedad",
+          "domicile": true,
+          "butsPour": 2,
+          "butsContre": 3,
+          "score": "2-3",
+          "issue": "D"
+        },
+        {
+          "date": "2026-09-12T16:30:00Z",
+          "adversaire": "Athletic",
+          "domicile": false,
+          "butsPour": 1,
+          "butsContre": 1,
+          "score": "1-1",
+          "issue": "N"
+        },
+        {
+          "date": "2026-09-15T19:30:00Z",
+          "adversaire": "Real Madrid",
+          "domicile": true,
+          "butsPour": 2,
+          "butsContre": 3,
+          "score": "2-3",
+          "issue": "D"
+        },
+        {
+          "date": "2026-09-18T19:00:00Z",
+          "adversaire": "Espanyol",
+          "domicile": false,
+          "butsPour": 3,
+          "butsContre": 1,
+          "score": "3-1",
+          "issue": "V"
+        }
+      ],
+      "serie": 5,
+      "prochainsMatchs": [
+        {
+          "date": "2026-10-11T12:00:00Z",
+          "competition": "Primera Division",
+          "domicile": "Elche",
+          "exterieur": "Celta"
+        },
+        {
+          "date": "2026-10-17T14:15:00Z",
+          "competition": "Primera Division",
+          "domicile": "Villarreal",
+          "exterieur": "Elche"
+        },
+        {
+          "date": "2026-10-25T00:00:00Z",
+          "competition": "Primera Division",
+          "domicile": "Rayo Vallecano",
+          "exterieur": "Elche"
+        }
+      ]
+    },
+    {
+      "id": 548,
+      "nom": "Monaco",
+      "blason": "https://crests.football-data.org/548.png",
+      "competition": "Ligue 1",
+      "pays": "France",
+      "dernierMatch": "2026-09-18T18:45:00Z",
+      "detail": [
+        {
+          "date": "2026-08-23T15:15:00Z",
+          "adversaire": "Le Havre",
+          "domicile": false,
+          "butsPour": 1,
+          "butsContre": 0,
+          "score": "1-0",
+          "issue": "V"
+        },
+        {
+          "date": "2026-08-30T18:45:00Z",
+          "adversaire": "Marseille",
+          "domicile": true,
+          "butsPour": 2,
+          "butsContre": 0,
+          "score": "2-0",
+          "issue": "V"
+        },
+        {
+          "date": "2026-09-04T19:05:00Z",
+          "adversaire": "PSG",
+          "domicile": false,
+          "butsPour": 2,
+          "butsContre": 1,
+          "score": "2-1",
+          "issue": "V"
+        },
+        {
+          "date": "2026-09-12T15:15:00Z",
+          "adversaire": "Strasbourg",
+          "domicile": false,
+          "butsPour": 1,
+          "butsContre": 1,
+          "score": "1-1",
+          "issue": "N"
+        },
+        {
+          "date": "2026-09-18T18:45:00Z",
+          "adversaire": "RC Lens",
+          "domicile": true,
+          "butsPour": 2,
+          "butsContre": 1,
+          "score": "2-1",
+          "issue": "V"
+        }
+      ],
+      "serie": 5,
+      "prochainsMatchs": [
+        {
+          "date": "2026-10-10T18:45:00Z",
+          "competition": "Ligue 1",
+          "domicile": "Monaco",
+          "exterieur": "Toulouse"
+        },
+        {
+          "date": "2026-10-18T15:15:00Z",
+          "competition": "Ligue 1",
+          "domicile": "Lorient",
+          "exterieur": "Monaco"
+        },
+        {
+          "date": "2026-10-25T14:00:00Z",
+          "competition": "Ligue 1",
+          "domicile": "Monaco",
+          "exterieur": "Lille"
+        }
+      ]
+    },
+    {
+      "id": 5911,
+      "nom": "Monza",
+      "blason": "https://crests.football-data.org/5911.png",
+      "competition": "Serie A",
+      "pays": "Italie",
+      "dernierMatch": "2026-09-18T18:45:00Z",
+      "detail": [
+        {
+          "date": "2026-08-22T16:30:00Z",
+          "adversaire": "Inter",
+          "domicile": false,
+          "butsPour": 1,
+          "butsContre": 4,
+          "score": "1-4",
+          "issue": "D"
+        },
+        {
+          "date": "2026-08-29T16:30:00Z",
+          "adversaire": "Udinese",
+          "domicile": true,
+          "butsPour": 2,
+          "butsContre": 3,
+          "score": "2-3",
+          "issue": "D"
+        },
+        {
+          "date": "2026-09-06T13:00:00Z",
+          "adversaire": "Parma",
+          "domicile": false,
+          "butsPour": 1,
+          "butsContre": 1,
+          "score": "1-1",
+          "issue": "N"
+        },
+        {
+          "date": "2026-09-13T13:00:00Z",
+          "adversaire": "Lecce",
+          "domicile": false,
+          "butsPour": 2,
+          "butsContre": 3,
+          "score": "2-3",
+          "issue": "D"
+        },
+        {
+          "date": "2026-09-18T18:45:00Z",
+          "adversaire": "Sassuolo",
+          "domicile": true,
+          "butsPour": 2,
+          "butsContre": 1,
+          "score": "2-1",
+          "issue": "V"
+        }
+      ],
+      "serie": 5,
+      "prochainsMatchs": [
+        {
+          "date": "2026-10-11T13:00:00Z",
+          "competition": "Serie A",
+          "domicile": "Lazio",
+          "exterieur": "Monza"
+        },
+        {
+          "date": "2026-10-19T16:30:00Z",
+          "competition": "Serie A",
+          "domicile": "Monza",
+          "exterieur": "Cagliari"
+        },
+        {
+          "date": "2026-10-23T18:45:00Z",
+          "competition": "Serie A",
+          "domicile": "Torino",
+          "exterieur": "Monza"
         }
       ]
     },
@@ -10710,6 +11140,82 @@
           "competition": "Campeonato Brasileiro Série A",
           "domicile": "Santos",
           "exterieur": "Flamengo"
+        }
+      ]
+    },
+    {
+      "id": 471,
+      "nom": "Sassuolo",
+      "blason": "https://crests.football-data.org/471.png",
+      "competition": "Serie A",
+      "pays": "Italie",
+      "dernierMatch": "2026-09-18T18:45:00Z",
+      "detail": [
+        {
+          "date": "2026-08-23T18:45:00Z",
+          "adversaire": "Atalanta",
+          "domicile": false,
+          "butsPour": 1,
+          "butsContre": 2,
+          "score": "1-2",
+          "issue": "D"
+        },
+        {
+          "date": "2026-08-29T16:30:00Z",
+          "adversaire": "Torino",
+          "domicile": true,
+          "butsPour": 2,
+          "butsContre": 1,
+          "score": "2-1",
+          "issue": "V"
+        },
+        {
+          "date": "2026-09-06T16:00:00Z",
+          "adversaire": "Bologna",
+          "domicile": false,
+          "butsPour": 2,
+          "butsContre": 2,
+          "score": "2-2",
+          "issue": "N"
+        },
+        {
+          "date": "2026-09-13T18:45:00Z",
+          "adversaire": "Juventus",
+          "domicile": true,
+          "butsPour": 3,
+          "butsContre": 2,
+          "score": "3-2",
+          "issue": "V"
+        },
+        {
+          "date": "2026-09-18T18:45:00Z",
+          "adversaire": "Monza",
+          "domicile": false,
+          "butsPour": 1,
+          "butsContre": 2,
+          "score": "1-2",
+          "issue": "D"
+        }
+      ],
+      "serie": 5,
+      "prochainsMatchs": [
+        {
+          "date": "2026-10-11T16:00:00Z",
+          "competition": "Serie A",
+          "domicile": "Sassuolo",
+          "exterieur": "Milan"
+        },
+        {
+          "date": "2026-10-16T18:45:00Z",
+          "competition": "Serie A",
+          "domicile": "Frosinone",
+          "exterieur": "Sassuolo"
+        },
+        {
+          "date": "2026-10-24T13:00:00Z",
+          "competition": "Serie A",
+          "domicile": "Como 1907",
+          "exterieur": "Sassuolo"
         }
       ]
     },
@@ -11152,73 +11658,6 @@
       ]
     },
     {
-      "id": 402,
-      "nom": "Brentford",
-      "blason": "https://crests.football-data.org/402.png",
-      "competition": "Premier League",
-      "pays": "Angleterre",
-      "dernierMatch": "2026-09-12T14:00:00Z",
-      "detail": [
-        {
-          "date": "2026-08-22T16:30:00Z",
-          "adversaire": "Tottenham",
-          "domicile": true,
-          "butsPour": 3,
-          "butsContre": 0,
-          "score": "3-0",
-          "issue": "V"
-        },
-        {
-          "date": "2026-08-30T13:00:00Z",
-          "adversaire": "Leeds United",
-          "domicile": false,
-          "butsPour": 1,
-          "butsContre": 1,
-          "score": "1-1",
-          "issue": "N"
-        },
-        {
-          "date": "2026-09-05T14:00:00Z",
-          "adversaire": "Sunderland",
-          "domicile": true,
-          "butsPour": 1,
-          "butsContre": 1,
-          "score": "1-1",
-          "issue": "N"
-        },
-        {
-          "date": "2026-09-12T14:00:00Z",
-          "adversaire": "Bournemouth",
-          "domicile": false,
-          "butsPour": 2,
-          "butsContre": 2,
-          "score": "2-2",
-          "issue": "N"
-        }
-      ],
-      "serie": 4,
-      "prochainsMatchs": [
-        {
-          "date": "2026-09-18T19:00:00Z",
-          "competition": "Premier League",
-          "domicile": "Brentford",
-          "exterieur": "Chelsea"
-        },
-        {
-          "date": "2026-10-10T14:00:00Z",
-          "competition": "Premier League",
-          "domicile": "Aston Villa",
-          "exterieur": "Brentford"
-        },
-        {
-          "date": "2026-10-17T14:00:00Z",
-          "competition": "Premier League",
-          "domicile": "Brentford",
-          "exterieur": "Liverpool"
-        }
-      ]
-    },
-    {
       "id": 397,
       "nom": "Brighton Hove",
       "blason": "https://crests.football-data.org/397.png",
@@ -11286,73 +11725,6 @@
       ]
     },
     {
-      "id": 61,
-      "nom": "Chelsea",
-      "blason": "https://crests.football-data.org/61.png",
-      "competition": "Premier League",
-      "pays": "Angleterre",
-      "dernierMatch": "2026-09-12T14:00:00Z",
-      "detail": [
-        {
-          "date": "2026-08-24T19:00:00Z",
-          "adversaire": "Fulham",
-          "domicile": false,
-          "butsPour": 3,
-          "butsContre": 2,
-          "score": "3-2",
-          "issue": "V"
-        },
-        {
-          "date": "2026-08-30T13:00:00Z",
-          "adversaire": "Brighton Hove",
-          "domicile": true,
-          "butsPour": 4,
-          "butsContre": 3,
-          "score": "4-3",
-          "issue": "V"
-        },
-        {
-          "date": "2026-09-06T15:30:00Z",
-          "adversaire": "Arsenal",
-          "domicile": false,
-          "butsPour": 1,
-          "butsContre": 2,
-          "score": "1-2",
-          "issue": "D"
-        },
-        {
-          "date": "2026-09-12T14:00:00Z",
-          "adversaire": "Hull City",
-          "domicile": true,
-          "butsPour": 2,
-          "butsContre": 2,
-          "score": "2-2",
-          "issue": "N"
-        }
-      ],
-      "serie": 4,
-      "prochainsMatchs": [
-        {
-          "date": "2026-09-18T19:00:00Z",
-          "competition": "Premier League",
-          "domicile": "Brentford",
-          "exterieur": "Chelsea"
-        },
-        {
-          "date": "2026-10-10T14:00:00Z",
-          "competition": "Premier League",
-          "domicile": "Chelsea",
-          "exterieur": "Bournemouth"
-        },
-        {
-          "date": "2026-10-17T11:30:00Z",
-          "competition": "Premier League",
-          "domicile": "Everton",
-          "exterieur": "Chelsea"
-        }
-      ]
-    },
-    {
       "id": 7397,
       "nom": "Como 1907",
       "blason": "https://crests.football-data.org/7397.png",
@@ -11416,91 +11788,6 @@
           "competition": "UEFA Champions League",
           "domicile": "Feyenoord",
           "exterieur": "Como 1907"
-        }
-      ]
-    },
-    {
-      "id": 285,
-      "nom": "Elche",
-      "blason": "https://crests.football-data.org/285.png",
-      "competition": "La Liga",
-      "pays": "Espagne",
-      "dernierMatch": "2026-09-15T19:30:00Z",
-      "detail": [
-        {
-          "date": "2026-08-17T19:00:00Z",
-          "adversaire": "Deportivo",
-          "domicile": false,
-          "butsPour": 1,
-          "butsContre": 1,
-          "score": "1-1",
-          "issue": "N"
-        },
-        {
-          "date": "2026-08-23T19:30:00Z",
-          "adversaire": "Barça",
-          "domicile": true,
-          "butsPour": 0,
-          "butsContre": 5,
-          "score": "0-5",
-          "issue": "D"
-        },
-        {
-          "date": "2026-08-28T17:00:00Z",
-          "adversaire": "Santander",
-          "domicile": false,
-          "butsPour": 2,
-          "butsContre": 3,
-          "score": "2-3",
-          "issue": "D"
-        },
-        {
-          "date": "2026-09-07T19:30:00Z",
-          "adversaire": "Real Sociedad",
-          "domicile": true,
-          "butsPour": 2,
-          "butsContre": 3,
-          "score": "2-3",
-          "issue": "D"
-        },
-        {
-          "date": "2026-09-12T16:30:00Z",
-          "adversaire": "Athletic",
-          "domicile": false,
-          "butsPour": 1,
-          "butsContre": 1,
-          "score": "1-1",
-          "issue": "N"
-        },
-        {
-          "date": "2026-09-15T19:30:00Z",
-          "adversaire": "Real Madrid",
-          "domicile": true,
-          "butsPour": 2,
-          "butsContre": 3,
-          "score": "2-3",
-          "issue": "D"
-        }
-      ],
-      "serie": 4,
-      "prochainsMatchs": [
-        {
-          "date": "2026-09-18T19:00:00Z",
-          "competition": "Primera Division",
-          "domicile": "Espanyol",
-          "exterieur": "Elche"
-        },
-        {
-          "date": "2026-10-11T12:00:00Z",
-          "competition": "Primera Division",
-          "domicile": "Elche",
-          "exterieur": "Celta"
-        },
-        {
-          "date": "2026-10-17T14:15:00Z",
-          "competition": "Primera Division",
-          "domicile": "Villarreal",
-          "exterieur": "Elche"
         }
       ]
     },
@@ -12041,140 +12328,6 @@
       ]
     },
     {
-      "id": 548,
-      "nom": "Monaco",
-      "blason": "https://crests.football-data.org/548.png",
-      "competition": "Ligue 1",
-      "pays": "France",
-      "dernierMatch": "2026-09-12T15:15:00Z",
-      "detail": [
-        {
-          "date": "2026-08-23T15:15:00Z",
-          "adversaire": "Le Havre",
-          "domicile": false,
-          "butsPour": 1,
-          "butsContre": 0,
-          "score": "1-0",
-          "issue": "V"
-        },
-        {
-          "date": "2026-08-30T18:45:00Z",
-          "adversaire": "Marseille",
-          "domicile": true,
-          "butsPour": 2,
-          "butsContre": 0,
-          "score": "2-0",
-          "issue": "V"
-        },
-        {
-          "date": "2026-09-04T19:05:00Z",
-          "adversaire": "PSG",
-          "domicile": false,
-          "butsPour": 2,
-          "butsContre": 1,
-          "score": "2-1",
-          "issue": "V"
-        },
-        {
-          "date": "2026-09-12T15:15:00Z",
-          "adversaire": "Strasbourg",
-          "domicile": false,
-          "butsPour": 1,
-          "butsContre": 1,
-          "score": "1-1",
-          "issue": "N"
-        }
-      ],
-      "serie": 4,
-      "prochainsMatchs": [
-        {
-          "date": "2026-09-18T18:45:00Z",
-          "competition": "Ligue 1",
-          "domicile": "Monaco",
-          "exterieur": "RC Lens"
-        },
-        {
-          "date": "2026-10-10T18:45:00Z",
-          "competition": "Ligue 1",
-          "domicile": "Monaco",
-          "exterieur": "Toulouse"
-        },
-        {
-          "date": "2026-10-18T15:15:00Z",
-          "competition": "Ligue 1",
-          "domicile": "Lorient",
-          "exterieur": "Monaco"
-        }
-      ]
-    },
-    {
-      "id": 5911,
-      "nom": "Monza",
-      "blason": "https://crests.football-data.org/5911.png",
-      "competition": "Serie A",
-      "pays": "Italie",
-      "dernierMatch": "2026-09-13T13:00:00Z",
-      "detail": [
-        {
-          "date": "2026-08-22T16:30:00Z",
-          "adversaire": "Inter",
-          "domicile": false,
-          "butsPour": 1,
-          "butsContre": 4,
-          "score": "1-4",
-          "issue": "D"
-        },
-        {
-          "date": "2026-08-29T16:30:00Z",
-          "adversaire": "Udinese",
-          "domicile": true,
-          "butsPour": 2,
-          "butsContre": 3,
-          "score": "2-3",
-          "issue": "D"
-        },
-        {
-          "date": "2026-09-06T13:00:00Z",
-          "adversaire": "Parma",
-          "domicile": false,
-          "butsPour": 1,
-          "butsContre": 1,
-          "score": "1-1",
-          "issue": "N"
-        },
-        {
-          "date": "2026-09-13T13:00:00Z",
-          "adversaire": "Lecce",
-          "domicile": false,
-          "butsPour": 2,
-          "butsContre": 3,
-          "score": "2-3",
-          "issue": "D"
-        }
-      ],
-      "serie": 4,
-      "prochainsMatchs": [
-        {
-          "date": "2026-09-18T18:45:00Z",
-          "competition": "Serie A",
-          "domicile": "Monza",
-          "exterieur": "Sassuolo"
-        },
-        {
-          "date": "2026-10-11T13:00:00Z",
-          "competition": "Serie A",
-          "domicile": "Lazio",
-          "exterieur": "Monza"
-        },
-        {
-          "date": "2026-10-19T16:30:00Z",
-          "competition": "Serie A",
-          "domicile": "Monza",
-          "exterieur": "Cagliari"
-        }
-      ]
-    },
-    {
       "id": 113,
       "nom": "Napoli",
       "blason": "https://crests.football-data.org/113.png",
@@ -12524,73 +12677,6 @@
           "competition": "Primera Division",
           "domicile": "Osasuna",
           "exterieur": "Santander"
-        }
-      ]
-    },
-    {
-      "id": 471,
-      "nom": "Sassuolo",
-      "blason": "https://crests.football-data.org/471.png",
-      "competition": "Serie A",
-      "pays": "Italie",
-      "dernierMatch": "2026-09-13T18:45:00Z",
-      "detail": [
-        {
-          "date": "2026-08-23T18:45:00Z",
-          "adversaire": "Atalanta",
-          "domicile": false,
-          "butsPour": 1,
-          "butsContre": 2,
-          "score": "1-2",
-          "issue": "D"
-        },
-        {
-          "date": "2026-08-29T16:30:00Z",
-          "adversaire": "Torino",
-          "domicile": true,
-          "butsPour": 2,
-          "butsContre": 1,
-          "score": "2-1",
-          "issue": "V"
-        },
-        {
-          "date": "2026-09-06T16:00:00Z",
-          "adversaire": "Bologna",
-          "domicile": false,
-          "butsPour": 2,
-          "butsContre": 2,
-          "score": "2-2",
-          "issue": "N"
-        },
-        {
-          "date": "2026-09-13T18:45:00Z",
-          "adversaire": "Juventus",
-          "domicile": true,
-          "butsPour": 3,
-          "butsContre": 2,
-          "score": "3-2",
-          "issue": "V"
-        }
-      ],
-      "serie": 4,
-      "prochainsMatchs": [
-        {
-          "date": "2026-09-18T18:45:00Z",
-          "competition": "Serie A",
-          "domicile": "Monza",
-          "exterieur": "Sassuolo"
-        },
-        {
-          "date": "2026-10-11T16:00:00Z",
-          "competition": "Serie A",
-          "domicile": "Sassuolo",
-          "exterieur": "Milan"
-        },
-        {
-          "date": "2026-10-16T18:45:00Z",
-          "competition": "Serie A",
-          "domicile": "Frosinone",
-          "exterieur": "Sassuolo"
         }
       ]
     },
@@ -14743,34 +14829,16 @@
       ]
     },
     {
-      "id": 387,
-      "nom": "Bristol City",
-      "blason": "https://crests.football-data.org/387.png",
+      "id": 346,
+      "nom": "Watford",
+      "blason": "https://crests.football-data.org/346.png",
       "competition": "Championship",
       "pays": "Angleterre",
-      "dernierMatch": "2026-09-15T18:45:00Z",
+      "dernierMatch": "2026-09-18T19:00:00Z",
       "detail": [
         {
-          "date": "2026-08-15T14:00:00Z",
-          "adversaire": "Millwall",
-          "domicile": true,
-          "butsPour": 0,
-          "butsContre": 2,
-          "score": "0-2",
-          "issue": "D"
-        },
-        {
-          "date": "2026-08-22T11:30:00Z",
-          "adversaire": "Birmingham",
-          "domicile": false,
-          "butsPour": 2,
-          "butsContre": 2,
-          "score": "2-2",
-          "issue": "N"
-        },
-        {
-          "date": "2026-08-29T14:00:00Z",
-          "adversaire": "Portsmouth",
+          "date": "2026-08-16T12:30:00Z",
+          "adversaire": "Southampton",
           "domicile": true,
           "butsPour": 2,
           "butsContre": 1,
@@ -14778,18 +14846,45 @@
           "issue": "V"
         },
         {
-          "date": "2026-09-01T18:45:00Z",
-          "adversaire": "Preston NE",
+          "date": "2026-08-22T14:00:00Z",
+          "adversaire": "Wrexham",
           "domicile": false,
-          "butsPour": 3,
+          "butsPour": 1,
           "butsContre": 1,
-          "score": "3-1",
-          "issue": "V"
+          "score": "1-1",
+          "issue": "N"
+        },
+        {
+          "date": "2026-08-29T14:00:00Z",
+          "adversaire": "West Ham",
+          "domicile": true,
+          "butsPour": 1,
+          "butsContre": 1,
+          "score": "1-1",
+          "issue": "N"
+        },
+        {
+          "date": "2026-09-01T18:45:00Z",
+          "adversaire": "Swansea",
+          "domicile": false,
+          "butsPour": 0,
+          "butsContre": 2,
+          "score": "0-2",
+          "issue": "D"
         },
         {
           "date": "2026-09-05T14:00:00Z",
-          "adversaire": "Burnley",
+          "adversaire": "West Brom",
           "domicile": false,
+          "butsPour": 0,
+          "butsContre": 1,
+          "score": "0-1",
+          "issue": "D"
+        },
+        {
+          "date": "2026-09-08T18:45:00Z",
+          "adversaire": "Preston NE",
+          "domicile": true,
           "butsPour": 2,
           "butsContre": 1,
           "score": "2-1",
@@ -14797,42 +14892,42 @@
         },
         {
           "date": "2026-09-12T14:00:00Z",
-          "adversaire": "Southampton",
-          "domicile": false,
+          "adversaire": "Stoke",
+          "domicile": true,
           "butsPour": 1,
-          "butsContre": 4,
-          "score": "1-4",
+          "butsContre": 2,
+          "score": "1-2",
           "issue": "D"
         },
         {
-          "date": "2026-09-15T18:45:00Z",
-          "adversaire": "Lincoln City",
-          "domicile": true,
+          "date": "2026-09-18T19:00:00Z",
+          "adversaire": "Bristol City",
+          "domicile": false,
           "butsPour": 0,
           "butsContre": 1,
           "score": "0-1",
           "issue": "D"
         }
       ],
-      "serie": 7,
+      "serie": 8,
       "prochainsMatchs": [
         {
-          "date": "2026-09-18T19:00:00Z",
+          "date": "2026-10-10T14:00:00Z",
           "competition": "Championship",
-          "domicile": "Bristol City",
-          "exterieur": "Watford"
-        },
-        {
-          "date": "2026-10-10T11:30:00Z",
-          "competition": "Championship",
-          "domicile": "Charlton",
-          "exterieur": "Bristol City"
+          "domicile": "Watford",
+          "exterieur": "Burnley"
         },
         {
           "date": "2026-10-13T18:45:00Z",
           "competition": "Championship",
-          "domicile": "Bristol City",
-          "exterieur": "Blackburn"
+          "domicile": "Cardiff",
+          "exterieur": "Watford"
+        },
+        {
+          "date": "2026-10-17T11:30:00Z",
+          "competition": "Championship",
+          "domicile": "Watford",
+          "exterieur": "Charlton"
         }
       ]
     },
@@ -15267,6 +15362,100 @@
       ]
     },
     {
+      "id": 285,
+      "nom": "Elche",
+      "blason": "https://crests.football-data.org/285.png",
+      "competition": "La Liga",
+      "pays": "Espagne",
+      "dernierMatch": "2026-09-18T19:00:00Z",
+      "detail": [
+        {
+          "date": "2026-08-17T19:00:00Z",
+          "adversaire": "Deportivo",
+          "domicile": false,
+          "butsPour": 1,
+          "butsContre": 1,
+          "score": "1-1",
+          "issue": "N"
+        },
+        {
+          "date": "2026-08-23T19:30:00Z",
+          "adversaire": "Barça",
+          "domicile": true,
+          "butsPour": 0,
+          "butsContre": 5,
+          "score": "0-5",
+          "issue": "D"
+        },
+        {
+          "date": "2026-08-28T17:00:00Z",
+          "adversaire": "Santander",
+          "domicile": false,
+          "butsPour": 2,
+          "butsContre": 3,
+          "score": "2-3",
+          "issue": "D"
+        },
+        {
+          "date": "2026-09-07T19:30:00Z",
+          "adversaire": "Real Sociedad",
+          "domicile": true,
+          "butsPour": 2,
+          "butsContre": 3,
+          "score": "2-3",
+          "issue": "D"
+        },
+        {
+          "date": "2026-09-12T16:30:00Z",
+          "adversaire": "Athletic",
+          "domicile": false,
+          "butsPour": 1,
+          "butsContre": 1,
+          "score": "1-1",
+          "issue": "N"
+        },
+        {
+          "date": "2026-09-15T19:30:00Z",
+          "adversaire": "Real Madrid",
+          "domicile": true,
+          "butsPour": 2,
+          "butsContre": 3,
+          "score": "2-3",
+          "issue": "D"
+        },
+        {
+          "date": "2026-09-18T19:00:00Z",
+          "adversaire": "Espanyol",
+          "domicile": false,
+          "butsPour": 3,
+          "butsContre": 1,
+          "score": "3-1",
+          "issue": "V"
+        }
+      ],
+      "serie": 7,
+      "prochainsMatchs": [
+        {
+          "date": "2026-10-11T12:00:00Z",
+          "competition": "Primera Division",
+          "domicile": "Elche",
+          "exterieur": "Celta"
+        },
+        {
+          "date": "2026-10-17T14:15:00Z",
+          "competition": "Primera Division",
+          "domicile": "Villarreal",
+          "exterieur": "Elche"
+        },
+        {
+          "date": "2026-10-25T00:00:00Z",
+          "competition": "Primera Division",
+          "domicile": "Rayo Vallecano",
+          "exterieur": "Elche"
+        }
+      ]
+    },
+    {
       "id": 68,
       "nom": "Norwich",
       "blason": "https://crests.football-data.org/68.png",
@@ -15447,7 +15636,7 @@
           "exterieur": "Millwall"
         },
         {
-          "date": "2026-10-13T18:45:00Z",
+          "date": "2026-10-13T19:00:00Z",
           "competition": "Championship",
           "domicile": "Birmingham",
           "exterieur": "Preston NE"
@@ -15545,100 +15734,6 @@
           "competition": "Championship",
           "domicile": "Norwich",
           "exterieur": "Southampton"
-        }
-      ]
-    },
-    {
-      "id": 346,
-      "nom": "Watford",
-      "blason": "https://crests.football-data.org/346.png",
-      "competition": "Championship",
-      "pays": "Angleterre",
-      "dernierMatch": "2026-09-12T14:00:00Z",
-      "detail": [
-        {
-          "date": "2026-08-16T12:30:00Z",
-          "adversaire": "Southampton",
-          "domicile": true,
-          "butsPour": 2,
-          "butsContre": 1,
-          "score": "2-1",
-          "issue": "V"
-        },
-        {
-          "date": "2026-08-22T14:00:00Z",
-          "adversaire": "Wrexham",
-          "domicile": false,
-          "butsPour": 1,
-          "butsContre": 1,
-          "score": "1-1",
-          "issue": "N"
-        },
-        {
-          "date": "2026-08-29T14:00:00Z",
-          "adversaire": "West Ham",
-          "domicile": true,
-          "butsPour": 1,
-          "butsContre": 1,
-          "score": "1-1",
-          "issue": "N"
-        },
-        {
-          "date": "2026-09-01T18:45:00Z",
-          "adversaire": "Swansea",
-          "domicile": false,
-          "butsPour": 0,
-          "butsContre": 2,
-          "score": "0-2",
-          "issue": "D"
-        },
-        {
-          "date": "2026-09-05T14:00:00Z",
-          "adversaire": "West Brom",
-          "domicile": false,
-          "butsPour": 0,
-          "butsContre": 1,
-          "score": "0-1",
-          "issue": "D"
-        },
-        {
-          "date": "2026-09-08T18:45:00Z",
-          "adversaire": "Preston NE",
-          "domicile": true,
-          "butsPour": 2,
-          "butsContre": 1,
-          "score": "2-1",
-          "issue": "V"
-        },
-        {
-          "date": "2026-09-12T14:00:00Z",
-          "adversaire": "Stoke",
-          "domicile": true,
-          "butsPour": 1,
-          "butsContre": 2,
-          "score": "1-2",
-          "issue": "D"
-        }
-      ],
-      "serie": 7,
-      "prochainsMatchs": [
-        {
-          "date": "2026-09-18T19:00:00Z",
-          "competition": "Championship",
-          "domicile": "Bristol City",
-          "exterieur": "Watford"
-        },
-        {
-          "date": "2026-10-10T14:00:00Z",
-          "competition": "Championship",
-          "domicile": "Watford",
-          "exterieur": "Burnley"
-        },
-        {
-          "date": "2026-10-13T18:45:00Z",
-          "competition": "Championship",
-          "domicile": "Cardiff",
-          "exterieur": "Watford"
         }
       ]
     },
@@ -15899,7 +15994,7 @@
           "exterieur": "Birmingham"
         },
         {
-          "date": "2026-10-13T18:45:00Z",
+          "date": "2026-10-13T19:00:00Z",
           "competition": "Championship",
           "domicile": "Birmingham",
           "exterieur": "Preston NE"
@@ -16198,91 +16293,6 @@
       ]
     },
     {
-      "id": 285,
-      "nom": "Elche",
-      "blason": "https://crests.football-data.org/285.png",
-      "competition": "La Liga",
-      "pays": "Espagne",
-      "dernierMatch": "2026-09-15T19:30:00Z",
-      "detail": [
-        {
-          "date": "2026-08-17T19:00:00Z",
-          "adversaire": "Deportivo",
-          "domicile": false,
-          "butsPour": 1,
-          "butsContre": 1,
-          "score": "1-1",
-          "issue": "N"
-        },
-        {
-          "date": "2026-08-23T19:30:00Z",
-          "adversaire": "Barça",
-          "domicile": true,
-          "butsPour": 0,
-          "butsContre": 5,
-          "score": "0-5",
-          "issue": "D"
-        },
-        {
-          "date": "2026-08-28T17:00:00Z",
-          "adversaire": "Santander",
-          "domicile": false,
-          "butsPour": 2,
-          "butsContre": 3,
-          "score": "2-3",
-          "issue": "D"
-        },
-        {
-          "date": "2026-09-07T19:30:00Z",
-          "adversaire": "Real Sociedad",
-          "domicile": true,
-          "butsPour": 2,
-          "butsContre": 3,
-          "score": "2-3",
-          "issue": "D"
-        },
-        {
-          "date": "2026-09-12T16:30:00Z",
-          "adversaire": "Athletic",
-          "domicile": false,
-          "butsPour": 1,
-          "butsContre": 1,
-          "score": "1-1",
-          "issue": "N"
-        },
-        {
-          "date": "2026-09-15T19:30:00Z",
-          "adversaire": "Real Madrid",
-          "domicile": true,
-          "butsPour": 2,
-          "butsContre": 3,
-          "score": "2-3",
-          "issue": "D"
-        }
-      ],
-      "serie": 6,
-      "prochainsMatchs": [
-        {
-          "date": "2026-09-18T19:00:00Z",
-          "competition": "Primera Division",
-          "domicile": "Espanyol",
-          "exterieur": "Elche"
-        },
-        {
-          "date": "2026-10-11T12:00:00Z",
-          "competition": "Primera Division",
-          "domicile": "Elche",
-          "exterieur": "Celta"
-        },
-        {
-          "date": "2026-10-17T14:15:00Z",
-          "competition": "Primera Division",
-          "domicile": "Villarreal",
-          "exterieur": "Elche"
-        }
-      ]
-    },
-    {
       "id": 718,
       "nom": "Go Ahead",
       "blason": "https://crests.football-data.org/718.png",
@@ -16364,91 +16374,6 @@
           "competition": "Eredivisie",
           "domicile": "Zwolle",
           "exterieur": "Go Ahead"
-        }
-      ]
-    },
-    {
-      "id": 677,
-      "nom": "Groningen",
-      "blason": "https://crests.football-data.org/677.png",
-      "competition": "Eredivisie",
-      "pays": "Pays-Bas",
-      "dernierMatch": "2026-09-12T16:45:00Z",
-      "detail": [
-        {
-          "date": "2026-08-09T12:30:00Z",
-          "adversaire": "Utrecht",
-          "domicile": true,
-          "butsPour": 2,
-          "butsContre": 1,
-          "score": "2-1",
-          "issue": "V"
-        },
-        {
-          "date": "2026-08-16T10:15:00Z",
-          "adversaire": "Den Haag",
-          "domicile": false,
-          "butsPour": 4,
-          "butsContre": 1,
-          "score": "4-1",
-          "issue": "V"
-        },
-        {
-          "date": "2026-08-23T12:30:00Z",
-          "adversaire": "PSV",
-          "domicile": false,
-          "butsPour": 1,
-          "butsContre": 5,
-          "score": "1-5",
-          "issue": "D"
-        },
-        {
-          "date": "2026-08-28T18:00:00Z",
-          "adversaire": "Sittard",
-          "domicile": true,
-          "butsPour": 2,
-          "butsContre": 3,
-          "score": "2-3",
-          "issue": "D"
-        },
-        {
-          "date": "2026-09-06T10:15:00Z",
-          "adversaire": "Twente",
-          "domicile": true,
-          "butsPour": 2,
-          "butsContre": 2,
-          "score": "2-2",
-          "issue": "N"
-        },
-        {
-          "date": "2026-09-12T16:45:00Z",
-          "adversaire": "Go Ahead",
-          "domicile": false,
-          "butsPour": 1,
-          "butsContre": 1,
-          "score": "1-1",
-          "issue": "N"
-        }
-      ],
-      "serie": 6,
-      "prochainsMatchs": [
-        {
-          "date": "2026-10-11T14:45:00Z",
-          "competition": "Eredivisie",
-          "domicile": "Excelsior",
-          "exterieur": "Groningen"
-        },
-        {
-          "date": "2026-10-18T14:45:00Z",
-          "competition": "Eredivisie",
-          "domicile": "Groningen",
-          "exterieur": "Ajax"
-        },
-        {
-          "date": "2026-10-25T13:30:00Z",
-          "competition": "Eredivisie",
-          "domicile": "NEC",
-          "exterieur": "Groningen"
         }
       ]
     },
@@ -17218,6 +17143,82 @@
       ]
     },
     {
+      "id": 61,
+      "nom": "Chelsea",
+      "blason": "https://crests.football-data.org/61.png",
+      "competition": "Premier League",
+      "pays": "Angleterre",
+      "dernierMatch": "2026-09-18T19:00:00Z",
+      "detail": [
+        {
+          "date": "2026-08-24T19:00:00Z",
+          "adversaire": "Fulham",
+          "domicile": false,
+          "butsPour": 3,
+          "butsContre": 2,
+          "score": "3-2",
+          "issue": "V"
+        },
+        {
+          "date": "2026-08-30T13:00:00Z",
+          "adversaire": "Brighton Hove",
+          "domicile": true,
+          "butsPour": 4,
+          "butsContre": 3,
+          "score": "4-3",
+          "issue": "V"
+        },
+        {
+          "date": "2026-09-06T15:30:00Z",
+          "adversaire": "Arsenal",
+          "domicile": false,
+          "butsPour": 1,
+          "butsContre": 2,
+          "score": "1-2",
+          "issue": "D"
+        },
+        {
+          "date": "2026-09-12T14:00:00Z",
+          "adversaire": "Hull City",
+          "domicile": true,
+          "butsPour": 2,
+          "butsContre": 2,
+          "score": "2-2",
+          "issue": "N"
+        },
+        {
+          "date": "2026-09-18T19:00:00Z",
+          "adversaire": "Brentford",
+          "domicile": false,
+          "butsPour": 0,
+          "butsContre": 3,
+          "score": "0-3",
+          "issue": "D"
+        }
+      ],
+      "serie": 5,
+      "prochainsMatchs": [
+        {
+          "date": "2026-10-10T14:00:00Z",
+          "competition": "Premier League",
+          "domicile": "Chelsea",
+          "exterieur": "Bournemouth"
+        },
+        {
+          "date": "2026-10-17T11:30:00Z",
+          "competition": "Premier League",
+          "domicile": "Everton",
+          "exterieur": "Chelsea"
+        },
+        {
+          "date": "2026-10-24T16:30:00Z",
+          "competition": "Premier League",
+          "domicile": "Chelsea",
+          "exterieur": "Tottenham"
+        }
+      ]
+    },
+    {
       "id": 1779,
       "nom": "Corinthians",
       "blason": "https://crests.football-data.org/1779.png",
@@ -17424,6 +17425,82 @@
       ]
     },
     {
+      "id": 5911,
+      "nom": "Monza",
+      "blason": "https://crests.football-data.org/5911.png",
+      "competition": "Serie A",
+      "pays": "Italie",
+      "dernierMatch": "2026-09-18T18:45:00Z",
+      "detail": [
+        {
+          "date": "2026-08-22T16:30:00Z",
+          "adversaire": "Inter",
+          "domicile": false,
+          "butsPour": 1,
+          "butsContre": 4,
+          "score": "1-4",
+          "issue": "D"
+        },
+        {
+          "date": "2026-08-29T16:30:00Z",
+          "adversaire": "Udinese",
+          "domicile": true,
+          "butsPour": 2,
+          "butsContre": 3,
+          "score": "2-3",
+          "issue": "D"
+        },
+        {
+          "date": "2026-09-06T13:00:00Z",
+          "adversaire": "Parma",
+          "domicile": false,
+          "butsPour": 1,
+          "butsContre": 1,
+          "score": "1-1",
+          "issue": "N"
+        },
+        {
+          "date": "2026-09-13T13:00:00Z",
+          "adversaire": "Lecce",
+          "domicile": false,
+          "butsPour": 2,
+          "butsContre": 3,
+          "score": "2-3",
+          "issue": "D"
+        },
+        {
+          "date": "2026-09-18T18:45:00Z",
+          "adversaire": "Sassuolo",
+          "domicile": true,
+          "butsPour": 2,
+          "butsContre": 1,
+          "score": "2-1",
+          "issue": "V"
+        }
+      ],
+      "serie": 5,
+      "prochainsMatchs": [
+        {
+          "date": "2026-10-11T13:00:00Z",
+          "competition": "Serie A",
+          "domicile": "Lazio",
+          "exterieur": "Monza"
+        },
+        {
+          "date": "2026-10-19T16:30:00Z",
+          "competition": "Serie A",
+          "domicile": "Monza",
+          "exterieur": "Cagliari"
+        },
+        {
+          "date": "2026-10-23T18:45:00Z",
+          "competition": "Serie A",
+          "domicile": "Torino",
+          "exterieur": "Monza"
+        }
+      ]
+    },
+    {
       "id": 1768,
       "nom": "Paranaense",
       "blason": "https://crests.football-data.org/1768.png",
@@ -17541,6 +17618,158 @@
           "competition": "Campeonato Brasileiro Série A",
           "domicile": "Chapecoense",
           "exterieur": "Paranaense"
+        }
+      ]
+    },
+    {
+      "id": 546,
+      "nom": "RC Lens",
+      "blason": "https://crests.football-data.org/546.png",
+      "competition": "Ligue 1",
+      "pays": "France",
+      "dernierMatch": "2026-09-18T18:45:00Z",
+      "detail": [
+        {
+          "date": "2026-08-22T15:15:00Z",
+          "adversaire": "Auxerre",
+          "domicile": true,
+          "butsPour": 5,
+          "butsContre": 2,
+          "score": "5-2",
+          "issue": "V"
+        },
+        {
+          "date": "2026-08-29T15:15:00Z",
+          "adversaire": "Strasbourg",
+          "domicile": false,
+          "butsPour": 1,
+          "butsContre": 2,
+          "score": "1-2",
+          "issue": "D"
+        },
+        {
+          "date": "2026-09-05T15:15:00Z",
+          "adversaire": "Lorient",
+          "domicile": true,
+          "butsPour": 0,
+          "butsContre": 1,
+          "score": "0-1",
+          "issue": "D"
+        },
+        {
+          "date": "2026-09-13T15:15:00Z",
+          "adversaire": "Le Mans",
+          "domicile": false,
+          "butsPour": 2,
+          "butsContre": 2,
+          "score": "2-2",
+          "issue": "N"
+        },
+        {
+          "date": "2026-09-18T18:45:00Z",
+          "adversaire": "Monaco",
+          "domicile": false,
+          "butsPour": 1,
+          "butsContre": 2,
+          "score": "1-2",
+          "issue": "D"
+        }
+      ],
+      "serie": 5,
+      "prochainsMatchs": [
+        {
+          "date": "2026-10-09T18:45:00Z",
+          "competition": "Ligue 1",
+          "domicile": "RC Lens",
+          "exterieur": "Olympique Lyon"
+        },
+        {
+          "date": "2026-10-13T16:45:00Z",
+          "competition": "UEFA Champions League",
+          "domicile": "RC Lens",
+          "exterieur": "Sporting CP"
+        },
+        {
+          "date": "2026-10-17T18:45:00Z",
+          "competition": "Ligue 1",
+          "domicile": "Troyes",
+          "exterieur": "RC Lens"
+        }
+      ]
+    },
+    {
+      "id": 471,
+      "nom": "Sassuolo",
+      "blason": "https://crests.football-data.org/471.png",
+      "competition": "Serie A",
+      "pays": "Italie",
+      "dernierMatch": "2026-09-18T18:45:00Z",
+      "detail": [
+        {
+          "date": "2026-08-23T18:45:00Z",
+          "adversaire": "Atalanta",
+          "domicile": false,
+          "butsPour": 1,
+          "butsContre": 2,
+          "score": "1-2",
+          "issue": "D"
+        },
+        {
+          "date": "2026-08-29T16:30:00Z",
+          "adversaire": "Torino",
+          "domicile": true,
+          "butsPour": 2,
+          "butsContre": 1,
+          "score": "2-1",
+          "issue": "V"
+        },
+        {
+          "date": "2026-09-06T16:00:00Z",
+          "adversaire": "Bologna",
+          "domicile": false,
+          "butsPour": 2,
+          "butsContre": 2,
+          "score": "2-2",
+          "issue": "N"
+        },
+        {
+          "date": "2026-09-13T18:45:00Z",
+          "adversaire": "Juventus",
+          "domicile": true,
+          "butsPour": 3,
+          "butsContre": 2,
+          "score": "3-2",
+          "issue": "V"
+        },
+        {
+          "date": "2026-09-18T18:45:00Z",
+          "adversaire": "Monza",
+          "domicile": false,
+          "butsPour": 1,
+          "butsContre": 2,
+          "score": "1-2",
+          "issue": "D"
+        }
+      ],
+      "serie": 5,
+      "prochainsMatchs": [
+        {
+          "date": "2026-10-11T16:00:00Z",
+          "competition": "Serie A",
+          "domicile": "Sassuolo",
+          "exterieur": "Milan"
+        },
+        {
+          "date": "2026-10-16T18:45:00Z",
+          "competition": "Serie A",
+          "domicile": "Frosinone",
+          "exterieur": "Sassuolo"
+        },
+        {
+          "date": "2026-10-24T13:00:00Z",
+          "competition": "Serie A",
+          "domicile": "Como 1907",
+          "exterieur": "Sassuolo"
         }
       ]
     },
@@ -18042,73 +18271,6 @@
           "competition": "Primeira Liga",
           "domicile": "CD Nacional",
           "exterieur": "Braga"
-        }
-      ]
-    },
-    {
-      "id": 61,
-      "nom": "Chelsea",
-      "blason": "https://crests.football-data.org/61.png",
-      "competition": "Premier League",
-      "pays": "Angleterre",
-      "dernierMatch": "2026-09-12T14:00:00Z",
-      "detail": [
-        {
-          "date": "2026-08-24T19:00:00Z",
-          "adversaire": "Fulham",
-          "domicile": false,
-          "butsPour": 3,
-          "butsContre": 2,
-          "score": "3-2",
-          "issue": "V"
-        },
-        {
-          "date": "2026-08-30T13:00:00Z",
-          "adversaire": "Brighton Hove",
-          "domicile": true,
-          "butsPour": 4,
-          "butsContre": 3,
-          "score": "4-3",
-          "issue": "V"
-        },
-        {
-          "date": "2026-09-06T15:30:00Z",
-          "adversaire": "Arsenal",
-          "domicile": false,
-          "butsPour": 1,
-          "butsContre": 2,
-          "score": "1-2",
-          "issue": "D"
-        },
-        {
-          "date": "2026-09-12T14:00:00Z",
-          "adversaire": "Hull City",
-          "domicile": true,
-          "butsPour": 2,
-          "butsContre": 2,
-          "score": "2-2",
-          "issue": "N"
-        }
-      ],
-      "serie": 4,
-      "prochainsMatchs": [
-        {
-          "date": "2026-09-18T19:00:00Z",
-          "competition": "Premier League",
-          "domicile": "Brentford",
-          "exterieur": "Chelsea"
-        },
-        {
-          "date": "2026-10-10T14:00:00Z",
-          "competition": "Premier League",
-          "domicile": "Chelsea",
-          "exterieur": "Bournemouth"
-        },
-        {
-          "date": "2026-10-17T11:30:00Z",
-          "competition": "Premier League",
-          "domicile": "Everton",
-          "exterieur": "Chelsea"
         }
       ]
     },
@@ -18734,73 +18896,6 @@
       ]
     },
     {
-      "id": 5911,
-      "nom": "Monza",
-      "blason": "https://crests.football-data.org/5911.png",
-      "competition": "Serie A",
-      "pays": "Italie",
-      "dernierMatch": "2026-09-13T13:00:00Z",
-      "detail": [
-        {
-          "date": "2026-08-22T16:30:00Z",
-          "adversaire": "Inter",
-          "domicile": false,
-          "butsPour": 1,
-          "butsContre": 4,
-          "score": "1-4",
-          "issue": "D"
-        },
-        {
-          "date": "2026-08-29T16:30:00Z",
-          "adversaire": "Udinese",
-          "domicile": true,
-          "butsPour": 2,
-          "butsContre": 3,
-          "score": "2-3",
-          "issue": "D"
-        },
-        {
-          "date": "2026-09-06T13:00:00Z",
-          "adversaire": "Parma",
-          "domicile": false,
-          "butsPour": 1,
-          "butsContre": 1,
-          "score": "1-1",
-          "issue": "N"
-        },
-        {
-          "date": "2026-09-13T13:00:00Z",
-          "adversaire": "Lecce",
-          "domicile": false,
-          "butsPour": 2,
-          "butsContre": 3,
-          "score": "2-3",
-          "issue": "D"
-        }
-      ],
-      "serie": 4,
-      "prochainsMatchs": [
-        {
-          "date": "2026-09-18T18:45:00Z",
-          "competition": "Serie A",
-          "domicile": "Monza",
-          "exterieur": "Sassuolo"
-        },
-        {
-          "date": "2026-10-11T13:00:00Z",
-          "competition": "Serie A",
-          "domicile": "Lazio",
-          "exterieur": "Monza"
-        },
-        {
-          "date": "2026-10-19T16:30:00Z",
-          "competition": "Serie A",
-          "domicile": "Monza",
-          "exterieur": "Cagliari"
-        }
-      ]
-    },
-    {
       "id": 112,
       "nom": "Parma",
       "blason": "https://crests.football-data.org/112.png",
@@ -18864,140 +18959,6 @@
           "competition": "Serie A",
           "domicile": "Parma",
           "exterieur": "Torino"
-        }
-      ]
-    },
-    {
-      "id": 546,
-      "nom": "RC Lens",
-      "blason": "https://crests.football-data.org/546.png",
-      "competition": "Ligue 1",
-      "pays": "France",
-      "dernierMatch": "2026-09-13T15:15:00Z",
-      "detail": [
-        {
-          "date": "2026-08-22T15:15:00Z",
-          "adversaire": "Auxerre",
-          "domicile": true,
-          "butsPour": 5,
-          "butsContre": 2,
-          "score": "5-2",
-          "issue": "V"
-        },
-        {
-          "date": "2026-08-29T15:15:00Z",
-          "adversaire": "Strasbourg",
-          "domicile": false,
-          "butsPour": 1,
-          "butsContre": 2,
-          "score": "1-2",
-          "issue": "D"
-        },
-        {
-          "date": "2026-09-05T15:15:00Z",
-          "adversaire": "Lorient",
-          "domicile": true,
-          "butsPour": 0,
-          "butsContre": 1,
-          "score": "0-1",
-          "issue": "D"
-        },
-        {
-          "date": "2026-09-13T15:15:00Z",
-          "adversaire": "Le Mans",
-          "domicile": false,
-          "butsPour": 2,
-          "butsContre": 2,
-          "score": "2-2",
-          "issue": "N"
-        }
-      ],
-      "serie": 4,
-      "prochainsMatchs": [
-        {
-          "date": "2026-09-18T18:45:00Z",
-          "competition": "Ligue 1",
-          "domicile": "Monaco",
-          "exterieur": "RC Lens"
-        },
-        {
-          "date": "2026-10-09T18:45:00Z",
-          "competition": "Ligue 1",
-          "domicile": "RC Lens",
-          "exterieur": "Olympique Lyon"
-        },
-        {
-          "date": "2026-10-13T16:45:00Z",
-          "competition": "UEFA Champions League",
-          "domicile": "RC Lens",
-          "exterieur": "Sporting CP"
-        }
-      ]
-    },
-    {
-      "id": 471,
-      "nom": "Sassuolo",
-      "blason": "https://crests.football-data.org/471.png",
-      "competition": "Serie A",
-      "pays": "Italie",
-      "dernierMatch": "2026-09-13T18:45:00Z",
-      "detail": [
-        {
-          "date": "2026-08-23T18:45:00Z",
-          "adversaire": "Atalanta",
-          "domicile": false,
-          "butsPour": 1,
-          "butsContre": 2,
-          "score": "1-2",
-          "issue": "D"
-        },
-        {
-          "date": "2026-08-29T16:30:00Z",
-          "adversaire": "Torino",
-          "domicile": true,
-          "butsPour": 2,
-          "butsContre": 1,
-          "score": "2-1",
-          "issue": "V"
-        },
-        {
-          "date": "2026-09-06T16:00:00Z",
-          "adversaire": "Bologna",
-          "domicile": false,
-          "butsPour": 2,
-          "butsContre": 2,
-          "score": "2-2",
-          "issue": "N"
-        },
-        {
-          "date": "2026-09-13T18:45:00Z",
-          "adversaire": "Juventus",
-          "domicile": true,
-          "butsPour": 3,
-          "butsContre": 2,
-          "score": "3-2",
-          "issue": "V"
-        }
-      ],
-      "serie": 4,
-      "prochainsMatchs": [
-        {
-          "date": "2026-09-18T18:45:00Z",
-          "competition": "Serie A",
-          "domicile": "Monza",
-          "exterieur": "Sassuolo"
-        },
-        {
-          "date": "2026-10-11T16:00:00Z",
-          "competition": "Serie A",
-          "domicile": "Sassuolo",
-          "exterieur": "Milan"
-        },
-        {
-          "date": "2026-10-16T18:45:00Z",
-          "competition": "Serie A",
-          "domicile": "Frosinone",
-          "exterieur": "Sassuolo"
         }
       ]
     },
@@ -19270,6 +19231,73 @@
       ]
     },
     {
+      "id": 28,
+      "nom": "Union Berlin",
+      "blason": "https://crests.football-data.org/28.png",
+      "competition": "Bundesliga",
+      "pays": "Allemagne",
+      "dernierMatch": "2026-09-18T18:30:00Z",
+      "detail": [
+        {
+          "date": "2026-08-29T13:30:00Z",
+          "adversaire": "Frankfurt",
+          "domicile": true,
+          "butsPour": 3,
+          "butsContre": 3,
+          "score": "3-3",
+          "issue": "N"
+        },
+        {
+          "date": "2026-09-05T13:30:00Z",
+          "adversaire": "Leverkusen",
+          "domicile": false,
+          "butsPour": 0,
+          "butsContre": 4,
+          "score": "0-4",
+          "issue": "D"
+        },
+        {
+          "date": "2026-09-11T18:30:00Z",
+          "adversaire": "Schalke",
+          "domicile": true,
+          "butsPour": 1,
+          "butsContre": 3,
+          "score": "1-3",
+          "issue": "D"
+        },
+        {
+          "date": "2026-09-18T18:30:00Z",
+          "adversaire": "Bayern",
+          "domicile": false,
+          "butsPour": 0,
+          "butsContre": 7,
+          "score": "0-7",
+          "issue": "D"
+        }
+      ],
+      "serie": 4,
+      "prochainsMatchs": [
+        {
+          "date": "2026-10-10T13:30:00Z",
+          "competition": "Bundesliga",
+          "domicile": "Union Berlin",
+          "exterieur": "Elversberg"
+        },
+        {
+          "date": "2026-10-17T13:30:00Z",
+          "competition": "Bundesliga",
+          "domicile": "Union Berlin",
+          "exterieur": "Dortmund"
+        },
+        {
+          "date": "2026-10-24T13:30:00Z",
+          "competition": "Bundesliga",
+          "domicile": "Augsburg",
+          "exterieur": "Union Berlin"
+        }
+      ]
+    },
+    {
       "id": 454,
       "nom": "Venezia FC",
       "blason": "https://crests.football-data.org/454.png",
@@ -19333,6 +19361,100 @@
           "competition": "Serie A",
           "domicile": "Venezia FC",
           "exterieur": "Napoli"
+        }
+      ]
+    },
+    {
+      "id": 684,
+      "nom": "Zwolle",
+      "blason": "https://crests.football-data.org/684.png",
+      "competition": "Eredivisie",
+      "pays": "Pays-Bas",
+      "dernierMatch": "2026-09-18T18:00:00Z",
+      "detail": [
+        {
+          "date": "2026-08-09T12:30:00Z",
+          "adversaire": "Ajax",
+          "domicile": true,
+          "butsPour": 0,
+          "butsContre": 2,
+          "score": "0-2",
+          "issue": "D"
+        },
+        {
+          "date": "2026-08-16T12:30:00Z",
+          "adversaire": "Twente",
+          "domicile": false,
+          "butsPour": 1,
+          "butsContre": 3,
+          "score": "1-3",
+          "issue": "D"
+        },
+        {
+          "date": "2026-08-22T19:00:00Z",
+          "adversaire": "Heerenveen",
+          "domicile": false,
+          "butsPour": 2,
+          "butsContre": 0,
+          "score": "2-0",
+          "issue": "V"
+        },
+        {
+          "date": "2026-08-29T19:00:00Z",
+          "adversaire": "NEC",
+          "domicile": true,
+          "butsPour": 1,
+          "butsContre": 3,
+          "score": "1-3",
+          "issue": "D"
+        },
+        {
+          "date": "2026-09-04T18:00:00Z",
+          "adversaire": "Sparta",
+          "domicile": false,
+          "butsPour": 2,
+          "butsContre": 2,
+          "score": "2-2",
+          "issue": "N"
+        },
+        {
+          "date": "2026-09-13T14:45:00Z",
+          "adversaire": "Feyenoord",
+          "domicile": true,
+          "butsPour": 0,
+          "butsContre": 7,
+          "score": "0-7",
+          "issue": "D"
+        },
+        {
+          "date": "2026-09-18T18:00:00Z",
+          "adversaire": "Groningen",
+          "domicile": false,
+          "butsPour": 0,
+          "butsContre": 3,
+          "score": "0-3",
+          "issue": "D"
+        }
+      ],
+      "serie": 4,
+      "prochainsMatchs": [
+        {
+          "date": "2026-10-11T12:30:00Z",
+          "competition": "Eredivisie",
+          "domicile": "Zwolle",
+          "exterieur": "Cambuur"
+        },
+        {
+          "date": "2026-10-18T10:15:00Z",
+          "competition": "Eredivisie",
+          "domicile": "Zwolle",
+          "exterieur": "Go Ahead"
+        },
+        {
+          "date": "2026-10-24T14:30:00Z",
+          "competition": "Eredivisie",
+          "domicile": "Utrecht",
+          "exterieur": "Zwolle"
         }
       ]
     },
@@ -20040,73 +20162,6 @@
           "competition": "Bundesliga",
           "domicile": "Bremen",
           "exterieur": "SC Paderborn"
-        }
-      ]
-    },
-    {
-      "id": 402,
-      "nom": "Brentford",
-      "blason": "https://crests.football-data.org/402.png",
-      "competition": "Premier League",
-      "pays": "Angleterre",
-      "dernierMatch": "2026-09-12T14:00:00Z",
-      "detail": [
-        {
-          "date": "2026-08-22T16:30:00Z",
-          "adversaire": "Tottenham",
-          "domicile": true,
-          "butsPour": 3,
-          "butsContre": 0,
-          "score": "3-0",
-          "issue": "V"
-        },
-        {
-          "date": "2026-08-30T13:00:00Z",
-          "adversaire": "Leeds United",
-          "domicile": false,
-          "butsPour": 1,
-          "butsContre": 1,
-          "score": "1-1",
-          "issue": "N"
-        },
-        {
-          "date": "2026-09-05T14:00:00Z",
-          "adversaire": "Sunderland",
-          "domicile": true,
-          "butsPour": 1,
-          "butsContre": 1,
-          "score": "1-1",
-          "issue": "N"
-        },
-        {
-          "date": "2026-09-12T14:00:00Z",
-          "adversaire": "Bournemouth",
-          "domicile": false,
-          "butsPour": 2,
-          "butsContre": 2,
-          "score": "2-2",
-          "issue": "N"
-        }
-      ],
-      "serie": 3,
-      "prochainsMatchs": [
-        {
-          "date": "2026-09-18T19:00:00Z",
-          "competition": "Premier League",
-          "domicile": "Brentford",
-          "exterieur": "Chelsea"
-        },
-        {
-          "date": "2026-10-10T14:00:00Z",
-          "competition": "Premier League",
-          "domicile": "Aston Villa",
-          "exterieur": "Brentford"
-        },
-        {
-          "date": "2026-10-17T14:00:00Z",
-          "competition": "Premier League",
-          "domicile": "Brentford",
-          "exterieur": "Liverpool"
         }
       ]
     },
@@ -21059,6 +21114,82 @@
       ]
     },
     {
+      "id": 548,
+      "nom": "Monaco",
+      "blason": "https://crests.football-data.org/548.png",
+      "competition": "Ligue 1",
+      "pays": "France",
+      "dernierMatch": "2026-09-18T18:45:00Z",
+      "detail": [
+        {
+          "date": "2026-08-23T15:15:00Z",
+          "adversaire": "Le Havre",
+          "domicile": false,
+          "butsPour": 1,
+          "butsContre": 0,
+          "score": "1-0",
+          "issue": "V"
+        },
+        {
+          "date": "2026-08-30T18:45:00Z",
+          "adversaire": "Marseille",
+          "domicile": true,
+          "butsPour": 2,
+          "butsContre": 0,
+          "score": "2-0",
+          "issue": "V"
+        },
+        {
+          "date": "2026-09-04T19:05:00Z",
+          "adversaire": "PSG",
+          "domicile": false,
+          "butsPour": 2,
+          "butsContre": 1,
+          "score": "2-1",
+          "issue": "V"
+        },
+        {
+          "date": "2026-09-12T15:15:00Z",
+          "adversaire": "Strasbourg",
+          "domicile": false,
+          "butsPour": 1,
+          "butsContre": 1,
+          "score": "1-1",
+          "issue": "N"
+        },
+        {
+          "date": "2026-09-18T18:45:00Z",
+          "adversaire": "RC Lens",
+          "domicile": true,
+          "butsPour": 2,
+          "butsContre": 1,
+          "score": "2-1",
+          "issue": "V"
+        }
+      ],
+      "serie": 3,
+      "prochainsMatchs": [
+        {
+          "date": "2026-10-10T18:45:00Z",
+          "competition": "Ligue 1",
+          "domicile": "Monaco",
+          "exterieur": "Toulouse"
+        },
+        {
+          "date": "2026-10-18T15:15:00Z",
+          "competition": "Ligue 1",
+          "domicile": "Lorient",
+          "exterieur": "Monaco"
+        },
+        {
+          "date": "2026-10-25T14:00:00Z",
+          "competition": "Ligue 1",
+          "domicile": "Monaco",
+          "exterieur": "Lille"
+        }
+      ]
+    },
+    {
       "id": 583,
       "nom": "Moreirense",
       "blason": "https://crests.football-data.org/583.png",
@@ -21587,149 +21718,6 @@
           "competition": "Ligue 1",
           "domicile": "Troyes",
           "exterieur": "RC Lens"
-        }
-      ]
-    },
-    {
-      "id": 28,
-      "nom": "Union Berlin",
-      "blason": "https://crests.football-data.org/28.png",
-      "competition": "Bundesliga",
-      "pays": "Allemagne",
-      "dernierMatch": "2026-09-11T18:30:00Z",
-      "detail": [
-        {
-          "date": "2026-08-29T13:30:00Z",
-          "adversaire": "Frankfurt",
-          "domicile": true,
-          "butsPour": 3,
-          "butsContre": 3,
-          "score": "3-3",
-          "issue": "N"
-        },
-        {
-          "date": "2026-09-05T13:30:00Z",
-          "adversaire": "Leverkusen",
-          "domicile": false,
-          "butsPour": 0,
-          "butsContre": 4,
-          "score": "0-4",
-          "issue": "D"
-        },
-        {
-          "date": "2026-09-11T18:30:00Z",
-          "adversaire": "Schalke",
-          "domicile": true,
-          "butsPour": 1,
-          "butsContre": 3,
-          "score": "1-3",
-          "issue": "D"
-        }
-      ],
-      "serie": 3,
-      "prochainsMatchs": [
-        {
-          "date": "2026-09-18T18:30:00Z",
-          "competition": "Bundesliga",
-          "domicile": "Bayern",
-          "exterieur": "Union Berlin"
-        },
-        {
-          "date": "2026-10-10T13:30:00Z",
-          "competition": "Bundesliga",
-          "domicile": "Union Berlin",
-          "exterieur": "Elversberg"
-        },
-        {
-          "date": "2026-10-17T13:30:00Z",
-          "competition": "Bundesliga",
-          "domicile": "Union Berlin",
-          "exterieur": "Dortmund"
-        }
-      ]
-    },
-    {
-      "id": 684,
-      "nom": "Zwolle",
-      "blason": "https://crests.football-data.org/684.png",
-      "competition": "Eredivisie",
-      "pays": "Pays-Bas",
-      "dernierMatch": "2026-09-13T14:45:00Z",
-      "detail": [
-        {
-          "date": "2026-08-09T12:30:00Z",
-          "adversaire": "Ajax",
-          "domicile": true,
-          "butsPour": 0,
-          "butsContre": 2,
-          "score": "0-2",
-          "issue": "D"
-        },
-        {
-          "date": "2026-08-16T12:30:00Z",
-          "adversaire": "Twente",
-          "domicile": false,
-          "butsPour": 1,
-          "butsContre": 3,
-          "score": "1-3",
-          "issue": "D"
-        },
-        {
-          "date": "2026-08-22T19:00:00Z",
-          "adversaire": "Heerenveen",
-          "domicile": false,
-          "butsPour": 2,
-          "butsContre": 0,
-          "score": "2-0",
-          "issue": "V"
-        },
-        {
-          "date": "2026-08-29T19:00:00Z",
-          "adversaire": "NEC",
-          "domicile": true,
-          "butsPour": 1,
-          "butsContre": 3,
-          "score": "1-3",
-          "issue": "D"
-        },
-        {
-          "date": "2026-09-04T18:00:00Z",
-          "adversaire": "Sparta",
-          "domicile": false,
-          "butsPour": 2,
-          "butsContre": 2,
-          "score": "2-2",
-          "issue": "N"
-        },
-        {
-          "date": "2026-09-13T14:45:00Z",
-          "adversaire": "Feyenoord",
-          "domicile": true,
-          "butsPour": 0,
-          "butsContre": 7,
-          "score": "0-7",
-          "issue": "D"
-        }
-      ],
-      "serie": 3,
-      "prochainsMatchs": [
-        {
-          "date": "2026-10-11T12:30:00Z",
-          "competition": "Eredivisie",
-          "domicile": "Zwolle",
-          "exterieur": "Cambuur"
-        },
-        {
-          "date": "2026-10-18T10:15:00Z",
-          "competition": "Eredivisie",
-          "domicile": "Zwolle",
-          "exterieur": "Go Ahead"
-        },
-        {
-          "date": "2026-10-24T14:30:00Z",
-          "competition": "Eredivisie",
-          "domicile": "Utrecht",
-          "exterieur": "Zwolle"
         }
       ]
     }
