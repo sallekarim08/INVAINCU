@@ -16,6 +16,8 @@
     --rouge:    #a83a32;
     --jaune:    #9c7a1a;
     --orange:   #b5651d;
+    --violet:   #6a4c93;
+    --bleu:     #2b6ca3;
     --ardoise:  #8e9a91;
     --trait:    #d4d9d0;
     --papier:   #f7f8f4;
@@ -54,6 +56,42 @@
   @media (prefers-reduced-motion: reduce) {
     .bande-piste { animation: none; }
     .bande { overflow-x: auto; }
+  }
+
+  /* ---------- Navigation principale ---------- */
+
+  .onglets-principal {
+    display: flex;
+    gap: 1.4rem;
+    overflow-x: auto;
+    scrollbar-width: none;
+    background: var(--papier);
+    border-bottom: 1px solid var(--trait);
+    padding: 0 1.25rem;
+  }
+
+  .onglets-principal::-webkit-scrollbar { display: none; }
+
+  .onglet-principal {
+    flex: none;
+    font: inherit;
+    font-family: "Barlow Condensed", sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--ardoise);
+    background: none;
+    border: 0;
+    border-bottom: 3px solid transparent;
+    padding: 0.85rem 0.1rem;
+    cursor: pointer;
+    white-space: nowrap;
+  }
+
+  .onglet-principal:hover { color: var(--encre); }
+
+  .onglet-principal[aria-selected="true"] {
+    color: var(--encre);
+    border-bottom-color: var(--encre);
   }
 
   body {
@@ -192,6 +230,7 @@
   .groupe-titre.encaisse { color: var(--rouge); }
   .groupe-titre.toujours-marque { color: var(--jaune); }
   .groupe-titre.toujours-encaisse { color: var(--orange); }
+  .groupe-titre.btts { color: var(--bleu); }
 
   /* ---------- Liste ---------- */
 
@@ -325,6 +364,124 @@
 
   .rien-de-prevu { font-size: 0.88rem; color: var(--ardoise); font-style: italic; }
 
+  /* ---------- Onglet Rencontres ---------- */
+
+  .jour { margin-top: 1.7rem; }
+  .jour:first-child { margin-top: 1.4rem; }
+
+  .jour-titre {
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 600;
+    font-size: 1.1rem;
+    margin: 0 0 0.5rem;
+  }
+
+  .match-rencontre {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    align-items: center;
+    gap: 0.6rem;
+    padding: 0.85rem 0.25rem;
+    border-top: 1px solid var(--trait);
+  }
+
+  .liste-rencontres > .match-rencontre:last-child { border-bottom: 1px solid var(--trait); }
+
+  .equipes-rencontre {
+    display: flex;
+    align-items: center;
+    gap: 0.55rem;
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 600;
+    font-size: 1.05rem;
+    min-width: 0;
+  }
+
+  .equipes-rencontre .blason,
+  .equipes-rencontre .blason-vide { width: 1.7rem; height: 1.7rem; flex: none; }
+
+  .equipes-rencontre span.nom { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .equipes-rencontre .vs { color: var(--ardoise); font-weight: 400; font-size: 0.85rem; flex: none; }
+
+  .infos-rencontre {
+    text-align: right;
+    font-size: 0.85rem;
+    color: var(--ardoise);
+    white-space: nowrap;
+  }
+
+  .infos-rencontre .heure {
+    display: block;
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 600;
+    font-size: 1rem;
+    color: var(--encre);
+  }
+
+  /* ---------- Onglet Stratège ---------- */
+
+  .carte-stratege {
+    border-top: 1px solid var(--trait);
+    padding: 1rem 0.25rem;
+  }
+
+  .liste-stratege > .carte-stratege:last-child { border-bottom: 1px solid var(--trait); }
+
+  .entete-stratege {
+    display: flex;
+    align-items: center;
+    gap: 0.7rem;
+  }
+
+  .entete-stratege .blason,
+  .entete-stratege .blason-vide { width: 2.1rem; height: 2.1rem; flex: none; }
+
+  .entete-stratege .nom-equipe {
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 600;
+    font-size: 1.25rem;
+    flex: 1;
+    min-width: 0;
+  }
+
+  .probabilite-valeur {
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 600;
+    font-size: 1.8rem;
+    color: var(--violet);
+    flex: none;
+  }
+
+  .phrase-stratege {
+    margin: 0.6rem 0 0;
+    font-size: 0.92rem;
+  }
+
+  .contexte-stratege {
+    margin: 0.35rem 0 0;
+    font-size: 0.85rem;
+    color: var(--ardoise);
+  }
+
+  .badge-fiabilite {
+    display: inline-block;
+    margin-top: 0.5rem;
+    font-size: 0.78rem;
+    font-weight: 600;
+    padding: 0.18rem 0.55rem;
+    border-radius: 999px;
+  }
+
+  .badge-fiabilite.normal { background: #ddeee2; color: var(--pelouse); }
+  .badge-fiabilite.reduit { background: #f4e6cf; color: var(--jaune); }
+
+  .pas-de-match {
+    margin: 0.6rem 0 0;
+    font-size: 0.9rem;
+    color: var(--ardoise);
+    font-style: italic;
+  }
+
   /* ---------- États ---------- */
 
   .etat { padding: 3rem 0; max-width: 44ch; }
@@ -361,8 +518,11 @@
     <span>Ce site est exclusivement réalisé par Monsieur SALLE Abdoul Karim et KONATE Abdoul Razak pour le succès de leur projet Phoenix.</span>
   </div>
 </div>
-<div class="enveloppe">
+<div class="enveloppe" style="padding-top:0">
 
+  <nav class="onglets-principal" id="onglets-principal" aria-label="Section du site"></nav>
+
+  <div style="padding-top:2rem">
   <header class="entete">
     <h1 class="titre" id="titre">Analyse des équipes</h1>
     <p class="accroche" id="accroche">Chargement des résultats.</p>
@@ -375,12 +535,15 @@
   <main id="contenu"></main>
 
   <footer class="pied">
-    Cinq séries sont calculées à partir du match le plus récent de chaque équipe : invaincue et marque/encaisse
+    Six séries sont calculées à partir du match le plus récent de chaque équipe : invaincue et marque/encaisse
     beaucoup sur les 8 derniers matchs (seuil de 2 buts), marque/encaisse toujours sur les 10 derniers matchs
-    (seuil de 1 but). Une série s'arrête au premier match qui ne respecte pas la condition ; en dessous de
-    3 matchs consécutifs, l'équipe n'apparaît pas. Données <a href="https://www.football-data.org">football-data.org</a>,
-    rafraîchies toutes les six heures.
+    (seuil de 1 but), BTTS (les deux équipes marquent) sur les 8 derniers matchs. Une série s'arrête au premier
+    match qui ne respecte pas la condition ; en dessous de 3 matchs consécutifs, l'équipe n'apparaît pas.
+    Le module Stratège calcule une probabilité pour le prochain match de championnat (jamais une coupe ou une
+    compétition continentale) avec un modèle de Poisson simplifié — voir le détail affiché sous chaque équipe.
+    Données <a href="https://www.football-data.org">football-data.org</a>, rafraîchies toutes les six heures.
   </footer>
+  </div>
 
 </div>
 
@@ -389,12 +552,27 @@ const contenu           = document.getElementById("contenu");
 const titreEl           = document.getElementById("titre");
 const accroche          = document.getElementById("accroche");
 const majEl             = document.getElementById("maj");
+const ongletsPrincipal  = document.getElementById("onglets-principal");
 const ongletsChamp      = document.getElementById("onglets-championnat");
 const ongletsCategorie  = document.getElementById("onglets-categorie");
 
 let donnees = null;
+let sectionActive   = "rencontres"; // "rencontres" | "analyse" | "stratege"
 let championnatActif = ""; // "" = tous les championnats
 let categorieActive  = "invaincues";
+let sousStrategeActif = "invaincues"; // invaincues | quiMarquent | marqueToujours
+
+const SECTIONS = [
+  { cle: "rencontres", label: "Rencontres" },
+  { cle: "analyse",    label: "Analyse des équipes" },
+  { cle: "stratege",   label: "Stratège" },
+];
+
+const LABELS_STRATEGE = {
+  invaincues:   "Invaincue",
+  quiMarquent:  "Marque beaucoup",
+  marqueToujours: "Marque toujours",
+};
 
 const CATEGORIES = {
   invaincues: {
@@ -466,6 +644,20 @@ const CATEGORIES = {
     colonneDetail: "Buts encaissés",
     valeurDetail: (m) => m.butsContre,
     classeDetail: (m) => m.butsContre >= 1 ? "d" : "v",
+  },
+  btts: {
+    label: "BTTS",
+    titre: "BTTS — les deux équipes marquent",
+    accroche: (n) => n
+      ? `${pluriel(n, "équipe")} enchaîne les matchs où les deux camps marquent.`
+      : "Aucune équipe n'enchaîne actuellement 3 matchs où les deux camps marquent.",
+    titreGroupe: (n) => `avec BTTS sur ${n} matchs de suite`,
+    classeGroupe: "btts",
+    icone: (m) => (m.butsPour >= 1 && m.butsContre >= 1) ? "✓" : "✗",
+    couleurCase: (m) => (m.butsPour >= 1 && m.butsContre >= 1) ? "g" : "b",
+    colonneDetail: "BTTS",
+    valeurDetail: (m) => (m.butsPour >= 1 && m.butsContre >= 1) ? "Oui" : "Non",
+    classeDetail: (m) => (m.butsPour >= 1 && m.butsContre >= 1) ? "v" : "d",
   },
 };
 
@@ -577,8 +769,13 @@ function ligneEquipe(equipe, def, idDetail) {
   return li;
 }
 
-function afficher(liste, def) {
+function afficherAnalyse(def) {
   contenu.innerHTML = "";
+  const brute = donnees[categorieActive] ?? [];
+  const liste = championnatActif ? brute.filter((e) => e.competition === championnatActif) : brute;
+
+  titreEl.textContent = def.titre;
+  accroche.textContent = def.accroche(liste.length);
 
   if (!liste.length) {
     etat("Aucune équipe pour ce filtre", def.accroche(0));
@@ -606,15 +803,186 @@ function afficher(liste, def) {
   });
 }
 
+/* ---------- Onglet Rencontres ---------- */
+
+function libelleJour(iso) {
+  const date = new Date(iso);
+  const aujourdhui = new Date();
+  const demain = new Date(aujourdhui.getTime() + 86_400_000);
+  const meme = (a, b) => a.toDateString() === b.toDateString();
+
+  const long = date.toLocaleDateString("fr-FR", { weekday: "long", day: "numeric", month: "long" });
+  if (meme(date, aujourdhui)) return `Aujourd'hui — ${long}`;
+  if (meme(date, demain)) return `Demain — ${long}`;
+  return long.charAt(0).toUpperCase() + long.slice(1);
+}
+
+function ligneRencontre(m) {
+  const div = document.createElement("div");
+  div.className = "match-rencontre";
+  div.innerHTML = `
+    <span class="equipes-rencontre">
+      ${blasonHtml(m.domicile)}
+      <span class="nom">${m.domicile.nom}</span>
+      <span class="vs">vs</span>
+      <span class="nom">${m.exterieur.nom}</span>
+      ${blasonHtml(m.exterieur)}
+    </span>
+    <span class="infos-rencontre">
+      <span class="heure">${new Date(m.date).toLocaleTimeString("fr-FR", { hour: "2-digit", minute: "2-digit" })}</span>
+      ${m.championnat}
+    </span>`;
+  return div;
+}
+
+function afficherRencontres() {
+  contenu.innerHTML = "";
+  titreEl.textContent = "Rencontres";
+
+  const toutes = donnees.rencontresAVenir ?? [];
+  const liste = championnatActif ? toutes.filter((m) => m.championnat === championnatActif) : toutes;
+
+  accroche.textContent = liste.length
+    ? `${pluriel(liste.length, "match")} programmé${liste.length > 1 ? "s" : ""} dans les ${donnees.joursAVenir ?? 14} prochains jours.`
+    : "Aucun match programmé dans les prochains jours pour ce filtre.";
+
+  if (!liste.length) {
+    etat("Aucune rencontre pour ce filtre", "Reviens un peu plus tard, ou choisis un autre championnat.");
+    return;
+  }
+
+  // Regroupe par jour, en ne créant une section que pour les jours qui ont réellement un match.
+  const jours = [...new Set(liste.map((m) => new Date(m.date).toDateString()))];
+
+  jours.forEach((cleJour) => {
+    const matchsDuJour = liste.filter((m) => new Date(m.date).toDateString() === cleJour);
+    const section = document.createElement("section");
+    section.className = "jour";
+    section.innerHTML = `<h2 class="jour-titre">${libelleJour(matchsDuJour[0].date)}</h2>`;
+
+    const conteneur = document.createElement("div");
+    conteneur.className = "liste-rencontres";
+    matchsDuJour.forEach((m) => conteneur.append(ligneRencontre(m)));
+
+    section.append(conteneur);
+    contenu.append(section);
+  });
+}
+
+/* ---------- Onglet Stratège ---------- */
+
+function phraseStratege(cle, s) {
+  if (cle === "invaincues") return `La probabilité que ${s.nom} ne perde pas (victoire ou nul) est : <strong>${s.probabilite} %</strong>`;
+  if (cle === "quiMarquent") return `La probabilité que ${s.nom} marque deux buts ou plus est : <strong>${s.probabilite} %</strong>`;
+  return `La probabilité que ${s.nom} marque au moins un but est : <strong>${s.probabilite} %</strong>`;
+}
+
+function detailCalculStratege(cle, s) {
+  if (cle === "invaincues") {
+    return `λ ${s.nom} : ${s.lambdaEquipe} but(s) attendus · λ ${s.adversaire} : ${s.lambdaAdversaire} but(s) attendus ` +
+           `(basé sur ${s.matchsUtilisesEquipe} de ses matchs et ${s.matchsUtilisesAdversaire} de ceux de l'adversaire).`;
+  }
+  return `λ utilisé : ${s.lambda} but(s) attendus, basé sur ${s.matchsUtilisesEquipe} de ses matchs et ` +
+         `${s.matchsUtilisesAdversaire} de ceux de l'adversaire.`;
+}
+
+function carteStratege(cle, s) {
+  const div = document.createElement("div");
+  div.className = "carte-stratege";
+
+  const entete = document.createElement("div");
+  entete.className = "entete-stratege";
+  entete.innerHTML = `
+    ${blasonHtml({ blason: s.blason, nom: s.nom })}
+    <span class="nom-equipe"></span>
+    ${s.statut === "ok" ? `<span class="probabilite-valeur">${s.probabilite} %</span>` : ""}`;
+  entete.querySelector(".nom-equipe").textContent = s.nom;
+  div.append(entete);
+
+  if (s.statut === "aucun_prochain_match") {
+    div.insertAdjacentHTML("beforeend", `<p class="pas-de-match">Aucun prochain match de championnat programmé.</p>`);
+    return div;
+  }
+
+  const contexte = document.createElement("p");
+  contexte.className = "contexte-stratege";
+  contexte.textContent = `${s.domicile ? "Reçoit" : "Se déplace à"} ${s.adversaire} · ${s.competition} · ` +
+    `${new Date(s.date).toLocaleDateString("fr-FR", { day: "numeric", month: "short" })} à ` +
+    `${new Date(s.date).toLocaleTimeString("fr-FR", { hour: "2-digit", minute: "2-digit" })}`;
+  div.append(contexte);
+
+  const phrase = document.createElement("p");
+  phrase.className = "phrase-stratege";
+  phrase.innerHTML = phraseStratege(cle, s);
+  div.append(phrase);
+
+  const details = document.createElement("p");
+  details.className = "contexte-stratege";
+  details.textContent = detailCalculStratege(cle, s);
+  div.append(details);
+
+  if (s.fiabilite === "Échantillon réduit") {
+    div.insertAdjacentHTML("beforeend", `<span class="badge-fiabilite reduit">Échantillon réduit</span>`);
+  } else {
+    div.insertAdjacentHTML("beforeend", `<span class="badge-fiabilite normal">Calcul normal</span>`);
+  }
+
+  return div;
+}
+
+function afficherStratege() {
+  contenu.innerHTML = "";
+  titreEl.textContent = `Stratège — ${LABELS_STRATEGE[sousStrategeActif]}`;
+
+  // « Données insuffisantes » : l'équipe est exclue de l'affichage, comme demandé.
+  const toutes = (donnees.stratege?.[sousStrategeActif] ?? []).filter((s) => s.statut !== "donnees_insuffisantes");
+  const liste = championnatActif ? toutes.filter((s) => s.competition === championnatActif) : toutes;
+
+  accroche.textContent = liste.length
+    ? `Probabilités calculées pour ${pluriel(liste.length, "équipe")} avant leur prochain match de championnat.`
+    : "Aucune équipe avec un prochain match de championnat exploitable pour ce filtre.";
+
+  if (!liste.length) {
+    etat("Aucune équipe pour ce filtre", "Change de championnat ou reviens plus tard, une fois d'autres matchs joués.");
+    return;
+  }
+
+  const conteneur = document.createElement("div");
+  conteneur.className = "liste-stratege";
+  liste.forEach((s) => conteneur.append(carteStratege(sousStrategeActif, s)));
+  contenu.append(conteneur);
+}
+
+/* ---------- Répartition selon la section active ---------- */
+
 function rafraichirAffichage() {
-  const def = CATEGORIES[categorieActive];
-  const brute = donnees[categorieActive] ?? [];
-  const liste = championnatActif ? brute.filter((e) => e.competition === championnatActif) : brute;
+  if (sectionActive === "rencontres") { afficherRencontres(); return; }
+  if (sectionActive === "stratege")   { afficherStratege();   return; }
+  afficherAnalyse(CATEGORIES[categorieActive]);
+}
 
-  titreEl.textContent = def.titre;
-  accroche.textContent = def.accroche(liste.length);
+function championnatsDisponibles() {
+  if (sectionActive === "rencontres") {
+    return [...new Set((donnees.rencontresAVenir ?? []).map((m) => m.championnat))].sort();
+  }
+  if (sectionActive === "stratege") {
+    const tous = Object.values(donnees.stratege ?? {}).flat();
+    return [...new Set(tous.map((s) => s.competition))].sort();
+  }
+  return [...(donnees.competitionsAnalysees ?? [])].sort();
+}
 
-  afficher(liste, def);
+function choisirSection(cle) {
+  sectionActive = cle;
+  championnatActif = "";
+  [...ongletsPrincipal.children].forEach((b) => b.setAttribute("aria-selected", String(b.dataset.cle === cle)));
+
+  ongletsCategorie.hidden = cle !== "analyse" && cle !== "stratege";
+  if (cle === "analyse") construireOngletsCategorie();
+  if (cle === "stratege") construireOngletsSousStratege();
+
+  construireOngletsChampionnat(championnatsDisponibles());
+  rafraichirAffichage();
 }
 
 function choisirChampionnat(nom) {
@@ -629,8 +997,31 @@ function choisirCategorie(cle) {
   rafraichirAffichage();
 }
 
+function choisirSousStratege(cle) {
+  sousStrategeActif = cle;
+  [...ongletsCategorie.children].forEach((b) => b.setAttribute("aria-selected", String(b.dataset.cle === cle)));
+  rafraichirAffichage();
+}
+
+function construireOngletsPrincipal() {
+  ongletsPrincipal.innerHTML = "";
+  SECTIONS.forEach(({ cle, label }) => {
+    const b = document.createElement("button");
+    b.type = "button";
+    b.className = "onglet-principal";
+    b.textContent = label;
+    b.dataset.cle = cle;
+    b.setAttribute("role", "tab");
+    b.setAttribute("aria-selected", String(cle === sectionActive));
+    b.addEventListener("click", () => choisirSection(cle));
+    ongletsPrincipal.append(b);
+  });
+}
+
 function construireOngletsChampionnat(championnats) {
   ongletsChamp.innerHTML = "";
+
+  if (!championnats.length) { ongletsChamp.hidden = true; return; }
 
   const creer = (nom, libelle) => {
     const b = document.createElement("button");
@@ -667,6 +1058,24 @@ function construireOngletsCategorie() {
   ongletsCategorie.hidden = false;
 }
 
+function construireOngletsSousStratege() {
+  ongletsCategorie.innerHTML = "";
+
+  Object.entries(LABELS_STRATEGE).forEach(([cle, label]) => {
+    const b = document.createElement("button");
+    b.type = "button";
+    b.className = "onglet-categorie";
+    b.textContent = label;
+    b.dataset.cle = cle;
+    b.setAttribute("role", "tab");
+    b.setAttribute("aria-selected", String(cle === sousStrategeActif));
+    b.addEventListener("click", () => choisirSousStratege(cle));
+    ongletsCategorie.append(b);
+  });
+
+  ongletsCategorie.hidden = false;
+}
+
 async function demarrer() {
   try {
     const reponse = await fetch("data/invaincus.json", { cache: "no-store" });
@@ -683,10 +1092,8 @@ async function demarrer() {
 
   majEl.textContent = `Mis à jour ${depuis(donnees.genereLe)} · ${donnees.competitionsAnalysees.length} championnats analysés`;
 
-  const championnats = [...(donnees.competitionsAnalysees ?? [])].sort();
-  if (championnats.length > 0) construireOngletsChampionnat(championnats);
-  construireOngletsCategorie();
-
+  construireOngletsPrincipal();
+  construireOngletsChampionnat(championnatsDisponibles());
   rafraichirAffichage();
 }
 
