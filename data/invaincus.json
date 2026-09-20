@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-09-20T06:20:05.384Z",
+  "genereLe": "2026-09-20T12:19:24.519Z",
   "serieMin": 3,
   "fenetres": {
     "invaincues": 8,
@@ -23,54 +23,6 @@
   ],
   "competitionsEnEchec": [],
   "rencontresAVenir": [
-    {
-      "date": "2026-09-20T10:15:00Z",
-      "championnat": "Eredivisie",
-      "domicile": {
-        "nom": "Feyenoord",
-        "blason": "https://crests.football-data.org/675.png"
-      },
-      "exterieur": {
-        "nom": "Utrecht",
-        "blason": "https://crests.football-data.org/676.png"
-      }
-    },
-    {
-      "date": "2026-09-20T10:30:00Z",
-      "championnat": "Serie A",
-      "domicile": {
-        "nom": "Fiorentina",
-        "blason": "https://crests.football-data.org/99.png"
-      },
-      "exterieur": {
-        "nom": "Napoli",
-        "blason": "https://crests.football-data.org/113.png"
-      }
-    },
-    {
-      "date": "2026-09-20T11:00:00Z",
-      "championnat": "Championship",
-      "domicile": {
-        "nom": "Wolverhampton",
-        "blason": "https://crests.football-data.org/76.png"
-      },
-      "exterieur": {
-        "nom": "West Brom",
-        "blason": "https://crests.football-data.org/74.png"
-      }
-    },
-    {
-      "date": "2026-09-20T12:00:00Z",
-      "championnat": "La Liga",
-      "domicile": {
-        "nom": "Getafe",
-        "blason": "https://crests.football-data.org/82.png"
-      },
-      "exterieur": {
-        "nom": "Málaga",
-        "blason": "https://crests.football-data.org/84.png"
-      }
-    },
     {
       "date": "2026-09-20T12:30:00Z",
       "championnat": "Eredivisie",
@@ -563,22 +515,6 @@
         "probabilite": 81.3
       },
       {
-        "id": 675,
-        "nom": "Feyenoord",
-        "blason": "https://crests.football-data.org/675.png",
-        "competition": "Eredivisie",
-        "statut": "ok",
-        "adversaire": "Utrecht",
-        "domicile": true,
-        "date": "2026-09-20T10:15:00Z",
-        "fiabilite": "Échantillon réduit",
-        "matchsUtilisesEquipe": 6,
-        "matchsUtilisesAdversaire": 6,
-        "lambdaEquipe": 3.25,
-        "lambdaAdversaire": 1.5,
-        "probabilite": 80.9
-      },
-      {
         "id": 1769,
         "nom": "Palmeiras",
         "blason": "https://crests.football-data.org/1769.png",
@@ -753,22 +689,6 @@
         "lambdaEquipe": 1.25,
         "lambdaAdversaire": 1.25,
         "probabilite": 63.5
-      },
-      {
-        "id": 74,
-        "nom": "West Brom",
-        "blason": "https://crests.football-data.org/74.png",
-        "competition": "Championship",
-        "statut": "ok",
-        "adversaire": "Wolverhampton",
-        "domicile": false,
-        "date": "2026-09-20T11:00:00Z",
-        "fiabilite": "Échantillon réduit",
-        "matchsUtilisesEquipe": 7,
-        "matchsUtilisesAdversaire": 6,
-        "lambdaEquipe": 1.55,
-        "lambdaAdversaire": 1.67,
-        "probabilite": 59
       },
       {
         "id": 470,
@@ -968,6 +888,13 @@
         "statut": "aucun_prochain_match"
       },
       {
+        "id": 675,
+        "nom": "Feyenoord",
+        "blason": "https://crests.football-data.org/675.png",
+        "competition": "Eredivisie",
+        "statut": "aucun_prochain_match"
+      },
+      {
         "id": 677,
         "nom": "Groningen",
         "blason": "https://crests.football-data.org/677.png",
@@ -993,6 +920,13 @@
         "nom": "Sporting CP",
         "blason": "https://crests.football-data.org/498.png",
         "competition": "Primeira Liga",
+        "statut": "aucun_prochain_match"
+      },
+      {
+        "id": 74,
+        "nom": "West Brom",
+        "blason": "https://crests.football-data.org/74.png",
+        "competition": "Championship",
         "statut": "aucun_prochain_match"
       },
       {
@@ -1039,21 +973,6 @@
       }
     ],
     "quiMarquent": [
-      {
-        "id": 675,
-        "nom": "Feyenoord",
-        "blason": "https://crests.football-data.org/675.png",
-        "competition": "Eredivisie",
-        "statut": "ok",
-        "adversaire": "Utrecht",
-        "domicile": true,
-        "date": "2026-09-20T10:15:00Z",
-        "fiabilite": "Échantillon réduit",
-        "matchsUtilisesEquipe": 6,
-        "matchsUtilisesAdversaire": 6,
-        "lambda": 3.25,
-        "probabilite": 83.5
-      },
       {
         "id": 674,
         "nom": "PSV",
@@ -1240,6 +1159,13 @@
         "statut": "aucun_prochain_match"
       },
       {
+        "id": 675,
+        "nom": "Feyenoord",
+        "blason": "https://crests.football-data.org/675.png",
+        "competition": "Eredivisie",
+        "statut": "aucun_prochain_match"
+      },
+      {
         "id": 678,
         "nom": "Ajax",
         "blason": "https://crests.football-data.org/678.png",
@@ -1269,21 +1195,6 @@
       }
     ],
     "marqueToujours": [
-      {
-        "id": 675,
-        "nom": "Feyenoord",
-        "blason": "https://crests.football-data.org/675.png",
-        "competition": "Eredivisie",
-        "statut": "ok",
-        "adversaire": "Utrecht",
-        "domicile": true,
-        "date": "2026-09-20T10:15:00Z",
-        "fiabilite": "Échantillon réduit",
-        "matchsUtilisesEquipe": 6,
-        "matchsUtilisesAdversaire": 6,
-        "lambda": 3.25,
-        "probabilite": 96.1
-      },
       {
         "id": 721,
         "nom": "RB Leipzig",
@@ -1358,21 +1269,6 @@
         "matchsUtilisesAdversaire": 6,
         "lambda": 2.25,
         "probabilite": 89.5
-      },
-      {
-        "id": 113,
-        "nom": "Napoli",
-        "blason": "https://crests.football-data.org/113.png",
-        "competition": "Serie A",
-        "statut": "ok",
-        "adversaire": "Fiorentina",
-        "domicile": false,
-        "date": "2026-09-20T10:30:00Z",
-        "fiabilite": "Échantillon réduit",
-        "matchsUtilisesEquipe": 4,
-        "matchsUtilisesAdversaire": 4,
-        "lambda": 2.13,
-        "probabilite": 88.1
       },
       {
         "id": 719,
@@ -1495,21 +1391,6 @@
         "probabilite": 81.1
       },
       {
-        "id": 76,
-        "nom": "Wolverhampton",
-        "blason": "https://crests.football-data.org/76.png",
-        "competition": "Championship",
-        "statut": "ok",
-        "adversaire": "West Brom",
-        "domicile": true,
-        "date": "2026-09-20T11:00:00Z",
-        "fiabilite": "Échantillon réduit",
-        "matchsUtilisesEquipe": 6,
-        "matchsUtilisesAdversaire": 7,
-        "lambda": 1.67,
-        "probabilite": 81.1
-      },
-      {
         "id": 1783,
         "nom": "Flamengo",
         "blason": "https://crests.football-data.org/1783.png",
@@ -1585,21 +1466,6 @@
         "probabilite": 79.5
       },
       {
-        "id": 74,
-        "nom": "West Brom",
-        "blason": "https://crests.football-data.org/74.png",
-        "competition": "Championship",
-        "statut": "ok",
-        "adversaire": "Wolverhampton",
-        "domicile": false,
-        "date": "2026-09-20T11:00:00Z",
-        "fiabilite": "Échantillon réduit",
-        "matchsUtilisesEquipe": 7,
-        "matchsUtilisesAdversaire": 6,
-        "lambda": 1.55,
-        "probabilite": 78.7
-      },
-      {
         "id": 521,
         "nom": "Lille",
         "blason": "https://crests.football-data.org/521.png",
@@ -1626,21 +1492,6 @@
         "fiabilite": "Échantillon réduit",
         "matchsUtilisesEquipe": 4,
         "matchsUtilisesAdversaire": 4,
-        "lambda": 1.5,
-        "probabilite": 77.7
-      },
-      {
-        "id": 676,
-        "nom": "Utrecht",
-        "blason": "https://crests.football-data.org/676.png",
-        "competition": "Eredivisie",
-        "statut": "ok",
-        "adversaire": "Feyenoord",
-        "domicile": false,
-        "date": "2026-09-20T10:15:00Z",
-        "fiabilite": "Échantillon réduit",
-        "matchsUtilisesEquipe": 6,
-        "matchsUtilisesAdversaire": 6,
         "lambda": 1.5,
         "probabilite": 77.7
       },
@@ -1962,6 +1813,13 @@
         "statut": "aucun_prochain_match"
       },
       {
+        "id": 113,
+        "nom": "Napoli",
+        "blason": "https://crests.football-data.org/113.png",
+        "competition": "Serie A",
+        "statut": "aucun_prochain_match"
+      },
+      {
         "id": 104,
         "nom": "Cagliari",
         "blason": "https://crests.football-data.org/104.png",
@@ -2088,6 +1946,13 @@
         "statut": "aucun_prochain_match"
       },
       {
+        "id": 675,
+        "nom": "Feyenoord",
+        "blason": "https://crests.football-data.org/675.png",
+        "competition": "Eredivisie",
+        "statut": "aucun_prochain_match"
+      },
+      {
         "id": 677,
         "nom": "Groningen",
         "blason": "https://crests.football-data.org/677.png",
@@ -2123,9 +1988,23 @@
         "statut": "aucun_prochain_match"
       },
       {
+        "id": 76,
+        "nom": "Wolverhampton",
+        "blason": "https://crests.football-data.org/76.png",
+        "competition": "Championship",
+        "statut": "aucun_prochain_match"
+      },
+      {
         "id": 59,
         "nom": "Blackburn",
         "blason": "https://crests.football-data.org/59.png",
+        "competition": "Championship",
+        "statut": "aucun_prochain_match"
+      },
+      {
+        "id": 74,
+        "nom": "West Brom",
+        "blason": "https://crests.football-data.org/74.png",
         "competition": "Championship",
         "statut": "aucun_prochain_match"
       },
@@ -2376,6 +2255,81 @@
       "prochainsMatchs": []
     },
     {
+      "id": 675,
+      "nom": "Feyenoord",
+      "blason": "https://crests.football-data.org/675.png",
+      "competition": "Eredivisie",
+      "pays": "Pays-Bas",
+      "dernierMatch": "2026-09-20T10:15:00Z",
+      "detail": [
+        {
+          "date": "2026-08-09T10:15:00Z",
+          "adversaire": "Sparta",
+          "domicile": false,
+          "butsPour": 1,
+          "butsContre": 0,
+          "score": "1-0",
+          "issue": "V"
+        },
+        {
+          "date": "2026-08-16T12:30:00Z",
+          "adversaire": "Go Ahead",
+          "domicile": true,
+          "butsPour": 2,
+          "butsContre": 2,
+          "score": "2-2",
+          "issue": "N"
+        },
+        {
+          "date": "2026-08-23T14:45:00Z",
+          "adversaire": "Cambuur",
+          "domicile": false,
+          "butsPour": 5,
+          "butsContre": 2,
+          "score": "5-2",
+          "issue": "V"
+        },
+        {
+          "date": "2026-08-30T12:30:00Z",
+          "adversaire": "Den Haag",
+          "domicile": true,
+          "butsPour": 2,
+          "butsContre": 2,
+          "score": "2-2",
+          "issue": "N"
+        },
+        {
+          "date": "2026-09-05T14:30:00Z",
+          "adversaire": "NEC",
+          "domicile": false,
+          "butsPour": 3,
+          "butsContre": 1,
+          "score": "3-1",
+          "issue": "V"
+        },
+        {
+          "date": "2026-09-13T14:45:00Z",
+          "adversaire": "Zwolle",
+          "domicile": false,
+          "butsPour": 7,
+          "butsContre": 0,
+          "score": "7-0",
+          "issue": "V"
+        },
+        {
+          "date": "2026-09-20T10:15:00Z",
+          "adversaire": "Utrecht",
+          "domicile": true,
+          "butsPour": 5,
+          "butsContre": 0,
+          "score": "5-0",
+          "issue": "V"
+        }
+      ],
+      "serie": 7,
+      "prochainsMatchs": []
+    },
+    {
       "id": 498,
       "nom": "Sporting CP",
       "blason": "https://crests.football-data.org/498.png",
@@ -2593,79 +2547,6 @@
           "competition": "Eredivisie",
           "domicile": "AZ",
           "exterieur": "Telstar"
-        }
-      ]
-    },
-    {
-      "id": 675,
-      "nom": "Feyenoord",
-      "blason": "https://crests.football-data.org/675.png",
-      "competition": "Eredivisie",
-      "pays": "Pays-Bas",
-      "dernierMatch": "2026-09-13T14:45:00Z",
-      "detail": [
-        {
-          "date": "2026-08-09T10:15:00Z",
-          "adversaire": "Sparta",
-          "domicile": false,
-          "butsPour": 1,
-          "butsContre": 0,
-          "score": "1-0",
-          "issue": "V"
-        },
-        {
-          "date": "2026-08-16T12:30:00Z",
-          "adversaire": "Go Ahead",
-          "domicile": true,
-          "butsPour": 2,
-          "butsContre": 2,
-          "score": "2-2",
-          "issue": "N"
-        },
-        {
-          "date": "2026-08-23T14:45:00Z",
-          "adversaire": "Cambuur",
-          "domicile": false,
-          "butsPour": 5,
-          "butsContre": 2,
-          "score": "5-2",
-          "issue": "V"
-        },
-        {
-          "date": "2026-08-30T12:30:00Z",
-          "adversaire": "Den Haag",
-          "domicile": true,
-          "butsPour": 2,
-          "butsContre": 2,
-          "score": "2-2",
-          "issue": "N"
-        },
-        {
-          "date": "2026-09-05T14:30:00Z",
-          "adversaire": "NEC",
-          "domicile": false,
-          "butsPour": 3,
-          "butsContre": 1,
-          "score": "3-1",
-          "issue": "V"
-        },
-        {
-          "date": "2026-09-13T14:45:00Z",
-          "adversaire": "Zwolle",
-          "domicile": false,
-          "butsPour": 7,
-          "butsContre": 0,
-          "score": "7-0",
-          "issue": "V"
-        }
-      ],
-      "serie": 6,
-      "prochainsMatchs": [
-        {
-          "date": "2026-09-20T10:15:00Z",
-          "competition": "Eredivisie",
-          "domicile": "Feyenoord",
-          "exterieur": "Utrecht"
         }
       ]
     },
@@ -4778,14 +4659,7 @@
         }
       ],
       "serie": 4,
-      "prochainsMatchs": [
-        {
-          "date": "2026-09-20T11:00:00Z",
-          "competition": "Championship",
-          "domicile": "Wolverhampton",
-          "exterieur": "West Brom"
-        }
-      ]
+      "prochainsMatchs": []
     },
     {
       "id": 678,
@@ -5808,6 +5682,81 @@
       ]
     },
     {
+      "id": 675,
+      "nom": "Feyenoord",
+      "blason": "https://crests.football-data.org/675.png",
+      "competition": "Eredivisie",
+      "pays": "Pays-Bas",
+      "dernierMatch": "2026-09-20T10:15:00Z",
+      "detail": [
+        {
+          "date": "2026-08-09T10:15:00Z",
+          "adversaire": "Sparta",
+          "domicile": false,
+          "butsPour": 1,
+          "butsContre": 0,
+          "score": "1-0",
+          "issue": "V"
+        },
+        {
+          "date": "2026-08-16T12:30:00Z",
+          "adversaire": "Go Ahead",
+          "domicile": true,
+          "butsPour": 2,
+          "butsContre": 2,
+          "score": "2-2",
+          "issue": "N"
+        },
+        {
+          "date": "2026-08-23T14:45:00Z",
+          "adversaire": "Cambuur",
+          "domicile": false,
+          "butsPour": 5,
+          "butsContre": 2,
+          "score": "5-2",
+          "issue": "V"
+        },
+        {
+          "date": "2026-08-30T12:30:00Z",
+          "adversaire": "Den Haag",
+          "domicile": true,
+          "butsPour": 2,
+          "butsContre": 2,
+          "score": "2-2",
+          "issue": "N"
+        },
+        {
+          "date": "2026-09-05T14:30:00Z",
+          "adversaire": "NEC",
+          "domicile": false,
+          "butsPour": 3,
+          "butsContre": 1,
+          "score": "3-1",
+          "issue": "V"
+        },
+        {
+          "date": "2026-09-13T14:45:00Z",
+          "adversaire": "Zwolle",
+          "domicile": false,
+          "butsPour": 7,
+          "butsContre": 0,
+          "score": "7-0",
+          "issue": "V"
+        },
+        {
+          "date": "2026-09-20T10:15:00Z",
+          "adversaire": "Utrecht",
+          "domicile": true,
+          "butsPour": 5,
+          "butsContre": 0,
+          "score": "5-0",
+          "issue": "V"
+        }
+      ],
+      "serie": 6,
+      "prochainsMatchs": []
+    },
+    {
       "id": 503,
       "nom": "Porto",
       "blason": "https://crests.football-data.org/503.png",
@@ -6114,79 +6063,6 @@
           "competition": "Série A",
           "domicile": "Paranaense",
           "exterieur": "Bahia"
-        }
-      ]
-    },
-    {
-      "id": 675,
-      "nom": "Feyenoord",
-      "blason": "https://crests.football-data.org/675.png",
-      "competition": "Eredivisie",
-      "pays": "Pays-Bas",
-      "dernierMatch": "2026-09-13T14:45:00Z",
-      "detail": [
-        {
-          "date": "2026-08-09T10:15:00Z",
-          "adversaire": "Sparta",
-          "domicile": false,
-          "butsPour": 1,
-          "butsContre": 0,
-          "score": "1-0",
-          "issue": "V"
-        },
-        {
-          "date": "2026-08-16T12:30:00Z",
-          "adversaire": "Go Ahead",
-          "domicile": true,
-          "butsPour": 2,
-          "butsContre": 2,
-          "score": "2-2",
-          "issue": "N"
-        },
-        {
-          "date": "2026-08-23T14:45:00Z",
-          "adversaire": "Cambuur",
-          "domicile": false,
-          "butsPour": 5,
-          "butsContre": 2,
-          "score": "5-2",
-          "issue": "V"
-        },
-        {
-          "date": "2026-08-30T12:30:00Z",
-          "adversaire": "Den Haag",
-          "domicile": true,
-          "butsPour": 2,
-          "butsContre": 2,
-          "score": "2-2",
-          "issue": "N"
-        },
-        {
-          "date": "2026-09-05T14:30:00Z",
-          "adversaire": "NEC",
-          "domicile": false,
-          "butsPour": 3,
-          "butsContre": 1,
-          "score": "3-1",
-          "issue": "V"
-        },
-        {
-          "date": "2026-09-13T14:45:00Z",
-          "adversaire": "Zwolle",
-          "domicile": false,
-          "butsPour": 7,
-          "butsContre": 0,
-          "score": "7-0",
-          "issue": "V"
-        }
-      ],
-      "serie": 5,
-      "prochainsMatchs": [
-        {
-          "date": "2026-09-20T10:15:00Z",
-          "competition": "Eredivisie",
-          "domicile": "Feyenoord",
-          "exterieur": "Utrecht"
         }
       ]
     },
@@ -7507,14 +7383,7 @@
         }
       ],
       "serie": 4,
-      "prochainsMatchs": [
-        {
-          "date": "2026-09-20T10:30:00Z",
-          "competition": "Serie A",
-          "domicile": "Fiorentina",
-          "exterieur": "Napoli"
-        }
-      ]
+      "prochainsMatchs": []
     },
     {
       "id": 18,
@@ -9438,6 +9307,81 @@
       "prochainsMatchs": []
     },
     {
+      "id": 675,
+      "nom": "Feyenoord",
+      "blason": "https://crests.football-data.org/675.png",
+      "competition": "Eredivisie",
+      "pays": "Pays-Bas",
+      "dernierMatch": "2026-09-20T10:15:00Z",
+      "detail": [
+        {
+          "date": "2026-08-09T10:15:00Z",
+          "adversaire": "Sparta",
+          "domicile": false,
+          "butsPour": 1,
+          "butsContre": 0,
+          "score": "1-0",
+          "issue": "V"
+        },
+        {
+          "date": "2026-08-16T12:30:00Z",
+          "adversaire": "Go Ahead",
+          "domicile": true,
+          "butsPour": 2,
+          "butsContre": 2,
+          "score": "2-2",
+          "issue": "N"
+        },
+        {
+          "date": "2026-08-23T14:45:00Z",
+          "adversaire": "Cambuur",
+          "domicile": false,
+          "butsPour": 5,
+          "butsContre": 2,
+          "score": "5-2",
+          "issue": "V"
+        },
+        {
+          "date": "2026-08-30T12:30:00Z",
+          "adversaire": "Den Haag",
+          "domicile": true,
+          "butsPour": 2,
+          "butsContre": 2,
+          "score": "2-2",
+          "issue": "N"
+        },
+        {
+          "date": "2026-09-05T14:30:00Z",
+          "adversaire": "NEC",
+          "domicile": false,
+          "butsPour": 3,
+          "butsContre": 1,
+          "score": "3-1",
+          "issue": "V"
+        },
+        {
+          "date": "2026-09-13T14:45:00Z",
+          "adversaire": "Zwolle",
+          "domicile": false,
+          "butsPour": 7,
+          "butsContre": 0,
+          "score": "7-0",
+          "issue": "V"
+        },
+        {
+          "date": "2026-09-20T10:15:00Z",
+          "adversaire": "Utrecht",
+          "domicile": true,
+          "butsPour": 5,
+          "butsContre": 0,
+          "score": "5-0",
+          "issue": "V"
+        }
+      ],
+      "serie": 7,
+      "prochainsMatchs": []
+    },
+    {
       "id": 677,
       "nom": "Groningen",
       "blason": "https://crests.football-data.org/677.png",
@@ -9810,14 +9754,7 @@
         }
       ],
       "serie": 7,
-      "prochainsMatchs": [
-        {
-          "date": "2026-09-20T11:00:00Z",
-          "competition": "Championship",
-          "domicile": "Wolverhampton",
-          "exterieur": "West Brom"
-        }
-      ]
+      "prochainsMatchs": []
     },
     {
       "id": 7822,
@@ -10114,79 +10051,6 @@
       ],
       "serie": 6,
       "prochainsMatchs": []
-    },
-    {
-      "id": 675,
-      "nom": "Feyenoord",
-      "blason": "https://crests.football-data.org/675.png",
-      "competition": "Eredivisie",
-      "pays": "Pays-Bas",
-      "dernierMatch": "2026-09-13T14:45:00Z",
-      "detail": [
-        {
-          "date": "2026-08-09T10:15:00Z",
-          "adversaire": "Sparta",
-          "domicile": false,
-          "butsPour": 1,
-          "butsContre": 0,
-          "score": "1-0",
-          "issue": "V"
-        },
-        {
-          "date": "2026-08-16T12:30:00Z",
-          "adversaire": "Go Ahead",
-          "domicile": true,
-          "butsPour": 2,
-          "butsContre": 2,
-          "score": "2-2",
-          "issue": "N"
-        },
-        {
-          "date": "2026-08-23T14:45:00Z",
-          "adversaire": "Cambuur",
-          "domicile": false,
-          "butsPour": 5,
-          "butsContre": 2,
-          "score": "5-2",
-          "issue": "V"
-        },
-        {
-          "date": "2026-08-30T12:30:00Z",
-          "adversaire": "Den Haag",
-          "domicile": true,
-          "butsPour": 2,
-          "butsContre": 2,
-          "score": "2-2",
-          "issue": "N"
-        },
-        {
-          "date": "2026-09-05T14:30:00Z",
-          "adversaire": "NEC",
-          "domicile": false,
-          "butsPour": 3,
-          "butsContre": 1,
-          "score": "3-1",
-          "issue": "V"
-        },
-        {
-          "date": "2026-09-13T14:45:00Z",
-          "adversaire": "Zwolle",
-          "domicile": false,
-          "butsPour": 7,
-          "butsContre": 0,
-          "score": "7-0",
-          "issue": "V"
-        }
-      ],
-      "serie": 6,
-      "prochainsMatchs": [
-        {
-          "date": "2026-09-20T10:15:00Z",
-          "competition": "Eredivisie",
-          "domicile": "Feyenoord",
-          "exterieur": "Utrecht"
-        }
-      ]
     },
     {
       "id": 1765,
@@ -10954,79 +10818,6 @@
       ]
     },
     {
-      "id": 676,
-      "nom": "Utrecht",
-      "blason": "https://crests.football-data.org/676.png",
-      "competition": "Eredivisie",
-      "pays": "Pays-Bas",
-      "dernierMatch": "2026-09-13T10:15:00Z",
-      "detail": [
-        {
-          "date": "2026-08-09T12:30:00Z",
-          "adversaire": "Groningen",
-          "domicile": false,
-          "butsPour": 1,
-          "butsContre": 2,
-          "score": "1-2",
-          "issue": "D"
-        },
-        {
-          "date": "2026-08-15T16:45:00Z",
-          "adversaire": "AZ",
-          "domicile": true,
-          "butsPour": 1,
-          "butsContre": 4,
-          "score": "1-4",
-          "issue": "D"
-        },
-        {
-          "date": "2026-08-22T16:45:00Z",
-          "adversaire": "Sparta",
-          "domicile": false,
-          "butsPour": 3,
-          "butsContre": 3,
-          "score": "3-3",
-          "issue": "N"
-        },
-        {
-          "date": "2026-08-30T10:15:00Z",
-          "adversaire": "PSV",
-          "domicile": true,
-          "butsPour": 1,
-          "butsContre": 6,
-          "score": "1-6",
-          "issue": "D"
-        },
-        {
-          "date": "2026-09-08T12:00:00Z",
-          "adversaire": "Go Ahead",
-          "domicile": true,
-          "butsPour": 3,
-          "butsContre": 3,
-          "score": "3-3",
-          "issue": "N"
-        },
-        {
-          "date": "2026-09-13T10:15:00Z",
-          "adversaire": "Excelsior",
-          "domicile": false,
-          "butsPour": 2,
-          "butsContre": 1,
-          "score": "2-1",
-          "issue": "V"
-        }
-      ],
-      "serie": 6,
-      "prochainsMatchs": [
-        {
-          "date": "2026-09-20T10:15:00Z",
-          "competition": "Eredivisie",
-          "domicile": "Feyenoord",
-          "exterieur": "Utrecht"
-        }
-      ]
-    },
-    {
       "id": 76,
       "nom": "Wolverhampton",
       "blason": "https://crests.football-data.org/76.png",
@@ -11090,14 +10881,7 @@
         }
       ],
       "serie": 6,
-      "prochainsMatchs": [
-        {
-          "date": "2026-09-20T11:00:00Z",
-          "competition": "Championship",
-          "domicile": "Wolverhampton",
-          "exterieur": "West Brom"
-        }
-      ]
+      "prochainsMatchs": []
     },
     {
       "id": 1777,
@@ -13243,14 +13027,7 @@
         }
       ],
       "serie": 4,
-      "prochainsMatchs": [
-        {
-          "date": "2026-09-20T10:30:00Z",
-          "competition": "Serie A",
-          "domicile": "Fiorentina",
-          "exterieur": "Napoli"
-        }
-      ]
+      "prochainsMatchs": []
     },
     {
       "id": 524,
@@ -15715,6 +15492,81 @@
       "prochainsMatchs": []
     },
     {
+      "id": 676,
+      "nom": "Utrecht",
+      "blason": "https://crests.football-data.org/676.png",
+      "competition": "Eredivisie",
+      "pays": "Pays-Bas",
+      "dernierMatch": "2026-09-20T10:15:00Z",
+      "detail": [
+        {
+          "date": "2026-08-09T12:30:00Z",
+          "adversaire": "Groningen",
+          "domicile": false,
+          "butsPour": 1,
+          "butsContre": 2,
+          "score": "1-2",
+          "issue": "D"
+        },
+        {
+          "date": "2026-08-15T16:45:00Z",
+          "adversaire": "AZ",
+          "domicile": true,
+          "butsPour": 1,
+          "butsContre": 4,
+          "score": "1-4",
+          "issue": "D"
+        },
+        {
+          "date": "2026-08-22T16:45:00Z",
+          "adversaire": "Sparta",
+          "domicile": false,
+          "butsPour": 3,
+          "butsContre": 3,
+          "score": "3-3",
+          "issue": "N"
+        },
+        {
+          "date": "2026-08-30T10:15:00Z",
+          "adversaire": "PSV",
+          "domicile": true,
+          "butsPour": 1,
+          "butsContre": 6,
+          "score": "1-6",
+          "issue": "D"
+        },
+        {
+          "date": "2026-09-08T12:00:00Z",
+          "adversaire": "Go Ahead",
+          "domicile": true,
+          "butsPour": 3,
+          "butsContre": 3,
+          "score": "3-3",
+          "issue": "N"
+        },
+        {
+          "date": "2026-09-13T10:15:00Z",
+          "adversaire": "Excelsior",
+          "domicile": false,
+          "butsPour": 2,
+          "butsContre": 1,
+          "score": "2-1",
+          "issue": "V"
+        },
+        {
+          "date": "2026-09-20T10:15:00Z",
+          "adversaire": "Feyenoord",
+          "domicile": false,
+          "butsPour": 0,
+          "butsContre": 5,
+          "score": "0-5",
+          "issue": "D"
+        }
+      ],
+      "serie": 7,
+      "prochainsMatchs": []
+    },
+    {
       "id": 672,
       "nom": "Willem II",
       "blason": "https://crests.football-data.org/672.png",
@@ -16421,79 +16273,6 @@
       ],
       "serie": 6,
       "prochainsMatchs": []
-    },
-    {
-      "id": 676,
-      "nom": "Utrecht",
-      "blason": "https://crests.football-data.org/676.png",
-      "competition": "Eredivisie",
-      "pays": "Pays-Bas",
-      "dernierMatch": "2026-09-13T10:15:00Z",
-      "detail": [
-        {
-          "date": "2026-08-09T12:30:00Z",
-          "adversaire": "Groningen",
-          "domicile": false,
-          "butsPour": 1,
-          "butsContre": 2,
-          "score": "1-2",
-          "issue": "D"
-        },
-        {
-          "date": "2026-08-15T16:45:00Z",
-          "adversaire": "AZ",
-          "domicile": true,
-          "butsPour": 1,
-          "butsContre": 4,
-          "score": "1-4",
-          "issue": "D"
-        },
-        {
-          "date": "2026-08-22T16:45:00Z",
-          "adversaire": "Sparta",
-          "domicile": false,
-          "butsPour": 3,
-          "butsContre": 3,
-          "score": "3-3",
-          "issue": "N"
-        },
-        {
-          "date": "2026-08-30T10:15:00Z",
-          "adversaire": "PSV",
-          "domicile": true,
-          "butsPour": 1,
-          "butsContre": 6,
-          "score": "1-6",
-          "issue": "D"
-        },
-        {
-          "date": "2026-09-08T12:00:00Z",
-          "adversaire": "Go Ahead",
-          "domicile": true,
-          "butsPour": 3,
-          "butsContre": 3,
-          "score": "3-3",
-          "issue": "N"
-        },
-        {
-          "date": "2026-09-13T10:15:00Z",
-          "adversaire": "Excelsior",
-          "domicile": false,
-          "butsPour": 2,
-          "butsContre": 1,
-          "score": "2-1",
-          "issue": "V"
-        }
-      ],
-      "serie": 6,
-      "prochainsMatchs": [
-        {
-          "date": "2026-09-20T10:15:00Z",
-          "competition": "Eredivisie",
-          "domicile": "Feyenoord",
-          "exterieur": "Utrecht"
-        }
-      ]
     },
     {
       "id": 94,
@@ -18252,14 +18031,7 @@
         }
       ],
       "serie": 4,
-      "prochainsMatchs": [
-        {
-          "date": "2026-09-20T10:30:00Z",
-          "competition": "Serie A",
-          "domicile": "Fiorentina",
-          "exterieur": "Napoli"
-        }
-      ]
+      "prochainsMatchs": []
     },
     {
       "id": 19,
@@ -18428,14 +18200,7 @@
         }
       ],
       "serie": 4,
-      "prochainsMatchs": [
-        {
-          "date": "2026-09-20T12:00:00Z",
-          "competition": "La Liga",
-          "domicile": "Getafe",
-          "exterieur": "Málaga"
-        }
-      ]
+      "prochainsMatchs": []
     },
     {
       "id": 7,
@@ -21689,79 +21454,6 @@
           "competition": "Eredivisie",
           "domicile": "Twente",
           "exterieur": "PSV"
-        }
-      ]
-    },
-    {
-      "id": 676,
-      "nom": "Utrecht",
-      "blason": "https://crests.football-data.org/676.png",
-      "competition": "Eredivisie",
-      "pays": "Pays-Bas",
-      "dernierMatch": "2026-09-13T10:15:00Z",
-      "detail": [
-        {
-          "date": "2026-08-09T12:30:00Z",
-          "adversaire": "Groningen",
-          "domicile": false,
-          "butsPour": 1,
-          "butsContre": 2,
-          "score": "1-2",
-          "issue": "D"
-        },
-        {
-          "date": "2026-08-15T16:45:00Z",
-          "adversaire": "AZ",
-          "domicile": true,
-          "butsPour": 1,
-          "butsContre": 4,
-          "score": "1-4",
-          "issue": "D"
-        },
-        {
-          "date": "2026-08-22T16:45:00Z",
-          "adversaire": "Sparta",
-          "domicile": false,
-          "butsPour": 3,
-          "butsContre": 3,
-          "score": "3-3",
-          "issue": "N"
-        },
-        {
-          "date": "2026-08-30T10:15:00Z",
-          "adversaire": "PSV",
-          "domicile": true,
-          "butsPour": 1,
-          "butsContre": 6,
-          "score": "1-6",
-          "issue": "D"
-        },
-        {
-          "date": "2026-09-08T12:00:00Z",
-          "adversaire": "Go Ahead",
-          "domicile": true,
-          "butsPour": 3,
-          "butsContre": 3,
-          "score": "3-3",
-          "issue": "N"
-        },
-        {
-          "date": "2026-09-13T10:15:00Z",
-          "adversaire": "Excelsior",
-          "domicile": false,
-          "butsPour": 2,
-          "butsContre": 1,
-          "score": "2-1",
-          "issue": "V"
-        }
-      ],
-      "serie": 6,
-      "prochainsMatchs": [
-        {
-          "date": "2026-09-20T10:15:00Z",
-          "competition": "Eredivisie",
-          "domicile": "Feyenoord",
-          "exterieur": "Utrecht"
         }
       ]
     },
