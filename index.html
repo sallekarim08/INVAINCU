@@ -614,75 +614,6 @@
     font-style: italic;
   }
 
-  /* ---------- Verrou d'accès ---------- */
-
-  .verrou {
-    min-height: 100vh;
-    min-height: 100svh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 1.5rem;
-    background: var(--craie);
-  }
-
-  .verrou-carte {
-    width: 100%;
-    max-width: 22rem;
-    background: var(--papier);
-    border: 1px solid var(--trait);
-    border-radius: 8px;
-    padding: 2rem 1.75rem;
-  }
-
-  .verrou-carte h1 {
-    font-family: "Barlow Condensed", sans-serif;
-    font-weight: 600;
-    font-size: 1.6rem;
-    margin: 0 0 0.4rem;
-  }
-
-  .verrou-carte p {
-    font-size: 0.9rem;
-    color: var(--ardoise);
-    margin: 0 0 1.3rem;
-  }
-
-  .verrou-carte input {
-    font: inherit;
-    width: 100%;
-    padding: 0.65rem 0.8rem;
-    border: 1px solid var(--trait);
-    border-radius: 6px;
-    background: var(--craie);
-    color: var(--encre);
-    box-sizing: border-box;
-  }
-
-  .verrou-carte input:focus-visible { outline: 2px solid var(--pelouse); outline-offset: 1px; }
-
-  .verrou-carte button {
-    font: inherit;
-    font-weight: 600;
-    width: 100%;
-    margin-top: 0.8rem;
-    padding: 0.65rem;
-    border: 0;
-    border-radius: 6px;
-    background: var(--encre);
-    color: var(--papier);
-    cursor: pointer;
-  }
-
-  .verrou-carte button:hover { background: var(--pelouse); }
-
-  .verrou-erreur {
-    margin: 0.7rem 0 0;
-    font-size: 0.85rem;
-    color: var(--rouge);
-    min-height: 1.2em;
-  }
-
   /* ---------- États ---------- */
 
   .etat { padding: 3rem 0; max-width: 44ch; }
@@ -713,20 +644,6 @@
 </style>
 </head>
 <body>
-
-<div class="verrou" id="verrou">
-  <div class="verrou-carte">
-    <h1>Accès réservé</h1>
-    <p>Entre le code d'accès qui t'a été communiqué. Il reste valable 24 heures après sa première utilisation.</p>
-    <form id="form-verrou">
-      <input type="text" id="champ-code" placeholder="Code d'accès" autocomplete="off" autocapitalize="off">
-      <button type="submit">Entrer</button>
-      <p class="verrou-erreur" id="verrou-erreur"></p>
-    </form>
-  </div>
-</div>
-
-<div id="site-contenu" hidden>
 <div class="bande" role="note" aria-label="Annonce">
   <div class="bande-piste">
     <span>Ce site est exclusivement réalisé par Monsieur SALLE Abdoul Karim et KONATE Abdoul Razak pour le succès de leur projet Phoenix.</span>
@@ -752,7 +669,7 @@
   <footer class="pied">
     Six séries sont calculées à partir du match le plus récent de chaque équipe : invaincue et marque/encaisse
     beaucoup sur les 8 derniers matchs (seuil de 2 buts), marque/encaisse toujours sur les 10 derniers matchs
-    (seuil de 1 but), BTTS (les deux équipes marquent) sur les 8 derniers matchs. Une série s'arrête au premier
+    (seuil de 1 but), les deux équipes marquent sur les 8 derniers matchs. Une série s'arrête au premier
     match qui ne respecte pas la condition ; en dessous de 3 matchs consécutifs, l'équipe n'apparaît pas.
     Le module Stratège calcule une probabilité pour le prochain match de championnat (jamais une coupe ou une
     compétition continentale) avec un modèle de Poisson simplifié — voir le détail affiché sous chaque équipe.
@@ -761,74 +678,8 @@
   </div>
 
 </div>
-</div>
 
 <script>
-/* ---------- Verrou d'accès ---------- */
-
-const DUREE_VALIDITE_MS = 24 * 3600 * 1000; // 24 heures depuis la première utilisation du code
-
-const verrou       = document.getElementById("verrou");
-const siteContenu  = document.getElementById("site-contenu");
-const formVerrou   = document.getElementById("form-verrou");
-const champCode    = document.getElementById("champ-code");
-const verrouErreur = document.getElementById("verrou-erreur");
-
-const normaliserCode = (c) => c.trim().toUpperCase();
-
-function deverrouiller() {
-  verrou.hidden = true;
-  siteContenu.hidden = false;
-}
-
-function accesEncoreValide() {
-  const expire = Number(localStorage.getItem("accesExpireLe") || 0);
-  return Date.now() < expire;
-}
-
-async function verifierCode(code) {
-  let codesValides;
-  try {
-    const reponse = await fetch("data/codes-acces.json", { cache: "no-store" });
-    codesValides = await reponse.json();
-  } catch {
-    verrouErreur.textContent = "Impossible de vérifier le code pour l'instant. Réessaie dans un instant.";
-    return;
-  }
-
-  if (!codesValides.includes(code)) {
-    verrouErreur.textContent = "Code invalide.";
-    return;
-  }
-
-  // Le compte à rebours de 24h démarre à la toute première utilisation de CE code
-  // sur CET appareil (mémorisé dans le navigateur, pas sur un serveur).
-  const cleDebut = `codeDebut:${code}`;
-  let debut = Number(localStorage.getItem(cleDebut));
-  if (!debut) {
-    debut = Date.now();
-    localStorage.setItem(cleDebut, String(debut));
-  }
-
-  const expire = debut + DUREE_VALIDITE_MS;
-  if (Date.now() >= expire) {
-    verrouErreur.textContent = "Ce code a expiré (valable 24h après sa première utilisation).";
-    return;
-  }
-
-  localStorage.setItem("accesExpireLe", String(expire));
-  deverrouiller();
-}
-
-if (accesEncoreValide()) deverrouiller();
-
-formVerrou.addEventListener("submit", (e) => {
-  e.preventDefault();
-  verrouErreur.textContent = "";
-  const code = normaliserCode(champCode.value);
-  if (code) verifierCode(code);
-});
-
 const contenu           = document.getElementById("contenu");
 const titreEl           = document.getElementById("titre");
 const accroche          = document.getElementById("accroche");
