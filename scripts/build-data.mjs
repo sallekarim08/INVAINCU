@@ -65,7 +65,7 @@ if (!TOKEN) {
 const SERIE_MIN = 3;
 
 /** Nombre de jours à l'avance pour lesquels on récupère les rencontres à venir. */
-const JOURS_A_VENIR = 14;
+const JOURS_A_VENIR = 21;
 
 /** Passé ce délai après la date prévue sans trouver le match joué, on abandonne (report/annulation probable). */
 const JOURS_AVANT_INDETERMINE = 4;
@@ -135,9 +135,11 @@ async function matchsTermines(code) {
 /** Récupère les matchs programmés d'une compétition dans les JOURS_A_VENIR prochains jours. */
 async function matchsAVenir(code) {
   const aujourdhui = new Date();
-  const dans2Semaines = new Date(aujourdhui.getTime() + JOURS_A_VENIR * 86_400_000);
+  // dateTo est EXCLU par l'API (documentation officielle) : on ajoute donc un jour de plus
+  // pour couvrir réellement les JOURS_A_VENIR prochains jours en entier.
+  const finFenetre = new Date(aujourdhui.getTime() + (JOURS_A_VENIR + 1) * 86_400_000);
   const fmt = (d) => d.toISOString().slice(0, 10);
-  const url = `https://api.football-data.org/v4/competitions/${code}/matches?status=SCHEDULED&dateFrom=${fmt(aujourdhui)}&dateTo=${fmt(dans2Semaines)}`;
+  const url = `https://api.football-data.org/v4/competitions/${code}/matches?status=SCHEDULED&dateFrom=${fmt(aujourdhui)}&dateTo=${fmt(finFenetre)}`;
   const data = await appelApi(url);
   return data.matches ?? [];
 }
