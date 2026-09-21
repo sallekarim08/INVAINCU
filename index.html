@@ -418,6 +418,106 @@
     color: var(--encre);
   }
 
+  .badges-proba {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.3rem;
+    margin-top: 0.35rem;
+    grid-column: 1 / -1;
+  }
+
+  .badge-proba {
+    font-size: 0.75rem;
+    font-weight: 600;
+    background: #ece3f5;
+    color: var(--violet);
+    border-radius: 999px;
+    padding: 0.15rem 0.55rem;
+    white-space: nowrap;
+  }
+
+  /* ---------- Suivi des prédictions / Calibration ---------- */
+
+  .cartes-performance {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(7.5rem, 1fr));
+    gap: 0.7rem;
+    margin: 1.2rem 0 1.6rem;
+  }
+
+  .carte-perf {
+    background: var(--papier);
+    border: 1px solid var(--trait);
+    border-radius: 6px;
+    padding: 0.8rem 0.7rem;
+  }
+
+  .carte-perf .valeur {
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 600;
+    font-size: 1.5rem;
+  }
+
+  .carte-perf .libelle {
+    font-size: 0.78rem;
+    color: var(--ardoise);
+  }
+
+  .filtres-suivi {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.6rem;
+    margin-bottom: 1rem;
+  }
+
+  .filtres-suivi select {
+    font: inherit;
+    font-size: 0.88rem;
+    padding: 0.4rem 0.5rem;
+    border: 1px solid var(--trait);
+    border-radius: 4px;
+    background: var(--papier);
+    color: var(--encre);
+  }
+
+  .ligne-historique {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 0.7rem;
+    padding: 0.7rem 0.25rem;
+    border-top: 1px solid var(--trait);
+    font-size: 0.9rem;
+  }
+
+  .ligne-historique:last-child { border-bottom: 1px solid var(--trait); }
+  .ligne-historique .statut-badge { font-weight: 600; white-space: nowrap; }
+  .ligne-historique .statut-badge.reussi { color: var(--pelouse); }
+  .ligne-historique .statut-badge.echoue { color: var(--rouge); }
+  .ligne-historique .statut-badge.en_attente { color: var(--ardoise); }
+  .ligne-historique .statut-badge.indetermine { color: var(--ardoise); }
+
+  .table-calibration {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.88rem;
+    margin-top: 0.5rem;
+  }
+
+  .table-calibration th { text-align: left; font-weight: 500; color: var(--ardoise); padding: 0.4rem 0.3rem; }
+  .table-calibration td { padding: 0.5rem 0.3rem; border-top: 1px solid var(--trait); }
+  .table-calibration tr.haute-fiabilite td { background: #ddeee2; font-weight: 600; }
+
+  .callout-seuil {
+    background: #ddeee2;
+    border-radius: 6px;
+    padding: 0.9rem 1rem;
+    margin: 1rem 0;
+    font-size: 0.9rem;
+  }
+
+  .callout-seuil strong { color: var(--pelouse); }
+
   /* ---------- Onglet Stratège ---------- */
 
   .carte-stratege {
@@ -482,6 +582,107 @@
     font-style: italic;
   }
 
+  /* ---------- Bandeau de fiabilité ---------- */
+
+  .fiabilite-globale {
+    display: flex;
+    align-items: baseline;
+    gap: 0.9rem;
+    flex-wrap: wrap;
+    background: var(--papier);
+    border: 1px solid var(--trait);
+    border-radius: 6px;
+    padding: 0.9rem 1rem;
+    margin: 1.2rem 0 0.4rem;
+  }
+
+  .fiabilite-globale .taux {
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 600;
+    font-size: 2rem;
+    color: var(--violet);
+  }
+
+  .fiabilite-globale .detail-taux {
+    font-size: 0.85rem;
+    color: var(--ardoise);
+  }
+
+  .fiabilite-globale .pas-encore {
+    font-size: 0.9rem;
+    color: var(--ardoise);
+    font-style: italic;
+  }
+
+  /* ---------- Verrou d'accès ---------- */
+
+  .verrou {
+    min-height: 100vh;
+    min-height: 100svh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1.5rem;
+    background: var(--craie);
+  }
+
+  .verrou-carte {
+    width: 100%;
+    max-width: 22rem;
+    background: var(--papier);
+    border: 1px solid var(--trait);
+    border-radius: 8px;
+    padding: 2rem 1.75rem;
+  }
+
+  .verrou-carte h1 {
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 600;
+    font-size: 1.6rem;
+    margin: 0 0 0.4rem;
+  }
+
+  .verrou-carte p {
+    font-size: 0.9rem;
+    color: var(--ardoise);
+    margin: 0 0 1.3rem;
+  }
+
+  .verrou-carte input {
+    font: inherit;
+    width: 100%;
+    padding: 0.65rem 0.8rem;
+    border: 1px solid var(--trait);
+    border-radius: 6px;
+    background: var(--craie);
+    color: var(--encre);
+    box-sizing: border-box;
+  }
+
+  .verrou-carte input:focus-visible { outline: 2px solid var(--pelouse); outline-offset: 1px; }
+
+  .verrou-carte button {
+    font: inherit;
+    font-weight: 600;
+    width: 100%;
+    margin-top: 0.8rem;
+    padding: 0.65rem;
+    border: 0;
+    border-radius: 6px;
+    background: var(--encre);
+    color: var(--papier);
+    cursor: pointer;
+  }
+
+  .verrou-carte button:hover { background: var(--pelouse); }
+
+  .verrou-erreur {
+    margin: 0.7rem 0 0;
+    font-size: 0.85rem;
+    color: var(--rouge);
+    min-height: 1.2em;
+  }
+
   /* ---------- États ---------- */
 
   .etat { padding: 3rem 0; max-width: 44ch; }
@@ -512,6 +713,20 @@
 </style>
 </head>
 <body>
+
+<div class="verrou" id="verrou">
+  <div class="verrou-carte">
+    <h1>Accès réservé</h1>
+    <p>Entre le code d'accès qui t'a été communiqué. Il reste valable 24 heures après sa première utilisation.</p>
+    <form id="form-verrou">
+      <input type="text" id="champ-code" placeholder="Code d'accès" autocomplete="off" autocapitalize="off">
+      <button type="submit">Entrer</button>
+      <p class="verrou-erreur" id="verrou-erreur"></p>
+    </form>
+  </div>
+</div>
+
+<div id="site-contenu" hidden>
 <div class="bande" role="note" aria-label="Annonce">
   <div class="bande-piste">
     <span>Ce site est exclusivement réalisé par Monsieur SALLE Abdoul Karim et KONATE Abdoul Razak pour le succès de leur projet Phoenix.</span>
@@ -546,8 +761,74 @@
   </div>
 
 </div>
+</div>
 
 <script>
+/* ---------- Verrou d'accès ---------- */
+
+const DUREE_VALIDITE_MS = 24 * 3600 * 1000; // 24 heures depuis la première utilisation du code
+
+const verrou       = document.getElementById("verrou");
+const siteContenu  = document.getElementById("site-contenu");
+const formVerrou   = document.getElementById("form-verrou");
+const champCode    = document.getElementById("champ-code");
+const verrouErreur = document.getElementById("verrou-erreur");
+
+const normaliserCode = (c) => c.trim().toUpperCase();
+
+function deverrouiller() {
+  verrou.hidden = true;
+  siteContenu.hidden = false;
+}
+
+function accesEncoreValide() {
+  const expire = Number(localStorage.getItem("accesExpireLe") || 0);
+  return Date.now() < expire;
+}
+
+async function verifierCode(code) {
+  let codesValides;
+  try {
+    const reponse = await fetch("data/codes-acces.json", { cache: "no-store" });
+    codesValides = await reponse.json();
+  } catch {
+    verrouErreur.textContent = "Impossible de vérifier le code pour l'instant. Réessaie dans un instant.";
+    return;
+  }
+
+  if (!codesValides.includes(code)) {
+    verrouErreur.textContent = "Code invalide.";
+    return;
+  }
+
+  // Le compte à rebours de 24h démarre à la toute première utilisation de CE code
+  // sur CET appareil (mémorisé dans le navigateur, pas sur un serveur).
+  const cleDebut = `codeDebut:${code}`;
+  let debut = Number(localStorage.getItem(cleDebut));
+  if (!debut) {
+    debut = Date.now();
+    localStorage.setItem(cleDebut, String(debut));
+  }
+
+  const expire = debut + DUREE_VALIDITE_MS;
+  if (Date.now() >= expire) {
+    verrouErreur.textContent = "Ce code a expiré (valable 24h après sa première utilisation).";
+    return;
+  }
+
+  localStorage.setItem("accesExpireLe", String(expire));
+  deverrouiller();
+}
+
+if (accesEncoreValide()) deverrouiller();
+
+formVerrou.addEventListener("submit", (e) => {
+  e.preventDefault();
+  verrouErreur.textContent = "";
+  const code = normaliserCode(champCode.value);
+  if (code) verifierCode(code);
+});
+
 const contenu           = document.getElementById("contenu");
 const titreEl           = document.getElementById("titre");
 const accroche          = document.getElementById("accroche");
@@ -560,18 +841,41 @@ let donnees = null;
 let sectionActive   = "rencontres"; // "rencontres" | "analyse" | "stratege"
 let championnatActif = ""; // "" = tous les championnats
 let categorieActive  = "invaincues";
-let sousStrategeActif = "invaincues"; // invaincues | quiMarquent | marqueToujours
+let sousStrategeActif = "invaincues"; // invaincues | quiMarquent | marqueToujours | btts
+let pronosticsParEquipeDate = new Map(); // clé "id|date" -> [{ categorie, probabilite }]
+
+const LABELS_COURTS_STRATEGE = {
+  invaincues: "Ne perd pas",
+  quiMarquent: "≥ 2 buts",
+  marqueToujours: "≥ 1 but",
+  btts: "2 marquent",
+};
+
+function construireIndexPronostics() {
+  pronosticsParEquipeDate = new Map();
+  for (const cle of Object.keys(donnees.stratege ?? {})) {
+    for (const s of donnees.stratege[cle]) {
+      if (s.statut !== "ok") continue;
+      const clef = `${s.id}|${s.date}`;
+      if (!pronosticsParEquipeDate.has(clef)) pronosticsParEquipeDate.set(clef, []);
+      pronosticsParEquipeDate.get(clef).push({ categorie: cle, probabilite: s.probabilite });
+    }
+  }
+}
 
 const SECTIONS = [
   { cle: "rencontres", label: "Rencontres" },
   { cle: "analyse",    label: "Analyse des équipes" },
   { cle: "stratege",   label: "Stratège" },
+  { cle: "suivi",      label: "Suivi des prédictions" },
+  { cle: "calibration", label: "Calibration" },
 ];
 
 const LABELS_STRATEGE = {
   invaincues:   "Invaincue",
   quiMarquent:  "Marque beaucoup",
   marqueToujours: "Marque toujours",
+  btts: "Les deux marquent",
 };
 
 const CATEGORIES = {
@@ -646,16 +950,16 @@ const CATEGORIES = {
     classeDetail: (m) => m.butsContre >= 1 ? "d" : "v",
   },
   btts: {
-    label: "BTTS",
-    titre: "BTTS — les deux équipes marquent",
+    label: "Les deux marquent",
+    titre: "Les deux équipes marquent",
     accroche: (n) => n
       ? `${pluriel(n, "équipe")} enchaîne les matchs où les deux camps marquent.`
       : "Aucune équipe n'enchaîne actuellement 3 matchs où les deux camps marquent.",
-    titreGroupe: (n) => `avec BTTS sur ${n} matchs de suite`,
+    titreGroupe: (n) => `« les deux marquent » sur ${n} matchs de suite`,
     classeGroupe: "btts",
     icone: (m) => (m.butsPour >= 1 && m.butsContre >= 1) ? "✓" : "✗",
     couleurCase: (m) => (m.butsPour >= 1 && m.butsContre >= 1) ? "g" : "b",
-    colonneDetail: "BTTS",
+    colonneDetail: "Les deux marquent",
     valeurDetail: (m) => (m.butsPour >= 1 && m.butsContre >= 1) ? "Oui" : "Non",
     classeDetail: (m) => (m.butsPour >= 1 && m.butsContre >= 1) ? "v" : "d",
   },
@@ -817,6 +1121,18 @@ function libelleJour(iso) {
   return long.charAt(0).toUpperCase() + long.slice(1);
 }
 
+function badgesProba(m) {
+  const badges = [
+    ...(pronosticsParEquipeDate.get(`${m.domicile.id}|${m.date}`) ?? []).map((p) => ({ ...p, nom: m.domicile.nom })),
+    ...(pronosticsParEquipeDate.get(`${m.exterieur.id}|${m.date}`) ?? []).map((p) => ({ ...p, nom: m.exterieur.nom })),
+  ];
+  if (!badges.length) return "";
+
+  return `<span class="badges-proba">${badges
+    .map((b) => `<span class="badge-proba">${b.nom} · ${LABELS_COURTS_STRATEGE[b.categorie]} ${b.probabilite} %</span>`)
+    .join("")}</span>`;
+}
+
 function ligneRencontre(m) {
   const div = document.createElement("div");
   div.className = "match-rencontre";
@@ -831,7 +1147,8 @@ function ligneRencontre(m) {
     <span class="infos-rencontre">
       <span class="heure">${new Date(m.date).toLocaleTimeString("fr-FR", { hour: "2-digit", minute: "2-digit" })}</span>
       ${m.championnat}
-    </span>`;
+    </span>
+    ${badgesProba(m)}`;
   return div;
 }
 
@@ -874,11 +1191,12 @@ function afficherRencontres() {
 function phraseStratege(cle, s) {
   if (cle === "invaincues") return `La probabilité que ${s.nom} ne perde pas (victoire ou nul) est : <strong>${s.probabilite} %</strong>`;
   if (cle === "quiMarquent") return `La probabilité que ${s.nom} marque deux buts ou plus est : <strong>${s.probabilite} %</strong>`;
+  if (cle === "btts") return `La probabilité que les deux équipes marquent est : <strong>${s.probabilite} %</strong>`;
   return `La probabilité que ${s.nom} marque au moins un but est : <strong>${s.probabilite} %</strong>`;
 }
 
 function detailCalculStratege(cle, s) {
-  if (cle === "invaincues") {
+  if (cle === "invaincues" || cle === "btts") {
     return `λ ${s.nom} : ${s.lambdaEquipe} but(s) attendus · λ ${s.adversaire} : ${s.lambdaAdversaire} but(s) attendus ` +
            `(basé sur ${s.matchsUtilisesEquipe} de ses matchs et ${s.matchsUtilisesAdversaire} de ceux de l'adversaire).`;
   }
@@ -930,9 +1248,27 @@ function carteStratege(cle, s) {
   return div;
 }
 
+function bandeauFiabilite() {
+  const stats = donnees.fiabilite?.parCategorie?.[sousStrategeActif];
+  const div = document.createElement("div");
+  div.className = "fiabilite-globale";
+
+  if (!stats || stats.total === 0) {
+    div.innerHTML = `<span class="pas-encore">Pas encore assez de pronostics résolus pour cette catégorie afin de calculer un taux de fiabilité.</span>`;
+    return div;
+  }
+
+  div.innerHTML = `
+    <span class="taux">${stats.reussies}/${stats.total}</span>
+    <span class="detail-taux">pronostics réussis (${stats.tauxReussite} % de réussite, ${stats.echouees} échoué${stats.echouees > 1 ? "s" : ""})</span>`;
+  return div;
+}
+
 function afficherStratege() {
   contenu.innerHTML = "";
   titreEl.textContent = `Stratège — ${LABELS_STRATEGE[sousStrategeActif]}`;
+
+  contenu.append(bandeauFiabilite());
 
   // « Données insuffisantes » : l'équipe est exclue de l'affichage, comme demandé.
   const toutes = (donnees.stratege?.[sousStrategeActif] ?? []).filter((s) => s.statut !== "donnees_insuffisantes");
@@ -943,7 +1279,10 @@ function afficherStratege() {
     : "Aucune équipe avec un prochain match de championnat exploitable pour ce filtre.";
 
   if (!liste.length) {
-    etat("Aucune équipe pour ce filtre", "Change de championnat ou reviens plus tard, une fois d'autres matchs joués.");
+    const p = document.createElement("p");
+    p.className = "pas-de-match";
+    p.textContent = "Aucune équipe pour ce filtre. Change de championnat ou reviens plus tard, une fois d'autres matchs joués.";
+    contenu.append(p);
     return;
   }
 
@@ -953,15 +1292,146 @@ function afficherStratege() {
   contenu.append(conteneur);
 }
 
+/* ---------- Onglet Suivi des prédictions ---------- */
+
+let filtresSuivi = { categorie: "", championnat: "", statut: "" };
+
+const LIBELLES_STATUT = {
+  reussi: "✅ Réussi", echoue: "❌ Échoué", en_attente: "⏳ En attente", indetermine: "⚠️ Non évaluable",
+};
+
+function carteFiche(valeur, libelle) {
+  return `<div class="carte-perf"><div class="valeur">${valeur}</div><div class="libelle">${libelle}</div></div>`;
+}
+
+function rendreCartesPerformance(perf) {
+  const fmt = (s) => s.total ? `${s.reussies}/${s.total}` : "—";
+  return `<div class="cartes-performance">
+    ${carteFiche(fmt(perf.aujourdhui), "Aujourd'hui")}
+    ${carteFiche(fmt(perf.hier), "Hier")}
+    ${carteFiche(fmt(perf.sept_jours), "7 derniers jours")}
+    ${carteFiche(fmt(perf.trente_jours), "30 derniers jours")}
+    ${carteFiche(fmt(perf.historique_complet), "Historique complet")}
+    ${carteFiche(perf.enAttente, "En attente")}
+    ${carteFiche(perf.nonEvaluables, "Non évaluables")}
+  </div>`;
+}
+
+function ligneHistorique(p) {
+  const div = document.createElement("div");
+  div.className = "ligne-historique";
+  const date = new Date(p.dateMatch).toLocaleDateString("fr-FR", { day: "numeric", month: "short" });
+  div.innerHTML = `
+    <span>${p.equipeNom} vs ${p.adversaire ?? "—"} · ${p.competition} · ${date} ·
+      pronostic ${LABELS_STRATEGE[p.categorie] ?? p.categorie} (${p.probabilitePredite} %)</span>
+    <span class="statut-badge ${p.statut}">${LIBELLES_STATUT[p.statut] ?? p.statut}</span>`;
+  return div;
+}
+
+function construireFiltresSuivi() {
+  const historique = donnees.historiquePredictions ?? [];
+  const categories = [...new Set(historique.map((p) => p.categorie))];
+  const championnats = [...new Set(historique.map((p) => p.competition))].sort();
+  const statuts = [...new Set(historique.map((p) => p.statut))];
+
+  const options = (valeurs, libelles) =>
+    valeurs.map((v) => `<option value="${v}">${libelles ? libelles[v] ?? v : v}</option>`).join("");
+
+  const div = document.createElement("div");
+  div.className = "filtres-suivi";
+  div.innerHTML = `
+    <select id="filtre-categorie"><option value="">Tous les types</option>${options(categories, LABELS_STRATEGE)}</select>
+    <select id="filtre-championnat"><option value="">Tous les championnats</option>${options(championnats)}</select>
+    <select id="filtre-statut"><option value="">Tous les statuts</option>${options(statuts, LIBELLES_STATUT)}</select>`;
+
+  div.querySelector("#filtre-categorie").addEventListener("change", (e) => { filtresSuivi.categorie = e.target.value; afficherSuivi(); });
+  div.querySelector("#filtre-championnat").addEventListener("change", (e) => { filtresSuivi.championnat = e.target.value; afficherSuivi(); });
+  div.querySelector("#filtre-statut").addEventListener("change", (e) => { filtresSuivi.statut = e.target.value; afficherSuivi(); });
+
+  div.querySelector("#filtre-categorie").value = filtresSuivi.categorie;
+  div.querySelector("#filtre-championnat").value = filtresSuivi.championnat;
+  div.querySelector("#filtre-statut").value = filtresSuivi.statut;
+
+  return div;
+}
+
+function afficherSuivi() {
+  contenu.innerHTML = "";
+  titreEl.textContent = "Suivi des prédictions";
+  accroche.textContent = "Chaque pronostic est enregistré avant le match, avec sa probabilité d'origine, puis comparé au résultat réel.";
+
+  contenu.insertAdjacentHTML("beforeend", rendreCartesPerformance(donnees.performance ?? {}));
+  contenu.append(construireFiltresSuivi());
+
+  let liste = donnees.historiquePredictions ?? [];
+  if (filtresSuivi.categorie) liste = liste.filter((p) => p.categorie === filtresSuivi.categorie);
+  if (filtresSuivi.championnat) liste = liste.filter((p) => p.competition === filtresSuivi.championnat);
+  if (filtresSuivi.statut) liste = liste.filter((p) => p.statut === filtresSuivi.statut);
+
+  if (!liste.length) {
+    const p = document.createElement("p");
+    p.className = "pas-de-match";
+    p.textContent = "Aucun pronostic pour ce filtre.";
+    contenu.append(p);
+    return;
+  }
+
+  liste.forEach((p) => contenu.append(ligneHistorique(p)));
+}
+
+/* ---------- Onglet Calibration ---------- */
+
+function afficherCalibration() {
+  contenu.innerHTML = "";
+  titreEl.textContent = "Calibration du modèle";
+  accroche.textContent = "Compare, pour chaque tranche de probabilité annoncée, le taux de réussite réellement observé — sans seuil imposé à l'avance.";
+
+  contenu.insertAdjacentHTML("beforeend", rendreCartesPerformance(donnees.performance ?? {}));
+
+  const cal = donnees.calibration;
+  if (!cal) { contenu.insertAdjacentHTML("beforeend", `<p class="pas-de-match">Pas encore de données de calibration.</p>`); return; }
+
+  if (cal.seuilHauteFiabilite) {
+    const s = cal.seuilHauteFiabilite;
+    contenu.insertAdjacentHTML("beforeend", `
+      <div class="callout-seuil">
+        La tranche <strong>${s.tranche}</strong> annoncée présente historiquement le meilleur taux de réussite réel
+        parmi les tranches à l'échantillon suffisant : <strong>${s.tauxReussiteReel} %</strong> sur ${s.total} pronostics.
+        Ce n'est pas une garantie, seulement une observation à ce jour.
+      </div>`);
+  } else {
+    contenu.insertAdjacentHTML("beforeend", `<p class="pas-de-match">Pas encore assez de pronostics résolus pour dégager un seuil de haute fiabilité fiable.</p>`);
+  }
+
+  const lignes = cal.tranches.map((t) => `
+    <tr class="${t.echantillonSuffisant && t === cal.seuilHauteFiabilite ? "haute-fiabilite" : ""}">
+      <td>${t.tranche}</td>
+      <td>${t.total}</td>
+      <td>${t.validees}</td>
+      <td>${t.tauxReussiteReel !== null ? t.tauxReussiteReel + " %" : "—"}</td>
+      <td>${t.probabiliteMoyenneAnnoncee !== null ? t.probabiliteMoyenneAnnoncee + " %" : "—"}</td>
+      <td>${t.diagnostic ?? (t.total ? "Cohérent" : "—")}</td>
+    </tr>`).join("");
+
+  contenu.insertAdjacentHTML("beforeend", `
+    <table class="table-calibration">
+      <thead><tr><th>Tranche annoncée</th><th>Total</th><th>Validés</th><th>Taux réel</th><th>Moyenne annoncée</th><th>Diagnostic</th></tr></thead>
+      <tbody>${lignes}</tbody>
+    </table>`);
+}
+
 /* ---------- Répartition selon la section active ---------- */
 
 function rafraichirAffichage() {
-  if (sectionActive === "rencontres") { afficherRencontres(); return; }
-  if (sectionActive === "stratege")   { afficherStratege();   return; }
+  if (sectionActive === "rencontres")  { afficherRencontres();  return; }
+  if (sectionActive === "stratege")    { afficherStratege();    return; }
+  if (sectionActive === "suivi")       { afficherSuivi();       return; }
+  if (sectionActive === "calibration") { afficherCalibration(); return; }
   afficherAnalyse(CATEGORIES[categorieActive]);
 }
 
 function championnatsDisponibles() {
+  if (sectionActive === "suivi" || sectionActive === "calibration") return []; // filtres dédiés, pas d'onglet championnat ici
   if (sectionActive === "rencontres") {
     return [...new Set((donnees.rencontresAVenir ?? []).map((m) => m.championnat))].sort();
   }
@@ -1092,6 +1562,7 @@ async function demarrer() {
 
   majEl.textContent = `Mis à jour ${depuis(donnees.genereLe)} · ${donnees.competitionsAnalysees.length} championnats analysés`;
 
+  construireIndexPronostics();
   construireOngletsPrincipal();
   construireOngletsChampionnat(championnatsDisponibles());
   rafraichirAffichage();
