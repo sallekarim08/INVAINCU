@@ -1,0 +1,82 @@
+{
+  "predictions": [
+    {
+      "id": "6685-invaincues-2026-10-02T23:00:00Z",
+      "equipeId": 6685,
+      "equipeNom": "Santos",
+      "competition": "Série A",
+      "categorie": "invaincues",
+      "adversaire": "São Paulo",
+      "domicile": false,
+      "dateMatch": "2026-10-02T23:00:00Z",
+      "probabilitePredite": 70.9,
+      "dateEnregistrement": "2026-09-21T19:09:20.657Z",
+      "statut": "en_attente"
+    },
+    {
+      "id": "6685-quiMarquent-2026-10-02T23:00:00Z",
+      "equipeId": 6685,
+      "equipeNom": "Santos",
+      "competition": "Série A",
+      "categorie": "quiMarquent",
+      "adversaire": "São Paulo",
+      "domicile": false,
+      "dateMatch": "2026-10-02T23:00:00Z",
+      "probabilitePredite": 40,
+      "dateEnregistrement": "2026-09-21T19:09:20.657Z",
+      "statut": "en_attente"
+    },
+    {
+      "id": "4286-marqueToujours-2026-10-03T21:30:00Z",
+      "equipeId": 4286,
+      "equipeNom": "Bragantino",
+      "competition": "Série A",
+      "categorie": "marqueToujours",
+      "adversaire": "Mineiro",
+      "domicile": false,
+      "dateMatch": "2026-10-03T21:30:00Z",
+      "probabilitePredite": 63.2,
+      "dateEnregistrement": "2026-09-21T19:09:20.657Z",
+      "statut": "en_attente"
+    },
+    {
+      "id": "6685-marqueToujours-2026-10-02T23:00:00Z",
+      "equipeId": 6685,
+      "equipeNom": "Santos",
+      "competition": "Série A",
+      "categorie": "marqueToujours",
+      "adversaire": "São Paulo",
+      "domicile": false,
+      "dateMatch": "2026-10-02T23:00:00Z",
+      "probabilitePredite": 76.5,
+      "dateEnregistrement": "2026-09-21T19:09:20.657Z",
+      "statut": "en_attente"
+    },
+    {
+      "id": "4286-btts-2026-10-03T21:30:00Z",
+      "equipeId": 4286,
+      "equipeNom": "Bragantino",
+      "competition": "Série A",
+      "categorie": "btts",
+      "adversaire": "Mineiro",
+      "domicile": false,
+      "dateMatch": "2026-10-03T21:30:00Z",
+      "probabilitePredite": 47.3,
+      "dateEnregistrement": "2026-09-21T19:09:20.657Z",
+      "statut": "en_attente"
+    },
+    {
+      "id": "6685-btts-2026-10-02T23:00:00Z",
+      "equipeId": 6685,
+      "equipeNom": "Santos",
+      "competition": "Série A",
+      "categorie": "btts",
+      "adversaire": "São Paulo",
+      "domicile": false,
+      "dateMatch": "2026-10-02T23:00:00Z",
+      "probabilitePredite": 48.9,
+      "dateEnregistrement": "2026-09-21T19:09:20.657Z",
+      "statut": "en_attente"
+    }
+  ]
+}
