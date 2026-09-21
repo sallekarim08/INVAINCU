@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-09-20T18:17:48.352Z",
+  "genereLe": "2026-09-21T00:22:43.895Z",
   "serieMin": 3,
   "fenetres": {
     "invaincues": 8,
@@ -23,102 +23,6 @@
   ],
   "competitionsEnEchec": [],
   "rencontresAVenir": [
-    {
-      "date": "2026-09-20T18:45:00Z",
-      "championnat": "Serie A",
-      "domicile": {
-        "nom": "Milan",
-        "blason": "https://crests.football-data.org/98.png"
-      },
-      "exterieur": {
-        "nom": "Lecce",
-        "blason": "https://crests.football-data.org/5890.png"
-      }
-    },
-    {
-      "date": "2026-09-20T18:45:00Z",
-      "championnat": "Ligue 1",
-      "domicile": {
-        "nom": "Marseille",
-        "blason": "https://crests.football-data.org/516.png"
-      },
-      "exterieur": {
-        "nom": "PSG",
-        "blason": "https://crests.football-data.org/524.png"
-      }
-    },
-    {
-      "date": "2026-09-20T19:00:00Z",
-      "championnat": "La Liga",
-      "domicile": {
-        "nom": "Valencia",
-        "blason": "https://crests.football-data.org/95.png"
-      },
-      "exterieur": {
-        "nom": "Real Sociedad",
-        "blason": "https://crests.football-data.org/92.png"
-      }
-    },
-    {
-      "date": "2026-09-20T19:00:00Z",
-      "championnat": "Série A",
-      "domicile": {
-        "nom": "Corinthians",
-        "blason": "https://crests.football-data.org/1779.png"
-      },
-      "exterieur": {
-        "nom": "Fluminense",
-        "blason": "https://crests.football-data.org/1765.png"
-      }
-    },
-    {
-      "date": "2026-09-20T19:00:00Z",
-      "championnat": "Série A",
-      "domicile": {
-        "nom": "Vitória",
-        "blason": "https://crests.football-data.org/1782.png"
-      },
-      "exterieur": {
-        "nom": "Cruzeiro",
-        "blason": "https://crests.football-data.org/1771.png"
-      }
-    },
-    {
-      "date": "2026-09-20T19:30:00Z",
-      "championnat": "Primeira Liga",
-      "domicile": {
-        "nom": "Porto",
-        "blason": "https://crests.football-data.org/503.png"
-      },
-      "exterieur": {
-        "nom": "SL Benfica",
-        "blason": "https://crests.football-data.org/1903.png"
-      }
-    },
-    {
-      "date": "2026-09-20T21:30:00Z",
-      "championnat": "Série A",
-      "domicile": {
-        "nom": "Flamengo",
-        "blason": "https://crests.football-data.org/1783.png"
-      },
-      "exterieur": {
-        "nom": "Bragantino",
-        "blason": "https://crests.football-data.org/4286.png"
-      }
-    },
-    {
-      "date": "2026-09-20T22:30:00Z",
-      "championnat": "Série A",
-      "domicile": {
-        "nom": "Paranaense",
-        "blason": "https://crests.football-data.org/1768.png"
-      },
-      "exterieur": {
-        "nom": "Bahia",
-        "blason": "https://crests.football-data.org/1777.png"
-      }
-    },
     {
       "date": "2026-10-02T23:00:00Z",
       "championnat": "Série A",
@@ -147,38 +51,6 @@
   "stratege": {
     "invaincues": [
       {
-        "id": 1783,
-        "nom": "Flamengo",
-        "blason": "https://crests.football-data.org/1783.png",
-        "competition": "Série A",
-        "statut": "ok",
-        "adversaire": "Bragantino",
-        "domicile": true,
-        "date": "2026-09-20T21:30:00Z",
-        "fiabilite": "Calcul normal",
-        "matchsUtilisesEquipe": 8,
-        "matchsUtilisesAdversaire": 8,
-        "lambdaEquipe": 1.69,
-        "lambdaAdversaire": 0.75,
-        "probabilite": 83.5
-      },
-      {
-        "id": 98,
-        "nom": "Milan",
-        "blason": "https://crests.football-data.org/98.png",
-        "competition": "Serie A",
-        "statut": "ok",
-        "adversaire": "Lecce",
-        "domicile": true,
-        "date": "2026-09-20T18:45:00Z",
-        "fiabilite": "Échantillon réduit",
-        "matchsUtilisesEquipe": 4,
-        "matchsUtilisesAdversaire": 4,
-        "lambdaEquipe": 1.75,
-        "lambdaAdversaire": 1.13,
-        "probabilite": 75.4
-      },
-      {
         "id": 6685,
         "nom": "Santos",
         "blason": "https://crests.football-data.org/6685.png",
@@ -193,54 +65,6 @@
         "lambdaEquipe": 1.38,
         "lambdaAdversaire": 1.06,
         "probabilite": 70.9
-      },
-      {
-        "id": 1903,
-        "nom": "SL Benfica",
-        "blason": "https://crests.football-data.org/1903.png",
-        "competition": "Primeira Liga",
-        "statut": "ok",
-        "adversaire": "Porto",
-        "domicile": false,
-        "date": "2026-09-20T19:30:00Z",
-        "fiabilite": "Échantillon réduit",
-        "matchsUtilisesEquipe": 6,
-        "matchsUtilisesAdversaire": 6,
-        "lambdaEquipe": 1.92,
-        "lambdaAdversaire": 1.58,
-        "probabilite": 67.4
-      },
-      {
-        "id": 1777,
-        "nom": "Bahia",
-        "blason": "https://crests.football-data.org/1777.png",
-        "competition": "Série A",
-        "statut": "ok",
-        "adversaire": "Paranaense",
-        "domicile": false,
-        "date": "2026-09-20T22:30:00Z",
-        "fiabilite": "Calcul normal",
-        "matchsUtilisesEquipe": 8,
-        "matchsUtilisesAdversaire": 8,
-        "lambdaEquipe": 1.63,
-        "lambdaAdversaire": 1.5,
-        "probabilite": 64.4
-      },
-      {
-        "id": 503,
-        "nom": "Porto",
-        "blason": "https://crests.football-data.org/503.png",
-        "competition": "Primeira Liga",
-        "statut": "ok",
-        "adversaire": "SL Benfica",
-        "domicile": true,
-        "date": "2026-09-20T19:30:00Z",
-        "fiabilite": "Échantillon réduit",
-        "matchsUtilisesEquipe": 6,
-        "matchsUtilisesAdversaire": 6,
-        "lambdaEquipe": 1.58,
-        "lambdaAdversaire": 1.92,
-        "probabilite": 54.1
       },
       {
         "id": 341,
@@ -337,6 +161,13 @@
         "id": 470,
         "nom": "Frosinone",
         "blason": "https://crests.football-data.org/470.png",
+        "competition": "Serie A",
+        "statut": "aucun_prochain_match"
+      },
+      {
+        "id": 98,
+        "nom": "Milan",
+        "blason": "https://crests.football-data.org/98.png",
         "competition": "Serie A",
         "statut": "aucun_prochain_match"
       },
@@ -488,6 +319,13 @@
         "statut": "aucun_prochain_match"
       },
       {
+        "id": 503,
+        "nom": "Porto",
+        "blason": "https://crests.football-data.org/503.png",
+        "competition": "Primeira Liga",
+        "statut": "aucun_prochain_match"
+      },
+      {
         "id": 5527,
         "nom": "Acad. Viseu",
         "blason": "https://crests.football-data.org/5527.png",
@@ -551,6 +389,20 @@
         "statut": "aucun_prochain_match"
       },
       {
+        "id": 1777,
+        "nom": "Bahia",
+        "blason": "https://crests.football-data.org/1777.png",
+        "competition": "Série A",
+        "statut": "aucun_prochain_match"
+      },
+      {
+        "id": 1783,
+        "nom": "Flamengo",
+        "blason": "https://crests.football-data.org/1783.png",
+        "competition": "Série A",
+        "statut": "aucun_prochain_match"
+      },
+      {
         "id": 4364,
         "nom": "Mirassol",
         "blason": "https://crests.football-data.org/4364.png",
@@ -559,51 +411,6 @@
       }
     ],
     "quiMarquent": [
-      {
-        "id": 1903,
-        "nom": "SL Benfica",
-        "blason": "https://crests.football-data.org/1903.png",
-        "competition": "Primeira Liga",
-        "statut": "ok",
-        "adversaire": "Porto",
-        "domicile": false,
-        "date": "2026-09-20T19:30:00Z",
-        "fiabilite": "Échantillon réduit",
-        "matchsUtilisesEquipe": 6,
-        "matchsUtilisesAdversaire": 6,
-        "lambda": 1.92,
-        "probabilite": 57.1
-      },
-      {
-        "id": 1777,
-        "nom": "Bahia",
-        "blason": "https://crests.football-data.org/1777.png",
-        "competition": "Série A",
-        "statut": "ok",
-        "adversaire": "Paranaense",
-        "domicile": false,
-        "date": "2026-09-20T22:30:00Z",
-        "fiabilite": "Calcul normal",
-        "matchsUtilisesEquipe": 8,
-        "matchsUtilisesAdversaire": 8,
-        "lambda": 1.63,
-        "probabilite": 48.3
-      },
-      {
-        "id": 503,
-        "nom": "Porto",
-        "blason": "https://crests.football-data.org/503.png",
-        "competition": "Primeira Liga",
-        "statut": "ok",
-        "adversaire": "SL Benfica",
-        "domicile": true,
-        "date": "2026-09-20T19:30:00Z",
-        "fiabilite": "Échantillon réduit",
-        "matchsUtilisesEquipe": 6,
-        "matchsUtilisesAdversaire": 6,
-        "lambda": 1.58,
-        "probabilite": 47
-      },
       {
         "id": 6685,
         "nom": "Santos",
@@ -662,13 +469,6 @@
         "statut": "aucun_prochain_match"
       },
       {
-        "id": 2,
-        "nom": "Hoffenheim",
-        "blason": "https://crests.football-data.org/2.png",
-        "competition": "Bundesliga",
-        "statut": "aucun_prochain_match"
-      },
-      {
         "id": 16,
         "nom": "Augsburg",
         "blason": "https://crests.football-data.org/16.png",
@@ -697,6 +497,13 @@
         "statut": "aucun_prochain_match"
       },
       {
+        "id": 503,
+        "nom": "Porto",
+        "blason": "https://crests.football-data.org/503.png",
+        "competition": "Primeira Liga",
+        "statut": "aucun_prochain_match"
+      },
+      {
         "id": 68,
         "nom": "Norwich",
         "blason": "https://crests.football-data.org/68.png",
@@ -718,6 +525,13 @@
         "statut": "aucun_prochain_match"
       },
       {
+        "id": 1777,
+        "nom": "Bahia",
+        "blason": "https://crests.football-data.org/1777.png",
+        "competition": "Série A",
+        "statut": "aucun_prochain_match"
+      },
+      {
         "id": 4364,
         "nom": "Mirassol",
         "blason": "https://crests.football-data.org/4364.png",
@@ -726,111 +540,6 @@
       }
     ],
     "marqueToujours": [
-      {
-        "id": 1903,
-        "nom": "SL Benfica",
-        "blason": "https://crests.football-data.org/1903.png",
-        "competition": "Primeira Liga",
-        "statut": "ok",
-        "adversaire": "Porto",
-        "domicile": false,
-        "date": "2026-09-20T19:30:00Z",
-        "fiabilite": "Échantillon réduit",
-        "matchsUtilisesEquipe": 6,
-        "matchsUtilisesAdversaire": 6,
-        "lambda": 1.92,
-        "probabilite": 85.3
-      },
-      {
-        "id": 98,
-        "nom": "Milan",
-        "blason": "https://crests.football-data.org/98.png",
-        "competition": "Serie A",
-        "statut": "ok",
-        "adversaire": "Lecce",
-        "domicile": true,
-        "date": "2026-09-20T18:45:00Z",
-        "fiabilite": "Échantillon réduit",
-        "matchsUtilisesEquipe": 4,
-        "matchsUtilisesAdversaire": 4,
-        "lambda": 1.75,
-        "probabilite": 82.6
-      },
-      {
-        "id": 1783,
-        "nom": "Flamengo",
-        "blason": "https://crests.football-data.org/1783.png",
-        "competition": "Série A",
-        "statut": "ok",
-        "adversaire": "Bragantino",
-        "domicile": true,
-        "date": "2026-09-20T21:30:00Z",
-        "fiabilite": "Calcul normal",
-        "matchsUtilisesEquipe": 10,
-        "matchsUtilisesAdversaire": 10,
-        "lambda": 1.65,
-        "probabilite": 80.8
-      },
-      {
-        "id": 503,
-        "nom": "Porto",
-        "blason": "https://crests.football-data.org/503.png",
-        "competition": "Primeira Liga",
-        "statut": "ok",
-        "adversaire": "SL Benfica",
-        "domicile": true,
-        "date": "2026-09-20T19:30:00Z",
-        "fiabilite": "Échantillon réduit",
-        "matchsUtilisesEquipe": 6,
-        "matchsUtilisesAdversaire": 6,
-        "lambda": 1.58,
-        "probabilite": 79.5
-      },
-      {
-        "id": 524,
-        "nom": "PSG",
-        "blason": "https://crests.football-data.org/524.png",
-        "competition": "Ligue 1",
-        "statut": "ok",
-        "adversaire": "Marseille",
-        "domicile": false,
-        "date": "2026-09-20T18:45:00Z",
-        "fiabilite": "Échantillon réduit",
-        "matchsUtilisesEquipe": 4,
-        "matchsUtilisesAdversaire": 4,
-        "lambda": 1.5,
-        "probabilite": 77.7
-      },
-      {
-        "id": 1777,
-        "nom": "Bahia",
-        "blason": "https://crests.football-data.org/1777.png",
-        "competition": "Série A",
-        "statut": "ok",
-        "adversaire": "Paranaense",
-        "domicile": false,
-        "date": "2026-09-20T22:30:00Z",
-        "fiabilite": "Calcul normal",
-        "matchsUtilisesEquipe": 10,
-        "matchsUtilisesAdversaire": 10,
-        "lambda": 1.5,
-        "probabilite": 77.7
-      },
-      {
-        "id": 1771,
-        "nom": "Cruzeiro",
-        "blason": "https://crests.football-data.org/1771.png",
-        "competition": "Série A",
-        "statut": "ok",
-        "adversaire": "Vitória",
-        "domicile": false,
-        "date": "2026-09-20T19:00:00Z",
-        "fiabilite": "Calcul normal",
-        "matchsUtilisesEquipe": 10,
-        "matchsUtilisesAdversaire": 10,
-        "lambda": 1.5,
-        "probabilite": 77.7
-      },
       {
         "id": 6685,
         "nom": "Santos",
@@ -847,64 +556,19 @@
         "probabilite": 76.5
       },
       {
-        "id": 1768,
-        "nom": "Paranaense",
-        "blason": "https://crests.football-data.org/1768.png",
-        "competition": "Série A",
-        "statut": "ok",
-        "adversaire": "Bahia",
-        "domicile": true,
-        "date": "2026-09-20T22:30:00Z",
-        "fiabilite": "Calcul normal",
-        "matchsUtilisesEquipe": 10,
-        "matchsUtilisesAdversaire": 10,
-        "lambda": 1.4,
-        "probabilite": 75.3
-      },
-      {
-        "id": 1765,
-        "nom": "Fluminense",
-        "blason": "https://crests.football-data.org/1765.png",
-        "competition": "Série A",
-        "statut": "ok",
-        "adversaire": "Corinthians",
-        "domicile": false,
-        "date": "2026-09-20T19:00:00Z",
-        "fiabilite": "Calcul normal",
-        "matchsUtilisesEquipe": 10,
-        "matchsUtilisesAdversaire": 10,
-        "lambda": 1.25,
-        "probabilite": 71.3
-      },
-      {
         "id": 4286,
         "nom": "Bragantino",
         "blason": "https://crests.football-data.org/4286.png",
         "competition": "Série A",
         "statut": "ok",
-        "adversaire": "Flamengo",
+        "adversaire": "Mineiro",
         "domicile": false,
-        "date": "2026-09-20T21:30:00Z",
+        "date": "2026-10-03T21:30:00Z",
         "fiabilite": "Calcul normal",
         "matchsUtilisesEquipe": 10,
         "matchsUtilisesAdversaire": 10,
-        "lambda": 0.95,
-        "probabilite": 61.3
-      },
-      {
-        "id": 1782,
-        "nom": "Vitória",
-        "blason": "https://crests.football-data.org/1782.png",
-        "competition": "Série A",
-        "statut": "ok",
-        "adversaire": "Cruzeiro",
-        "domicile": true,
-        "date": "2026-09-20T19:00:00Z",
-        "fiabilite": "Calcul normal",
-        "matchsUtilisesEquipe": 10,
-        "matchsUtilisesAdversaire": 10,
-        "lambda": 0.9,
-        "probabilite": 59.3
+        "lambda": 1,
+        "probabilite": 63.2
       },
       {
         "id": 402,
@@ -1068,6 +732,13 @@
         "statut": "aucun_prochain_match"
       },
       {
+        "id": 98,
+        "nom": "Milan",
+        "blason": "https://crests.football-data.org/98.png",
+        "competition": "Serie A",
+        "statut": "aucun_prochain_match"
+      },
+      {
         "id": 110,
         "nom": "Lazio",
         "blason": "https://crests.football-data.org/110.png",
@@ -1194,6 +865,13 @@
         "statut": "aucun_prochain_match"
       },
       {
+        "id": 524,
+        "nom": "PSG",
+        "blason": "https://crests.football-data.org/524.png",
+        "competition": "Ligue 1",
+        "statut": "aucun_prochain_match"
+      },
+      {
         "id": 1909,
         "nom": "Cambuur",
         "blason": "https://crests.football-data.org/1909.png",
@@ -1278,6 +956,13 @@
         "statut": "aucun_prochain_match"
       },
       {
+        "id": 503,
+        "nom": "Porto",
+        "blason": "https://crests.football-data.org/503.png",
+        "competition": "Primeira Liga",
+        "statut": "aucun_prochain_match"
+      },
+      {
         "id": 7822,
         "nom": "Alverca",
         "blason": "https://crests.football-data.org/7822.png",
@@ -1285,9 +970,9 @@
         "statut": "aucun_prochain_match"
       },
       {
-        "id": 5613,
-        "nom": "Braga",
-        "blason": "https://crests.football-data.org/5613.png",
+        "id": 1903,
+        "nom": "SL Benfica",
+        "blason": "https://crests.football-data.org/1903.png",
         "competition": "Primeira Liga",
         "statut": "aucun_prochain_match"
       },
@@ -1295,13 +980,6 @@
         "id": 5527,
         "nom": "Acad. Viseu",
         "blason": "https://crests.football-data.org/5527.png",
-        "competition": "Primeira Liga",
-        "statut": "aucun_prochain_match"
-      },
-      {
-        "id": 5530,
-        "nom": "Santa Clara",
-        "blason": "https://crests.football-data.org/5530.png",
         "competition": "Primeira Liga",
         "statut": "aucun_prochain_match"
       },
@@ -1397,6 +1075,27 @@
         "statut": "aucun_prochain_match"
       },
       {
+        "id": 1768,
+        "nom": "Paranaense",
+        "blason": "https://crests.football-data.org/1768.png",
+        "competition": "Série A",
+        "statut": "aucun_prochain_match"
+      },
+      {
+        "id": 1782,
+        "nom": "Vitória",
+        "blason": "https://crests.football-data.org/1782.png",
+        "competition": "Série A",
+        "statut": "aucun_prochain_match"
+      },
+      {
+        "id": 1765,
+        "nom": "Fluminense",
+        "blason": "https://crests.football-data.org/1765.png",
+        "competition": "Série A",
+        "statut": "aucun_prochain_match"
+      },
+      {
         "id": 1772,
         "nom": "Chapecoense",
         "blason": "https://crests.football-data.org/1772_large.png",
@@ -1404,9 +1103,37 @@
         "statut": "aucun_prochain_match"
       },
       {
+        "id": 1779,
+        "nom": "Corinthians",
+        "blason": "https://crests.football-data.org/1779.png",
+        "competition": "Série A",
+        "statut": "aucun_prochain_match"
+      },
+      {
+        "id": 1777,
+        "nom": "Bahia",
+        "blason": "https://crests.football-data.org/1777.png",
+        "competition": "Série A",
+        "statut": "aucun_prochain_match"
+      },
+      {
+        "id": 1783,
+        "nom": "Flamengo",
+        "blason": "https://crests.football-data.org/1783.png",
+        "competition": "Série A",
+        "statut": "aucun_prochain_match"
+      },
+      {
         "id": 4364,
         "nom": "Mirassol",
         "blason": "https://crests.football-data.org/4364.png",
+        "competition": "Série A",
+        "statut": "aucun_prochain_match"
+      },
+      {
+        "id": 1771,
+        "nom": "Cruzeiro",
+        "blason": "https://crests.football-data.org/1771.png",
         "competition": "Série A",
         "statut": "aucun_prochain_match"
       }
@@ -1495,14 +1222,7 @@
         }
       ],
       "serie": 8,
-      "prochainsMatchs": [
-        {
-          "date": "2026-09-20T22:30:00Z",
-          "competition": "Série A",
-          "domicile": "Paranaense",
-          "exterieur": "Bahia"
-        }
-      ]
+      "prochainsMatchs": []
     },
     {
       "id": 682,
@@ -1730,6 +1450,156 @@
       "prochainsMatchs": []
     },
     {
+      "id": 503,
+      "nom": "Porto",
+      "blason": "https://crests.football-data.org/503.png",
+      "competition": "Primeira Liga",
+      "pays": "Portugal",
+      "dernierMatch": "2026-09-20T19:30:00Z",
+      "detail": [
+        {
+          "date": "2026-08-09T17:00:00Z",
+          "adversaire": "Alverca",
+          "domicile": true,
+          "butsPour": 2,
+          "butsContre": 0,
+          "score": "2-0",
+          "issue": "V"
+        },
+        {
+          "date": "2026-08-15T19:30:00Z",
+          "adversaire": "Rio Ave",
+          "domicile": false,
+          "butsPour": 2,
+          "butsContre": 0,
+          "score": "2-0",
+          "issue": "V"
+        },
+        {
+          "date": "2026-08-23T19:30:00Z",
+          "adversaire": "Arouca",
+          "domicile": true,
+          "butsPour": 2,
+          "butsContre": 0,
+          "score": "2-0",
+          "issue": "V"
+        },
+        {
+          "date": "2026-08-29T17:00:00Z",
+          "adversaire": "Acad. Viseu",
+          "domicile": false,
+          "butsPour": 3,
+          "butsContre": 0,
+          "score": "3-0",
+          "issue": "V"
+        },
+        {
+          "date": "2026-09-04T19:15:00Z",
+          "adversaire": "Moreirense",
+          "domicile": true,
+          "butsPour": 2,
+          "butsContre": 1,
+          "score": "2-1",
+          "issue": "V"
+        },
+        {
+          "date": "2026-09-12T17:00:00Z",
+          "adversaire": "Casa Pia",
+          "domicile": false,
+          "butsPour": 4,
+          "butsContre": 1,
+          "score": "4-1",
+          "issue": "V"
+        },
+        {
+          "date": "2026-09-20T19:30:00Z",
+          "adversaire": "SL Benfica",
+          "domicile": true,
+          "butsPour": 3,
+          "butsContre": 1,
+          "score": "3-1",
+          "issue": "V"
+        }
+      ],
+      "serie": 7,
+      "prochainsMatchs": []
+    },
+    {
+      "id": 5530,
+      "nom": "Santa Clara",
+      "blason": "https://crests.football-data.org/5530.png",
+      "competition": "Primeira Liga",
+      "pays": "Portugal",
+      "dernierMatch": "2026-09-20T17:00:00Z",
+      "detail": [
+        {
+          "date": "2026-08-10T19:15:00Z",
+          "adversaire": "CD Nacional",
+          "domicile": true,
+          "butsPour": 2,
+          "butsContre": 2,
+          "score": "2-2",
+          "issue": "N"
+        },
+        {
+          "date": "2026-08-15T17:00:00Z",
+          "adversaire": "Acad. Viseu",
+          "domicile": false,
+          "butsPour": 1,
+          "butsContre": 0,
+          "score": "1-0",
+          "issue": "V"
+        },
+        {
+          "date": "2026-08-23T17:00:00Z",
+          "adversaire": "Famalicão",
+          "domicile": true,
+          "butsPour": 1,
+          "butsContre": 0,
+          "score": "1-0",
+          "issue": "V"
+        },
+        {
+          "date": "2026-08-29T14:30:00Z",
+          "adversaire": "Alverca",
+          "domicile": false,
+          "butsPour": 1,
+          "butsContre": 1,
+          "score": "1-1",
+          "issue": "N"
+        },
+        {
+          "date": "2026-09-06T14:30:00Z",
+          "adversaire": "Rio Ave",
+          "domicile": true,
+          "butsPour": 4,
+          "butsContre": 0,
+          "score": "4-0",
+          "issue": "V"
+        },
+        {
+          "date": "2026-09-13T17:00:00Z",
+          "adversaire": "Arouca",
+          "domicile": false,
+          "butsPour": 2,
+          "butsContre": 1,
+          "score": "2-1",
+          "issue": "V"
+        },
+        {
+          "date": "2026-09-20T17:00:00Z",
+          "adversaire": "Braga",
+          "domicile": true,
+          "butsPour": 0,
+          "butsContre": 0,
+          "score": "0-0",
+          "issue": "N"
+        }
+      ],
+      "serie": 7,
+      "prochainsMatchs": []
+    },
+    {
       "id": 498,
       "nom": "Sporting CP",
       "blason": "https://crests.football-data.org/498.png",
@@ -1889,145 +1759,6 @@
       "prochainsMatchs": []
     },
     {
-      "id": 503,
-      "nom": "Porto",
-      "blason": "https://crests.football-data.org/503.png",
-      "competition": "Primeira Liga",
-      "pays": "Portugal",
-      "dernierMatch": "2026-09-12T17:00:00Z",
-      "detail": [
-        {
-          "date": "2026-08-09T17:00:00Z",
-          "adversaire": "Alverca",
-          "domicile": true,
-          "butsPour": 2,
-          "butsContre": 0,
-          "score": "2-0",
-          "issue": "V"
-        },
-        {
-          "date": "2026-08-15T19:30:00Z",
-          "adversaire": "Rio Ave",
-          "domicile": false,
-          "butsPour": 2,
-          "butsContre": 0,
-          "score": "2-0",
-          "issue": "V"
-        },
-        {
-          "date": "2026-08-23T19:30:00Z",
-          "adversaire": "Arouca",
-          "domicile": true,
-          "butsPour": 2,
-          "butsContre": 0,
-          "score": "2-0",
-          "issue": "V"
-        },
-        {
-          "date": "2026-08-29T17:00:00Z",
-          "adversaire": "Acad. Viseu",
-          "domicile": false,
-          "butsPour": 3,
-          "butsContre": 0,
-          "score": "3-0",
-          "issue": "V"
-        },
-        {
-          "date": "2026-09-04T19:15:00Z",
-          "adversaire": "Moreirense",
-          "domicile": true,
-          "butsPour": 2,
-          "butsContre": 1,
-          "score": "2-1",
-          "issue": "V"
-        },
-        {
-          "date": "2026-09-12T17:00:00Z",
-          "adversaire": "Casa Pia",
-          "domicile": false,
-          "butsPour": 4,
-          "butsContre": 1,
-          "score": "4-1",
-          "issue": "V"
-        }
-      ],
-      "serie": 6,
-      "prochainsMatchs": [
-        {
-          "date": "2026-09-20T19:30:00Z",
-          "competition": "Primeira Liga",
-          "domicile": "Porto",
-          "exterieur": "SL Benfica"
-        }
-      ]
-    },
-    {
-      "id": 5530,
-      "nom": "Santa Clara",
-      "blason": "https://crests.football-data.org/5530.png",
-      "competition": "Primeira Liga",
-      "pays": "Portugal",
-      "dernierMatch": "2026-09-13T17:00:00Z",
-      "detail": [
-        {
-          "date": "2026-08-10T19:15:00Z",
-          "adversaire": "CD Nacional",
-          "domicile": true,
-          "butsPour": 2,
-          "butsContre": 2,
-          "score": "2-2",
-          "issue": "N"
-        },
-        {
-          "date": "2026-08-15T17:00:00Z",
-          "adversaire": "Acad. Viseu",
-          "domicile": false,
-          "butsPour": 1,
-          "butsContre": 0,
-          "score": "1-0",
-          "issue": "V"
-        },
-        {
-          "date": "2026-08-23T17:00:00Z",
-          "adversaire": "Famalicão",
-          "domicile": true,
-          "butsPour": 1,
-          "butsContre": 0,
-          "score": "1-0",
-          "issue": "V"
-        },
-        {
-          "date": "2026-08-29T14:30:00Z",
-          "adversaire": "Alverca",
-          "domicile": false,
-          "butsPour": 1,
-          "butsContre": 1,
-          "score": "1-1",
-          "issue": "N"
-        },
-        {
-          "date": "2026-09-06T14:30:00Z",
-          "adversaire": "Rio Ave",
-          "domicile": true,
-          "butsPour": 4,
-          "butsContre": 0,
-          "score": "4-0",
-          "issue": "V"
-        },
-        {
-          "date": "2026-09-13T17:00:00Z",
-          "adversaire": "Arouca",
-          "domicile": false,
-          "butsPour": 2,
-          "butsContre": 1,
-          "score": "2-1",
-          "issue": "V"
-        }
-      ],
-      "serie": 6,
-      "prochainsMatchs": []
-    },
-    {
       "id": 6685,
       "nom": "Santos",
       "blason": "https://crests.football-data.org/6685.png",
@@ -2115,79 +1846,6 @@
           "competition": "Série A",
           "domicile": "São Paulo",
           "exterieur": "Santos"
-        }
-      ]
-    },
-    {
-      "id": 1903,
-      "nom": "SL Benfica",
-      "blason": "https://crests.football-data.org/1903.png",
-      "competition": "Primeira Liga",
-      "pays": "Portugal",
-      "dernierMatch": "2026-09-13T17:00:00Z",
-      "detail": [
-        {
-          "date": "2026-08-09T19:30:00Z",
-          "adversaire": "Acad. Viseu",
-          "domicile": true,
-          "butsPour": 2,
-          "butsContre": 2,
-          "score": "2-2",
-          "issue": "N"
-        },
-        {
-          "date": "2026-08-17T19:15:00Z",
-          "adversaire": "Casa Pia",
-          "domicile": false,
-          "butsPour": 7,
-          "butsContre": 0,
-          "score": "7-0",
-          "issue": "V"
-        },
-        {
-          "date": "2026-08-31T19:15:00Z",
-          "adversaire": "Estoril Praia",
-          "domicile": true,
-          "butsPour": 2,
-          "butsContre": 1,
-          "score": "2-1",
-          "issue": "V"
-        },
-        {
-          "date": "2026-09-05T17:00:00Z",
-          "adversaire": "Marítimo",
-          "domicile": false,
-          "butsPour": 3,
-          "butsContre": 0,
-          "score": "3-0",
-          "issue": "V"
-        },
-        {
-          "date": "2026-09-09T19:45:00Z",
-          "adversaire": "Moreirense",
-          "domicile": false,
-          "butsPour": 4,
-          "butsContre": 0,
-          "score": "4-0",
-          "issue": "V"
-        },
-        {
-          "date": "2026-09-13T17:00:00Z",
-          "adversaire": "Gil Vicente",
-          "domicile": true,
-          "butsPour": 3,
-          "butsContre": 1,
-          "score": "3-1",
-          "issue": "V"
-        }
-      ],
-      "serie": 6,
-      "prochainsMatchs": [
-        {
-          "date": "2026-09-20T19:30:00Z",
-          "competition": "Primeira Liga",
-          "domicile": "Porto",
-          "exterieur": "SL Benfica"
         }
       ]
     },
@@ -2458,6 +2116,90 @@
           "butsPour": 1,
           "butsContre": 0,
           "score": "1-0",
+          "issue": "V"
+        }
+      ],
+      "serie": 5,
+      "prochainsMatchs": []
+    },
+    {
+      "id": 1783,
+      "nom": "Flamengo",
+      "blason": "https://crests.football-data.org/1783.png",
+      "competition": "Série A",
+      "pays": "Brésil",
+      "dernierMatch": "2026-09-20T21:30:00Z",
+      "detail": [
+        {
+          "date": "2026-08-09T22:30:00Z",
+          "adversaire": "Vitória",
+          "domicile": true,
+          "butsPour": 2,
+          "butsContre": 0,
+          "score": "2-0",
+          "issue": "V"
+        },
+        {
+          "date": "2026-08-16T21:30:00Z",
+          "adversaire": "Mirassol",
+          "domicile": false,
+          "butsPour": 5,
+          "butsContre": 1,
+          "score": "5-1",
+          "issue": "V"
+        },
+        {
+          "date": "2026-08-22T23:30:00Z",
+          "adversaire": "Cruzeiro",
+          "domicile": false,
+          "butsPour": 1,
+          "butsContre": 2,
+          "score": "1-2",
+          "issue": "D"
+        },
+        {
+          "date": "2026-08-30T19:00:00Z",
+          "adversaire": "Botafogo",
+          "domicile": true,
+          "butsPour": 3,
+          "butsContre": 0,
+          "score": "3-0",
+          "issue": "V"
+        },
+        {
+          "date": "2026-09-02T22:30:00Z",
+          "adversaire": "Mirassol",
+          "domicile": true,
+          "butsPour": 2,
+          "butsContre": 0,
+          "score": "2-0",
+          "issue": "V"
+        },
+        {
+          "date": "2026-09-06T19:00:00Z",
+          "adversaire": "Clube do Remo",
+          "domicile": false,
+          "butsPour": 1,
+          "butsContre": 0,
+          "score": "1-0",
+          "issue": "V"
+        },
+        {
+          "date": "2026-09-13T20:30:00Z",
+          "adversaire": "Corinthians",
+          "domicile": true,
+          "butsPour": 2,
+          "butsContre": 1,
+          "score": "2-1",
+          "issue": "V"
+        },
+        {
+          "date": "2026-09-20T21:30:00Z",
+          "adversaire": "Bragantino",
+          "domicile": true,
+          "butsPour": 2,
+          "butsContre": 1,
+          "score": "2-1",
           "issue": "V"
         }
       ],
@@ -2743,6 +2485,63 @@
           "butsPour": 5,
           "butsContre": 3,
           "score": "5-3",
+          "issue": "V"
+        }
+      ],
+      "serie": 5,
+      "prochainsMatchs": []
+    },
+    {
+      "id": 98,
+      "nom": "Milan",
+      "blason": "https://crests.football-data.org/98.png",
+      "competition": "Serie A",
+      "pays": "Italie",
+      "dernierMatch": "2026-09-20T18:45:00Z",
+      "detail": [
+        {
+          "date": "2026-08-23T18:45:00Z",
+          "adversaire": "Torino",
+          "domicile": false,
+          "butsPour": 2,
+          "butsContre": 1,
+          "score": "2-1",
+          "issue": "V"
+        },
+        {
+          "date": "2026-08-28T18:45:00Z",
+          "adversaire": "Venezia FC",
+          "domicile": true,
+          "butsPour": 2,
+          "butsContre": 0,
+          "score": "2-0",
+          "issue": "V"
+        },
+        {
+          "date": "2026-09-06T18:45:00Z",
+          "adversaire": "Juventus",
+          "domicile": false,
+          "butsPour": 1,
+          "butsContre": 1,
+          "score": "1-1",
+          "issue": "N"
+        },
+        {
+          "date": "2026-09-12T16:00:00Z",
+          "adversaire": "Lazio",
+          "domicile": false,
+          "butsPour": 2,
+          "butsContre": 2,
+          "score": "2-2",
+          "issue": "N"
+        },
+        {
+          "date": "2026-09-20T18:45:00Z",
+          "adversaire": "Lecce",
+          "domicile": true,
+          "butsPour": 3,
+          "butsContre": 0,
+          "score": "3-0",
           "issue": "V"
         }
       ],
@@ -3458,97 +3257,6 @@
       "prochainsMatchs": []
     },
     {
-      "id": 1783,
-      "nom": "Flamengo",
-      "blason": "https://crests.football-data.org/1783.png",
-      "competition": "Série A",
-      "pays": "Brésil",
-      "dernierMatch": "2026-09-13T20:30:00Z",
-      "detail": [
-        {
-          "date": "2026-07-29T22:30:00Z",
-          "adversaire": "Internacional",
-          "domicile": false,
-          "butsPour": 1,
-          "butsContre": 1,
-          "score": "1-1",
-          "issue": "N"
-        },
-        {
-          "date": "2026-08-09T22:30:00Z",
-          "adversaire": "Vitória",
-          "domicile": true,
-          "butsPour": 2,
-          "butsContre": 0,
-          "score": "2-0",
-          "issue": "V"
-        },
-        {
-          "date": "2026-08-16T21:30:00Z",
-          "adversaire": "Mirassol",
-          "domicile": false,
-          "butsPour": 5,
-          "butsContre": 1,
-          "score": "5-1",
-          "issue": "V"
-        },
-        {
-          "date": "2026-08-22T23:30:00Z",
-          "adversaire": "Cruzeiro",
-          "domicile": false,
-          "butsPour": 1,
-          "butsContre": 2,
-          "score": "1-2",
-          "issue": "D"
-        },
-        {
-          "date": "2026-08-30T19:00:00Z",
-          "adversaire": "Botafogo",
-          "domicile": true,
-          "butsPour": 3,
-          "butsContre": 0,
-          "score": "3-0",
-          "issue": "V"
-        },
-        {
-          "date": "2026-09-02T22:30:00Z",
-          "adversaire": "Mirassol",
-          "domicile": true,
-          "butsPour": 2,
-          "butsContre": 0,
-          "score": "2-0",
-          "issue": "V"
-        },
-        {
-          "date": "2026-09-06T19:00:00Z",
-          "adversaire": "Clube do Remo",
-          "domicile": false,
-          "butsPour": 1,
-          "butsContre": 0,
-          "score": "1-0",
-          "issue": "V"
-        },
-        {
-          "date": "2026-09-13T20:30:00Z",
-          "adversaire": "Corinthians",
-          "domicile": true,
-          "butsPour": 2,
-          "butsContre": 1,
-          "score": "2-1",
-          "issue": "V"
-        }
-      ],
-      "serie": 4,
-      "prochainsMatchs": [
-        {
-          "date": "2026-09-20T21:30:00Z",
-          "competition": "Série A",
-          "domicile": "Flamengo",
-          "exterieur": "Bragantino"
-        }
-      ]
-    },
-    {
       "id": 17,
       "nom": "Freiburg",
       "blason": "https://crests.football-data.org/17.png",
@@ -3654,16 +3362,52 @@
       "prochainsMatchs": []
     },
     {
-      "id": 98,
-      "nom": "Milan",
-      "blason": "https://crests.football-data.org/98.png",
-      "competition": "Serie A",
-      "pays": "Italie",
-      "dernierMatch": "2026-09-12T16:00:00Z",
+      "id": 90,
+      "nom": "Real Betis",
+      "blason": "https://crests.football-data.org/90.png",
+      "competition": "La Liga",
+      "pays": "Espagne",
+      "dernierMatch": "2026-09-20T16:30:00Z",
       "detail": [
         {
-          "date": "2026-08-23T18:45:00Z",
-          "adversaire": "Torino",
+          "date": "2026-08-21T19:00:00Z",
+          "adversaire": "Real Sociedad",
+          "domicile": true,
+          "butsPour": 1,
+          "butsContre": 0,
+          "score": "1-0",
+          "issue": "V"
+        },
+        {
+          "date": "2026-08-25T19:00:00Z",
+          "adversaire": "Valencia",
+          "domicile": false,
+          "butsPour": 1,
+          "butsContre": 0,
+          "score": "1-0",
+          "issue": "V"
+        },
+        {
+          "date": "2026-08-29T15:00:00Z",
+          "adversaire": "Levante",
+          "domicile": false,
+          "butsPour": 2,
+          "butsContre": 5,
+          "score": "2-5",
+          "issue": "D"
+        },
+        {
+          "date": "2026-09-04T19:00:00Z",
+          "adversaire": "Real Madrid",
+          "domicile": true,
+          "butsPour": 1,
+          "butsContre": 0,
+          "score": "1-0",
+          "issue": "V"
+        },
+        {
+          "date": "2026-09-14T19:00:00Z",
+          "adversaire": "Villarreal",
           "domicile": false,
           "butsPour": 2,
           "butsContre": 1,
@@ -3671,42 +3415,26 @@
           "issue": "V"
         },
         {
-          "date": "2026-08-28T18:45:00Z",
-          "adversaire": "Venezia FC",
+          "date": "2026-09-17T17:00:00Z",
+          "adversaire": "Getafe",
           "domicile": true,
-          "butsPour": 2,
+          "butsPour": 1,
           "butsContre": 0,
-          "score": "2-0",
+          "score": "1-0",
           "issue": "V"
         },
         {
-          "date": "2026-09-06T18:45:00Z",
-          "adversaire": "Juventus",
+          "date": "2026-09-20T16:30:00Z",
+          "adversaire": "Deportivo",
           "domicile": false,
           "butsPour": 1,
           "butsContre": 1,
           "score": "1-1",
           "issue": "N"
-        },
-        {
-          "date": "2026-09-12T16:00:00Z",
-          "adversaire": "Lazio",
-          "domicile": false,
-          "butsPour": 2,
-          "butsContre": 2,
-          "score": "2-2",
-          "issue": "N"
         }
       ],
       "serie": 4,
-      "prochainsMatchs": [
-        {
-          "date": "2026-09-20T18:45:00Z",
-          "competition": "Serie A",
-          "domicile": "Milan",
-          "exterieur": "Lecce"
-        }
-      ]
+      "prochainsMatchs": []
     },
     {
       "id": 5527,
@@ -4669,72 +4397,6 @@
       "prochainsMatchs": []
     },
     {
-      "id": 90,
-      "nom": "Real Betis",
-      "blason": "https://crests.football-data.org/90.png",
-      "competition": "La Liga",
-      "pays": "Espagne",
-      "dernierMatch": "2026-09-17T17:00:00Z",
-      "detail": [
-        {
-          "date": "2026-08-21T19:00:00Z",
-          "adversaire": "Real Sociedad",
-          "domicile": true,
-          "butsPour": 1,
-          "butsContre": 0,
-          "score": "1-0",
-          "issue": "V"
-        },
-        {
-          "date": "2026-08-25T19:00:00Z",
-          "adversaire": "Valencia",
-          "domicile": false,
-          "butsPour": 1,
-          "butsContre": 0,
-          "score": "1-0",
-          "issue": "V"
-        },
-        {
-          "date": "2026-08-29T15:00:00Z",
-          "adversaire": "Levante",
-          "domicile": false,
-          "butsPour": 2,
-          "butsContre": 5,
-          "score": "2-5",
-          "issue": "D"
-        },
-        {
-          "date": "2026-09-04T19:00:00Z",
-          "adversaire": "Real Madrid",
-          "domicile": true,
-          "butsPour": 1,
-          "butsContre": 0,
-          "score": "1-0",
-          "issue": "V"
-        },
-        {
-          "date": "2026-09-14T19:00:00Z",
-          "adversaire": "Villarreal",
-          "domicile": false,
-          "butsPour": 2,
-          "butsContre": 1,
-          "score": "2-1",
-          "issue": "V"
-        },
-        {
-          "date": "2026-09-17T17:00:00Z",
-          "adversaire": "Getafe",
-          "domicile": true,
-          "butsPour": 1,
-          "butsContre": 0,
-          "score": "1-0",
-          "issue": "V"
-        }
-      ],
-      "serie": 3,
-      "prochainsMatchs": []
-    },
-    {
       "id": 6,
       "nom": "Schalke",
       "blason": "https://crests.football-data.org/6.png",
@@ -4935,6 +4597,81 @@
       "prochainsMatchs": []
     },
     {
+      "id": 503,
+      "nom": "Porto",
+      "blason": "https://crests.football-data.org/503.png",
+      "competition": "Primeira Liga",
+      "pays": "Portugal",
+      "dernierMatch": "2026-09-20T19:30:00Z",
+      "detail": [
+        {
+          "date": "2026-08-09T17:00:00Z",
+          "adversaire": "Alverca",
+          "domicile": true,
+          "butsPour": 2,
+          "butsContre": 0,
+          "score": "2-0",
+          "issue": "V"
+        },
+        {
+          "date": "2026-08-15T19:30:00Z",
+          "adversaire": "Rio Ave",
+          "domicile": false,
+          "butsPour": 2,
+          "butsContre": 0,
+          "score": "2-0",
+          "issue": "V"
+        },
+        {
+          "date": "2026-08-23T19:30:00Z",
+          "adversaire": "Arouca",
+          "domicile": true,
+          "butsPour": 2,
+          "butsContre": 0,
+          "score": "2-0",
+          "issue": "V"
+        },
+        {
+          "date": "2026-08-29T17:00:00Z",
+          "adversaire": "Acad. Viseu",
+          "domicile": false,
+          "butsPour": 3,
+          "butsContre": 0,
+          "score": "3-0",
+          "issue": "V"
+        },
+        {
+          "date": "2026-09-04T19:15:00Z",
+          "adversaire": "Moreirense",
+          "domicile": true,
+          "butsPour": 2,
+          "butsContre": 1,
+          "score": "2-1",
+          "issue": "V"
+        },
+        {
+          "date": "2026-09-12T17:00:00Z",
+          "adversaire": "Casa Pia",
+          "domicile": false,
+          "butsPour": 4,
+          "butsContre": 1,
+          "score": "4-1",
+          "issue": "V"
+        },
+        {
+          "date": "2026-09-20T19:30:00Z",
+          "adversaire": "SL Benfica",
+          "domicile": true,
+          "butsPour": 3,
+          "butsContre": 1,
+          "score": "3-1",
+          "issue": "V"
+        }
+      ],
+      "serie": 7,
+      "prochainsMatchs": []
+    },
+    {
       "id": 674,
       "nom": "PSV",
       "blason": "https://crests.football-data.org/674.png",
@@ -5085,152 +4822,6 @@
       "prochainsMatchs": []
     },
     {
-      "id": 503,
-      "nom": "Porto",
-      "blason": "https://crests.football-data.org/503.png",
-      "competition": "Primeira Liga",
-      "pays": "Portugal",
-      "dernierMatch": "2026-09-12T17:00:00Z",
-      "detail": [
-        {
-          "date": "2026-08-09T17:00:00Z",
-          "adversaire": "Alverca",
-          "domicile": true,
-          "butsPour": 2,
-          "butsContre": 0,
-          "score": "2-0",
-          "issue": "V"
-        },
-        {
-          "date": "2026-08-15T19:30:00Z",
-          "adversaire": "Rio Ave",
-          "domicile": false,
-          "butsPour": 2,
-          "butsContre": 0,
-          "score": "2-0",
-          "issue": "V"
-        },
-        {
-          "date": "2026-08-23T19:30:00Z",
-          "adversaire": "Arouca",
-          "domicile": true,
-          "butsPour": 2,
-          "butsContre": 0,
-          "score": "2-0",
-          "issue": "V"
-        },
-        {
-          "date": "2026-08-29T17:00:00Z",
-          "adversaire": "Acad. Viseu",
-          "domicile": false,
-          "butsPour": 3,
-          "butsContre": 0,
-          "score": "3-0",
-          "issue": "V"
-        },
-        {
-          "date": "2026-09-04T19:15:00Z",
-          "adversaire": "Moreirense",
-          "domicile": true,
-          "butsPour": 2,
-          "butsContre": 1,
-          "score": "2-1",
-          "issue": "V"
-        },
-        {
-          "date": "2026-09-12T17:00:00Z",
-          "adversaire": "Casa Pia",
-          "domicile": false,
-          "butsPour": 4,
-          "butsContre": 1,
-          "score": "4-1",
-          "issue": "V"
-        }
-      ],
-      "serie": 6,
-      "prochainsMatchs": [
-        {
-          "date": "2026-09-20T19:30:00Z",
-          "competition": "Primeira Liga",
-          "domicile": "Porto",
-          "exterieur": "SL Benfica"
-        }
-      ]
-    },
-    {
-      "id": 1903,
-      "nom": "SL Benfica",
-      "blason": "https://crests.football-data.org/1903.png",
-      "competition": "Primeira Liga",
-      "pays": "Portugal",
-      "dernierMatch": "2026-09-13T17:00:00Z",
-      "detail": [
-        {
-          "date": "2026-08-09T19:30:00Z",
-          "adversaire": "Acad. Viseu",
-          "domicile": true,
-          "butsPour": 2,
-          "butsContre": 2,
-          "score": "2-2",
-          "issue": "N"
-        },
-        {
-          "date": "2026-08-17T19:15:00Z",
-          "adversaire": "Casa Pia",
-          "domicile": false,
-          "butsPour": 7,
-          "butsContre": 0,
-          "score": "7-0",
-          "issue": "V"
-        },
-        {
-          "date": "2026-08-31T19:15:00Z",
-          "adversaire": "Estoril Praia",
-          "domicile": true,
-          "butsPour": 2,
-          "butsContre": 1,
-          "score": "2-1",
-          "issue": "V"
-        },
-        {
-          "date": "2026-09-05T17:00:00Z",
-          "adversaire": "Marítimo",
-          "domicile": false,
-          "butsPour": 3,
-          "butsContre": 0,
-          "score": "3-0",
-          "issue": "V"
-        },
-        {
-          "date": "2026-09-09T19:45:00Z",
-          "adversaire": "Moreirense",
-          "domicile": false,
-          "butsPour": 4,
-          "butsContre": 0,
-          "score": "4-0",
-          "issue": "V"
-        },
-        {
-          "date": "2026-09-13T17:00:00Z",
-          "adversaire": "Gil Vicente",
-          "domicile": true,
-          "butsPour": 3,
-          "butsContre": 1,
-          "score": "3-1",
-          "issue": "V"
-        }
-      ],
-      "serie": 6,
-      "prochainsMatchs": [
-        {
-          "date": "2026-09-20T19:30:00Z",
-          "competition": "Primeira Liga",
-          "domicile": "Porto",
-          "exterieur": "SL Benfica"
-        }
-      ]
-    },
-    {
       "id": 1777,
       "nom": "Bahia",
       "blason": "https://crests.football-data.org/1777.png",
@@ -5312,14 +4903,7 @@
         }
       ],
       "serie": 5,
-      "prochainsMatchs": [
-        {
-          "date": "2026-09-20T22:30:00Z",
-          "competition": "Série A",
-          "domicile": "Paranaense",
-          "exterieur": "Bahia"
-        }
-      ]
+      "prochainsMatchs": []
     },
     {
       "id": 100,
@@ -5782,45 +5366,6 @@
         {
           "date": "2026-09-20T14:15:00Z",
           "adversaire": "Real Madrid",
-          "domicile": true,
-          "butsPour": 2,
-          "butsContre": 1,
-          "score": "2-1",
-          "issue": "V"
-        }
-      ],
-      "serie": 3,
-      "prochainsMatchs": []
-    },
-    {
-      "id": 2,
-      "nom": "Hoffenheim",
-      "blason": "https://crests.football-data.org/2.png",
-      "competition": "Bundesliga",
-      "pays": "Allemagne",
-      "dernierMatch": "2026-09-12T13:30:00Z",
-      "detail": [
-        {
-          "date": "2026-08-29T13:30:00Z",
-          "adversaire": "1. FC Köln",
-          "domicile": false,
-          "butsPour": 2,
-          "butsContre": 3,
-          "score": "2-3",
-          "issue": "D"
-        },
-        {
-          "date": "2026-09-05T13:30:00Z",
-          "adversaire": "Dortmund",
-          "domicile": true,
-          "butsPour": 2,
-          "butsContre": 3,
-          "score": "2-3",
-          "issue": "D"
-        },
-        {
-          "date": "2026-09-12T13:30:00Z",
-          "adversaire": "Stuttgart",
           "domicile": true,
           "butsPour": 2,
           "butsContre": 1,
@@ -6684,14 +6229,7 @@
         }
       ],
       "serie": 4,
-      "prochainsMatchs": [
-        {
-          "date": "2026-09-20T22:30:00Z",
-          "competition": "Série A",
-          "domicile": "Paranaense",
-          "exterieur": "Bahia"
-        }
-      ]
+      "prochainsMatchs": []
     },
     {
       "id": 28,
@@ -6867,6 +6405,90 @@
           "butsPour": 0,
           "butsContre": 2,
           "score": "0-2",
+          "issue": "D"
+        }
+      ],
+      "serie": 3,
+      "prochainsMatchs": []
+    },
+    {
+      "id": 1779,
+      "nom": "Corinthians",
+      "blason": "https://crests.football-data.org/1779.png",
+      "competition": "Série A",
+      "pays": "Brésil",
+      "dernierMatch": "2026-09-20T19:00:00Z",
+      "detail": [
+        {
+          "date": "2026-07-30T22:30:00Z",
+          "adversaire": "Paranaense",
+          "domicile": true,
+          "butsPour": 0,
+          "butsContre": 0,
+          "score": "0-0",
+          "issue": "N"
+        },
+        {
+          "date": "2026-08-09T21:30:00Z",
+          "adversaire": "Bragantino",
+          "domicile": false,
+          "butsPour": 2,
+          "butsContre": 0,
+          "score": "2-0",
+          "issue": "V"
+        },
+        {
+          "date": "2026-08-16T22:30:00Z",
+          "adversaire": "Cruzeiro",
+          "domicile": true,
+          "butsPour": 1,
+          "butsContre": 2,
+          "score": "1-2",
+          "issue": "D"
+        },
+        {
+          "date": "2026-08-23T22:30:00Z",
+          "adversaire": "Coritiba",
+          "domicile": false,
+          "butsPour": 1,
+          "butsContre": 2,
+          "score": "1-2",
+          "issue": "D"
+        },
+        {
+          "date": "2026-08-30T19:00:00Z",
+          "adversaire": "Santos",
+          "domicile": true,
+          "butsPour": 0,
+          "butsContre": 1,
+          "score": "0-1",
+          "issue": "D"
+        },
+        {
+          "date": "2026-09-06T22:30:00Z",
+          "adversaire": "Chapecoense",
+          "domicile": true,
+          "butsPour": 1,
+          "butsContre": 2,
+          "score": "1-2",
+          "issue": "D"
+        },
+        {
+          "date": "2026-09-13T20:30:00Z",
+          "adversaire": "Flamengo",
+          "domicile": false,
+          "butsPour": 1,
+          "butsContre": 2,
+          "score": "1-2",
+          "issue": "D"
+        },
+        {
+          "date": "2026-09-20T19:00:00Z",
+          "adversaire": "Fluminense",
+          "domicile": true,
+          "butsPour": 1,
+          "butsContre": 3,
+          "score": "1-3",
           "issue": "D"
         }
       ],
@@ -7174,6 +6796,81 @@
       "prochainsMatchs": []
     },
     {
+      "id": 92,
+      "nom": "Real Sociedad",
+      "blason": "https://crests.football-data.org/92.png",
+      "competition": "La Liga",
+      "pays": "Espagne",
+      "dernierMatch": "2026-09-20T19:00:00Z",
+      "detail": [
+        {
+          "date": "2026-08-21T19:00:00Z",
+          "adversaire": "Real Betis",
+          "domicile": false,
+          "butsPour": 0,
+          "butsContre": 1,
+          "score": "0-1",
+          "issue": "D"
+        },
+        {
+          "date": "2026-08-26T19:00:00Z",
+          "adversaire": "Real Madrid",
+          "domicile": false,
+          "butsPour": 1,
+          "butsContre": 4,
+          "score": "1-4",
+          "issue": "D"
+        },
+        {
+          "date": "2026-08-29T17:00:00Z",
+          "adversaire": "Espanyol",
+          "domicile": true,
+          "butsPour": 2,
+          "butsContre": 1,
+          "score": "2-1",
+          "issue": "V"
+        },
+        {
+          "date": "2026-09-03T19:00:00Z",
+          "adversaire": "Celta",
+          "domicile": true,
+          "butsPour": 0,
+          "butsContre": 0,
+          "score": "0-0",
+          "issue": "N"
+        },
+        {
+          "date": "2026-09-07T19:30:00Z",
+          "adversaire": "Elche",
+          "domicile": false,
+          "butsPour": 3,
+          "butsContre": 2,
+          "score": "3-2",
+          "issue": "V"
+        },
+        {
+          "date": "2026-09-13T19:00:00Z",
+          "adversaire": "Atleti",
+          "domicile": true,
+          "butsPour": 0,
+          "butsContre": 3,
+          "score": "0-3",
+          "issue": "D"
+        },
+        {
+          "date": "2026-09-20T19:00:00Z",
+          "adversaire": "Valencia",
+          "domicile": false,
+          "butsPour": 3,
+          "butsContre": 2,
+          "score": "3-2",
+          "issue": "V"
+        }
+      ],
+      "serie": 3,
+      "prochainsMatchs": []
+    },
+    {
       "id": 471,
       "nom": "Sassuolo",
       "blason": "https://crests.football-data.org/471.png",
@@ -7295,17 +6992,8 @@
       "blason": "https://crests.football-data.org/1783.png",
       "competition": "Série A",
       "pays": "Brésil",
-      "dernierMatch": "2026-09-13T20:30:00Z",
+      "dernierMatch": "2026-09-20T21:30:00Z",
       "detail": [
-        {
-          "date": "2026-07-23T00:30:00Z",
-          "adversaire": "Chapecoense",
-          "domicile": false,
-          "butsPour": 4,
-          "butsContre": 0,
-          "score": "4-0",
-          "issue": "V"
-        },
         {
           "date": "2026-07-26T21:30:00Z",
           "adversaire": "São Paulo",
@@ -7386,17 +7074,19 @@
           "butsContre": 1,
           "score": "2-1",
           "issue": "V"
+        },
+        {
+          "date": "2026-09-20T21:30:00Z",
+          "adversaire": "Bragantino",
+          "domicile": true,
+          "butsPour": 2,
+          "butsContre": 1,
+          "score": "2-1",
+          "issue": "V"
         }
       ],
       "serie": 10,
-      "prochainsMatchs": [
-        {
-          "date": "2026-09-20T21:30:00Z",
-          "competition": "Série A",
-          "domicile": "Flamengo",
-          "exterieur": "Bragantino"
-        }
-      ]
+      "prochainsMatchs": []
     },
     {
       "id": 328,
@@ -7579,6 +7269,108 @@
           "butsContre": 1,
           "score": "1-1",
           "issue": "N"
+        }
+      ],
+      "serie": 8,
+      "prochainsMatchs": []
+    },
+    {
+      "id": 1771,
+      "nom": "Cruzeiro",
+      "blason": "https://crests.football-data.org/1771.png",
+      "competition": "Série A",
+      "pays": "Brésil",
+      "dernierMatch": "2026-09-20T19:00:00Z",
+      "detail": [
+        {
+          "date": "2026-07-23T00:30:00Z",
+          "adversaire": "Internacional",
+          "domicile": false,
+          "butsPour": 2,
+          "butsContre": 1,
+          "score": "2-1",
+          "issue": "V"
+        },
+        {
+          "date": "2026-07-26T19:00:00Z",
+          "adversaire": "Botafogo",
+          "domicile": true,
+          "butsPour": 0,
+          "butsContre": 1,
+          "score": "0-1",
+          "issue": "D"
+        },
+        {
+          "date": "2026-07-31T00:30:00Z",
+          "adversaire": "Coritiba",
+          "domicile": false,
+          "butsPour": 1,
+          "butsContre": 0,
+          "score": "1-0",
+          "issue": "V"
+        },
+        {
+          "date": "2026-08-09T14:00:00Z",
+          "adversaire": "Mirassol",
+          "domicile": true,
+          "butsPour": 3,
+          "butsContre": 1,
+          "score": "3-1",
+          "issue": "V"
+        },
+        {
+          "date": "2026-08-16T22:30:00Z",
+          "adversaire": "Corinthians",
+          "domicile": false,
+          "butsPour": 2,
+          "butsContre": 1,
+          "score": "2-1",
+          "issue": "V"
+        },
+        {
+          "date": "2026-08-22T23:30:00Z",
+          "adversaire": "Flamengo",
+          "domicile": true,
+          "butsPour": 2,
+          "butsContre": 1,
+          "score": "2-1",
+          "issue": "V"
+        },
+        {
+          "date": "2026-08-30T00:20:00Z",
+          "adversaire": "Vasco da Gama",
+          "domicile": false,
+          "butsPour": 1,
+          "butsContre": 3,
+          "score": "1-3",
+          "issue": "D"
+        },
+        {
+          "date": "2026-09-06T19:00:00Z",
+          "adversaire": "Paranaense",
+          "domicile": true,
+          "butsPour": 3,
+          "butsContre": 1,
+          "score": "3-1",
+          "issue": "V"
+        },
+        {
+          "date": "2026-09-13T00:00:00Z",
+          "adversaire": "Santos",
+          "domicile": false,
+          "butsPour": 1,
+          "butsContre": 2,
+          "score": "1-2",
+          "issue": "D"
+        },
+        {
+          "date": "2026-09-20T19:00:00Z",
+          "adversaire": "Vitória",
+          "domicile": false,
+          "butsPour": 3,
+          "butsContre": 1,
+          "score": "3-1",
+          "issue": "V"
         }
       ],
       "serie": 8,
@@ -8230,115 +8022,6 @@
       "prochainsMatchs": []
     },
     {
-      "id": 1771,
-      "nom": "Cruzeiro",
-      "blason": "https://crests.football-data.org/1771.png",
-      "competition": "Série A",
-      "pays": "Brésil",
-      "dernierMatch": "2026-09-13T00:00:00Z",
-      "detail": [
-        {
-          "date": "2026-05-31T23:30:00Z",
-          "adversaire": "Fluminense",
-          "domicile": true,
-          "butsPour": 1,
-          "butsContre": 1,
-          "score": "1-1",
-          "issue": "N"
-        },
-        {
-          "date": "2026-07-23T00:30:00Z",
-          "adversaire": "Internacional",
-          "domicile": false,
-          "butsPour": 2,
-          "butsContre": 1,
-          "score": "2-1",
-          "issue": "V"
-        },
-        {
-          "date": "2026-07-26T19:00:00Z",
-          "adversaire": "Botafogo",
-          "domicile": true,
-          "butsPour": 0,
-          "butsContre": 1,
-          "score": "0-1",
-          "issue": "D"
-        },
-        {
-          "date": "2026-07-31T00:30:00Z",
-          "adversaire": "Coritiba",
-          "domicile": false,
-          "butsPour": 1,
-          "butsContre": 0,
-          "score": "1-0",
-          "issue": "V"
-        },
-        {
-          "date": "2026-08-09T14:00:00Z",
-          "adversaire": "Mirassol",
-          "domicile": true,
-          "butsPour": 3,
-          "butsContre": 1,
-          "score": "3-1",
-          "issue": "V"
-        },
-        {
-          "date": "2026-08-16T22:30:00Z",
-          "adversaire": "Corinthians",
-          "domicile": false,
-          "butsPour": 2,
-          "butsContre": 1,
-          "score": "2-1",
-          "issue": "V"
-        },
-        {
-          "date": "2026-08-22T23:30:00Z",
-          "adversaire": "Flamengo",
-          "domicile": true,
-          "butsPour": 2,
-          "butsContre": 1,
-          "score": "2-1",
-          "issue": "V"
-        },
-        {
-          "date": "2026-08-30T00:20:00Z",
-          "adversaire": "Vasco da Gama",
-          "domicile": false,
-          "butsPour": 1,
-          "butsContre": 3,
-          "score": "1-3",
-          "issue": "D"
-        },
-        {
-          "date": "2026-09-06T19:00:00Z",
-          "adversaire": "Paranaense",
-          "domicile": true,
-          "butsPour": 3,
-          "butsContre": 1,
-          "score": "3-1",
-          "issue": "V"
-        },
-        {
-          "date": "2026-09-13T00:00:00Z",
-          "adversaire": "Santos",
-          "domicile": false,
-          "butsPour": 1,
-          "butsContre": 2,
-          "score": "1-2",
-          "issue": "D"
-        }
-      ],
-      "serie": 7,
-      "prochainsMatchs": [
-        {
-          "date": "2026-09-20T19:00:00Z",
-          "competition": "Série A",
-          "domicile": "Vitória",
-          "exterieur": "Cruzeiro"
-        }
-      ]
-    },
-    {
       "id": 80,
       "nom": "Espanyol",
       "blason": "https://crests.football-data.org/80.png",
@@ -8564,6 +8247,108 @@
       "prochainsMatchs": []
     },
     {
+      "id": 1765,
+      "nom": "Fluminense",
+      "blason": "https://crests.football-data.org/1765.png",
+      "competition": "Série A",
+      "pays": "Brésil",
+      "dernierMatch": "2026-09-20T19:00:00Z",
+      "detail": [
+        {
+          "date": "2026-07-17T23:00:00Z",
+          "adversaire": "Bragantino",
+          "domicile": true,
+          "butsPour": 1,
+          "butsContre": 1,
+          "score": "1-1",
+          "issue": "N"
+        },
+        {
+          "date": "2026-07-26T21:30:00Z",
+          "adversaire": "Grêmio",
+          "domicile": false,
+          "butsPour": 1,
+          "butsContre": 1,
+          "score": "1-1",
+          "issue": "N"
+        },
+        {
+          "date": "2026-07-30T00:30:00Z",
+          "adversaire": "Bahia",
+          "domicile": true,
+          "butsPour": 0,
+          "butsContre": 0,
+          "score": "0-0",
+          "issue": "N"
+        },
+        {
+          "date": "2026-08-09T00:00:00Z",
+          "adversaire": "Botafogo",
+          "domicile": false,
+          "butsPour": 1,
+          "butsContre": 1,
+          "score": "1-1",
+          "issue": "N"
+        },
+        {
+          "date": "2026-08-15T19:30:00Z",
+          "adversaire": "Palmeiras",
+          "domicile": true,
+          "butsPour": 3,
+          "butsContre": 2,
+          "score": "3-2",
+          "issue": "V"
+        },
+        {
+          "date": "2026-08-22T19:00:00Z",
+          "adversaire": "Clube do Remo",
+          "domicile": true,
+          "butsPour": 2,
+          "butsContre": 1,
+          "score": "2-1",
+          "issue": "V"
+        },
+        {
+          "date": "2026-08-30T14:00:00Z",
+          "adversaire": "Paranaense",
+          "domicile": false,
+          "butsPour": 3,
+          "butsContre": 3,
+          "score": "3-3",
+          "issue": "N"
+        },
+        {
+          "date": "2026-09-06T00:00:00Z",
+          "adversaire": "Vasco da Gama",
+          "domicile": true,
+          "butsPour": 1,
+          "butsContre": 0,
+          "score": "1-0",
+          "issue": "V"
+        },
+        {
+          "date": "2026-09-12T19:00:00Z",
+          "adversaire": "Mineiro",
+          "domicile": false,
+          "butsPour": 1,
+          "butsContre": 3,
+          "score": "1-3",
+          "issue": "D"
+        },
+        {
+          "date": "2026-09-20T19:00:00Z",
+          "adversaire": "Corinthians",
+          "domicile": false,
+          "butsPour": 3,
+          "butsContre": 1,
+          "score": "3-1",
+          "issue": "V"
+        }
+      ],
+      "serie": 7,
+      "prochainsMatchs": []
+    },
+    {
       "id": 718,
       "nom": "Go Ahead",
       "blason": "https://crests.football-data.org/718.png",
@@ -8707,6 +8492,81 @@
           "butsPour": 3,
           "butsContre": 0,
           "score": "3-0",
+          "issue": "V"
+        }
+      ],
+      "serie": 7,
+      "prochainsMatchs": []
+    },
+    {
+      "id": 503,
+      "nom": "Porto",
+      "blason": "https://crests.football-data.org/503.png",
+      "competition": "Primeira Liga",
+      "pays": "Portugal",
+      "dernierMatch": "2026-09-20T19:30:00Z",
+      "detail": [
+        {
+          "date": "2026-08-09T17:00:00Z",
+          "adversaire": "Alverca",
+          "domicile": true,
+          "butsPour": 2,
+          "butsContre": 0,
+          "score": "2-0",
+          "issue": "V"
+        },
+        {
+          "date": "2026-08-15T19:30:00Z",
+          "adversaire": "Rio Ave",
+          "domicile": false,
+          "butsPour": 2,
+          "butsContre": 0,
+          "score": "2-0",
+          "issue": "V"
+        },
+        {
+          "date": "2026-08-23T19:30:00Z",
+          "adversaire": "Arouca",
+          "domicile": true,
+          "butsPour": 2,
+          "butsContre": 0,
+          "score": "2-0",
+          "issue": "V"
+        },
+        {
+          "date": "2026-08-29T17:00:00Z",
+          "adversaire": "Acad. Viseu",
+          "domicile": false,
+          "butsPour": 3,
+          "butsContre": 0,
+          "score": "3-0",
+          "issue": "V"
+        },
+        {
+          "date": "2026-09-04T19:15:00Z",
+          "adversaire": "Moreirense",
+          "domicile": true,
+          "butsPour": 2,
+          "butsContre": 1,
+          "score": "2-1",
+          "issue": "V"
+        },
+        {
+          "date": "2026-09-12T17:00:00Z",
+          "adversaire": "Casa Pia",
+          "domicile": false,
+          "butsPour": 4,
+          "butsContre": 1,
+          "score": "4-1",
+          "issue": "V"
+        },
+        {
+          "date": "2026-09-20T19:30:00Z",
+          "adversaire": "SL Benfica",
+          "domicile": true,
+          "butsPour": 3,
+          "butsContre": 1,
+          "score": "3-1",
           "issue": "V"
         }
       ],
@@ -8864,6 +8724,81 @@
       "prochainsMatchs": []
     },
     {
+      "id": 90,
+      "nom": "Real Betis",
+      "blason": "https://crests.football-data.org/90.png",
+      "competition": "La Liga",
+      "pays": "Espagne",
+      "dernierMatch": "2026-09-20T16:30:00Z",
+      "detail": [
+        {
+          "date": "2026-08-21T19:00:00Z",
+          "adversaire": "Real Sociedad",
+          "domicile": true,
+          "butsPour": 1,
+          "butsContre": 0,
+          "score": "1-0",
+          "issue": "V"
+        },
+        {
+          "date": "2026-08-25T19:00:00Z",
+          "adversaire": "Valencia",
+          "domicile": false,
+          "butsPour": 1,
+          "butsContre": 0,
+          "score": "1-0",
+          "issue": "V"
+        },
+        {
+          "date": "2026-08-29T15:00:00Z",
+          "adversaire": "Levante",
+          "domicile": false,
+          "butsPour": 2,
+          "butsContre": 5,
+          "score": "2-5",
+          "issue": "D"
+        },
+        {
+          "date": "2026-09-04T19:00:00Z",
+          "adversaire": "Real Madrid",
+          "domicile": true,
+          "butsPour": 1,
+          "butsContre": 0,
+          "score": "1-0",
+          "issue": "V"
+        },
+        {
+          "date": "2026-09-14T19:00:00Z",
+          "adversaire": "Villarreal",
+          "domicile": false,
+          "butsPour": 2,
+          "butsContre": 1,
+          "score": "2-1",
+          "issue": "V"
+        },
+        {
+          "date": "2026-09-17T17:00:00Z",
+          "adversaire": "Getafe",
+          "domicile": true,
+          "butsPour": 1,
+          "butsContre": 0,
+          "score": "1-0",
+          "issue": "V"
+        },
+        {
+          "date": "2026-09-20T16:30:00Z",
+          "adversaire": "Deportivo",
+          "domicile": false,
+          "butsPour": 1,
+          "butsContre": 1,
+          "score": "1-1",
+          "issue": "N"
+        }
+      ],
+      "serie": 7,
+      "prochainsMatchs": []
+    },
+    {
       "id": 559,
       "nom": "Sevilla FC",
       "blason": "https://crests.football-data.org/559.png",
@@ -8929,6 +8864,81 @@
           "date": "2026-09-19T19:00:00Z",
           "adversaire": "Barça",
           "domicile": true,
+          "butsPour": 1,
+          "butsContre": 3,
+          "score": "1-3",
+          "issue": "D"
+        }
+      ],
+      "serie": 7,
+      "prochainsMatchs": []
+    },
+    {
+      "id": 1903,
+      "nom": "SL Benfica",
+      "blason": "https://crests.football-data.org/1903.png",
+      "competition": "Primeira Liga",
+      "pays": "Portugal",
+      "dernierMatch": "2026-09-20T19:30:00Z",
+      "detail": [
+        {
+          "date": "2026-08-09T19:30:00Z",
+          "adversaire": "Acad. Viseu",
+          "domicile": true,
+          "butsPour": 2,
+          "butsContre": 2,
+          "score": "2-2",
+          "issue": "N"
+        },
+        {
+          "date": "2026-08-17T19:15:00Z",
+          "adversaire": "Casa Pia",
+          "domicile": false,
+          "butsPour": 7,
+          "butsContre": 0,
+          "score": "7-0",
+          "issue": "V"
+        },
+        {
+          "date": "2026-08-31T19:15:00Z",
+          "adversaire": "Estoril Praia",
+          "domicile": true,
+          "butsPour": 2,
+          "butsContre": 1,
+          "score": "2-1",
+          "issue": "V"
+        },
+        {
+          "date": "2026-09-05T17:00:00Z",
+          "adversaire": "Marítimo",
+          "domicile": false,
+          "butsPour": 3,
+          "butsContre": 0,
+          "score": "3-0",
+          "issue": "V"
+        },
+        {
+          "date": "2026-09-09T19:45:00Z",
+          "adversaire": "Moreirense",
+          "domicile": false,
+          "butsPour": 4,
+          "butsContre": 0,
+          "score": "4-0",
+          "issue": "V"
+        },
+        {
+          "date": "2026-09-13T17:00:00Z",
+          "adversaire": "Gil Vicente",
+          "domicile": true,
+          "butsPour": 3,
+          "butsContre": 1,
+          "score": "3-1",
+          "issue": "V"
+        },
+        {
+          "date": "2026-09-20T19:30:00Z",
+          "adversaire": "Porto",
+          "domicile": false,
           "butsPour": 1,
           "butsContre": 3,
           "score": "1-3",
@@ -9164,6 +9174,115 @@
       "prochainsMatchs": []
     },
     {
+      "id": 4286,
+      "nom": "Bragantino",
+      "blason": "https://crests.football-data.org/4286.png",
+      "competition": "Série A",
+      "pays": "Brésil",
+      "dernierMatch": "2026-09-20T21:30:00Z",
+      "detail": [
+        {
+          "date": "2026-05-31T14:00:00Z",
+          "adversaire": "Internacional",
+          "domicile": true,
+          "butsPour": 3,
+          "butsContre": 1,
+          "score": "3-1",
+          "issue": "V"
+        },
+        {
+          "date": "2026-07-17T23:00:00Z",
+          "adversaire": "Fluminense",
+          "domicile": false,
+          "butsPour": 1,
+          "butsContre": 1,
+          "score": "1-1",
+          "issue": "N"
+        },
+        {
+          "date": "2026-07-26T21:30:00Z",
+          "adversaire": "Coritiba",
+          "domicile": true,
+          "butsPour": 0,
+          "butsContre": 0,
+          "score": "0-0",
+          "issue": "N"
+        },
+        {
+          "date": "2026-08-09T21:30:00Z",
+          "adversaire": "Corinthians",
+          "domicile": true,
+          "butsPour": 0,
+          "butsContre": 2,
+          "score": "0-2",
+          "issue": "D"
+        },
+        {
+          "date": "2026-08-15T21:30:00Z",
+          "adversaire": "Paranaense",
+          "domicile": false,
+          "butsPour": 1,
+          "butsContre": 1,
+          "score": "1-1",
+          "issue": "N"
+        },
+        {
+          "date": "2026-08-23T19:00:00Z",
+          "adversaire": "Grêmio",
+          "domicile": true,
+          "butsPour": 1,
+          "butsContre": 0,
+          "score": "1-0",
+          "issue": "V"
+        },
+        {
+          "date": "2026-08-29T23:00:00Z",
+          "adversaire": "São Paulo",
+          "domicile": false,
+          "butsPour": 1,
+          "butsContre": 2,
+          "score": "1-2",
+          "issue": "D"
+        },
+        {
+          "date": "2026-09-05T19:00:00Z",
+          "adversaire": "Bahia",
+          "domicile": true,
+          "butsPour": 2,
+          "butsContre": 3,
+          "score": "2-3",
+          "issue": "D"
+        },
+        {
+          "date": "2026-09-12T23:30:00Z",
+          "adversaire": "Botafogo",
+          "domicile": false,
+          "butsPour": 1,
+          "butsContre": 1,
+          "score": "1-1",
+          "issue": "N"
+        },
+        {
+          "date": "2026-09-20T21:30:00Z",
+          "adversaire": "Flamengo",
+          "domicile": false,
+          "butsPour": 1,
+          "butsContre": 2,
+          "score": "1-2",
+          "issue": "D"
+        }
+      ],
+      "serie": 6,
+      "prochainsMatchs": [
+        {
+          "date": "2026-10-03T21:30:00Z",
+          "competition": "Série A",
+          "domicile": "Mineiro",
+          "exterieur": "Bragantino"
+        }
+      ]
+    },
+    {
       "id": 1909,
       "nom": "Cambuur",
       "blason": "https://crests.football-data.org/1909.png",
@@ -9237,115 +9356,6 @@
       ],
       "serie": 6,
       "prochainsMatchs": []
-    },
-    {
-      "id": 1765,
-      "nom": "Fluminense",
-      "blason": "https://crests.football-data.org/1765.png",
-      "competition": "Série A",
-      "pays": "Brésil",
-      "dernierMatch": "2026-09-12T19:00:00Z",
-      "detail": [
-        {
-          "date": "2026-05-31T23:30:00Z",
-          "adversaire": "Cruzeiro",
-          "domicile": false,
-          "butsPour": 1,
-          "butsContre": 1,
-          "score": "1-1",
-          "issue": "N"
-        },
-        {
-          "date": "2026-07-17T23:00:00Z",
-          "adversaire": "Bragantino",
-          "domicile": true,
-          "butsPour": 1,
-          "butsContre": 1,
-          "score": "1-1",
-          "issue": "N"
-        },
-        {
-          "date": "2026-07-26T21:30:00Z",
-          "adversaire": "Grêmio",
-          "domicile": false,
-          "butsPour": 1,
-          "butsContre": 1,
-          "score": "1-1",
-          "issue": "N"
-        },
-        {
-          "date": "2026-07-30T00:30:00Z",
-          "adversaire": "Bahia",
-          "domicile": true,
-          "butsPour": 0,
-          "butsContre": 0,
-          "score": "0-0",
-          "issue": "N"
-        },
-        {
-          "date": "2026-08-09T00:00:00Z",
-          "adversaire": "Botafogo",
-          "domicile": false,
-          "butsPour": 1,
-          "butsContre": 1,
-          "score": "1-1",
-          "issue": "N"
-        },
-        {
-          "date": "2026-08-15T19:30:00Z",
-          "adversaire": "Palmeiras",
-          "domicile": true,
-          "butsPour": 3,
-          "butsContre": 2,
-          "score": "3-2",
-          "issue": "V"
-        },
-        {
-          "date": "2026-08-22T19:00:00Z",
-          "adversaire": "Clube do Remo",
-          "domicile": true,
-          "butsPour": 2,
-          "butsContre": 1,
-          "score": "2-1",
-          "issue": "V"
-        },
-        {
-          "date": "2026-08-30T14:00:00Z",
-          "adversaire": "Paranaense",
-          "domicile": false,
-          "butsPour": 3,
-          "butsContre": 3,
-          "score": "3-3",
-          "issue": "N"
-        },
-        {
-          "date": "2026-09-06T00:00:00Z",
-          "adversaire": "Vasco da Gama",
-          "domicile": true,
-          "butsPour": 1,
-          "butsContre": 0,
-          "score": "1-0",
-          "issue": "V"
-        },
-        {
-          "date": "2026-09-12T19:00:00Z",
-          "adversaire": "Mineiro",
-          "domicile": false,
-          "butsPour": 1,
-          "butsContre": 3,
-          "score": "1-3",
-          "issue": "D"
-        }
-      ],
-      "serie": 6,
-      "prochainsMatchs": [
-        {
-          "date": "2026-09-20T19:00:00Z",
-          "competition": "Série A",
-          "domicile": "Corinthians",
-          "exterieur": "Fluminense"
-        }
-      ]
     },
     {
       "id": 1768,
@@ -9444,218 +9454,6 @@
           "butsContre": 3,
           "score": "3-3",
           "issue": "N"
-        }
-      ],
-      "serie": 6,
-      "prochainsMatchs": [
-        {
-          "date": "2026-09-20T22:30:00Z",
-          "competition": "Série A",
-          "domicile": "Paranaense",
-          "exterieur": "Bahia"
-        }
-      ]
-    },
-    {
-      "id": 503,
-      "nom": "Porto",
-      "blason": "https://crests.football-data.org/503.png",
-      "competition": "Primeira Liga",
-      "pays": "Portugal",
-      "dernierMatch": "2026-09-12T17:00:00Z",
-      "detail": [
-        {
-          "date": "2026-08-09T17:00:00Z",
-          "adversaire": "Alverca",
-          "domicile": true,
-          "butsPour": 2,
-          "butsContre": 0,
-          "score": "2-0",
-          "issue": "V"
-        },
-        {
-          "date": "2026-08-15T19:30:00Z",
-          "adversaire": "Rio Ave",
-          "domicile": false,
-          "butsPour": 2,
-          "butsContre": 0,
-          "score": "2-0",
-          "issue": "V"
-        },
-        {
-          "date": "2026-08-23T19:30:00Z",
-          "adversaire": "Arouca",
-          "domicile": true,
-          "butsPour": 2,
-          "butsContre": 0,
-          "score": "2-0",
-          "issue": "V"
-        },
-        {
-          "date": "2026-08-29T17:00:00Z",
-          "adversaire": "Acad. Viseu",
-          "domicile": false,
-          "butsPour": 3,
-          "butsContre": 0,
-          "score": "3-0",
-          "issue": "V"
-        },
-        {
-          "date": "2026-09-04T19:15:00Z",
-          "adversaire": "Moreirense",
-          "domicile": true,
-          "butsPour": 2,
-          "butsContre": 1,
-          "score": "2-1",
-          "issue": "V"
-        },
-        {
-          "date": "2026-09-12T17:00:00Z",
-          "adversaire": "Casa Pia",
-          "domicile": false,
-          "butsPour": 4,
-          "butsContre": 1,
-          "score": "4-1",
-          "issue": "V"
-        }
-      ],
-      "serie": 6,
-      "prochainsMatchs": [
-        {
-          "date": "2026-09-20T19:30:00Z",
-          "competition": "Primeira Liga",
-          "domicile": "Porto",
-          "exterieur": "SL Benfica"
-        }
-      ]
-    },
-    {
-      "id": 90,
-      "nom": "Real Betis",
-      "blason": "https://crests.football-data.org/90.png",
-      "competition": "La Liga",
-      "pays": "Espagne",
-      "dernierMatch": "2026-09-17T17:00:00Z",
-      "detail": [
-        {
-          "date": "2026-08-21T19:00:00Z",
-          "adversaire": "Real Sociedad",
-          "domicile": true,
-          "butsPour": 1,
-          "butsContre": 0,
-          "score": "1-0",
-          "issue": "V"
-        },
-        {
-          "date": "2026-08-25T19:00:00Z",
-          "adversaire": "Valencia",
-          "domicile": false,
-          "butsPour": 1,
-          "butsContre": 0,
-          "score": "1-0",
-          "issue": "V"
-        },
-        {
-          "date": "2026-08-29T15:00:00Z",
-          "adversaire": "Levante",
-          "domicile": false,
-          "butsPour": 2,
-          "butsContre": 5,
-          "score": "2-5",
-          "issue": "D"
-        },
-        {
-          "date": "2026-09-04T19:00:00Z",
-          "adversaire": "Real Madrid",
-          "domicile": true,
-          "butsPour": 1,
-          "butsContre": 0,
-          "score": "1-0",
-          "issue": "V"
-        },
-        {
-          "date": "2026-09-14T19:00:00Z",
-          "adversaire": "Villarreal",
-          "domicile": false,
-          "butsPour": 2,
-          "butsContre": 1,
-          "score": "2-1",
-          "issue": "V"
-        },
-        {
-          "date": "2026-09-17T17:00:00Z",
-          "adversaire": "Getafe",
-          "domicile": true,
-          "butsPour": 1,
-          "butsContre": 0,
-          "score": "1-0",
-          "issue": "V"
-        }
-      ],
-      "serie": 6,
-      "prochainsMatchs": []
-    },
-    {
-      "id": 5530,
-      "nom": "Santa Clara",
-      "blason": "https://crests.football-data.org/5530.png",
-      "competition": "Primeira Liga",
-      "pays": "Portugal",
-      "dernierMatch": "2026-09-13T17:00:00Z",
-      "detail": [
-        {
-          "date": "2026-08-10T19:15:00Z",
-          "adversaire": "CD Nacional",
-          "domicile": true,
-          "butsPour": 2,
-          "butsContre": 2,
-          "score": "2-2",
-          "issue": "N"
-        },
-        {
-          "date": "2026-08-15T17:00:00Z",
-          "adversaire": "Acad. Viseu",
-          "domicile": false,
-          "butsPour": 1,
-          "butsContre": 0,
-          "score": "1-0",
-          "issue": "V"
-        },
-        {
-          "date": "2026-08-23T17:00:00Z",
-          "adversaire": "Famalicão",
-          "domicile": true,
-          "butsPour": 1,
-          "butsContre": 0,
-          "score": "1-0",
-          "issue": "V"
-        },
-        {
-          "date": "2026-08-29T14:30:00Z",
-          "adversaire": "Alverca",
-          "domicile": false,
-          "butsPour": 1,
-          "butsContre": 1,
-          "score": "1-1",
-          "issue": "N"
-        },
-        {
-          "date": "2026-09-06T14:30:00Z",
-          "adversaire": "Rio Ave",
-          "domicile": true,
-          "butsPour": 4,
-          "butsContre": 0,
-          "score": "4-0",
-          "issue": "V"
-        },
-        {
-          "date": "2026-09-13T17:00:00Z",
-          "adversaire": "Arouca",
-          "domicile": false,
-          "butsPour": 2,
-          "butsContre": 1,
-          "score": "2-1",
-          "issue": "V"
         }
       ],
       "serie": 6,
@@ -9767,79 +9565,6 @@
           "competition": "Série A",
           "domicile": "São Paulo",
           "exterieur": "Santos"
-        }
-      ]
-    },
-    {
-      "id": 1903,
-      "nom": "SL Benfica",
-      "blason": "https://crests.football-data.org/1903.png",
-      "competition": "Primeira Liga",
-      "pays": "Portugal",
-      "dernierMatch": "2026-09-13T17:00:00Z",
-      "detail": [
-        {
-          "date": "2026-08-09T19:30:00Z",
-          "adversaire": "Acad. Viseu",
-          "domicile": true,
-          "butsPour": 2,
-          "butsContre": 2,
-          "score": "2-2",
-          "issue": "N"
-        },
-        {
-          "date": "2026-08-17T19:15:00Z",
-          "adversaire": "Casa Pia",
-          "domicile": false,
-          "butsPour": 7,
-          "butsContre": 0,
-          "score": "7-0",
-          "issue": "V"
-        },
-        {
-          "date": "2026-08-31T19:15:00Z",
-          "adversaire": "Estoril Praia",
-          "domicile": true,
-          "butsPour": 2,
-          "butsContre": 1,
-          "score": "2-1",
-          "issue": "V"
-        },
-        {
-          "date": "2026-09-05T17:00:00Z",
-          "adversaire": "Marítimo",
-          "domicile": false,
-          "butsPour": 3,
-          "butsContre": 0,
-          "score": "3-0",
-          "issue": "V"
-        },
-        {
-          "date": "2026-09-09T19:45:00Z",
-          "adversaire": "Moreirense",
-          "domicile": false,
-          "butsPour": 4,
-          "butsContre": 0,
-          "score": "4-0",
-          "issue": "V"
-        },
-        {
-          "date": "2026-09-13T17:00:00Z",
-          "adversaire": "Gil Vicente",
-          "domicile": true,
-          "butsPour": 3,
-          "butsContre": 1,
-          "score": "3-1",
-          "issue": "V"
-        }
-      ],
-      "serie": 6,
-      "prochainsMatchs": [
-        {
-          "date": "2026-09-20T19:30:00Z",
-          "competition": "Primeira Liga",
-          "domicile": "Porto",
-          "exterieur": "SL Benfica"
         }
       ]
     },
@@ -10075,186 +9800,7 @@
         }
       ],
       "serie": 5,
-      "prochainsMatchs": [
-        {
-          "date": "2026-09-20T22:30:00Z",
-          "competition": "Série A",
-          "domicile": "Paranaense",
-          "exterieur": "Bahia"
-        }
-      ]
-    },
-    {
-      "id": 5613,
-      "nom": "Braga",
-      "blason": "https://crests.football-data.org/5613.png",
-      "competition": "Primeira Liga",
-      "pays": "Portugal",
-      "dernierMatch": "2026-09-14T19:45:00Z",
-      "detail": [
-        {
-          "date": "2026-08-09T19:30:00Z",
-          "adversaire": "Moreirense",
-          "domicile": false,
-          "butsPour": 2,
-          "butsContre": 2,
-          "score": "2-2",
-          "issue": "N"
-        },
-        {
-          "date": "2026-08-31T19:15:00Z",
-          "adversaire": "Vitória SC",
-          "domicile": true,
-          "butsPour": 1,
-          "butsContre": 0,
-          "score": "1-0",
-          "issue": "V"
-        },
-        {
-          "date": "2026-09-05T17:00:00Z",
-          "adversaire": "Alverca",
-          "domicile": false,
-          "butsPour": 2,
-          "butsContre": 1,
-          "score": "2-1",
-          "issue": "V"
-        },
-        {
-          "date": "2026-09-10T19:15:00Z",
-          "adversaire": "Amadora",
-          "domicile": false,
-          "butsPour": 1,
-          "butsContre": 2,
-          "score": "1-2",
-          "issue": "D"
-        },
-        {
-          "date": "2026-09-14T19:45:00Z",
-          "adversaire": "Estoril Praia",
-          "domicile": true,
-          "butsPour": 1,
-          "butsContre": 0,
-          "score": "1-0",
-          "issue": "V"
-        }
-      ],
-      "serie": 5,
       "prochainsMatchs": []
-    },
-    {
-      "id": 4286,
-      "nom": "Bragantino",
-      "blason": "https://crests.football-data.org/4286.png",
-      "competition": "Série A",
-      "pays": "Brésil",
-      "dernierMatch": "2026-09-12T23:30:00Z",
-      "detail": [
-        {
-          "date": "2026-05-24T23:30:00Z",
-          "adversaire": "Vasco da Gama",
-          "domicile": false,
-          "butsPour": 3,
-          "butsContre": 0,
-          "score": "3-0",
-          "issue": "V"
-        },
-        {
-          "date": "2026-05-31T14:00:00Z",
-          "adversaire": "Internacional",
-          "domicile": true,
-          "butsPour": 3,
-          "butsContre": 1,
-          "score": "3-1",
-          "issue": "V"
-        },
-        {
-          "date": "2026-07-17T23:00:00Z",
-          "adversaire": "Fluminense",
-          "domicile": false,
-          "butsPour": 1,
-          "butsContre": 1,
-          "score": "1-1",
-          "issue": "N"
-        },
-        {
-          "date": "2026-07-26T21:30:00Z",
-          "adversaire": "Coritiba",
-          "domicile": true,
-          "butsPour": 0,
-          "butsContre": 0,
-          "score": "0-0",
-          "issue": "N"
-        },
-        {
-          "date": "2026-08-09T21:30:00Z",
-          "adversaire": "Corinthians",
-          "domicile": true,
-          "butsPour": 0,
-          "butsContre": 2,
-          "score": "0-2",
-          "issue": "D"
-        },
-        {
-          "date": "2026-08-15T21:30:00Z",
-          "adversaire": "Paranaense",
-          "domicile": false,
-          "butsPour": 1,
-          "butsContre": 1,
-          "score": "1-1",
-          "issue": "N"
-        },
-        {
-          "date": "2026-08-23T19:00:00Z",
-          "adversaire": "Grêmio",
-          "domicile": true,
-          "butsPour": 1,
-          "butsContre": 0,
-          "score": "1-0",
-          "issue": "V"
-        },
-        {
-          "date": "2026-08-29T23:00:00Z",
-          "adversaire": "São Paulo",
-          "domicile": false,
-          "butsPour": 1,
-          "butsContre": 2,
-          "score": "1-2",
-          "issue": "D"
-        },
-        {
-          "date": "2026-09-05T19:00:00Z",
-          "adversaire": "Bahia",
-          "domicile": true,
-          "butsPour": 2,
-          "butsContre": 3,
-          "score": "2-3",
-          "issue": "D"
-        },
-        {
-          "date": "2026-09-12T23:30:00Z",
-          "adversaire": "Botafogo",
-          "domicile": false,
-          "butsPour": 1,
-          "butsContre": 1,
-          "score": "1-1",
-          "issue": "N"
-        }
-      ],
-      "serie": 5,
-      "prochainsMatchs": [
-        {
-          "date": "2026-09-20T21:30:00Z",
-          "competition": "Série A",
-          "domicile": "Flamengo",
-          "exterieur": "Bragantino"
-        },
-        {
-          "date": "2026-10-03T21:30:00Z",
-          "competition": "Série A",
-          "domicile": "Mineiro",
-          "exterieur": "Bragantino"
-        }
-      ]
     },
     {
       "id": 402,
@@ -10788,6 +10334,63 @@
       "prochainsMatchs": []
     },
     {
+      "id": 98,
+      "nom": "Milan",
+      "blason": "https://crests.football-data.org/98.png",
+      "competition": "Serie A",
+      "pays": "Italie",
+      "dernierMatch": "2026-09-20T18:45:00Z",
+      "detail": [
+        {
+          "date": "2026-08-23T18:45:00Z",
+          "adversaire": "Torino",
+          "domicile": false,
+          "butsPour": 2,
+          "butsContre": 1,
+          "score": "2-1",
+          "issue": "V"
+        },
+        {
+          "date": "2026-08-28T18:45:00Z",
+          "adversaire": "Venezia FC",
+          "domicile": true,
+          "butsPour": 2,
+          "butsContre": 0,
+          "score": "2-0",
+          "issue": "V"
+        },
+        {
+          "date": "2026-09-06T18:45:00Z",
+          "adversaire": "Juventus",
+          "domicile": false,
+          "butsPour": 1,
+          "butsContre": 1,
+          "score": "1-1",
+          "issue": "N"
+        },
+        {
+          "date": "2026-09-12T16:00:00Z",
+          "adversaire": "Lazio",
+          "domicile": false,
+          "butsPour": 2,
+          "butsContre": 2,
+          "score": "2-2",
+          "issue": "N"
+        },
+        {
+          "date": "2026-09-20T18:45:00Z",
+          "adversaire": "Lecce",
+          "domicile": true,
+          "butsPour": 3,
+          "butsContre": 0,
+          "score": "3-0",
+          "issue": "V"
+        }
+      ],
+      "serie": 5,
+      "prochainsMatchs": []
+    },
+    {
       "id": 548,
       "nom": "Monaco",
       "blason": "https://crests.football-data.org/548.png",
@@ -11006,6 +10609,63 @@
           "date": "2026-09-19T14:00:00Z",
           "adversaire": "Hull City",
           "domicile": true,
+          "butsPour": 2,
+          "butsContre": 1,
+          "score": "2-1",
+          "issue": "V"
+        }
+      ],
+      "serie": 5,
+      "prochainsMatchs": []
+    },
+    {
+      "id": 524,
+      "nom": "PSG",
+      "blason": "https://crests.football-data.org/524.png",
+      "competition": "Ligue 1",
+      "pays": "France",
+      "dernierMatch": "2026-09-20T18:45:00Z",
+      "detail": [
+        {
+          "date": "2026-08-23T18:45:00Z",
+          "adversaire": "Stade Rennais",
+          "domicile": false,
+          "butsPour": 2,
+          "butsContre": 2,
+          "score": "2-2",
+          "issue": "N"
+        },
+        {
+          "date": "2026-08-28T18:45:00Z",
+          "adversaire": "Lille",
+          "domicile": false,
+          "butsPour": 2,
+          "butsContre": 2,
+          "score": "2-2",
+          "issue": "N"
+        },
+        {
+          "date": "2026-09-04T19:05:00Z",
+          "adversaire": "Monaco",
+          "domicile": true,
+          "butsPour": 1,
+          "butsContre": 2,
+          "score": "1-2",
+          "issue": "D"
+        },
+        {
+          "date": "2026-09-13T18:45:00Z",
+          "adversaire": "Brest",
+          "domicile": false,
+          "butsPour": 1,
+          "butsContre": 0,
+          "score": "1-0",
+          "issue": "V"
+        },
+        {
+          "date": "2026-09-20T18:45:00Z",
+          "adversaire": "Marseille",
+          "domicile": false,
           "butsPour": 2,
           "butsContre": 1,
           "score": "2-1",
@@ -11559,6 +11219,54 @@
       "prochainsMatchs": []
     },
     {
+      "id": 2,
+      "nom": "Hoffenheim",
+      "blason": "https://crests.football-data.org/2.png",
+      "competition": "Bundesliga",
+      "pays": "Allemagne",
+      "dernierMatch": "2026-09-20T17:30:00Z",
+      "detail": [
+        {
+          "date": "2026-08-29T13:30:00Z",
+          "adversaire": "1. FC Köln",
+          "domicile": false,
+          "butsPour": 2,
+          "butsContre": 3,
+          "score": "2-3",
+          "issue": "D"
+        },
+        {
+          "date": "2026-09-05T13:30:00Z",
+          "adversaire": "Dortmund",
+          "domicile": true,
+          "butsPour": 2,
+          "butsContre": 3,
+          "score": "2-3",
+          "issue": "D"
+        },
+        {
+          "date": "2026-09-12T13:30:00Z",
+          "adversaire": "Stuttgart",
+          "domicile": true,
+          "butsPour": 2,
+          "butsContre": 1,
+          "score": "2-1",
+          "issue": "V"
+        },
+        {
+          "date": "2026-09-20T17:30:00Z",
+          "adversaire": "SC Paderborn",
+          "domicile": false,
+          "butsPour": 1,
+          "butsContre": 3,
+          "score": "1-3",
+          "issue": "D"
+        }
+      ],
+      "serie": 4,
+      "prochainsMatchs": []
+    },
+    {
       "id": 3,
       "nom": "Leverkusen",
       "blason": "https://crests.football-data.org/3.png",
@@ -11748,61 +11456,6 @@
       "prochainsMatchs": []
     },
     {
-      "id": 98,
-      "nom": "Milan",
-      "blason": "https://crests.football-data.org/98.png",
-      "competition": "Serie A",
-      "pays": "Italie",
-      "dernierMatch": "2026-09-12T16:00:00Z",
-      "detail": [
-        {
-          "date": "2026-08-23T18:45:00Z",
-          "adversaire": "Torino",
-          "domicile": false,
-          "butsPour": 2,
-          "butsContre": 1,
-          "score": "2-1",
-          "issue": "V"
-        },
-        {
-          "date": "2026-08-28T18:45:00Z",
-          "adversaire": "Venezia FC",
-          "domicile": true,
-          "butsPour": 2,
-          "butsContre": 0,
-          "score": "2-0",
-          "issue": "V"
-        },
-        {
-          "date": "2026-09-06T18:45:00Z",
-          "adversaire": "Juventus",
-          "domicile": false,
-          "butsPour": 1,
-          "butsContre": 1,
-          "score": "1-1",
-          "issue": "N"
-        },
-        {
-          "date": "2026-09-12T16:00:00Z",
-          "adversaire": "Lazio",
-          "domicile": false,
-          "butsPour": 2,
-          "butsContre": 2,
-          "score": "2-2",
-          "issue": "N"
-        }
-      ],
-      "serie": 4,
-      "prochainsMatchs": [
-        {
-          "date": "2026-09-20T18:45:00Z",
-          "competition": "Serie A",
-          "domicile": "Milan",
-          "exterieur": "Lecce"
-        }
-      ]
-    },
-    {
       "id": 384,
       "nom": "Millwall",
       "blason": "https://crests.football-data.org/384.png",
@@ -11971,61 +11624,6 @@
       "prochainsMatchs": []
     },
     {
-      "id": 524,
-      "nom": "PSG",
-      "blason": "https://crests.football-data.org/524.png",
-      "competition": "Ligue 1",
-      "pays": "France",
-      "dernierMatch": "2026-09-13T18:45:00Z",
-      "detail": [
-        {
-          "date": "2026-08-23T18:45:00Z",
-          "adversaire": "Stade Rennais",
-          "domicile": false,
-          "butsPour": 2,
-          "butsContre": 2,
-          "score": "2-2",
-          "issue": "N"
-        },
-        {
-          "date": "2026-08-28T18:45:00Z",
-          "adversaire": "Lille",
-          "domicile": false,
-          "butsPour": 2,
-          "butsContre": 2,
-          "score": "2-2",
-          "issue": "N"
-        },
-        {
-          "date": "2026-09-04T19:05:00Z",
-          "adversaire": "Monaco",
-          "domicile": true,
-          "butsPour": 1,
-          "butsContre": 2,
-          "score": "1-2",
-          "issue": "D"
-        },
-        {
-          "date": "2026-09-13T18:45:00Z",
-          "adversaire": "Brest",
-          "domicile": false,
-          "butsPour": 1,
-          "butsContre": 0,
-          "score": "1-0",
-          "issue": "V"
-        }
-      ],
-      "serie": 4,
-      "prochainsMatchs": [
-        {
-          "date": "2026-09-20T18:45:00Z",
-          "competition": "Ligue 1",
-          "domicile": "Marseille",
-          "exterieur": "PSG"
-        }
-      ]
-    },
-    {
       "id": 1920,
       "nom": "Sittard",
       "blason": "https://crests.football-data.org/1920.png",
@@ -12151,6 +11749,183 @@
           "butsPour": 1,
           "butsContre": 2,
           "score": "1-2",
+          "issue": "D"
+        }
+      ],
+      "serie": 4,
+      "prochainsMatchs": []
+    },
+    {
+      "id": 94,
+      "nom": "Villarreal",
+      "blason": "https://crests.football-data.org/94.png",
+      "competition": "La Liga",
+      "pays": "Espagne",
+      "dernierMatch": "2026-09-20T16:30:00Z",
+      "detail": [
+        {
+          "date": "2026-08-16T15:00:00Z",
+          "adversaire": "Santander",
+          "domicile": false,
+          "butsPour": 2,
+          "butsContre": 2,
+          "score": "2-2",
+          "issue": "N"
+        },
+        {
+          "date": "2026-08-23T15:00:00Z",
+          "adversaire": "Atleti",
+          "domicile": false,
+          "butsPour": 2,
+          "butsContre": 2,
+          "score": "2-2",
+          "issue": "N"
+        },
+        {
+          "date": "2026-08-28T19:30:00Z",
+          "adversaire": "Alavés",
+          "domicile": false,
+          "butsPour": 0,
+          "butsContre": 1,
+          "score": "0-1",
+          "issue": "D"
+        },
+        {
+          "date": "2026-09-05T19:00:00Z",
+          "adversaire": "Deportivo",
+          "domicile": true,
+          "butsPour": 2,
+          "butsContre": 3,
+          "score": "2-3",
+          "issue": "D"
+        },
+        {
+          "date": "2026-09-14T19:00:00Z",
+          "adversaire": "Real Betis",
+          "domicile": true,
+          "butsPour": 1,
+          "butsContre": 2,
+          "score": "1-2",
+          "issue": "D"
+        },
+        {
+          "date": "2026-09-17T19:30:00Z",
+          "adversaire": "Málaga",
+          "domicile": false,
+          "butsPour": 3,
+          "butsContre": 1,
+          "score": "3-1",
+          "issue": "V"
+        },
+        {
+          "date": "2026-09-20T16:30:00Z",
+          "adversaire": "Levante",
+          "domicile": true,
+          "butsPour": 3,
+          "butsContre": 1,
+          "score": "3-1",
+          "issue": "V"
+        }
+      ],
+      "serie": 4,
+      "prochainsMatchs": []
+    },
+    {
+      "id": 1782,
+      "nom": "Vitória",
+      "blason": "https://crests.football-data.org/1782.png",
+      "competition": "Série A",
+      "pays": "Brésil",
+      "dernierMatch": "2026-09-20T19:00:00Z",
+      "detail": [
+        {
+          "date": "2026-07-23T22:30:00Z",
+          "adversaire": "Botafogo",
+          "domicile": false,
+          "butsPour": 0,
+          "butsContre": 0,
+          "score": "0-0",
+          "issue": "N"
+        },
+        {
+          "date": "2026-07-26T22:30:00Z",
+          "adversaire": "Clube do Remo",
+          "domicile": false,
+          "butsPour": 0,
+          "butsContre": 2,
+          "score": "0-2",
+          "issue": "D"
+        },
+        {
+          "date": "2026-07-30T00:30:00Z",
+          "adversaire": "Palmeiras",
+          "domicile": true,
+          "butsPour": 0,
+          "butsContre": 4,
+          "score": "0-4",
+          "issue": "D"
+        },
+        {
+          "date": "2026-08-09T22:30:00Z",
+          "adversaire": "Flamengo",
+          "domicile": false,
+          "butsPour": 0,
+          "butsContre": 2,
+          "score": "0-2",
+          "issue": "D"
+        },
+        {
+          "date": "2026-08-16T21:30:00Z",
+          "adversaire": "Botafogo",
+          "domicile": true,
+          "butsPour": 1,
+          "butsContre": 0,
+          "score": "1-0",
+          "issue": "V"
+        },
+        {
+          "date": "2026-08-23T19:00:00Z",
+          "adversaire": "Bahia",
+          "domicile": true,
+          "butsPour": 0,
+          "butsContre": 2,
+          "score": "0-2",
+          "issue": "D"
+        },
+        {
+          "date": "2026-08-29T21:30:00Z",
+          "adversaire": "Mineiro",
+          "domicile": false,
+          "butsPour": 1,
+          "butsContre": 2,
+          "score": "1-2",
+          "issue": "D"
+        },
+        {
+          "date": "2026-09-07T23:00:00Z",
+          "adversaire": "Grêmio",
+          "domicile": true,
+          "butsPour": 1,
+          "butsContre": 0,
+          "score": "1-0",
+          "issue": "V"
+        },
+        {
+          "date": "2026-09-13T19:00:00Z",
+          "adversaire": "Mirassol",
+          "domicile": false,
+          "butsPour": 2,
+          "butsContre": 2,
+          "score": "2-2",
+          "issue": "N"
+        },
+        {
+          "date": "2026-09-20T19:00:00Z",
+          "adversaire": "Cruzeiro",
+          "domicile": true,
+          "butsPour": 1,
+          "butsContre": 3,
+          "score": "1-3",
           "issue": "D"
         }
       ],
@@ -12524,6 +12299,108 @@
       "prochainsMatchs": []
     },
     {
+      "id": 1779,
+      "nom": "Corinthians",
+      "blason": "https://crests.football-data.org/1779.png",
+      "competition": "Série A",
+      "pays": "Brésil",
+      "dernierMatch": "2026-09-20T19:00:00Z",
+      "detail": [
+        {
+          "date": "2026-07-23T22:30:00Z",
+          "adversaire": "Clube do Remo",
+          "domicile": true,
+          "butsPour": 3,
+          "butsContre": 0,
+          "score": "3-0",
+          "issue": "V"
+        },
+        {
+          "date": "2026-07-26T19:00:00Z",
+          "adversaire": "Bahia",
+          "domicile": false,
+          "butsPour": 1,
+          "butsContre": 1,
+          "score": "1-1",
+          "issue": "N"
+        },
+        {
+          "date": "2026-07-30T22:30:00Z",
+          "adversaire": "Paranaense",
+          "domicile": true,
+          "butsPour": 0,
+          "butsContre": 0,
+          "score": "0-0",
+          "issue": "N"
+        },
+        {
+          "date": "2026-08-09T21:30:00Z",
+          "adversaire": "Bragantino",
+          "domicile": false,
+          "butsPour": 2,
+          "butsContre": 0,
+          "score": "2-0",
+          "issue": "V"
+        },
+        {
+          "date": "2026-08-16T22:30:00Z",
+          "adversaire": "Cruzeiro",
+          "domicile": true,
+          "butsPour": 1,
+          "butsContre": 2,
+          "score": "1-2",
+          "issue": "D"
+        },
+        {
+          "date": "2026-08-23T22:30:00Z",
+          "adversaire": "Coritiba",
+          "domicile": false,
+          "butsPour": 1,
+          "butsContre": 2,
+          "score": "1-2",
+          "issue": "D"
+        },
+        {
+          "date": "2026-08-30T19:00:00Z",
+          "adversaire": "Santos",
+          "domicile": true,
+          "butsPour": 0,
+          "butsContre": 1,
+          "score": "0-1",
+          "issue": "D"
+        },
+        {
+          "date": "2026-09-06T22:30:00Z",
+          "adversaire": "Chapecoense",
+          "domicile": true,
+          "butsPour": 1,
+          "butsContre": 2,
+          "score": "1-2",
+          "issue": "D"
+        },
+        {
+          "date": "2026-09-13T20:30:00Z",
+          "adversaire": "Flamengo",
+          "domicile": false,
+          "butsPour": 1,
+          "butsContre": 2,
+          "score": "1-2",
+          "issue": "D"
+        },
+        {
+          "date": "2026-09-20T19:00:00Z",
+          "adversaire": "Fluminense",
+          "domicile": true,
+          "butsPour": 1,
+          "butsContre": 3,
+          "score": "1-3",
+          "issue": "D"
+        }
+      ],
+      "serie": 3,
+      "prochainsMatchs": []
+    },
+    {
       "id": 5531,
       "nom": "Famalicão",
       "blason": "https://crests.football-data.org/5531.png",
@@ -12707,45 +12584,6 @@
           "butsContre": 2,
           "score": "1-2",
           "issue": "D"
-        }
-      ],
-      "serie": 3,
-      "prochainsMatchs": []
-    },
-    {
-      "id": 2,
-      "nom": "Hoffenheim",
-      "blason": "https://crests.football-data.org/2.png",
-      "competition": "Bundesliga",
-      "pays": "Allemagne",
-      "dernierMatch": "2026-09-12T13:30:00Z",
-      "detail": [
-        {
-          "date": "2026-08-29T13:30:00Z",
-          "adversaire": "1. FC Köln",
-          "domicile": false,
-          "butsPour": 2,
-          "butsContre": 3,
-          "score": "2-3",
-          "issue": "D"
-        },
-        {
-          "date": "2026-09-05T13:30:00Z",
-          "adversaire": "Dortmund",
-          "domicile": true,
-          "butsPour": 2,
-          "butsContre": 3,
-          "score": "2-3",
-          "issue": "D"
-        },
-        {
-          "date": "2026-09-12T13:30:00Z",
-          "adversaire": "Stuttgart",
-          "domicile": true,
-          "butsPour": 2,
-          "butsContre": 1,
-          "score": "2-1",
-          "issue": "V"
         }
       ],
       "serie": 3,
@@ -13116,181 +12954,6 @@
       ],
       "serie": 3,
       "prochainsMatchs": []
-    },
-    {
-      "id": 94,
-      "nom": "Villarreal",
-      "blason": "https://crests.football-data.org/94.png",
-      "competition": "La Liga",
-      "pays": "Espagne",
-      "dernierMatch": "2026-09-17T19:30:00Z",
-      "detail": [
-        {
-          "date": "2026-08-16T15:00:00Z",
-          "adversaire": "Santander",
-          "domicile": false,
-          "butsPour": 2,
-          "butsContre": 2,
-          "score": "2-2",
-          "issue": "N"
-        },
-        {
-          "date": "2026-08-23T15:00:00Z",
-          "adversaire": "Atleti",
-          "domicile": false,
-          "butsPour": 2,
-          "butsContre": 2,
-          "score": "2-2",
-          "issue": "N"
-        },
-        {
-          "date": "2026-08-28T19:30:00Z",
-          "adversaire": "Alavés",
-          "domicile": false,
-          "butsPour": 0,
-          "butsContre": 1,
-          "score": "0-1",
-          "issue": "D"
-        },
-        {
-          "date": "2026-09-05T19:00:00Z",
-          "adversaire": "Deportivo",
-          "domicile": true,
-          "butsPour": 2,
-          "butsContre": 3,
-          "score": "2-3",
-          "issue": "D"
-        },
-        {
-          "date": "2026-09-14T19:00:00Z",
-          "adversaire": "Real Betis",
-          "domicile": true,
-          "butsPour": 1,
-          "butsContre": 2,
-          "score": "1-2",
-          "issue": "D"
-        },
-        {
-          "date": "2026-09-17T19:30:00Z",
-          "adversaire": "Málaga",
-          "domicile": false,
-          "butsPour": 3,
-          "butsContre": 1,
-          "score": "3-1",
-          "issue": "V"
-        }
-      ],
-      "serie": 3,
-      "prochainsMatchs": []
-    },
-    {
-      "id": 1782,
-      "nom": "Vitória",
-      "blason": "https://crests.football-data.org/1782.png",
-      "competition": "Série A",
-      "pays": "Brésil",
-      "dernierMatch": "2026-09-13T19:00:00Z",
-      "detail": [
-        {
-          "date": "2026-07-16T22:30:00Z",
-          "adversaire": "Vasco da Gama",
-          "domicile": true,
-          "butsPour": 1,
-          "butsContre": 0,
-          "score": "1-0",
-          "issue": "V"
-        },
-        {
-          "date": "2026-07-23T22:30:00Z",
-          "adversaire": "Botafogo",
-          "domicile": false,
-          "butsPour": 0,
-          "butsContre": 0,
-          "score": "0-0",
-          "issue": "N"
-        },
-        {
-          "date": "2026-07-26T22:30:00Z",
-          "adversaire": "Clube do Remo",
-          "domicile": false,
-          "butsPour": 0,
-          "butsContre": 2,
-          "score": "0-2",
-          "issue": "D"
-        },
-        {
-          "date": "2026-07-30T00:30:00Z",
-          "adversaire": "Palmeiras",
-          "domicile": true,
-          "butsPour": 0,
-          "butsContre": 4,
-          "score": "0-4",
-          "issue": "D"
-        },
-        {
-          "date": "2026-08-09T22:30:00Z",
-          "adversaire": "Flamengo",
-          "domicile": false,
-          "butsPour": 0,
-          "butsContre": 2,
-          "score": "0-2",
-          "issue": "D"
-        },
-        {
-          "date": "2026-08-16T21:30:00Z",
-          "adversaire": "Botafogo",
-          "domicile": true,
-          "butsPour": 1,
-          "butsContre": 0,
-          "score": "1-0",
-          "issue": "V"
-        },
-        {
-          "date": "2026-08-23T19:00:00Z",
-          "adversaire": "Bahia",
-          "domicile": true,
-          "butsPour": 0,
-          "butsContre": 2,
-          "score": "0-2",
-          "issue": "D"
-        },
-        {
-          "date": "2026-08-29T21:30:00Z",
-          "adversaire": "Mineiro",
-          "domicile": false,
-          "butsPour": 1,
-          "butsContre": 2,
-          "score": "1-2",
-          "issue": "D"
-        },
-        {
-          "date": "2026-09-07T23:00:00Z",
-          "adversaire": "Grêmio",
-          "domicile": true,
-          "butsPour": 1,
-          "butsContre": 0,
-          "score": "1-0",
-          "issue": "V"
-        },
-        {
-          "date": "2026-09-13T19:00:00Z",
-          "adversaire": "Mirassol",
-          "domicile": false,
-          "butsPour": 2,
-          "butsContre": 2,
-          "score": "2-2",
-          "issue": "N"
-        }
-      ],
-      "serie": 3,
-      "prochainsMatchs": [
-        {
-          "date": "2026-09-20T19:00:00Z",
-          "competition": "Série A",
-          "domicile": "Vitória",
-          "exterieur": "Cruzeiro"
-        }
-      ]
     }
   ],
   "encaisseToujours": [
@@ -14162,6 +13825,108 @@
       "prochainsMatchs": []
     },
     {
+      "id": 1771,
+      "nom": "Cruzeiro",
+      "blason": "https://crests.football-data.org/1771.png",
+      "competition": "Série A",
+      "pays": "Brésil",
+      "dernierMatch": "2026-09-20T19:00:00Z",
+      "detail": [
+        {
+          "date": "2026-07-23T00:30:00Z",
+          "adversaire": "Internacional",
+          "domicile": false,
+          "butsPour": 2,
+          "butsContre": 1,
+          "score": "2-1",
+          "issue": "V"
+        },
+        {
+          "date": "2026-07-26T19:00:00Z",
+          "adversaire": "Botafogo",
+          "domicile": true,
+          "butsPour": 0,
+          "butsContre": 1,
+          "score": "0-1",
+          "issue": "D"
+        },
+        {
+          "date": "2026-07-31T00:30:00Z",
+          "adversaire": "Coritiba",
+          "domicile": false,
+          "butsPour": 1,
+          "butsContre": 0,
+          "score": "1-0",
+          "issue": "V"
+        },
+        {
+          "date": "2026-08-09T14:00:00Z",
+          "adversaire": "Mirassol",
+          "domicile": true,
+          "butsPour": 3,
+          "butsContre": 1,
+          "score": "3-1",
+          "issue": "V"
+        },
+        {
+          "date": "2026-08-16T22:30:00Z",
+          "adversaire": "Corinthians",
+          "domicile": false,
+          "butsPour": 2,
+          "butsContre": 1,
+          "score": "2-1",
+          "issue": "V"
+        },
+        {
+          "date": "2026-08-22T23:30:00Z",
+          "adversaire": "Flamengo",
+          "domicile": true,
+          "butsPour": 2,
+          "butsContre": 1,
+          "score": "2-1",
+          "issue": "V"
+        },
+        {
+          "date": "2026-08-30T00:20:00Z",
+          "adversaire": "Vasco da Gama",
+          "domicile": false,
+          "butsPour": 1,
+          "butsContre": 3,
+          "score": "1-3",
+          "issue": "D"
+        },
+        {
+          "date": "2026-09-06T19:00:00Z",
+          "adversaire": "Paranaense",
+          "domicile": true,
+          "butsPour": 3,
+          "butsContre": 1,
+          "score": "3-1",
+          "issue": "V"
+        },
+        {
+          "date": "2026-09-13T00:00:00Z",
+          "adversaire": "Santos",
+          "domicile": false,
+          "butsPour": 1,
+          "butsContre": 2,
+          "score": "1-2",
+          "issue": "D"
+        },
+        {
+          "date": "2026-09-20T19:00:00Z",
+          "adversaire": "Vitória",
+          "domicile": false,
+          "butsPour": 3,
+          "butsContre": 1,
+          "score": "3-1",
+          "issue": "V"
+        }
+      ],
+      "serie": 7,
+      "prochainsMatchs": []
+    },
+    {
       "id": 680,
       "nom": "Den Haag",
       "blason": "https://crests.football-data.org/680.png",
@@ -14226,6 +13991,81 @@
         {
           "date": "2026-09-19T14:30:00Z",
           "adversaire": "Cambuur",
+          "domicile": true,
+          "butsPour": 1,
+          "butsContre": 1,
+          "score": "1-1",
+          "issue": "N"
+        }
+      ],
+      "serie": 7,
+      "prochainsMatchs": []
+    },
+    {
+      "id": 560,
+      "nom": "Deportivo",
+      "blason": "https://crests.football-data.org/560.png",
+      "competition": "La Liga",
+      "pays": "Espagne",
+      "dernierMatch": "2026-09-20T16:30:00Z",
+      "detail": [
+        {
+          "date": "2026-08-17T19:00:00Z",
+          "adversaire": "Elche",
+          "domicile": true,
+          "butsPour": 1,
+          "butsContre": 1,
+          "score": "1-1",
+          "issue": "N"
+        },
+        {
+          "date": "2026-08-24T19:30:00Z",
+          "adversaire": "Málaga",
+          "domicile": false,
+          "butsPour": 1,
+          "butsContre": 1,
+          "score": "1-1",
+          "issue": "N"
+        },
+        {
+          "date": "2026-08-30T17:30:00Z",
+          "adversaire": "Valencia",
+          "domicile": true,
+          "butsPour": 3,
+          "butsContre": 1,
+          "score": "3-1",
+          "issue": "V"
+        },
+        {
+          "date": "2026-09-05T19:00:00Z",
+          "adversaire": "Villarreal",
+          "domicile": false,
+          "butsPour": 3,
+          "butsContre": 2,
+          "score": "3-2",
+          "issue": "V"
+        },
+        {
+          "date": "2026-09-13T16:30:00Z",
+          "adversaire": "Getafe",
+          "domicile": false,
+          "butsPour": 1,
+          "butsContre": 1,
+          "score": "1-1",
+          "issue": "N"
+        },
+        {
+          "date": "2026-09-16T17:00:00Z",
+          "adversaire": "Sevilla FC",
+          "domicile": true,
+          "butsPour": 0,
+          "butsContre": 1,
+          "score": "0-1",
+          "issue": "D"
+        },
+        {
+          "date": "2026-09-20T16:30:00Z",
+          "adversaire": "Real Betis",
           "domicile": true,
           "butsPour": 1,
           "butsContre": 1,
@@ -14837,6 +14677,81 @@
       "prochainsMatchs": []
     },
     {
+      "id": 94,
+      "nom": "Villarreal",
+      "blason": "https://crests.football-data.org/94.png",
+      "competition": "La Liga",
+      "pays": "Espagne",
+      "dernierMatch": "2026-09-20T16:30:00Z",
+      "detail": [
+        {
+          "date": "2026-08-16T15:00:00Z",
+          "adversaire": "Santander",
+          "domicile": false,
+          "butsPour": 2,
+          "butsContre": 2,
+          "score": "2-2",
+          "issue": "N"
+        },
+        {
+          "date": "2026-08-23T15:00:00Z",
+          "adversaire": "Atleti",
+          "domicile": false,
+          "butsPour": 2,
+          "butsContre": 2,
+          "score": "2-2",
+          "issue": "N"
+        },
+        {
+          "date": "2026-08-28T19:30:00Z",
+          "adversaire": "Alavés",
+          "domicile": false,
+          "butsPour": 0,
+          "butsContre": 1,
+          "score": "0-1",
+          "issue": "D"
+        },
+        {
+          "date": "2026-09-05T19:00:00Z",
+          "adversaire": "Deportivo",
+          "domicile": true,
+          "butsPour": 2,
+          "butsContre": 3,
+          "score": "2-3",
+          "issue": "D"
+        },
+        {
+          "date": "2026-09-14T19:00:00Z",
+          "adversaire": "Real Betis",
+          "domicile": true,
+          "butsPour": 1,
+          "butsContre": 2,
+          "score": "1-2",
+          "issue": "D"
+        },
+        {
+          "date": "2026-09-17T19:30:00Z",
+          "adversaire": "Málaga",
+          "domicile": false,
+          "butsPour": 3,
+          "butsContre": 1,
+          "score": "3-1",
+          "issue": "V"
+        },
+        {
+          "date": "2026-09-20T16:30:00Z",
+          "adversaire": "Levante",
+          "domicile": true,
+          "butsPour": 3,
+          "butsContre": 1,
+          "score": "3-1",
+          "issue": "V"
+        }
+      ],
+      "serie": 7,
+      "prochainsMatchs": []
+    },
+    {
       "id": 672,
       "nom": "Willem II",
       "blason": "https://crests.football-data.org/672.png",
@@ -14912,174 +14827,101 @@
       "prochainsMatchs": []
     },
     {
-      "id": 1771,
-      "nom": "Cruzeiro",
-      "blason": "https://crests.football-data.org/1771.png",
+      "id": 1779,
+      "nom": "Corinthians",
+      "blason": "https://crests.football-data.org/1779.png",
       "competition": "Série A",
       "pays": "Brésil",
-      "dernierMatch": "2026-09-13T00:00:00Z",
+      "dernierMatch": "2026-09-20T19:00:00Z",
       "detail": [
         {
-          "date": "2026-05-31T23:30:00Z",
-          "adversaire": "Fluminense",
+          "date": "2026-07-23T22:30:00Z",
+          "adversaire": "Clube do Remo",
           "domicile": true,
+          "butsPour": 3,
+          "butsContre": 0,
+          "score": "3-0",
+          "issue": "V"
+        },
+        {
+          "date": "2026-07-26T19:00:00Z",
+          "adversaire": "Bahia",
+          "domicile": false,
           "butsPour": 1,
           "butsContre": 1,
           "score": "1-1",
           "issue": "N"
         },
         {
-          "date": "2026-07-23T00:30:00Z",
-          "adversaire": "Internacional",
-          "domicile": false,
-          "butsPour": 2,
-          "butsContre": 1,
-          "score": "2-1",
-          "issue": "V"
-        },
-        {
-          "date": "2026-07-26T19:00:00Z",
-          "adversaire": "Botafogo",
+          "date": "2026-07-30T22:30:00Z",
+          "adversaire": "Paranaense",
           "domicile": true,
           "butsPour": 0,
-          "butsContre": 1,
-          "score": "0-1",
-          "issue": "D"
-        },
-        {
-          "date": "2026-07-31T00:30:00Z",
-          "adversaire": "Coritiba",
-          "domicile": false,
-          "butsPour": 1,
           "butsContre": 0,
-          "score": "1-0",
-          "issue": "V"
+          "score": "0-0",
+          "issue": "N"
         },
         {
-          "date": "2026-08-09T14:00:00Z",
-          "adversaire": "Mirassol",
-          "domicile": true,
-          "butsPour": 3,
-          "butsContre": 1,
-          "score": "3-1",
+          "date": "2026-08-09T21:30:00Z",
+          "adversaire": "Bragantino",
+          "domicile": false,
+          "butsPour": 2,
+          "butsContre": 0,
+          "score": "2-0",
           "issue": "V"
         },
         {
           "date": "2026-08-16T22:30:00Z",
-          "adversaire": "Corinthians",
-          "domicile": false,
-          "butsPour": 2,
-          "butsContre": 1,
-          "score": "2-1",
-          "issue": "V"
-        },
-        {
-          "date": "2026-08-22T23:30:00Z",
-          "adversaire": "Flamengo",
+          "adversaire": "Cruzeiro",
           "domicile": true,
-          "butsPour": 2,
-          "butsContre": 1,
-          "score": "2-1",
-          "issue": "V"
-        },
-        {
-          "date": "2026-08-30T00:20:00Z",
-          "adversaire": "Vasco da Gama",
-          "domicile": false,
           "butsPour": 1,
-          "butsContre": 3,
-          "score": "1-3",
+          "butsContre": 2,
+          "score": "1-2",
           "issue": "D"
         },
         {
-          "date": "2026-09-06T19:00:00Z",
-          "adversaire": "Paranaense",
-          "domicile": true,
-          "butsPour": 3,
-          "butsContre": 1,
-          "score": "3-1",
-          "issue": "V"
-        },
-        {
-          "date": "2026-09-13T00:00:00Z",
-          "adversaire": "Santos",
+          "date": "2026-08-23T22:30:00Z",
+          "adversaire": "Coritiba",
           "domicile": false,
           "butsPour": 1,
           "butsContre": 2,
           "score": "1-2",
           "issue": "D"
-        }
-      ],
-      "serie": 6,
-      "prochainsMatchs": [
-        {
-          "date": "2026-09-20T19:00:00Z",
-          "competition": "Série A",
-          "domicile": "Vitória",
-          "exterieur": "Cruzeiro"
-        }
-      ]
-    },
-    {
-      "id": 560,
-      "nom": "Deportivo",
-      "blason": "https://crests.football-data.org/560.png",
-      "competition": "La Liga",
-      "pays": "Espagne",
-      "dernierMatch": "2026-09-16T17:00:00Z",
-      "detail": [
-        {
-          "date": "2026-08-17T19:00:00Z",
-          "adversaire": "Elche",
-          "domicile": true,
-          "butsPour": 1,
-          "butsContre": 1,
-          "score": "1-1",
-          "issue": "N"
         },
         {
-          "date": "2026-08-24T19:30:00Z",
-          "adversaire": "Málaga",
-          "domicile": false,
-          "butsPour": 1,
-          "butsContre": 1,
-          "score": "1-1",
-          "issue": "N"
-        },
-        {
-          "date": "2026-08-30T17:30:00Z",
-          "adversaire": "Valencia",
-          "domicile": true,
-          "butsPour": 3,
-          "butsContre": 1,
-          "score": "3-1",
-          "issue": "V"
-        },
-        {
-          "date": "2026-09-05T19:00:00Z",
-          "adversaire": "Villarreal",
-          "domicile": false,
-          "butsPour": 3,
-          "butsContre": 2,
-          "score": "3-2",
-          "issue": "V"
-        },
-        {
-          "date": "2026-09-13T16:30:00Z",
-          "adversaire": "Getafe",
-          "domicile": false,
-          "butsPour": 1,
-          "butsContre": 1,
-          "score": "1-1",
-          "issue": "N"
-        },
-        {
-          "date": "2026-09-16T17:00:00Z",
-          "adversaire": "Sevilla FC",
+          "date": "2026-08-30T19:00:00Z",
+          "adversaire": "Santos",
           "domicile": true,
           "butsPour": 0,
           "butsContre": 1,
           "score": "0-1",
+          "issue": "D"
+        },
+        {
+          "date": "2026-09-06T22:30:00Z",
+          "adversaire": "Chapecoense",
+          "domicile": true,
+          "butsPour": 1,
+          "butsContre": 2,
+          "score": "1-2",
+          "issue": "D"
+        },
+        {
+          "date": "2026-09-13T20:30:00Z",
+          "adversaire": "Flamengo",
+          "domicile": false,
+          "butsPour": 1,
+          "butsContre": 2,
+          "score": "1-2",
+          "issue": "D"
+        },
+        {
+          "date": "2026-09-20T19:00:00Z",
+          "adversaire": "Fluminense",
+          "domicile": true,
+          "butsPour": 1,
+          "butsContre": 3,
+          "score": "1-3",
           "issue": "D"
         }
       ],
@@ -15240,72 +15082,6 @@
           "butsContre": 2,
           "score": "1-2",
           "issue": "D"
-        }
-      ],
-      "serie": 6,
-      "prochainsMatchs": []
-    },
-    {
-      "id": 94,
-      "nom": "Villarreal",
-      "blason": "https://crests.football-data.org/94.png",
-      "competition": "La Liga",
-      "pays": "Espagne",
-      "dernierMatch": "2026-09-17T19:30:00Z",
-      "detail": [
-        {
-          "date": "2026-08-16T15:00:00Z",
-          "adversaire": "Santander",
-          "domicile": false,
-          "butsPour": 2,
-          "butsContre": 2,
-          "score": "2-2",
-          "issue": "N"
-        },
-        {
-          "date": "2026-08-23T15:00:00Z",
-          "adversaire": "Atleti",
-          "domicile": false,
-          "butsPour": 2,
-          "butsContre": 2,
-          "score": "2-2",
-          "issue": "N"
-        },
-        {
-          "date": "2026-08-28T19:30:00Z",
-          "adversaire": "Alavés",
-          "domicile": false,
-          "butsPour": 0,
-          "butsContre": 1,
-          "score": "0-1",
-          "issue": "D"
-        },
-        {
-          "date": "2026-09-05T19:00:00Z",
-          "adversaire": "Deportivo",
-          "domicile": true,
-          "butsPour": 2,
-          "butsContre": 3,
-          "score": "2-3",
-          "issue": "D"
-        },
-        {
-          "date": "2026-09-14T19:00:00Z",
-          "adversaire": "Real Betis",
-          "domicile": true,
-          "butsPour": 1,
-          "butsContre": 2,
-          "score": "1-2",
-          "issue": "D"
-        },
-        {
-          "date": "2026-09-17T19:30:00Z",
-          "adversaire": "Málaga",
-          "domicile": false,
-          "butsPour": 3,
-          "butsContre": 1,
-          "score": "3-1",
-          "issue": "V"
         }
       ],
       "serie": 6,
@@ -15670,115 +15446,6 @@
       ],
       "serie": 5,
       "prochainsMatchs": []
-    },
-    {
-      "id": 1779,
-      "nom": "Corinthians",
-      "blason": "https://crests.football-data.org/1779.png",
-      "competition": "Série A",
-      "pays": "Brésil",
-      "dernierMatch": "2026-09-13T20:30:00Z",
-      "detail": [
-        {
-          "date": "2026-05-30T20:30:00Z",
-          "adversaire": "Grêmio",
-          "domicile": false,
-          "butsPour": 3,
-          "butsContre": 1,
-          "score": "3-1",
-          "issue": "V"
-        },
-        {
-          "date": "2026-07-23T22:30:00Z",
-          "adversaire": "Clube do Remo",
-          "domicile": true,
-          "butsPour": 3,
-          "butsContre": 0,
-          "score": "3-0",
-          "issue": "V"
-        },
-        {
-          "date": "2026-07-26T19:00:00Z",
-          "adversaire": "Bahia",
-          "domicile": false,
-          "butsPour": 1,
-          "butsContre": 1,
-          "score": "1-1",
-          "issue": "N"
-        },
-        {
-          "date": "2026-07-30T22:30:00Z",
-          "adversaire": "Paranaense",
-          "domicile": true,
-          "butsPour": 0,
-          "butsContre": 0,
-          "score": "0-0",
-          "issue": "N"
-        },
-        {
-          "date": "2026-08-09T21:30:00Z",
-          "adversaire": "Bragantino",
-          "domicile": false,
-          "butsPour": 2,
-          "butsContre": 0,
-          "score": "2-0",
-          "issue": "V"
-        },
-        {
-          "date": "2026-08-16T22:30:00Z",
-          "adversaire": "Cruzeiro",
-          "domicile": true,
-          "butsPour": 1,
-          "butsContre": 2,
-          "score": "1-2",
-          "issue": "D"
-        },
-        {
-          "date": "2026-08-23T22:30:00Z",
-          "adversaire": "Coritiba",
-          "domicile": false,
-          "butsPour": 1,
-          "butsContre": 2,
-          "score": "1-2",
-          "issue": "D"
-        },
-        {
-          "date": "2026-08-30T19:00:00Z",
-          "adversaire": "Santos",
-          "domicile": true,
-          "butsPour": 0,
-          "butsContre": 1,
-          "score": "0-1",
-          "issue": "D"
-        },
-        {
-          "date": "2026-09-06T22:30:00Z",
-          "adversaire": "Chapecoense",
-          "domicile": true,
-          "butsPour": 1,
-          "butsContre": 2,
-          "score": "1-2",
-          "issue": "D"
-        },
-        {
-          "date": "2026-09-13T20:30:00Z",
-          "adversaire": "Flamengo",
-          "domicile": false,
-          "butsPour": 1,
-          "butsContre": 2,
-          "score": "1-2",
-          "issue": "D"
-        }
-      ],
-      "serie": 5,
-      "prochainsMatchs": [
-        {
-          "date": "2026-09-20T19:00:00Z",
-          "competition": "Série A",
-          "domicile": "Corinthians",
-          "exterieur": "Fluminense"
-        }
-      ]
     },
     {
       "id": 99,
@@ -16222,14 +15889,7 @@
         }
       ],
       "serie": 5,
-      "prochainsMatchs": [
-        {
-          "date": "2026-09-20T22:30:00Z",
-          "competition": "Série A",
-          "domicile": "Paranaense",
-          "exterieur": "Bahia"
-        }
-      ]
+      "prochainsMatchs": []
     },
     {
       "id": 112,
@@ -16895,6 +16555,115 @@
       "prochainsMatchs": []
     },
     {
+      "id": 4286,
+      "nom": "Bragantino",
+      "blason": "https://crests.football-data.org/4286.png",
+      "competition": "Série A",
+      "pays": "Brésil",
+      "dernierMatch": "2026-09-20T21:30:00Z",
+      "detail": [
+        {
+          "date": "2026-05-31T14:00:00Z",
+          "adversaire": "Internacional",
+          "domicile": true,
+          "butsPour": 3,
+          "butsContre": 1,
+          "score": "3-1",
+          "issue": "V"
+        },
+        {
+          "date": "2026-07-17T23:00:00Z",
+          "adversaire": "Fluminense",
+          "domicile": false,
+          "butsPour": 1,
+          "butsContre": 1,
+          "score": "1-1",
+          "issue": "N"
+        },
+        {
+          "date": "2026-07-26T21:30:00Z",
+          "adversaire": "Coritiba",
+          "domicile": true,
+          "butsPour": 0,
+          "butsContre": 0,
+          "score": "0-0",
+          "issue": "N"
+        },
+        {
+          "date": "2026-08-09T21:30:00Z",
+          "adversaire": "Corinthians",
+          "domicile": true,
+          "butsPour": 0,
+          "butsContre": 2,
+          "score": "0-2",
+          "issue": "D"
+        },
+        {
+          "date": "2026-08-15T21:30:00Z",
+          "adversaire": "Paranaense",
+          "domicile": false,
+          "butsPour": 1,
+          "butsContre": 1,
+          "score": "1-1",
+          "issue": "N"
+        },
+        {
+          "date": "2026-08-23T19:00:00Z",
+          "adversaire": "Grêmio",
+          "domicile": true,
+          "butsPour": 1,
+          "butsContre": 0,
+          "score": "1-0",
+          "issue": "V"
+        },
+        {
+          "date": "2026-08-29T23:00:00Z",
+          "adversaire": "São Paulo",
+          "domicile": false,
+          "butsPour": 1,
+          "butsContre": 2,
+          "score": "1-2",
+          "issue": "D"
+        },
+        {
+          "date": "2026-09-05T19:00:00Z",
+          "adversaire": "Bahia",
+          "domicile": true,
+          "butsPour": 2,
+          "butsContre": 3,
+          "score": "2-3",
+          "issue": "D"
+        },
+        {
+          "date": "2026-09-12T23:30:00Z",
+          "adversaire": "Botafogo",
+          "domicile": false,
+          "butsPour": 1,
+          "butsContre": 1,
+          "score": "1-1",
+          "issue": "N"
+        },
+        {
+          "date": "2026-09-20T21:30:00Z",
+          "adversaire": "Flamengo",
+          "domicile": false,
+          "butsPour": 1,
+          "butsContre": 2,
+          "score": "1-2",
+          "issue": "D"
+        }
+      ],
+      "serie": 4,
+      "prochainsMatchs": [
+        {
+          "date": "2026-10-03T21:30:00Z",
+          "competition": "Série A",
+          "domicile": "Mineiro",
+          "exterieur": "Bragantino"
+        }
+      ]
+    },
+    {
       "id": 12,
       "nom": "Bremen",
       "blason": "https://crests.football-data.org/12.png",
@@ -17177,6 +16946,54 @@
       "prochainsMatchs": []
     },
     {
+      "id": 2,
+      "nom": "Hoffenheim",
+      "blason": "https://crests.football-data.org/2.png",
+      "competition": "Bundesliga",
+      "pays": "Allemagne",
+      "dernierMatch": "2026-09-20T17:30:00Z",
+      "detail": [
+        {
+          "date": "2026-08-29T13:30:00Z",
+          "adversaire": "1. FC Köln",
+          "domicile": false,
+          "butsPour": 2,
+          "butsContre": 3,
+          "score": "2-3",
+          "issue": "D"
+        },
+        {
+          "date": "2026-09-05T13:30:00Z",
+          "adversaire": "Dortmund",
+          "domicile": true,
+          "butsPour": 2,
+          "butsContre": 3,
+          "score": "2-3",
+          "issue": "D"
+        },
+        {
+          "date": "2026-09-12T13:30:00Z",
+          "adversaire": "Stuttgart",
+          "domicile": true,
+          "butsPour": 2,
+          "butsContre": 1,
+          "score": "2-1",
+          "issue": "V"
+        },
+        {
+          "date": "2026-09-20T17:30:00Z",
+          "adversaire": "SC Paderborn",
+          "domicile": false,
+          "butsPour": 1,
+          "butsContre": 3,
+          "score": "1-3",
+          "issue": "D"
+        }
+      ],
+      "serie": 4,
+      "prochainsMatchs": []
+    },
+    {
       "id": 7,
       "nom": "HSV",
       "blason": "https://crests.football-data.org/7.png",
@@ -17327,6 +17144,63 @@
       "prochainsMatchs": []
     },
     {
+      "id": 5890,
+      "nom": "Lecce",
+      "blason": "https://crests.football-data.org/5890.png",
+      "competition": "Serie A",
+      "pays": "Italie",
+      "dernierMatch": "2026-09-20T18:45:00Z",
+      "detail": [
+        {
+          "date": "2026-08-23T16:30:00Z",
+          "adversaire": "Venezia FC",
+          "domicile": false,
+          "butsPour": 2,
+          "butsContre": 0,
+          "score": "2-0",
+          "issue": "V"
+        },
+        {
+          "date": "2026-08-31T16:30:00Z",
+          "adversaire": "Roma",
+          "domicile": true,
+          "butsPour": 0,
+          "butsContre": 4,
+          "score": "0-4",
+          "issue": "D"
+        },
+        {
+          "date": "2026-09-07T16:30:00Z",
+          "adversaire": "Cagliari",
+          "domicile": false,
+          "butsPour": 0,
+          "butsContre": 1,
+          "score": "0-1",
+          "issue": "D"
+        },
+        {
+          "date": "2026-09-13T13:00:00Z",
+          "adversaire": "Monza",
+          "domicile": true,
+          "butsPour": 3,
+          "butsContre": 2,
+          "score": "3-2",
+          "issue": "V"
+        },
+        {
+          "date": "2026-09-20T18:45:00Z",
+          "adversaire": "Milan",
+          "domicile": false,
+          "butsPour": 0,
+          "butsContre": 3,
+          "score": "0-3",
+          "issue": "D"
+        }
+      ],
+      "serie": 4,
+      "prochainsMatchs": []
+    },
+    {
       "id": 18,
       "nom": "M'gladbach",
       "blason": "https://crests.football-data.org/18.png",
@@ -17368,6 +17242,63 @@
           "butsPour": 3,
           "butsContre": 4,
           "score": "3-4",
+          "issue": "D"
+        }
+      ],
+      "serie": 4,
+      "prochainsMatchs": []
+    },
+    {
+      "id": 516,
+      "nom": "Marseille",
+      "blason": "https://crests.football-data.org/516.png",
+      "competition": "Ligue 1",
+      "pays": "France",
+      "dernierMatch": "2026-09-20T18:45:00Z",
+      "detail": [
+        {
+          "date": "2026-08-21T18:45:00Z",
+          "adversaire": "Strasbourg",
+          "domicile": true,
+          "butsPour": 4,
+          "butsContre": 0,
+          "score": "4-0",
+          "issue": "V"
+        },
+        {
+          "date": "2026-08-30T18:45:00Z",
+          "adversaire": "Monaco",
+          "domicile": false,
+          "butsPour": 0,
+          "butsContre": 2,
+          "score": "0-2",
+          "issue": "D"
+        },
+        {
+          "date": "2026-09-06T18:45:00Z",
+          "adversaire": "Paris FC",
+          "domicile": true,
+          "butsPour": 2,
+          "butsContre": 3,
+          "score": "2-3",
+          "issue": "D"
+        },
+        {
+          "date": "2026-09-11T18:45:00Z",
+          "adversaire": "Stade Rennais",
+          "domicile": false,
+          "butsPour": 0,
+          "butsContre": 1,
+          "score": "0-1",
+          "issue": "D"
+        },
+        {
+          "date": "2026-09-20T18:45:00Z",
+          "adversaire": "PSG",
+          "domicile": true,
+          "butsPour": 1,
+          "butsContre": 2,
+          "score": "1-2",
           "issue": "D"
         }
       ],
@@ -18273,14 +18204,7 @@
         }
       ],
       "serie": 3,
-      "prochainsMatchs": [
-        {
-          "date": "2026-09-20T22:30:00Z",
-          "competition": "Série A",
-          "domicile": "Paranaense",
-          "exterieur": "Bahia"
-        }
-      ]
+      "prochainsMatchs": []
     },
     {
       "id": 81,
@@ -18460,121 +18384,6 @@
       "prochainsMatchs": []
     },
     {
-      "id": 4286,
-      "nom": "Bragantino",
-      "blason": "https://crests.football-data.org/4286.png",
-      "competition": "Série A",
-      "pays": "Brésil",
-      "dernierMatch": "2026-09-12T23:30:00Z",
-      "detail": [
-        {
-          "date": "2026-05-24T23:30:00Z",
-          "adversaire": "Vasco da Gama",
-          "domicile": false,
-          "butsPour": 3,
-          "butsContre": 0,
-          "score": "3-0",
-          "issue": "V"
-        },
-        {
-          "date": "2026-05-31T14:00:00Z",
-          "adversaire": "Internacional",
-          "domicile": true,
-          "butsPour": 3,
-          "butsContre": 1,
-          "score": "3-1",
-          "issue": "V"
-        },
-        {
-          "date": "2026-07-17T23:00:00Z",
-          "adversaire": "Fluminense",
-          "domicile": false,
-          "butsPour": 1,
-          "butsContre": 1,
-          "score": "1-1",
-          "issue": "N"
-        },
-        {
-          "date": "2026-07-26T21:30:00Z",
-          "adversaire": "Coritiba",
-          "domicile": true,
-          "butsPour": 0,
-          "butsContre": 0,
-          "score": "0-0",
-          "issue": "N"
-        },
-        {
-          "date": "2026-08-09T21:30:00Z",
-          "adversaire": "Corinthians",
-          "domicile": true,
-          "butsPour": 0,
-          "butsContre": 2,
-          "score": "0-2",
-          "issue": "D"
-        },
-        {
-          "date": "2026-08-15T21:30:00Z",
-          "adversaire": "Paranaense",
-          "domicile": false,
-          "butsPour": 1,
-          "butsContre": 1,
-          "score": "1-1",
-          "issue": "N"
-        },
-        {
-          "date": "2026-08-23T19:00:00Z",
-          "adversaire": "Grêmio",
-          "domicile": true,
-          "butsPour": 1,
-          "butsContre": 0,
-          "score": "1-0",
-          "issue": "V"
-        },
-        {
-          "date": "2026-08-29T23:00:00Z",
-          "adversaire": "São Paulo",
-          "domicile": false,
-          "butsPour": 1,
-          "butsContre": 2,
-          "score": "1-2",
-          "issue": "D"
-        },
-        {
-          "date": "2026-09-05T19:00:00Z",
-          "adversaire": "Bahia",
-          "domicile": true,
-          "butsPour": 2,
-          "butsContre": 3,
-          "score": "2-3",
-          "issue": "D"
-        },
-        {
-          "date": "2026-09-12T23:30:00Z",
-          "adversaire": "Botafogo",
-          "domicile": false,
-          "butsPour": 1,
-          "butsContre": 1,
-          "score": "1-1",
-          "issue": "N"
-        }
-      ],
-      "serie": 3,
-      "prochainsMatchs": [
-        {
-          "date": "2026-09-20T21:30:00Z",
-          "competition": "Série A",
-          "domicile": "Flamengo",
-          "exterieur": "Bragantino"
-        },
-        {
-          "date": "2026-10-03T21:30:00Z",
-          "competition": "Série A",
-          "domicile": "Mineiro",
-          "exterieur": "Bragantino"
-        }
-      ]
-    },
-    {
       "id": 670,
       "nom": "Excelsior",
       "blason": "https://crests.football-data.org/670.png",
@@ -18716,45 +18525,6 @@
       "prochainsMatchs": []
     },
     {
-      "id": 2,
-      "nom": "Hoffenheim",
-      "blason": "https://crests.football-data.org/2.png",
-      "competition": "Bundesliga",
-      "pays": "Allemagne",
-      "dernierMatch": "2026-09-12T13:30:00Z",
-      "detail": [
-        {
-          "date": "2026-08-29T13:30:00Z",
-          "adversaire": "1. FC Köln",
-          "domicile": false,
-          "butsPour": 2,
-          "butsContre": 3,
-          "score": "2-3",
-          "issue": "D"
-        },
-        {
-          "date": "2026-09-05T13:30:00Z",
-          "adversaire": "Dortmund",
-          "domicile": true,
-          "butsPour": 2,
-          "butsContre": 3,
-          "score": "2-3",
-          "issue": "D"
-        },
-        {
-          "date": "2026-09-12T13:30:00Z",
-          "adversaire": "Stuttgart",
-          "domicile": true,
-          "butsPour": 2,
-          "butsContre": 1,
-          "score": "2-1",
-          "issue": "V"
-        }
-      ],
-      "serie": 3,
-      "prochainsMatchs": []
-    },
-    {
       "id": 108,
       "nom": "Inter",
       "blason": "https://crests.football-data.org/108.png",
@@ -18810,61 +18580,6 @@
       ],
       "serie": 3,
       "prochainsMatchs": []
-    },
-    {
-      "id": 5890,
-      "nom": "Lecce",
-      "blason": "https://crests.football-data.org/5890.png",
-      "competition": "Serie A",
-      "pays": "Italie",
-      "dernierMatch": "2026-09-13T13:00:00Z",
-      "detail": [
-        {
-          "date": "2026-08-23T16:30:00Z",
-          "adversaire": "Venezia FC",
-          "domicile": false,
-          "butsPour": 2,
-          "butsContre": 0,
-          "score": "2-0",
-          "issue": "V"
-        },
-        {
-          "date": "2026-08-31T16:30:00Z",
-          "adversaire": "Roma",
-          "domicile": true,
-          "butsPour": 0,
-          "butsContre": 4,
-          "score": "0-4",
-          "issue": "D"
-        },
-        {
-          "date": "2026-09-07T16:30:00Z",
-          "adversaire": "Cagliari",
-          "domicile": false,
-          "butsPour": 0,
-          "butsContre": 1,
-          "score": "0-1",
-          "issue": "D"
-        },
-        {
-          "date": "2026-09-13T13:00:00Z",
-          "adversaire": "Monza",
-          "domicile": true,
-          "butsPour": 3,
-          "butsContre": 2,
-          "score": "3-2",
-          "issue": "V"
-        }
-      ],
-      "serie": 3,
-      "prochainsMatchs": [
-        {
-          "date": "2026-09-20T18:45:00Z",
-          "competition": "Serie A",
-          "domicile": "Milan",
-          "exterieur": "Lecce"
-        }
-      ]
     },
     {
       "id": 84,
@@ -18940,61 +18655,6 @@
       ],
       "serie": 3,
       "prochainsMatchs": []
-    },
-    {
-      "id": 516,
-      "nom": "Marseille",
-      "blason": "https://crests.football-data.org/516.png",
-      "competition": "Ligue 1",
-      "pays": "France",
-      "dernierMatch": "2026-09-11T18:45:00Z",
-      "detail": [
-        {
-          "date": "2026-08-21T18:45:00Z",
-          "adversaire": "Strasbourg",
-          "domicile": true,
-          "butsPour": 4,
-          "butsContre": 0,
-          "score": "4-0",
-          "issue": "V"
-        },
-        {
-          "date": "2026-08-30T18:45:00Z",
-          "adversaire": "Monaco",
-          "domicile": false,
-          "butsPour": 0,
-          "butsContre": 2,
-          "score": "0-2",
-          "issue": "D"
-        },
-        {
-          "date": "2026-09-06T18:45:00Z",
-          "adversaire": "Paris FC",
-          "domicile": true,
-          "butsPour": 2,
-          "butsContre": 3,
-          "score": "2-3",
-          "issue": "D"
-        },
-        {
-          "date": "2026-09-11T18:45:00Z",
-          "adversaire": "Stade Rennais",
-          "domicile": false,
-          "butsPour": 0,
-          "butsContre": 1,
-          "score": "0-1",
-          "issue": "D"
-        }
-      ],
-      "serie": 3,
-      "prochainsMatchs": [
-        {
-          "date": "2026-09-20T18:45:00Z",
-          "competition": "Ligue 1",
-          "domicile": "Marseille",
-          "exterieur": "PSG"
-        }
-      ]
     },
     {
       "id": 343,
@@ -19279,6 +18939,156 @@
       "prochainsMatchs": []
     },
     {
+      "id": 503,
+      "nom": "Porto",
+      "blason": "https://crests.football-data.org/503.png",
+      "competition": "Primeira Liga",
+      "pays": "Portugal",
+      "dernierMatch": "2026-09-20T19:30:00Z",
+      "detail": [
+        {
+          "date": "2026-08-09T17:00:00Z",
+          "adversaire": "Alverca",
+          "domicile": true,
+          "butsPour": 2,
+          "butsContre": 0,
+          "score": "2-0",
+          "issue": "V"
+        },
+        {
+          "date": "2026-08-15T19:30:00Z",
+          "adversaire": "Rio Ave",
+          "domicile": false,
+          "butsPour": 2,
+          "butsContre": 0,
+          "score": "2-0",
+          "issue": "V"
+        },
+        {
+          "date": "2026-08-23T19:30:00Z",
+          "adversaire": "Arouca",
+          "domicile": true,
+          "butsPour": 2,
+          "butsContre": 0,
+          "score": "2-0",
+          "issue": "V"
+        },
+        {
+          "date": "2026-08-29T17:00:00Z",
+          "adversaire": "Acad. Viseu",
+          "domicile": false,
+          "butsPour": 3,
+          "butsContre": 0,
+          "score": "3-0",
+          "issue": "V"
+        },
+        {
+          "date": "2026-09-04T19:15:00Z",
+          "adversaire": "Moreirense",
+          "domicile": true,
+          "butsPour": 2,
+          "butsContre": 1,
+          "score": "2-1",
+          "issue": "V"
+        },
+        {
+          "date": "2026-09-12T17:00:00Z",
+          "adversaire": "Casa Pia",
+          "domicile": false,
+          "butsPour": 4,
+          "butsContre": 1,
+          "score": "4-1",
+          "issue": "V"
+        },
+        {
+          "date": "2026-09-20T19:30:00Z",
+          "adversaire": "SL Benfica",
+          "domicile": true,
+          "butsPour": 3,
+          "butsContre": 1,
+          "score": "3-1",
+          "issue": "V"
+        }
+      ],
+      "serie": 3,
+      "prochainsMatchs": []
+    },
+    {
+      "id": 92,
+      "nom": "Real Sociedad",
+      "blason": "https://crests.football-data.org/92.png",
+      "competition": "La Liga",
+      "pays": "Espagne",
+      "dernierMatch": "2026-09-20T19:00:00Z",
+      "detail": [
+        {
+          "date": "2026-08-21T19:00:00Z",
+          "adversaire": "Real Betis",
+          "domicile": false,
+          "butsPour": 0,
+          "butsContre": 1,
+          "score": "0-1",
+          "issue": "D"
+        },
+        {
+          "date": "2026-08-26T19:00:00Z",
+          "adversaire": "Real Madrid",
+          "domicile": false,
+          "butsPour": 1,
+          "butsContre": 4,
+          "score": "1-4",
+          "issue": "D"
+        },
+        {
+          "date": "2026-08-29T17:00:00Z",
+          "adversaire": "Espanyol",
+          "domicile": true,
+          "butsPour": 2,
+          "butsContre": 1,
+          "score": "2-1",
+          "issue": "V"
+        },
+        {
+          "date": "2026-09-03T19:00:00Z",
+          "adversaire": "Celta",
+          "domicile": true,
+          "butsPour": 0,
+          "butsContre": 0,
+          "score": "0-0",
+          "issue": "N"
+        },
+        {
+          "date": "2026-09-07T19:30:00Z",
+          "adversaire": "Elche",
+          "domicile": false,
+          "butsPour": 3,
+          "butsContre": 2,
+          "score": "3-2",
+          "issue": "V"
+        },
+        {
+          "date": "2026-09-13T19:00:00Z",
+          "adversaire": "Atleti",
+          "domicile": true,
+          "butsPour": 0,
+          "butsContre": 3,
+          "score": "0-3",
+          "issue": "D"
+        },
+        {
+          "date": "2026-09-20T19:00:00Z",
+          "adversaire": "Valencia",
+          "domicile": false,
+          "butsPour": 3,
+          "butsContre": 2,
+          "score": "3-2",
+          "issue": "V"
+        }
+      ],
+      "serie": 3,
+      "prochainsMatchs": []
+    },
+    {
       "id": 6685,
       "nom": "Santos",
       "blason": "https://crests.football-data.org/6685.png",
@@ -19386,6 +19196,54 @@
           "exterieur": "Santos"
         }
       ]
+    },
+    {
+      "id": 29,
+      "nom": "SC Paderborn",
+      "blason": "https://crests.football-data.org/29.png",
+      "competition": "Bundesliga",
+      "pays": "Allemagne",
+      "dernierMatch": "2026-09-20T17:30:00Z",
+      "detail": [
+        {
+          "date": "2026-08-29T13:30:00Z",
+          "adversaire": "Mainz",
+          "domicile": false,
+          "butsPour": 0,
+          "butsContre": 0,
+          "score": "0-0",
+          "issue": "N"
+        },
+        {
+          "date": "2026-09-05T13:30:00Z",
+          "adversaire": "Freiburg",
+          "domicile": true,
+          "butsPour": 0,
+          "butsContre": 1,
+          "score": "0-1",
+          "issue": "D"
+        },
+        {
+          "date": "2026-09-12T13:30:00Z",
+          "adversaire": "Dortmund",
+          "domicile": false,
+          "butsPour": 0,
+          "butsContre": 3,
+          "score": "0-3",
+          "issue": "D"
+        },
+        {
+          "date": "2026-09-20T17:30:00Z",
+          "adversaire": "Hoffenheim",
+          "domicile": true,
+          "butsPour": 3,
+          "butsContre": 1,
+          "score": "3-1",
+          "issue": "V"
+        }
+      ],
+      "serie": 3,
+      "prochainsMatchs": []
     },
     {
       "id": 70,
@@ -19951,6 +19809,90 @@
       "prochainsMatchs": []
     },
     {
+      "id": 1771,
+      "nom": "Cruzeiro",
+      "blason": "https://crests.football-data.org/1771.png",
+      "competition": "Série A",
+      "pays": "Brésil",
+      "dernierMatch": "2026-09-20T19:00:00Z",
+      "detail": [
+        {
+          "date": "2026-07-31T00:30:00Z",
+          "adversaire": "Coritiba",
+          "domicile": false,
+          "butsPour": 1,
+          "butsContre": 0,
+          "score": "1-0",
+          "issue": "V"
+        },
+        {
+          "date": "2026-08-09T14:00:00Z",
+          "adversaire": "Mirassol",
+          "domicile": true,
+          "butsPour": 3,
+          "butsContre": 1,
+          "score": "3-1",
+          "issue": "V"
+        },
+        {
+          "date": "2026-08-16T22:30:00Z",
+          "adversaire": "Corinthians",
+          "domicile": false,
+          "butsPour": 2,
+          "butsContre": 1,
+          "score": "2-1",
+          "issue": "V"
+        },
+        {
+          "date": "2026-08-22T23:30:00Z",
+          "adversaire": "Flamengo",
+          "domicile": true,
+          "butsPour": 2,
+          "butsContre": 1,
+          "score": "2-1",
+          "issue": "V"
+        },
+        {
+          "date": "2026-08-30T00:20:00Z",
+          "adversaire": "Vasco da Gama",
+          "domicile": false,
+          "butsPour": 1,
+          "butsContre": 3,
+          "score": "1-3",
+          "issue": "D"
+        },
+        {
+          "date": "2026-09-06T19:00:00Z",
+          "adversaire": "Paranaense",
+          "domicile": true,
+          "butsPour": 3,
+          "butsContre": 1,
+          "score": "3-1",
+          "issue": "V"
+        },
+        {
+          "date": "2026-09-13T00:00:00Z",
+          "adversaire": "Santos",
+          "domicile": false,
+          "butsPour": 1,
+          "butsContre": 2,
+          "score": "1-2",
+          "issue": "D"
+        },
+        {
+          "date": "2026-09-20T19:00:00Z",
+          "adversaire": "Vitória",
+          "domicile": false,
+          "butsPour": 3,
+          "butsContre": 1,
+          "score": "3-1",
+          "issue": "V"
+        }
+      ],
+      "serie": 7,
+      "prochainsMatchs": []
+    },
+    {
       "id": 718,
       "nom": "Go Ahead",
       "blason": "https://crests.football-data.org/718.png",
@@ -20174,97 +20116,6 @@
       ],
       "serie": 7,
       "prochainsMatchs": []
-    },
-    {
-      "id": 1771,
-      "nom": "Cruzeiro",
-      "blason": "https://crests.football-data.org/1771.png",
-      "competition": "Série A",
-      "pays": "Brésil",
-      "dernierMatch": "2026-09-13T00:00:00Z",
-      "detail": [
-        {
-          "date": "2026-07-26T19:00:00Z",
-          "adversaire": "Botafogo",
-          "domicile": true,
-          "butsPour": 0,
-          "butsContre": 1,
-          "score": "0-1",
-          "issue": "D"
-        },
-        {
-          "date": "2026-07-31T00:30:00Z",
-          "adversaire": "Coritiba",
-          "domicile": false,
-          "butsPour": 1,
-          "butsContre": 0,
-          "score": "1-0",
-          "issue": "V"
-        },
-        {
-          "date": "2026-08-09T14:00:00Z",
-          "adversaire": "Mirassol",
-          "domicile": true,
-          "butsPour": 3,
-          "butsContre": 1,
-          "score": "3-1",
-          "issue": "V"
-        },
-        {
-          "date": "2026-08-16T22:30:00Z",
-          "adversaire": "Corinthians",
-          "domicile": false,
-          "butsPour": 2,
-          "butsContre": 1,
-          "score": "2-1",
-          "issue": "V"
-        },
-        {
-          "date": "2026-08-22T23:30:00Z",
-          "adversaire": "Flamengo",
-          "domicile": true,
-          "butsPour": 2,
-          "butsContre": 1,
-          "score": "2-1",
-          "issue": "V"
-        },
-        {
-          "date": "2026-08-30T00:20:00Z",
-          "adversaire": "Vasco da Gama",
-          "domicile": false,
-          "butsPour": 1,
-          "butsContre": 3,
-          "score": "1-3",
-          "issue": "D"
-        },
-        {
-          "date": "2026-09-06T19:00:00Z",
-          "adversaire": "Paranaense",
-          "domicile": true,
-          "butsPour": 3,
-          "butsContre": 1,
-          "score": "3-1",
-          "issue": "V"
-        },
-        {
-          "date": "2026-09-13T00:00:00Z",
-          "adversaire": "Santos",
-          "domicile": false,
-          "butsPour": 1,
-          "butsContre": 2,
-          "score": "1-2",
-          "issue": "D"
-        }
-      ],
-      "serie": 6,
-      "prochainsMatchs": [
-        {
-          "date": "2026-09-20T19:00:00Z",
-          "competition": "Série A",
-          "domicile": "Vitória",
-          "exterieur": "Cruzeiro"
-        }
-      ]
     },
     {
       "id": 285,
@@ -20537,14 +20388,7 @@
         }
       ],
       "serie": 5,
-      "prochainsMatchs": [
-        {
-          "date": "2026-09-20T22:30:00Z",
-          "competition": "Série A",
-          "domicile": "Paranaense",
-          "exterieur": "Bahia"
-        }
-      ]
+      "prochainsMatchs": []
     },
     {
       "id": 471,
@@ -20811,6 +20655,97 @@
       "prochainsMatchs": []
     },
     {
+      "id": 4286,
+      "nom": "Bragantino",
+      "blason": "https://crests.football-data.org/4286.png",
+      "competition": "Série A",
+      "pays": "Brésil",
+      "dernierMatch": "2026-09-20T21:30:00Z",
+      "detail": [
+        {
+          "date": "2026-07-26T21:30:00Z",
+          "adversaire": "Coritiba",
+          "domicile": true,
+          "butsPour": 0,
+          "butsContre": 0,
+          "score": "0-0",
+          "issue": "N"
+        },
+        {
+          "date": "2026-08-09T21:30:00Z",
+          "adversaire": "Corinthians",
+          "domicile": true,
+          "butsPour": 0,
+          "butsContre": 2,
+          "score": "0-2",
+          "issue": "D"
+        },
+        {
+          "date": "2026-08-15T21:30:00Z",
+          "adversaire": "Paranaense",
+          "domicile": false,
+          "butsPour": 1,
+          "butsContre": 1,
+          "score": "1-1",
+          "issue": "N"
+        },
+        {
+          "date": "2026-08-23T19:00:00Z",
+          "adversaire": "Grêmio",
+          "domicile": true,
+          "butsPour": 1,
+          "butsContre": 0,
+          "score": "1-0",
+          "issue": "V"
+        },
+        {
+          "date": "2026-08-29T23:00:00Z",
+          "adversaire": "São Paulo",
+          "domicile": false,
+          "butsPour": 1,
+          "butsContre": 2,
+          "score": "1-2",
+          "issue": "D"
+        },
+        {
+          "date": "2026-09-05T19:00:00Z",
+          "adversaire": "Bahia",
+          "domicile": true,
+          "butsPour": 2,
+          "butsContre": 3,
+          "score": "2-3",
+          "issue": "D"
+        },
+        {
+          "date": "2026-09-12T23:30:00Z",
+          "adversaire": "Botafogo",
+          "domicile": false,
+          "butsPour": 1,
+          "butsContre": 1,
+          "score": "1-1",
+          "issue": "N"
+        },
+        {
+          "date": "2026-09-20T21:30:00Z",
+          "adversaire": "Flamengo",
+          "domicile": false,
+          "butsPour": 1,
+          "butsContre": 2,
+          "score": "1-2",
+          "issue": "D"
+        }
+      ],
+      "serie": 4,
+      "prochainsMatchs": [
+        {
+          "date": "2026-10-03T21:30:00Z",
+          "competition": "Série A",
+          "domicile": "Mineiro",
+          "exterieur": "Bragantino"
+        }
+      ]
+    },
+    {
       "id": 12,
       "nom": "Bremen",
       "blason": "https://crests.football-data.org/12.png",
@@ -20991,6 +20926,54 @@
       "prochainsMatchs": []
     },
     {
+      "id": 2,
+      "nom": "Hoffenheim",
+      "blason": "https://crests.football-data.org/2.png",
+      "competition": "Bundesliga",
+      "pays": "Allemagne",
+      "dernierMatch": "2026-09-20T17:30:00Z",
+      "detail": [
+        {
+          "date": "2026-08-29T13:30:00Z",
+          "adversaire": "1. FC Köln",
+          "domicile": false,
+          "butsPour": 2,
+          "butsContre": 3,
+          "score": "2-3",
+          "issue": "D"
+        },
+        {
+          "date": "2026-09-05T13:30:00Z",
+          "adversaire": "Dortmund",
+          "domicile": true,
+          "butsPour": 2,
+          "butsContre": 3,
+          "score": "2-3",
+          "issue": "D"
+        },
+        {
+          "date": "2026-09-12T13:30:00Z",
+          "adversaire": "Stuttgart",
+          "domicile": true,
+          "butsPour": 2,
+          "butsContre": 1,
+          "score": "2-1",
+          "issue": "V"
+        },
+        {
+          "date": "2026-09-20T17:30:00Z",
+          "adversaire": "SC Paderborn",
+          "domicile": false,
+          "butsPour": 1,
+          "butsContre": 3,
+          "score": "1-3",
+          "issue": "D"
+        }
+      ],
+      "serie": 4,
+      "prochainsMatchs": []
+    },
+    {
       "id": 68,
       "nom": "Norwich",
       "blason": "https://crests.football-data.org/68.png",
@@ -21132,6 +21115,81 @@
       "prochainsMatchs": []
     },
     {
+      "id": 94,
+      "nom": "Villarreal",
+      "blason": "https://crests.football-data.org/94.png",
+      "competition": "La Liga",
+      "pays": "Espagne",
+      "dernierMatch": "2026-09-20T16:30:00Z",
+      "detail": [
+        {
+          "date": "2026-08-16T15:00:00Z",
+          "adversaire": "Santander",
+          "domicile": false,
+          "butsPour": 2,
+          "butsContre": 2,
+          "score": "2-2",
+          "issue": "N"
+        },
+        {
+          "date": "2026-08-23T15:00:00Z",
+          "adversaire": "Atleti",
+          "domicile": false,
+          "butsPour": 2,
+          "butsContre": 2,
+          "score": "2-2",
+          "issue": "N"
+        },
+        {
+          "date": "2026-08-28T19:30:00Z",
+          "adversaire": "Alavés",
+          "domicile": false,
+          "butsPour": 0,
+          "butsContre": 1,
+          "score": "0-1",
+          "issue": "D"
+        },
+        {
+          "date": "2026-09-05T19:00:00Z",
+          "adversaire": "Deportivo",
+          "domicile": true,
+          "butsPour": 2,
+          "butsContre": 3,
+          "score": "2-3",
+          "issue": "D"
+        },
+        {
+          "date": "2026-09-14T19:00:00Z",
+          "adversaire": "Real Betis",
+          "domicile": true,
+          "butsPour": 1,
+          "butsContre": 2,
+          "score": "1-2",
+          "issue": "D"
+        },
+        {
+          "date": "2026-09-17T19:30:00Z",
+          "adversaire": "Málaga",
+          "domicile": false,
+          "butsPour": 3,
+          "butsContre": 1,
+          "score": "3-1",
+          "issue": "V"
+        },
+        {
+          "date": "2026-09-20T16:30:00Z",
+          "adversaire": "Levante",
+          "domicile": true,
+          "butsPour": 3,
+          "butsContre": 1,
+          "score": "3-1",
+          "issue": "V"
+        }
+      ],
+      "serie": 4,
+      "prochainsMatchs": []
+    },
+    {
       "id": 16,
       "nom": "Augsburg",
       "blason": "https://crests.football-data.org/16.png",
@@ -21261,14 +21319,7 @@
         }
       ],
       "serie": 3,
-      "prochainsMatchs": [
-        {
-          "date": "2026-09-20T22:30:00Z",
-          "competition": "Série A",
-          "domicile": "Paranaense",
-          "exterieur": "Bahia"
-        }
-      ]
+      "prochainsMatchs": []
     },
     {
       "id": 81,
@@ -21346,25 +21397,16 @@
       "prochainsMatchs": []
     },
     {
-      "id": 4286,
-      "nom": "Bragantino",
-      "blason": "https://crests.football-data.org/4286.png",
+      "id": 1779,
+      "nom": "Corinthians",
+      "blason": "https://crests.football-data.org/1779.png",
       "competition": "Série A",
       "pays": "Brésil",
-      "dernierMatch": "2026-09-12T23:30:00Z",
+      "dernierMatch": "2026-09-20T19:00:00Z",
       "detail": [
         {
-          "date": "2026-07-17T23:00:00Z",
-          "adversaire": "Fluminense",
-          "domicile": false,
-          "butsPour": 1,
-          "butsContre": 1,
-          "score": "1-1",
-          "issue": "N"
-        },
-        {
-          "date": "2026-07-26T21:30:00Z",
-          "adversaire": "Coritiba",
+          "date": "2026-07-30T22:30:00Z",
+          "adversaire": "Paranaense",
           "domicile": true,
           "butsPour": 0,
           "butsContre": 0,
@@ -21373,34 +21415,25 @@
         },
         {
           "date": "2026-08-09T21:30:00Z",
-          "adversaire": "Corinthians",
-          "domicile": true,
-          "butsPour": 0,
-          "butsContre": 2,
-          "score": "0-2",
-          "issue": "D"
-        },
-        {
-          "date": "2026-08-15T21:30:00Z",
-          "adversaire": "Paranaense",
+          "adversaire": "Bragantino",
           "domicile": false,
-          "butsPour": 1,
-          "butsContre": 1,
-          "score": "1-1",
-          "issue": "N"
-        },
-        {
-          "date": "2026-08-23T19:00:00Z",
-          "adversaire": "Grêmio",
-          "domicile": true,
-          "butsPour": 1,
+          "butsPour": 2,
           "butsContre": 0,
-          "score": "1-0",
+          "score": "2-0",
           "issue": "V"
         },
         {
-          "date": "2026-08-29T23:00:00Z",
-          "adversaire": "São Paulo",
+          "date": "2026-08-16T22:30:00Z",
+          "adversaire": "Cruzeiro",
+          "domicile": true,
+          "butsPour": 1,
+          "butsContre": 2,
+          "score": "1-2",
+          "issue": "D"
+        },
+        {
+          "date": "2026-08-23T22:30:00Z",
+          "adversaire": "Coritiba",
           "domicile": false,
           "butsPour": 1,
           "butsContre": 2,
@@ -21408,39 +21441,44 @@
           "issue": "D"
         },
         {
-          "date": "2026-09-05T19:00:00Z",
-          "adversaire": "Bahia",
+          "date": "2026-08-30T19:00:00Z",
+          "adversaire": "Santos",
           "domicile": true,
-          "butsPour": 2,
-          "butsContre": 3,
-          "score": "2-3",
+          "butsPour": 0,
+          "butsContre": 1,
+          "score": "0-1",
           "issue": "D"
         },
         {
-          "date": "2026-09-12T23:30:00Z",
-          "adversaire": "Botafogo",
+          "date": "2026-09-06T22:30:00Z",
+          "adversaire": "Chapecoense",
+          "domicile": true,
+          "butsPour": 1,
+          "butsContre": 2,
+          "score": "1-2",
+          "issue": "D"
+        },
+        {
+          "date": "2026-09-13T20:30:00Z",
+          "adversaire": "Flamengo",
           "domicile": false,
           "butsPour": 1,
-          "butsContre": 1,
-          "score": "1-1",
-          "issue": "N"
+          "butsContre": 2,
+          "score": "1-2",
+          "issue": "D"
+        },
+        {
+          "date": "2026-09-20T19:00:00Z",
+          "adversaire": "Fluminense",
+          "domicile": true,
+          "butsPour": 1,
+          "butsContre": 3,
+          "score": "1-3",
+          "issue": "D"
         }
       ],
       "serie": 3,
-      "prochainsMatchs": [
-        {
-          "date": "2026-09-20T21:30:00Z",
-          "competition": "Série A",
-          "domicile": "Flamengo",
-          "exterieur": "Bragantino"
-        },
-        {
-          "date": "2026-10-03T21:30:00Z",
-          "competition": "Série A",
-          "domicile": "Mineiro",
-          "exterieur": "Bragantino"
-        }
-      ]
+      "prochainsMatchs": []
     },
     {
       "id": 670,
@@ -21626,45 +21664,6 @@
           "butsContre": 2,
           "score": "1-2",
           "issue": "D"
-        }
-      ],
-      "serie": 3,
-      "prochainsMatchs": []
-    },
-    {
-      "id": 2,
-      "nom": "Hoffenheim",
-      "blason": "https://crests.football-data.org/2.png",
-      "competition": "Bundesliga",
-      "pays": "Allemagne",
-      "dernierMatch": "2026-09-12T13:30:00Z",
-      "detail": [
-        {
-          "date": "2026-08-29T13:30:00Z",
-          "adversaire": "1. FC Köln",
-          "domicile": false,
-          "butsPour": 2,
-          "butsContre": 3,
-          "score": "2-3",
-          "issue": "D"
-        },
-        {
-          "date": "2026-09-05T13:30:00Z",
-          "adversaire": "Dortmund",
-          "domicile": true,
-          "butsPour": 2,
-          "butsContre": 3,
-          "score": "2-3",
-          "issue": "D"
-        },
-        {
-          "date": "2026-09-12T13:30:00Z",
-          "adversaire": "Stuttgart",
-          "domicile": true,
-          "butsPour": 2,
-          "butsContre": 1,
-          "score": "2-1",
-          "issue": "V"
         }
       ],
       "serie": 3,
@@ -22067,6 +22066,81 @@
       "prochainsMatchs": []
     },
     {
+      "id": 503,
+      "nom": "Porto",
+      "blason": "https://crests.football-data.org/503.png",
+      "competition": "Primeira Liga",
+      "pays": "Portugal",
+      "dernierMatch": "2026-09-20T19:30:00Z",
+      "detail": [
+        {
+          "date": "2026-08-09T17:00:00Z",
+          "adversaire": "Alverca",
+          "domicile": true,
+          "butsPour": 2,
+          "butsContre": 0,
+          "score": "2-0",
+          "issue": "V"
+        },
+        {
+          "date": "2026-08-15T19:30:00Z",
+          "adversaire": "Rio Ave",
+          "domicile": false,
+          "butsPour": 2,
+          "butsContre": 0,
+          "score": "2-0",
+          "issue": "V"
+        },
+        {
+          "date": "2026-08-23T19:30:00Z",
+          "adversaire": "Arouca",
+          "domicile": true,
+          "butsPour": 2,
+          "butsContre": 0,
+          "score": "2-0",
+          "issue": "V"
+        },
+        {
+          "date": "2026-08-29T17:00:00Z",
+          "adversaire": "Acad. Viseu",
+          "domicile": false,
+          "butsPour": 3,
+          "butsContre": 0,
+          "score": "3-0",
+          "issue": "V"
+        },
+        {
+          "date": "2026-09-04T19:15:00Z",
+          "adversaire": "Moreirense",
+          "domicile": true,
+          "butsPour": 2,
+          "butsContre": 1,
+          "score": "2-1",
+          "issue": "V"
+        },
+        {
+          "date": "2026-09-12T17:00:00Z",
+          "adversaire": "Casa Pia",
+          "domicile": false,
+          "butsPour": 4,
+          "butsContre": 1,
+          "score": "4-1",
+          "issue": "V"
+        },
+        {
+          "date": "2026-09-20T19:30:00Z",
+          "adversaire": "SL Benfica",
+          "domicile": true,
+          "butsPour": 3,
+          "butsContre": 1,
+          "score": "3-1",
+          "issue": "V"
+        }
+      ],
+      "serie": 3,
+      "prochainsMatchs": []
+    },
+    {
       "id": 86,
       "nom": "Real Madrid",
       "blason": "https://crests.football-data.org/86.png",
@@ -22394,72 +22468,6 @@
           "butsPour": 2,
           "butsContre": 1,
           "score": "2-1",
-          "issue": "V"
-        }
-      ],
-      "serie": 3,
-      "prochainsMatchs": []
-    },
-    {
-      "id": 94,
-      "nom": "Villarreal",
-      "blason": "https://crests.football-data.org/94.png",
-      "competition": "La Liga",
-      "pays": "Espagne",
-      "dernierMatch": "2026-09-17T19:30:00Z",
-      "detail": [
-        {
-          "date": "2026-08-16T15:00:00Z",
-          "adversaire": "Santander",
-          "domicile": false,
-          "butsPour": 2,
-          "butsContre": 2,
-          "score": "2-2",
-          "issue": "N"
-        },
-        {
-          "date": "2026-08-23T15:00:00Z",
-          "adversaire": "Atleti",
-          "domicile": false,
-          "butsPour": 2,
-          "butsContre": 2,
-          "score": "2-2",
-          "issue": "N"
-        },
-        {
-          "date": "2026-08-28T19:30:00Z",
-          "adversaire": "Alavés",
-          "domicile": false,
-          "butsPour": 0,
-          "butsContre": 1,
-          "score": "0-1",
-          "issue": "D"
-        },
-        {
-          "date": "2026-09-05T19:00:00Z",
-          "adversaire": "Deportivo",
-          "domicile": true,
-          "butsPour": 2,
-          "butsContre": 3,
-          "score": "2-3",
-          "issue": "D"
-        },
-        {
-          "date": "2026-09-14T19:00:00Z",
-          "adversaire": "Real Betis",
-          "domicile": true,
-          "butsPour": 1,
-          "butsContre": 2,
-          "score": "1-2",
-          "issue": "D"
-        },
-        {
-          "date": "2026-09-17T19:30:00Z",
-          "adversaire": "Málaga",
-          "domicile": false,
-          "butsPour": 3,
-          "butsContre": 1,
-          "score": "3-1",
           "issue": "V"
         }
       ],
