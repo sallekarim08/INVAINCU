@@ -29,19 +29,31 @@
  *   Fiabilité : moins de 3 matchs exploitables (équipe ou adversaire) → équipe exclue ;
  *   entre 3 et (fenêtre − 1) → « échantillon réduit » ; fenêtre complète → « calcul normal ».
  *
+ * SUIVI DE FIABILITÉ — chaque pronostic « ok » du jour est enregistré dans
+ * data/historique-predictions.json (un fichier séparé, conservé d'une exécution à l'autre
+ * puisqu'il est commité dans le dépôt comme data/invaincus.json). À chaque exécution :
+ *   1. le pronostic du jour pour chaque match à venir est noté (ou mis à jour tant que
+ *      le match n'a pas eu lieu) ;
+ *   2. les pronostics dont le match est maintenant terminé sont comparés au résultat réel
+ *      et marqués « réussi » ou « échoué » ;
+ *   3. un pronostic dont le match n'apparaît toujours pas joué 4 jours après la date prévue
+ *      est marqué « indéterminé » (report ou annulation probable) et sorti du calcul du taux ;
+ *   4. un taux de réussite global et par catégorie est recalculé et ajouté à la sortie.
+ *
  * Source : football-data.org (API v4, offre gratuite).
- * Sortie  : data/invaincus.json
+ * Sortie  : data/invaincus.json + data/historique-predictions.json
  *
  * Lancement local :  FOOTBALL_DATA_TOKEN=xxx node scripts/build-data.mjs
  * En production   :  déclenché par .github/workflows/update-data.yml
  */
 
-import { writeFile, mkdir } from "node:fs/promises";
+import { writeFile, readFile, mkdir } from "node:fs/promises";
 import { dirname, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const OUTPUT = resolve(__dirname, "..", "data", "invaincus.json");
+const HISTORIQUE_PREDICTIONS = resolve(__dirname, "..", "data", "historique-predictions.json");
 
 const TOKEN = process.env.FOOTBALL_DATA_TOKEN;
 if (!TOKEN) {
@@ -54,6 +66,9 @@ const SERIE_MIN = 3;
 
 /** Nombre de jours à l'avance pour lesquels on récupère les rencontres à venir. */
 const JOURS_A_VENIR = 14;
+
+/** Passé ce délai après la date prévue sans trouver le match joué, on abandonne (report/annulation probable). */
+const JOURS_AVANT_INDETERMINE = 4;
 
 /**
  * Définition des six catégories. Chacune a sa propre fenêtre d'analyse
@@ -68,8 +83,8 @@ const CATEGORIES = [
   { cle: "btts",             fenetre: 8,  condition: (m) => m.butsPour >= 1 && m.butsContre >= 1 },
 ];
 
-/** Les trois catégories pour lesquelles le module Stratège calcule une probabilité. */
-const CATEGORIES_STRATEGE = ["invaincues", "quiMarquent", "marqueToujours"];
+/** Les quatre catégories pour lesquelles le module Stratège calcule une probabilité. */
+const CATEGORIES_STRATEGE = ["invaincues", "quiMarquent", "marqueToujours", "btts"];
 
 /**
  * Compétitions incluses dans l'offre gratuite de football-data.org.
@@ -301,10 +316,22 @@ function calculerStratege(categorieCle, equipeEntree, historique, fixturesCompet
     };
   }
 
-  // categorieCle === "invaincues" : probabilité de ne pas perdre (victoire + nul)
+  // categorieCle === "invaincues" ou "btts" : les deux nécessitent le λ des DEUX équipes.
   const lambdaEquipe = (moyenneButs(recentsEquipe, "butsPour") + moyenneButs(recentsAdversaire, "butsContre")) / 2;
   const lambdaAdversaire = (moyenneButs(recentsAdversaire, "butsPour") + moyenneButs(recentsEquipe, "butsContre")) / 2;
 
+  if (categorieCle === "btts") {
+    // P(les deux marquent) = P(équipe marque ≥ 1) × P(adversaire marque ≥ 1)
+    const probabilite = (1 - poisson(0, lambdaEquipe)) * (1 - poisson(0, lambdaAdversaire));
+    return {
+      ...infosCommunes,
+      lambdaEquipe: Math.round(lambdaEquipe * 100) / 100,
+      lambdaAdversaire: Math.round(lambdaAdversaire * 100) / 100,
+      probabilite: Math.round(probabilite * 1000) / 10,
+    };
+  }
+
+  // categorieCle === "invaincues" : probabilité de ne pas perdre (victoire + nul)
   const MAX_BUTS = 6;
   let probaVictoire = 0, probaNul = 0;
   for (let i = 0; i <= MAX_BUTS; i++) {
@@ -323,10 +350,211 @@ function calculerStratege(categorieCle, equipeEntree, historique, fixturesCompet
   };
 }
 
+/** Charge l'historique des pronostics déjà enregistrés (fichier vide si premier lancement). */
+async function chargerHistoriquePredictions() {
+  try {
+    const contenu = await readFile(HISTORIQUE_PREDICTIONS, "utf8");
+    const donnees = JSON.parse(contenu);
+    return Array.isArray(donnees.predictions) ? donnees.predictions : [];
+  } catch {
+    return [];
+  }
+}
+
+/**
+ * Enregistre le pronostic du jour pour un match à venir, ou met à jour la valeur
+ * si ce même match avait déjà été noté lors d'une exécution précédente et n'est
+ * pas encore résolu. Un pronostic déjà « réussi »/« échoué »/« indéterminé » n'est
+ * jamais modifié — l'historique ne triche pas après coup.
+ */
+function enregistrerPronostic(predictions, categorieCle, s) {
+  const id = `${s.id}-${categorieCle}-${s.date}`;
+  const existant = predictions.find((p) => p.id === id);
+
+  if (existant) {
+    if (existant.statut === "en_attente") {
+      existant.probabilitePredite = s.probabilite;
+      existant.dateEnregistrement = new Date().toISOString();
+    }
+    return;
+  }
+
+  predictions.push({
+    id,
+    equipeId: s.id,
+    equipeNom: s.nom,
+    competition: s.competition,
+    categorie: categorieCle,
+    adversaire: s.adversaire,
+    domicile: s.domicile,
+    dateMatch: s.date,
+    probabilitePredite: s.probabilite,
+    dateEnregistrement: new Date().toISOString(),
+    statut: "en_attente",
+  });
+}
+
+/**
+ * Compare les pronostics en attente dont le match (dans `competitionNom`) est déjà
+ * passé avec le résultat réel trouvé dans `historique`, et les marque résolus.
+ */
+function resoudrePredictions(predictions, competitionNom, historique) {
+  const maintenant = Date.now();
+
+  for (const p of predictions) {
+    if (p.statut !== "en_attente" || p.competition !== competitionNom) continue;
+    if (new Date(p.dateMatch).getTime() > maintenant) continue; // pas encore joué
+
+    const equipe = historique.get(p.equipeId);
+    const matchJoue = equipe?.rencontres.find((r) => r.date === p.dateMatch);
+
+    if (matchJoue) {
+      const reussi =
+        p.categorie === "invaincues" ? matchJoue.issue !== "D" :
+        p.categorie === "quiMarquent" ? matchJoue.butsPour >= 2 :
+        p.categorie === "btts" ? (matchJoue.butsPour >= 1 && matchJoue.butsContre >= 1) :
+        matchJoue.butsPour >= 1; // marqueToujours
+
+      p.statut = reussi ? "reussi" : "echoue";
+      p.resultatReel = { score: matchJoue.score, issue: matchJoue.issue };
+      p.dateResolution = new Date().toISOString();
+    } else if (maintenant - new Date(p.dateMatch).getTime() > JOURS_AVANT_INDETERMINE * 86_400_000) {
+      p.statut = "indetermine"; // probablement reporté ou annulé : on arrête d'attendre
+    }
+  }
+}
+
+/** Taux de réussite global et par catégorie, à partir des pronostics résolus. */
+function calculerFiabilite(predictions) {
+  const resolu = (p) => p.statut === "reussi" || p.statut === "echoue";
+
+  const statsPour = (liste) => {
+    const resolues = liste.filter(resolu);
+    const reussies = resolues.filter((p) => p.statut === "reussi").length;
+    return {
+      total: resolues.length,
+      reussies,
+      echouees: resolues.length - reussies,
+      tauxReussite: resolues.length ? Math.round((reussies / resolues.length) * 1000) / 10 : null,
+    };
+  };
+
+  const parCategorie = Object.fromEntries(
+    CATEGORIES_STRATEGE.map((cle) => [cle, statsPour(predictions.filter((p) => p.categorie === cle))])
+  );
+
+  return { global: statsPour(predictions), parCategorie };
+}
+
+/** Tranches de probabilité utilisées pour la calibration (bornes incluses). */
+const TRANCHES_PROBABILITE = [
+  [50, 59], [60, 69], [70, 79], [80, 89], [90, 94], [95, 100],
+];
+
+/** En dessous de cet effectif, une tranche n'est jamais qualifiée de « haute fiabilité ». */
+const EFFECTIF_MIN_HAUTE_FIABILITE = 15;
+/** Écart (en points) au-delà duquel on signale une sur/sous-estimation. */
+const ECART_CALIBRATION_SIGNALE = 5;
+
+/**
+ * Regroupe les pronostics résolus par tranche de probabilité annoncée, et compare pour
+ * chaque tranche la probabilité moyenne annoncée au taux de réussite réellement observé.
+ * N'affirme jamais qu'une tranche est fiable sans un échantillon suffisant.
+ */
+function calculerCalibration(predictions) {
+  const resolues = predictions.filter((p) => p.statut === "reussi" || p.statut === "echoue");
+
+  const tranches = TRANCHES_PROBABILITE.map(([min, max]) => {
+    const dans = resolues.filter((p) => p.probabilitePredite >= min && p.probabilitePredite <= max);
+    const reussies = dans.filter((p) => p.statut === "reussi").length;
+    const tauxReel = dans.length ? (reussies / dans.length) * 100 : null;
+    const probaMoyenneAnnoncee = dans.length
+      ? dans.reduce((t, p) => t + p.probabilitePredite, 0) / dans.length
+      : null;
+    const ecart = tauxReel !== null ? Math.round((tauxReel - probaMoyenneAnnoncee) * 10) / 10 : null;
+
+    let diagnostic = null;
+    if (ecart !== null && dans.length >= 5) {
+      if (ecart <= -ECART_CALIBRATION_SIGNALE) diagnostic = "Probabilité potentiellement surestimée";
+      else if (ecart >= ECART_CALIBRATION_SIGNALE) diagnostic = "Probabilité potentiellement sous-estimée";
+    }
+
+    return {
+      tranche: `${min}–${max} %`,
+      min, max,
+      total: dans.length,
+      validees: reussies,
+      nonValidees: dans.length - reussies,
+      tauxReussiteReel: tauxReel !== null ? Math.round(tauxReel * 10) / 10 : null,
+      probabiliteMoyenneAnnoncee: probaMoyenneAnnoncee !== null ? Math.round(probaMoyenneAnnoncee * 10) / 10 : null,
+      ecart,
+      diagnostic,
+      echantillonSuffisant: dans.length >= EFFECTIF_MIN_HAUTE_FIABILITE,
+    };
+  });
+
+  // Seuil de haute fiabilité : parmi les tranches à l'échantillon suffisant, celle avec
+  // le meilleur taux réel. Aucun seuil n'est imposé à l'avance — uniquement déduit des données.
+  const candidates = tranches.filter((t) => t.echantillonSuffisant && t.tauxReussiteReel !== null);
+  const seuilHauteFiabilite = candidates.length
+    ? candidates.reduce((meilleure, t) => (t.tauxReussiteReel > meilleure.tauxReussiteReel ? t : meilleure))
+    : null;
+
+  return { tranches, seuilHauteFiabilite };
+}
+
+/** Statistiques de réussite sur une fenêtre de N derniers jours (ou null pour l'historique complet). */
+function statsSurPeriode(predictions, jours) {
+  const resolues = predictions.filter((p) => p.statut === "reussi" || p.statut === "echoue");
+  const limite = jours === null ? null : Date.now() - jours * 86_400_000;
+  const dans = limite === null ? resolues : resolues.filter((p) => new Date(p.dateResolution).getTime() >= limite);
+  const reussies = dans.filter((p) => p.statut === "reussi").length;
+
+  return {
+    total: dans.length,
+    reussies,
+    echouees: dans.length - reussies,
+    tauxReussite: dans.length ? Math.round((reussies / dans.length) * 1000) / 10 : null,
+  };
+}
+
+/** Pronostics résolus dont dateResolution tombe le jour calendaire d'aujourd'hui / d'hier. */
+function statsJourCalendaire(predictions, decalageJours) {
+  const cible = new Date(Date.now() - decalageJours * 86_400_000).toDateString();
+  const resolues = predictions.filter(
+    (p) => (p.statut === "reussi" || p.statut === "echoue") && new Date(p.dateResolution).toDateString() === cible
+  );
+  const reussies = resolues.filter((p) => p.statut === "reussi").length;
+  return {
+    total: resolues.length,
+    reussies,
+    echouees: resolues.length - reussies,
+    tauxReussite: resolues.length ? Math.round((reussies / resolues.length) * 1000) / 10 : null,
+  };
+}
+
+/** Tableau de performance complet : par période, avec en attente / non évaluables comptés à part. */
+function calculerPerformance(predictions) {
+  const enAttente = predictions.filter((p) => p.statut === "en_attente").length;
+  const nonEvaluables = predictions.filter((p) => p.statut === "indetermine").length;
+
+  return {
+    total: predictions.length,
+    enAttente,
+    nonEvaluables,
+    aujourdhui: statsJourCalendaire(predictions, 0),
+    hier: statsJourCalendaire(predictions, 1),
+    sept_jours: statsSurPeriode(predictions, 7),
+    trente_jours: statsSurPeriode(predictions, 30),
+    historique_complet: statsSurPeriode(predictions, null),
+  };
+}
+
 async function main() {
   const resultats = Object.fromEntries(CATEGORIES.map((c) => [c.cle, []]));
   const rencontresAVenir = [];
   const stratege = Object.fromEntries(CATEGORIES_STRATEGE.map((c) => [c, []]));
+  const predictions = await chargerHistoriquePredictions();
   const echecs = [];
 
   for (const competition of COMPETITIONS) {
@@ -389,19 +617,23 @@ async function main() {
         rencontresAVenir.push({
           date: m.utcDate,
           championnat: competition.nom,
-          domicile: { nom: m.homeTeam.shortName || m.homeTeam.name, blason: m.homeTeam.crest ?? null },
-          exterieur: { nom: m.awayTeam.shortName || m.awayTeam.name, blason: m.awayTeam.crest ?? null },
+          domicile: { id: m.homeTeam.id, nom: m.homeTeam.shortName || m.homeTeam.name, blason: m.homeTeam.crest ?? null },
+          exterieur: { id: m.awayTeam.id, nom: m.awayTeam.shortName || m.awayTeam.name, blason: m.awayTeam.crest ?? null },
         });
       }
+
+      // Résout les pronostics de ce championnat dont le match est déjà passé,
+      // en comparant à l'historique qu'on vient de recalculer.
+      resoudrePredictions(predictions, competition.nom, historique);
 
       // Module Stratège : uniquement pour les équipes des 3 catégories concernées,
       // en cherchant leur prochain match DANS CE MÊME championnat.
       for (const categorieCle of CATEGORIES_STRATEGE) {
         const fenetreCategorie = CATEGORIES.find((c) => c.cle === categorieCle).fenetre;
         for (const entree of entreesParCategorieCeChampionnat[categorieCle]) {
-          stratege[categorieCle].push(
-            calculerStratege(categorieCle, entree, historique, fixtures, fenetreCategorie)
-          );
+          const s = calculerStratege(categorieCle, entree, historique, fixtures, fenetreCategorie);
+          stratege[categorieCle].push(s);
+          if (s.statut === "ok") enregistrerPronostic(predictions, categorieCle, s);
         }
       }
 
@@ -434,6 +666,15 @@ async function main() {
     competitionsEnEchec: echecs,
     rencontresAVenir,
     stratege,
+    fiabilite: calculerFiabilite(predictions),
+    calibration: calculerCalibration(predictions),
+    performance: calculerPerformance(predictions),
+    // Historique complet pour les filtres (type / championnat / période / statut) côté site.
+    // Plafonné pour ne pas faire grossir le fichier indéfiniment ; les plus anciens sortent en premier.
+    historiquePredictions: predictions
+      .slice()
+      .sort((a, b) => new Date(b.dateEnregistrement) - new Date(a.dateEnregistrement))
+      .slice(0, 1000),
   };
   for (const categorie of CATEGORIES) {
     sortie[categorie.cle] = trierParSerie(resultats[categorie.cle]);
@@ -441,9 +682,16 @@ async function main() {
 
   await mkdir(dirname(OUTPUT), { recursive: true });
   await writeFile(OUTPUT, JSON.stringify(sortie, null, 2), "utf8");
+  await writeFile(HISTORIQUE_PREDICTIONS, JSON.stringify({ predictions }, null, 2), "utf8");
 
   const bilan = CATEGORIES.map((c) => `${sortie[c.cle].length} ${c.cle}`).join(", ");
-  console.log(`\nTerminé : ${bilan}, ${rencontresAVenir.length} rencontres à venir → data/invaincus.json`);
+  const f = sortie.fiabilite.global;
+  console.log(
+    `\nTerminé : ${bilan}, ${rencontresAVenir.length} rencontres à venir → data/invaincus.json\n` +
+    `Fiabilité : ${f.reussies}/${f.total} pronostics résolus réussis` +
+    (f.tauxReussite !== null ? ` (${f.tauxReussite} %)` : "") +
+    ` → data/historique-predictions.json`
+  );
 }
 
 main().catch((erreur) => {
