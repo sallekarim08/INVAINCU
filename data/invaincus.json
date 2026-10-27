@@ -1,5 +1,5 @@
 {
-  "genereLe": "2026-10-27T11:53:15.622Z",
+  "genereLe": "2026-10-27T17:46:57.311Z",
   "serieMin": 3,
   "fenetres": {
     "invaincues": 8,
@@ -23,20 +23,6 @@
   ],
   "competitionsEnEchec": [],
   "rencontresAVenir": [
-    {
-      "date": "2026-10-27T17:30:00Z",
-      "championnat": "Serie A",
-      "domicile": {
-        "id": 471,
-        "nom": "Sassuolo",
-        "blason": "https://crests.football-data.org/471.png"
-      },
-      "exterieur": {
-        "id": 110,
-        "nom": "Lazio",
-        "blason": "https://crests.football-data.org/110.png"
-      }
-    },
     {
       "date": "2026-10-27T19:45:00Z",
       "championnat": "Serie A",
@@ -287,6 +273,20 @@
         "id": 524,
         "nom": "PSG",
         "blason": "https://crests.football-data.org/524.png"
+      }
+    },
+    {
+      "date": "2026-10-30T18:00:00Z",
+      "championnat": "Ligue 1",
+      "domicile": {
+        "id": 522,
+        "nom": "Nice",
+        "blason": "https://crests.football-data.org/522.png"
+      },
+      "exterieur": {
+        "id": 529,
+        "nom": "Stade Rennais",
+        "blason": "https://crests.football-data.org/529.png"
       }
     },
     {
@@ -752,20 +752,6 @@
       }
     },
     {
-      "date": "2026-10-31T16:15:00Z",
-      "championnat": "Ligue 1",
-      "domicile": {
-        "id": 522,
-        "nom": "Nice",
-        "blason": "https://crests.football-data.org/522.png"
-      },
-      "exterieur": {
-        "id": 529,
-        "nom": "Stade Rennais",
-        "blason": "https://crests.football-data.org/529.png"
-      }
-    },
-    {
       "date": "2026-10-31T17:00:00Z",
       "championnat": "Serie A",
       "domicile": {
@@ -875,34 +861,6 @@
         "id": 108,
         "nom": "Inter",
         "blason": "https://crests.football-data.org/108.png"
-      }
-    },
-    {
-      "date": "2026-10-31T19:45:00Z",
-      "championnat": "Ligue 1",
-      "domicile": {
-        "id": 523,
-        "nom": "Olympique Lyon",
-        "blason": "https://crests.football-data.org/523.png"
-      },
-      "exterieur": {
-        "id": 532,
-        "nom": "Angers SCO",
-        "blason": "https://crests.football-data.org/532.png"
-      }
-    },
-    {
-      "date": "2026-10-31T19:45:00Z",
-      "championnat": "Ligue 1",
-      "domicile": {
-        "id": 525,
-        "nom": "Lorient",
-        "blason": "https://crests.football-data.org/525.png"
-      },
-      "exterieur": {
-        "id": 512,
-        "nom": "Brest",
-        "blason": "https://crests.football-data.org/512.png"
       }
     },
     {
@@ -1161,6 +1119,20 @@
       "date": "2026-11-01T16:15:00Z",
       "championnat": "Ligue 1",
       "domicile": {
+        "id": 523,
+        "nom": "Olympique Lyon",
+        "blason": "https://crests.football-data.org/523.png"
+      },
+      "exterieur": {
+        "id": 532,
+        "nom": "Angers SCO",
+        "blason": "https://crests.football-data.org/532.png"
+      }
+    },
+    {
+      "date": "2026-11-01T16:15:00Z",
+      "championnat": "Ligue 1",
+      "domicile": {
         "id": 1045,
         "nom": "Paris FC",
         "blason": "https://crests.football-data.org/1045.png"
@@ -1337,6 +1309,20 @@
         "id": 112,
         "nom": "Parma",
         "blason": "https://crests.football-data.org/112.png"
+      }
+    },
+    {
+      "date": "2026-11-02T19:45:00Z",
+      "championnat": "Ligue 1",
+      "domicile": {
+        "id": 525,
+        "nom": "Lorient",
+        "blason": "https://crests.football-data.org/525.png"
+      },
+      "exterieur": {
+        "id": 512,
+        "nom": "Brest",
+        "blason": "https://crests.football-data.org/512.png"
       }
     },
     {
@@ -2987,6 +2973,22 @@
         "probabilite": 84.1
       },
       {
+        "id": 110,
+        "nom": "Lazio",
+        "blason": "https://crests.football-data.org/110.png",
+        "competition": "Serie A",
+        "statut": "ok",
+        "adversaire": "Cagliari",
+        "domicile": true,
+        "date": "2026-11-01T14:00:00Z",
+        "fiabilite": "Calcul normal",
+        "matchsUtilisesEquipe": 8,
+        "matchsUtilisesAdversaire": 8,
+        "lambdaEquipe": 1.56,
+        "lambdaAdversaire": 0.69,
+        "probabilite": 83.6
+      },
+      {
         "id": 343,
         "nom": "Middlesbrough",
         "blason": "https://crests.football-data.org/343.png",
@@ -3033,22 +3035,6 @@
         "lambdaEquipe": 2.63,
         "lambdaAdversaire": 1.31,
         "probabilite": 80.9
-      },
-      {
-        "id": 110,
-        "nom": "Lazio",
-        "blason": "https://crests.football-data.org/110.png",
-        "competition": "Serie A",
-        "statut": "ok",
-        "adversaire": "Sassuolo",
-        "domicile": false,
-        "date": "2026-10-27T17:30:00Z",
-        "fiabilite": "Calcul normal",
-        "matchsUtilisesEquipe": 8,
-        "matchsUtilisesAdversaire": 8,
-        "lambdaEquipe": 2,
-        "lambdaAdversaire": 1.06,
-        "probabilite": 80
       },
       {
         "id": 524,
@@ -3426,7 +3412,7 @@
         "statut": "ok",
         "adversaire": "Brest",
         "domicile": true,
-        "date": "2026-10-31T19:45:00Z",
+        "date": "2026-11-02T19:45:00Z",
         "fiabilite": "Calcul normal",
         "matchsUtilisesEquipe": 8,
         "matchsUtilisesAdversaire": 8,
@@ -3703,21 +3689,6 @@
         "probabilite": 61.1
       },
       {
-        "id": 110,
-        "nom": "Lazio",
-        "blason": "https://crests.football-data.org/110.png",
-        "competition": "Serie A",
-        "statut": "ok",
-        "adversaire": "Sassuolo",
-        "domicile": false,
-        "date": "2026-10-27T17:30:00Z",
-        "fiabilite": "Calcul normal",
-        "matchsUtilisesEquipe": 8,
-        "matchsUtilisesAdversaire": 8,
-        "lambda": 2,
-        "probabilite": 59.4
-      },
-      {
         "id": 2,
         "nom": "Hoffenheim",
         "blason": "https://crests.football-data.org/2.png",
@@ -3815,12 +3786,27 @@
         "statut": "ok",
         "adversaire": "Nice",
         "domicile": false,
-        "date": "2026-10-31T16:15:00Z",
+        "date": "2026-10-30T18:00:00Z",
         "fiabilite": "Calcul normal",
         "matchsUtilisesEquipe": 8,
         "matchsUtilisesAdversaire": 8,
         "lambda": 1.75,
         "probabilite": 52.2
+      },
+      {
+        "id": 110,
+        "nom": "Lazio",
+        "blason": "https://crests.football-data.org/110.png",
+        "competition": "Serie A",
+        "statut": "ok",
+        "adversaire": "Cagliari",
+        "domicile": true,
+        "date": "2026-11-01T14:00:00Z",
+        "fiabilite": "Calcul normal",
+        "matchsUtilisesEquipe": 8,
+        "matchsUtilisesAdversaire": 8,
+        "lambda": 1.56,
+        "probabilite": 46.3
       },
       {
         "id": 92,
@@ -4125,21 +4111,6 @@
         "probabilite": 87.1
       },
       {
-        "id": 110,
-        "nom": "Lazio",
-        "blason": "https://crests.football-data.org/110.png",
-        "competition": "Serie A",
-        "statut": "ok",
-        "adversaire": "Sassuolo",
-        "domicile": false,
-        "date": "2026-10-27T17:30:00Z",
-        "fiabilite": "Échantillon réduit",
-        "matchsUtilisesEquipe": 8,
-        "matchsUtilisesAdversaire": 8,
-        "lambda": 2,
-        "probabilite": 86.5
-      },
-      {
         "id": 2,
         "nom": "Hoffenheim",
         "blason": "https://crests.football-data.org/2.png",
@@ -4387,7 +4358,7 @@
         "statut": "ok",
         "adversaire": "Nice",
         "domicile": false,
-        "date": "2026-10-31T16:15:00Z",
+        "date": "2026-10-30T18:00:00Z",
         "fiabilite": "Échantillon réduit",
         "matchsUtilisesEquipe": 8,
         "matchsUtilisesAdversaire": 8,
@@ -4538,6 +4509,21 @@
         "adversaire": "Napoli",
         "domicile": true,
         "date": "2026-10-28T19:45:00Z",
+        "fiabilite": "Échantillon réduit",
+        "matchsUtilisesEquipe": 8,
+        "matchsUtilisesAdversaire": 8,
+        "lambda": 1.56,
+        "probabilite": 79
+      },
+      {
+        "id": 110,
+        "nom": "Lazio",
+        "blason": "https://crests.football-data.org/110.png",
+        "competition": "Serie A",
+        "statut": "ok",
+        "adversaire": "Cagliari",
+        "domicile": true,
+        "date": "2026-11-01T14:00:00Z",
         "fiabilite": "Échantillon réduit",
         "matchsUtilisesEquipe": 8,
         "matchsUtilisesAdversaire": 8,
@@ -4777,7 +4763,7 @@
         "statut": "ok",
         "adversaire": "Stade Rennais",
         "domicile": true,
-        "date": "2026-10-31T16:15:00Z",
+        "date": "2026-10-30T18:00:00Z",
         "fiabilite": "Échantillon réduit",
         "matchsUtilisesEquipe": 8,
         "matchsUtilisesAdversaire": 8,
@@ -4882,7 +4868,7 @@
         "statut": "ok",
         "adversaire": "Lorient",
         "domicile": false,
-        "date": "2026-10-31T19:45:00Z",
+        "date": "2026-11-02T19:45:00Z",
         "fiabilite": "Échantillon réduit",
         "matchsUtilisesEquipe": 8,
         "matchsUtilisesAdversaire": 8,
@@ -5383,7 +5369,7 @@
         "statut": "ok",
         "adversaire": "Stade Rennais",
         "domicile": true,
-        "date": "2026-10-31T16:15:00Z",
+        "date": "2026-10-30T18:00:00Z",
         "fiabilite": "Calcul normal",
         "matchsUtilisesEquipe": 8,
         "matchsUtilisesAdversaire": 8,
@@ -5575,7 +5561,7 @@
         "statut": "ok",
         "adversaire": "Lorient",
         "domicile": false,
-        "date": "2026-10-31T19:45:00Z",
+        "date": "2026-11-02T19:45:00Z",
         "fiabilite": "Calcul normal",
         "matchsUtilisesEquipe": 8,
         "matchsUtilisesAdversaire": 8,
@@ -5747,8 +5733,8 @@
     }
   },
   "performance": {
-    "total": 943,
-    "enAttente": 238,
+    "total": 953,
+    "enAttente": 248,
     "nonEvaluables": 4,
     "aujourdhui": {
       "total": 8,
@@ -5783,32 +5769,6 @@
   },
   "historiquePredictions": [
     {
-      "id": "6685-btts-2026-10-28T22:30:00Z",
-      "equipeId": 6685,
-      "equipeNom": "Santos",
-      "competition": "Série A",
-      "categorie": "btts",
-      "adversaire": "Palmeiras",
-      "domicile": true,
-      "dateMatch": "2026-10-28T22:30:00Z",
-      "probabilitePredite": 49.9,
-      "dateEnregistrement": "2026-10-27T11:53:09.118Z",
-      "statut": "en_attente"
-    },
-    {
-      "id": "1779-btts-2026-10-30T23:00:00Z",
-      "equipeId": 1779,
-      "equipeNom": "Corinthians",
-      "competition": "Série A",
-      "categorie": "btts",
-      "adversaire": "Mirassol",
-      "domicile": true,
-      "dateMatch": "2026-10-30T23:00:00Z",
-      "probabilitePredite": 52.2,
-      "dateEnregistrement": "2026-10-27T11:53:09.118Z",
-      "statut": "en_attente"
-    },
-    {
       "id": "1771-marqueToujours-2026-10-29T22:30:00Z",
       "equipeId": 1771,
       "equipeNom": "Cruzeiro",
@@ -5818,7 +5778,7 @@
       "domicile": false,
       "dateMatch": "2026-10-29T22:30:00Z",
       "probabilitePredite": 79.8,
-      "dateEnregistrement": "2026-10-27T11:53:09.117Z",
+      "dateEnregistrement": "2026-10-27T17:46:50.807Z",
       "statut": "en_attente"
     },
     {
@@ -5831,7 +5791,7 @@
       "domicile": false,
       "dateMatch": "2026-10-28T22:30:00Z",
       "probabilitePredite": 72,
-      "dateEnregistrement": "2026-10-27T11:53:09.117Z",
+      "dateEnregistrement": "2026-10-27T17:46:50.807Z",
       "statut": "en_attente"
     },
     {
@@ -5844,7 +5804,7 @@
       "domicile": false,
       "dateMatch": "2026-10-29T00:30:00Z",
       "probabilitePredite": 65.2,
-      "dateEnregistrement": "2026-10-27T11:53:09.117Z",
+      "dateEnregistrement": "2026-10-27T17:46:50.807Z",
       "statut": "en_attente"
     },
     {
@@ -5857,7 +5817,7 @@
       "domicile": false,
       "dateMatch": "2026-10-28T22:30:00Z",
       "probabilitePredite": 42.1,
-      "dateEnregistrement": "2026-10-27T11:53:09.117Z",
+      "dateEnregistrement": "2026-10-27T17:46:50.807Z",
       "statut": "en_attente"
     },
     {
@@ -5870,7 +5830,7 @@
       "domicile": false,
       "dateMatch": "2026-10-28T22:30:00Z",
       "probabilitePredite": 77.7,
-      "dateEnregistrement": "2026-10-27T11:53:09.117Z",
+      "dateEnregistrement": "2026-10-27T17:46:50.807Z",
       "statut": "en_attente"
     },
     {
@@ -5883,7 +5843,7 @@
       "domicile": false,
       "dateMatch": "2026-10-31T19:00:00Z",
       "probabilitePredite": 81.7,
-      "dateEnregistrement": "2026-10-27T11:53:09.117Z",
+      "dateEnregistrement": "2026-10-27T17:46:50.807Z",
       "statut": "en_attente"
     },
     {
@@ -5896,7 +5856,7 @@
       "domicile": true,
       "dateMatch": "2026-10-28T22:30:00Z",
       "probabilitePredite": 68.3,
-      "dateEnregistrement": "2026-10-27T11:53:09.117Z",
+      "dateEnregistrement": "2026-10-27T17:46:50.807Z",
       "statut": "en_attente"
     },
     {
@@ -5909,7 +5869,7 @@
       "domicile": true,
       "dateMatch": "2026-10-30T23:00:00Z",
       "probabilitePredite": 63.2,
-      "dateEnregistrement": "2026-10-27T11:53:09.117Z",
+      "dateEnregistrement": "2026-10-27T17:46:50.807Z",
       "statut": "en_attente"
     },
     {
@@ -5922,7 +5882,7 @@
       "domicile": false,
       "dateMatch": "2026-10-29T00:30:00Z",
       "probabilitePredite": 71.3,
-      "dateEnregistrement": "2026-10-27T11:53:09.117Z",
+      "dateEnregistrement": "2026-10-27T17:46:50.807Z",
       "statut": "en_attente"
     },
     {
@@ -5935,7 +5895,33 @@
       "domicile": false,
       "dateMatch": "2026-10-31T19:00:00Z",
       "probabilitePredite": 59.5,
-      "dateEnregistrement": "2026-10-27T11:53:09.117Z",
+      "dateEnregistrement": "2026-10-27T17:46:50.807Z",
+      "statut": "en_attente"
+    },
+    {
+      "id": "6685-btts-2026-10-28T22:30:00Z",
+      "equipeId": 6685,
+      "equipeNom": "Santos",
+      "competition": "Série A",
+      "categorie": "btts",
+      "adversaire": "Palmeiras",
+      "domicile": true,
+      "dateMatch": "2026-10-28T22:30:00Z",
+      "probabilitePredite": 49.9,
+      "dateEnregistrement": "2026-10-27T17:46:50.807Z",
+      "statut": "en_attente"
+    },
+    {
+      "id": "1779-btts-2026-10-30T23:00:00Z",
+      "equipeId": 1779,
+      "equipeNom": "Corinthians",
+      "competition": "Série A",
+      "categorie": "btts",
+      "adversaire": "Mirassol",
+      "domicile": true,
+      "dateMatch": "2026-10-30T23:00:00Z",
+      "probabilitePredite": 52.2,
+      "dateEnregistrement": "2026-10-27T17:46:50.807Z",
       "statut": "en_attente"
     },
     {
@@ -5948,7 +5934,7 @@
       "domicile": false,
       "dateMatch": "2026-10-29T23:00:00Z",
       "probabilitePredite": 65.5,
-      "dateEnregistrement": "2026-10-27T11:53:09.117Z",
+      "dateEnregistrement": "2026-10-27T17:46:50.807Z",
       "statut": "en_attente"
     },
     {
@@ -5961,7 +5947,7 @@
       "domicile": true,
       "dateMatch": "2026-10-29T22:30:00Z",
       "probabilitePredite": 76.5,
-      "dateEnregistrement": "2026-10-27T11:53:09.117Z",
+      "dateEnregistrement": "2026-10-27T17:46:50.807Z",
       "statut": "en_attente"
     },
     {
@@ -5974,7 +5960,7 @@
       "domicile": true,
       "dateMatch": "2026-10-30T00:30:00Z",
       "probabilitePredite": 77.7,
-      "dateEnregistrement": "2026-10-27T11:53:09.117Z",
+      "dateEnregistrement": "2026-10-27T17:46:50.807Z",
       "statut": "en_attente"
     },
     {
@@ -5987,124 +5973,7 @@
       "domicile": false,
       "dateMatch": "2026-10-29T23:00:00Z",
       "probabilitePredite": 81.7,
-      "dateEnregistrement": "2026-10-27T11:53:09.117Z",
-      "statut": "en_attente"
-    },
-    {
-      "id": "343-btts-2026-10-31T15:00:00Z",
-      "equipeId": 343,
-      "equipeNom": "Middlesbrough",
-      "competition": "Championship",
-      "categorie": "btts",
-      "adversaire": "Charlton",
-      "domicile": true,
-      "dateMatch": "2026-10-31T15:00:00Z",
-      "probabilitePredite": 58.1,
-      "dateEnregistrement": "2026-10-27T11:52:54.626Z",
-      "statut": "en_attente"
-    },
-    {
-      "id": "356-marqueToujours-2026-10-30T20:00:00Z",
-      "equipeId": 356,
-      "equipeNom": "Sheffield Utd",
-      "competition": "Championship",
-      "categorie": "marqueToujours",
-      "adversaire": "Wrexham",
-      "domicile": true,
-      "dateMatch": "2026-10-30T20:00:00Z",
-      "probabilitePredite": 79.8,
-      "dateEnregistrement": "2026-10-27T11:52:54.626Z",
-      "statut": "en_attente"
-    },
-    {
-      "id": "328-marqueToujours-2026-10-31T15:00:00Z",
-      "equipeId": 328,
-      "equipeNom": "Burnley",
-      "competition": "Championship",
-      "categorie": "marqueToujours",
-      "adversaire": "Portsmouth",
-      "domicile": true,
-      "dateMatch": "2026-10-31T15:00:00Z",
-      "probabilitePredite": 71.3,
-      "dateEnregistrement": "2026-10-27T11:52:54.626Z",
-      "statut": "en_attente"
-    },
-    {
-      "id": "563-marqueToujours-2026-10-31T15:00:00Z",
-      "equipeId": 563,
-      "equipeNom": "West Ham",
-      "competition": "Championship",
-      "categorie": "marqueToujours",
-      "adversaire": "West Brom",
-      "domicile": true,
-      "dateMatch": "2026-10-31T15:00:00Z",
-      "probabilitePredite": 86.5,
-      "dateEnregistrement": "2026-10-27T11:52:54.626Z",
-      "statut": "en_attente"
-    },
-    {
-      "id": "715-marqueToujours-2026-10-31T15:00:00Z",
-      "equipeId": 715,
-      "equipeNom": "Cardiff",
-      "competition": "Championship",
-      "categorie": "marqueToujours",
-      "adversaire": "Wolverhampton",
-      "domicile": false,
-      "dateMatch": "2026-10-31T15:00:00Z",
-      "probabilitePredite": 76.5,
-      "dateEnregistrement": "2026-10-27T11:52:54.626Z",
-      "statut": "en_attente"
-    },
-    {
-      "id": "74-btts-2026-10-31T15:00:00Z",
-      "equipeId": 74,
-      "equipeNom": "West Brom",
-      "competition": "Championship",
-      "categorie": "btts",
-      "adversaire": "West Ham",
-      "domicile": false,
-      "dateMatch": "2026-10-31T15:00:00Z",
-      "probabilitePredite": 56,
-      "dateEnregistrement": "2026-10-27T11:52:54.626Z",
-      "statut": "en_attente"
-    },
-    {
-      "id": "328-btts-2026-10-31T15:00:00Z",
-      "equipeId": 328,
-      "equipeNom": "Burnley",
-      "competition": "Championship",
-      "categorie": "btts",
-      "adversaire": "Portsmouth",
-      "domicile": true,
-      "dateMatch": "2026-10-31T15:00:00Z",
-      "probabilitePredite": 55.8,
-      "dateEnregistrement": "2026-10-27T11:52:54.626Z",
-      "statut": "en_attente"
-    },
-    {
-      "id": "343-invaincues-2026-10-31T15:00:00Z",
-      "equipeId": 343,
-      "equipeNom": "Middlesbrough",
-      "competition": "Championship",
-      "categorie": "invaincues",
-      "adversaire": "Charlton",
-      "domicile": true,
-      "dateMatch": "2026-10-31T15:00:00Z",
-      "probabilitePredite": 81.9,
-      "dateEnregistrement": "2026-10-27T11:52:54.625Z",
-      "statut": "en_attente"
-    },
-    {
-      "id": "343-quiMarquent-2026-10-31T15:00:00Z",
-      "equipeId": 343,
-      "equipeNom": "Middlesbrough",
-      "competition": "Championship",
-      "categorie": "quiMarquent",
-      "adversaire": "Charlton",
-      "domicile": true,
-      "dateMatch": "2026-10-31T15:00:00Z",
-      "probabilitePredite": 64.2,
-      "dateEnregistrement": "2026-10-27T11:52:54.625Z",
+      "dateEnregistrement": "2026-10-27T17:46:50.807Z",
       "statut": "en_attente"
     },
     {
@@ -6117,59 +5986,20 @@
       "domicile": true,
       "dateMatch": "2026-10-31T15:00:00Z",
       "probabilitePredite": 86.5,
-      "dateEnregistrement": "2026-10-27T11:52:54.625Z",
+      "dateEnregistrement": "2026-10-27T17:46:36.381Z",
       "statut": "en_attente"
     },
     {
-      "id": "325-invaincues-2026-10-31T15:00:00Z",
-      "equipeId": 325,
-      "equipeNom": "Portsmouth",
+      "id": "343-btts-2026-10-31T15:00:00Z",
+      "equipeId": 343,
+      "equipeNom": "Middlesbrough",
       "competition": "Championship",
-      "categorie": "invaincues",
-      "adversaire": "Burnley",
-      "domicile": false,
-      "dateMatch": "2026-10-31T15:00:00Z",
-      "probabilitePredite": 71.9,
-      "dateEnregistrement": "2026-10-27T11:52:54.625Z",
-      "statut": "en_attente"
-    },
-    {
-      "id": "340-invaincues-2026-10-31T15:00:00Z",
-      "equipeId": 340,
-      "equipeNom": "Southampton",
-      "competition": "Championship",
-      "categorie": "invaincues",
-      "adversaire": "QPR",
+      "categorie": "btts",
+      "adversaire": "Charlton",
       "domicile": true,
       "dateMatch": "2026-10-31T15:00:00Z",
-      "probabilitePredite": 67.1,
-      "dateEnregistrement": "2026-10-27T11:52:54.625Z",
-      "statut": "en_attente"
-    },
-    {
-      "id": "76-marqueToujours-2026-10-31T15:00:00Z",
-      "equipeId": 76,
-      "equipeNom": "Wolverhampton",
-      "competition": "Championship",
-      "categorie": "marqueToujours",
-      "adversaire": "Cardiff",
-      "domicile": true,
-      "dateMatch": "2026-10-31T15:00:00Z",
-      "probabilitePredite": 76.5,
-      "dateEnregistrement": "2026-10-27T11:52:54.625Z",
-      "statut": "en_attente"
-    },
-    {
-      "id": "59-marqueToujours-2026-10-31T15:00:00Z",
-      "equipeId": 59,
-      "equipeNom": "Blackburn",
-      "competition": "Championship",
-      "categorie": "marqueToujours",
-      "adversaire": "Swansea",
-      "domicile": false,
-      "dateMatch": "2026-10-31T15:00:00Z",
-      "probabilitePredite": 74.1,
-      "dateEnregistrement": "2026-10-27T11:52:54.625Z",
+      "probabilitePredite": 58.1,
+      "dateEnregistrement": "2026-10-27T17:46:36.381Z",
       "statut": "en_attente"
     },
     {
@@ -6182,46 +6012,163 @@
       "domicile": false,
       "dateMatch": "2026-10-31T15:00:00Z",
       "probabilitePredite": 79.8,
-      "dateEnregistrement": "2026-10-27T11:52:54.625Z",
+      "dateEnregistrement": "2026-10-27T17:46:36.381Z",
       "statut": "en_attente"
     },
     {
-      "id": "74-invaincues-2026-10-31T15:00:00Z",
-      "equipeId": 74,
-      "equipeNom": "West Brom",
+      "id": "356-marqueToujours-2026-10-30T20:00:00Z",
+      "equipeId": 356,
+      "equipeNom": "Sheffield Utd",
       "competition": "Championship",
-      "categorie": "invaincues",
-      "adversaire": "West Ham",
-      "domicile": false,
-      "dateMatch": "2026-10-31T15:00:00Z",
-      "probabilitePredite": 42.2,
-      "dateEnregistrement": "2026-10-27T11:52:54.625Z",
+      "categorie": "marqueToujours",
+      "adversaire": "Wrexham",
+      "domicile": true,
+      "dateMatch": "2026-10-30T20:00:00Z",
+      "probabilitePredite": 79.8,
+      "dateEnregistrement": "2026-10-27T17:46:36.381Z",
       "statut": "en_attente"
     },
     {
-      "id": "715-invaincues-2026-10-31T15:00:00Z",
+      "id": "328-marqueToujours-2026-10-31T15:00:00Z",
+      "equipeId": 328,
+      "equipeNom": "Burnley",
+      "competition": "Championship",
+      "categorie": "marqueToujours",
+      "adversaire": "Portsmouth",
+      "domicile": true,
+      "dateMatch": "2026-10-31T15:00:00Z",
+      "probabilitePredite": 71.3,
+      "dateEnregistrement": "2026-10-27T17:46:36.381Z",
+      "statut": "en_attente"
+    },
+    {
+      "id": "563-marqueToujours-2026-10-31T15:00:00Z",
+      "equipeId": 563,
+      "equipeNom": "West Ham",
+      "competition": "Championship",
+      "categorie": "marqueToujours",
+      "adversaire": "West Brom",
+      "domicile": true,
+      "dateMatch": "2026-10-31T15:00:00Z",
+      "probabilitePredite": 86.5,
+      "dateEnregistrement": "2026-10-27T17:46:36.381Z",
+      "statut": "en_attente"
+    },
+    {
+      "id": "715-marqueToujours-2026-10-31T15:00:00Z",
       "equipeId": 715,
       "equipeNom": "Cardiff",
       "competition": "Championship",
-      "categorie": "invaincues",
+      "categorie": "marqueToujours",
       "adversaire": "Wolverhampton",
       "domicile": false,
       "dateMatch": "2026-10-31T15:00:00Z",
-      "probabilitePredite": 66.4,
-      "dateEnregistrement": "2026-10-27T11:52:54.625Z",
+      "probabilitePredite": 76.5,
+      "dateEnregistrement": "2026-10-27T17:46:36.381Z",
       "statut": "en_attente"
     },
     {
-      "id": "74-marqueToujours-2026-10-31T15:00:00Z",
+      "id": "74-btts-2026-10-31T15:00:00Z",
       "equipeId": 74,
       "equipeNom": "West Brom",
       "competition": "Championship",
-      "categorie": "marqueToujours",
+      "categorie": "btts",
       "adversaire": "West Ham",
       "domicile": false,
       "dateMatch": "2026-10-31T15:00:00Z",
-      "probabilitePredite": 66.7,
-      "dateEnregistrement": "2026-10-27T11:52:54.625Z",
+      "probabilitePredite": 56,
+      "dateEnregistrement": "2026-10-27T17:46:36.381Z",
+      "statut": "en_attente"
+    },
+    {
+      "id": "328-btts-2026-10-31T15:00:00Z",
+      "equipeId": 328,
+      "equipeNom": "Burnley",
+      "competition": "Championship",
+      "categorie": "btts",
+      "adversaire": "Portsmouth",
+      "domicile": true,
+      "dateMatch": "2026-10-31T15:00:00Z",
+      "probabilitePredite": 55.8,
+      "dateEnregistrement": "2026-10-27T17:46:36.381Z",
+      "statut": "en_attente"
+    },
+    {
+      "id": "343-invaincues-2026-10-31T15:00:00Z",
+      "equipeId": 343,
+      "equipeNom": "Middlesbrough",
+      "competition": "Championship",
+      "categorie": "invaincues",
+      "adversaire": "Charlton",
+      "domicile": true,
+      "dateMatch": "2026-10-31T15:00:00Z",
+      "probabilitePredite": 81.9,
+      "dateEnregistrement": "2026-10-27T17:46:36.380Z",
+      "statut": "en_attente"
+    },
+    {
+      "id": "343-quiMarquent-2026-10-31T15:00:00Z",
+      "equipeId": 343,
+      "equipeNom": "Middlesbrough",
+      "competition": "Championship",
+      "categorie": "quiMarquent",
+      "adversaire": "Charlton",
+      "domicile": true,
+      "dateMatch": "2026-10-31T15:00:00Z",
+      "probabilitePredite": 64.2,
+      "dateEnregistrement": "2026-10-27T17:46:36.380Z",
+      "statut": "en_attente"
+    },
+    {
+      "id": "325-invaincues-2026-10-31T15:00:00Z",
+      "equipeId": 325,
+      "equipeNom": "Portsmouth",
+      "competition": "Championship",
+      "categorie": "invaincues",
+      "adversaire": "Burnley",
+      "domicile": false,
+      "dateMatch": "2026-10-31T15:00:00Z",
+      "probabilitePredite": 71.9,
+      "dateEnregistrement": "2026-10-27T17:46:36.380Z",
+      "statut": "en_attente"
+    },
+    {
+      "id": "340-invaincues-2026-10-31T15:00:00Z",
+      "equipeId": 340,
+      "equipeNom": "Southampton",
+      "competition": "Championship",
+      "categorie": "invaincues",
+      "adversaire": "QPR",
+      "domicile": true,
+      "dateMatch": "2026-10-31T15:00:00Z",
+      "probabilitePredite": 67.1,
+      "dateEnregistrement": "2026-10-27T17:46:36.380Z",
+      "statut": "en_attente"
+    },
+    {
+      "id": "76-marqueToujours-2026-10-31T15:00:00Z",
+      "equipeId": 76,
+      "equipeNom": "Wolverhampton",
+      "competition": "Championship",
+      "categorie": "marqueToujours",
+      "adversaire": "Cardiff",
+      "domicile": true,
+      "dateMatch": "2026-10-31T15:00:00Z",
+      "probabilitePredite": 76.5,
+      "dateEnregistrement": "2026-10-27T17:46:36.380Z",
+      "statut": "en_attente"
+    },
+    {
+      "id": "59-marqueToujours-2026-10-31T15:00:00Z",
+      "equipeId": 59,
+      "equipeNom": "Blackburn",
+      "competition": "Championship",
+      "categorie": "marqueToujours",
+      "adversaire": "Swansea",
+      "domicile": false,
+      "dateMatch": "2026-10-31T15:00:00Z",
+      "probabilitePredite": 74.1,
+      "dateEnregistrement": "2026-10-27T17:46:36.380Z",
       "statut": "en_attente"
     },
     {
@@ -6234,7 +6181,46 @@
       "domicile": true,
       "dateMatch": "2026-10-31T15:00:00Z",
       "probabilitePredite": 60.5,
-      "dateEnregistrement": "2026-10-27T11:52:54.624Z",
+      "dateEnregistrement": "2026-10-27T17:46:36.380Z",
+      "statut": "en_attente"
+    },
+    {
+      "id": "74-invaincues-2026-10-31T15:00:00Z",
+      "equipeId": 74,
+      "equipeNom": "West Brom",
+      "competition": "Championship",
+      "categorie": "invaincues",
+      "adversaire": "West Ham",
+      "domicile": false,
+      "dateMatch": "2026-10-31T15:00:00Z",
+      "probabilitePredite": 42.2,
+      "dateEnregistrement": "2026-10-27T17:46:36.380Z",
+      "statut": "en_attente"
+    },
+    {
+      "id": "715-invaincues-2026-10-31T15:00:00Z",
+      "equipeId": 715,
+      "equipeNom": "Cardiff",
+      "competition": "Championship",
+      "categorie": "invaincues",
+      "adversaire": "Wolverhampton",
+      "domicile": false,
+      "dateMatch": "2026-10-31T15:00:00Z",
+      "probabilitePredite": 66.4,
+      "dateEnregistrement": "2026-10-27T17:46:36.380Z",
+      "statut": "en_attente"
+    },
+    {
+      "id": "74-marqueToujours-2026-10-31T15:00:00Z",
+      "equipeId": 74,
+      "equipeNom": "West Brom",
+      "competition": "Championship",
+      "categorie": "marqueToujours",
+      "adversaire": "West Ham",
+      "domicile": false,
+      "dateMatch": "2026-10-31T15:00:00Z",
+      "probabilitePredite": 66.7,
+      "dateEnregistrement": "2026-10-27T17:46:36.380Z",
       "statut": "en_attente"
     },
     {
@@ -6247,7 +6233,7 @@
       "domicile": true,
       "dateMatch": "2026-10-31T20:30:00Z",
       "probabilitePredite": 91.7,
-      "dateEnregistrement": "2026-10-27T11:52:40.692Z",
+      "dateEnregistrement": "2026-10-27T17:46:22.339Z",
       "statut": "en_attente"
     },
     {
@@ -6260,7 +6246,7 @@
       "domicile": true,
       "dateMatch": "2026-11-01T15:30:00Z",
       "probabilitePredite": 81.1,
-      "dateEnregistrement": "2026-10-27T11:52:40.692Z",
+      "dateEnregistrement": "2026-10-27T17:46:22.339Z",
       "statut": "en_attente"
     },
     {
@@ -6273,7 +6259,7 @@
       "domicile": true,
       "dateMatch": "2026-10-31T20:30:00Z",
       "probabilitePredite": 86.5,
-      "dateEnregistrement": "2026-10-27T11:52:40.692Z",
+      "dateEnregistrement": "2026-10-27T17:46:22.339Z",
       "statut": "en_attente"
     },
     {
@@ -6286,7 +6272,7 @@
       "domicile": true,
       "dateMatch": "2026-11-01T15:30:00Z",
       "probabilitePredite": 79,
-      "dateEnregistrement": "2026-10-27T11:52:40.692Z",
+      "dateEnregistrement": "2026-10-27T17:46:22.339Z",
       "statut": "en_attente"
     },
     {
@@ -6299,7 +6285,7 @@
       "domicile": true,
       "dateMatch": "2026-11-01T18:00:00Z",
       "probabilitePredite": 79.2,
-      "dateEnregistrement": "2026-10-27T11:52:40.692Z",
+      "dateEnregistrement": "2026-10-27T17:46:22.339Z",
       "statut": "en_attente"
     },
     {
@@ -6312,7 +6298,7 @@
       "domicile": true,
       "dateMatch": "2026-11-01T18:00:00Z",
       "probabilitePredite": 57.7,
-      "dateEnregistrement": "2026-10-27T11:52:40.692Z",
+      "dateEnregistrement": "2026-10-27T17:46:22.339Z",
       "statut": "en_attente"
     },
     {
@@ -6325,7 +6311,7 @@
       "domicile": false,
       "dateMatch": "2026-10-31T20:30:00Z",
       "probabilitePredite": 39.3,
-      "dateEnregistrement": "2026-10-27T11:52:40.692Z",
+      "dateEnregistrement": "2026-10-27T17:46:22.339Z",
       "statut": "en_attente"
     },
     {
@@ -6338,7 +6324,7 @@
       "domicile": false,
       "dateMatch": "2026-11-01T20:30:00Z",
       "probabilitePredite": 75.1,
-      "dateEnregistrement": "2026-10-27T11:52:40.692Z",
+      "dateEnregistrement": "2026-10-27T17:46:22.339Z",
       "statut": "en_attente"
     },
     {
@@ -6351,7 +6337,7 @@
       "domicile": false,
       "dateMatch": "2026-10-30T20:15:00Z",
       "probabilitePredite": 87.9,
-      "dateEnregistrement": "2026-10-27T11:52:40.692Z",
+      "dateEnregistrement": "2026-10-27T17:46:22.339Z",
       "statut": "en_attente"
     },
     {
@@ -6364,7 +6350,7 @@
       "domicile": true,
       "dateMatch": "2026-11-01T18:00:00Z",
       "probabilitePredite": 84.9,
-      "dateEnregistrement": "2026-10-27T11:52:40.692Z",
+      "dateEnregistrement": "2026-10-27T17:46:22.339Z",
       "statut": "en_attente"
     },
     {
@@ -6377,7 +6363,7 @@
       "domicile": false,
       "dateMatch": "2026-10-31T20:30:00Z",
       "probabilitePredite": 34.3,
-      "dateEnregistrement": "2026-10-27T11:52:40.692Z",
+      "dateEnregistrement": "2026-10-27T17:46:22.339Z",
       "statut": "en_attente"
     },
     {
@@ -6390,7 +6376,7 @@
       "domicile": false,
       "dateMatch": "2026-10-30T20:15:00Z",
       "probabilitePredite": 51.8,
-      "dateEnregistrement": "2026-10-27T11:52:40.692Z",
+      "dateEnregistrement": "2026-10-27T17:46:22.339Z",
       "statut": "en_attente"
     },
     {
@@ -6403,124 +6389,7 @@
       "domicile": true,
       "dateMatch": "2026-11-02T20:15:00Z",
       "probabilitePredite": 88.5,
-      "dateEnregistrement": "2026-10-27T11:52:40.692Z",
-      "statut": "en_attente"
-    },
-    {
-      "id": "1912-btts-2026-11-01T13:30:00Z",
-      "equipeId": 1912,
-      "equipeNom": "Telstar",
-      "competition": "Eredivisie",
-      "categorie": "btts",
-      "adversaire": "Utrecht",
-      "domicile": true,
-      "dateMatch": "2026-11-01T13:30:00Z",
-      "probabilitePredite": 73.2,
-      "dateEnregistrement": "2026-10-27T11:52:26.981Z",
-      "statut": "en_attente"
-    },
-    {
-      "id": "718-btts-2026-10-31T20:00:00Z",
-      "equipeId": 718,
-      "equipeNom": "Go Ahead",
-      "competition": "Eredivisie",
-      "categorie": "btts",
-      "adversaire": "Cambuur",
-      "domicile": false,
-      "dateMatch": "2026-10-31T20:00:00Z",
-      "probabilitePredite": 78.4,
-      "dateEnregistrement": "2026-10-27T11:52:26.981Z",
-      "statut": "en_attente"
-    },
-    {
-      "id": "680-btts-2026-11-01T11:15:00Z",
-      "equipeId": 680,
-      "equipeNom": "Den Haag",
-      "competition": "Eredivisie",
-      "categorie": "btts",
-      "adversaire": "Zwolle",
-      "domicile": false,
-      "dateMatch": "2026-11-01T11:15:00Z",
-      "probabilitePredite": 69,
-      "dateEnregistrement": "2026-10-27T11:52:26.981Z",
-      "statut": "en_attente"
-    },
-    {
-      "id": "1915-btts-2026-10-31T17:45:00Z",
-      "equipeId": 1915,
-      "equipeNom": "NEC",
-      "competition": "Eredivisie",
-      "categorie": "btts",
-      "adversaire": "Heerenveen",
-      "domicile": false,
-      "dateMatch": "2026-10-31T17:45:00Z",
-      "probabilitePredite": 64.6,
-      "dateEnregistrement": "2026-10-27T11:52:26.981Z",
-      "statut": "en_attente"
-    },
-    {
-      "id": "672-btts-2026-10-31T17:45:00Z",
-      "equipeId": 672,
-      "equipeNom": "Willem II",
-      "competition": "Eredivisie",
-      "categorie": "btts",
-      "adversaire": "PSV",
-      "domicile": false,
-      "dateMatch": "2026-10-31T17:45:00Z",
-      "probabilitePredite": 64.2,
-      "dateEnregistrement": "2026-10-27T11:52:26.981Z",
-      "statut": "en_attente"
-    },
-    {
-      "id": "677-btts-2026-11-01T15:45:00Z",
-      "equipeId": 677,
-      "equipeNom": "Groningen",
-      "competition": "Eredivisie",
-      "categorie": "btts",
-      "adversaire": "Sparta",
-      "domicile": true,
-      "dateMatch": "2026-11-01T15:45:00Z",
-      "probabilitePredite": 80.1,
-      "dateEnregistrement": "2026-10-27T11:52:26.981Z",
-      "statut": "en_attente"
-    },
-    {
-      "id": "676-btts-2026-11-01T13:30:00Z",
-      "equipeId": 676,
-      "equipeNom": "Utrecht",
-      "competition": "Eredivisie",
-      "categorie": "btts",
-      "adversaire": "Telstar",
-      "domicile": false,
-      "dateMatch": "2026-11-01T13:30:00Z",
-      "probabilitePredite": 73.2,
-      "dateEnregistrement": "2026-10-27T11:52:26.981Z",
-      "statut": "en_attente"
-    },
-    {
-      "id": "678-btts-2026-10-31T20:00:00Z",
-      "equipeId": 678,
-      "equipeNom": "Ajax",
-      "competition": "Eredivisie",
-      "categorie": "btts",
-      "adversaire": "AZ",
-      "domicile": true,
-      "dateMatch": "2026-10-31T20:00:00Z",
-      "probabilitePredite": 70.7,
-      "dateEnregistrement": "2026-10-27T11:52:26.981Z",
-      "statut": "en_attente"
-    },
-    {
-      "id": "6806-btts-2026-11-01T15:45:00Z",
-      "equipeId": 6806,
-      "equipeNom": "Sparta",
-      "competition": "Eredivisie",
-      "categorie": "btts",
-      "adversaire": "Groningen",
-      "domicile": false,
-      "dateMatch": "2026-11-01T15:45:00Z",
-      "probabilitePredite": 80.1,
-      "dateEnregistrement": "2026-10-27T11:52:26.981Z",
+      "dateEnregistrement": "2026-10-27T17:46:22.339Z",
       "statut": "en_attente"
     },
     {
@@ -6533,7 +6402,7 @@
       "domicile": true,
       "dateMatch": "2026-11-01T13:30:00Z",
       "probabilitePredite": 55.9,
-      "dateEnregistrement": "2026-10-27T11:52:26.980Z",
+      "dateEnregistrement": "2026-10-27T17:46:08.153Z",
       "statut": "en_attente"
     },
     {
@@ -6546,7 +6415,7 @@
       "domicile": true,
       "dateMatch": "2026-11-01T13:30:00Z",
       "probabilitePredite": 85.8,
-      "dateEnregistrement": "2026-10-27T11:52:26.980Z",
+      "dateEnregistrement": "2026-10-27T17:46:08.153Z",
       "statut": "en_attente"
     },
     {
@@ -6559,7 +6428,33 @@
       "domicile": false,
       "dateMatch": "2026-10-31T20:00:00Z",
       "probabilitePredite": 89.5,
-      "dateEnregistrement": "2026-10-27T11:52:26.980Z",
+      "dateEnregistrement": "2026-10-27T17:46:08.153Z",
+      "statut": "en_attente"
+    },
+    {
+      "id": "1912-btts-2026-11-01T13:30:00Z",
+      "equipeId": 1912,
+      "equipeNom": "Telstar",
+      "competition": "Eredivisie",
+      "categorie": "btts",
+      "adversaire": "Utrecht",
+      "domicile": true,
+      "dateMatch": "2026-11-01T13:30:00Z",
+      "probabilitePredite": 73.2,
+      "dateEnregistrement": "2026-10-27T17:46:08.153Z",
+      "statut": "en_attente"
+    },
+    {
+      "id": "718-btts-2026-10-31T20:00:00Z",
+      "equipeId": 718,
+      "equipeNom": "Go Ahead",
+      "competition": "Eredivisie",
+      "categorie": "btts",
+      "adversaire": "Cambuur",
+      "domicile": false,
+      "dateMatch": "2026-10-31T20:00:00Z",
+      "probabilitePredite": 78.4,
+      "dateEnregistrement": "2026-10-27T17:46:08.153Z",
       "statut": "en_attente"
     },
     {
@@ -6572,7 +6467,7 @@
       "domicile": true,
       "dateMatch": "2026-10-31T20:00:00Z",
       "probabilitePredite": 65.5,
-      "dateEnregistrement": "2026-10-27T11:52:26.980Z",
+      "dateEnregistrement": "2026-10-27T17:46:08.153Z",
       "statut": "en_attente"
     },
     {
@@ -6585,7 +6480,7 @@
       "domicile": true,
       "dateMatch": "2026-10-31T20:00:00Z",
       "probabilitePredite": 87.8,
-      "dateEnregistrement": "2026-10-27T11:52:26.980Z",
+      "dateEnregistrement": "2026-10-27T17:46:08.153Z",
       "statut": "en_attente"
     },
     {
@@ -6598,7 +6493,20 @@
       "domicile": false,
       "dateMatch": "2026-11-01T11:15:00Z",
       "probabilitePredite": 83.5,
-      "dateEnregistrement": "2026-10-27T11:52:26.980Z",
+      "dateEnregistrement": "2026-10-27T17:46:08.153Z",
+      "statut": "en_attente"
+    },
+    {
+      "id": "680-btts-2026-11-01T11:15:00Z",
+      "equipeId": 680,
+      "equipeNom": "Den Haag",
+      "competition": "Eredivisie",
+      "categorie": "btts",
+      "adversaire": "Zwolle",
+      "domicile": false,
+      "dateMatch": "2026-11-01T11:15:00Z",
+      "probabilitePredite": 69,
+      "dateEnregistrement": "2026-10-27T17:46:08.153Z",
       "statut": "en_attente"
     },
     {
@@ -6611,7 +6519,7 @@
       "domicile": false,
       "dateMatch": "2026-10-31T17:45:00Z",
       "probabilitePredite": 52,
-      "dateEnregistrement": "2026-10-27T11:52:26.980Z",
+      "dateEnregistrement": "2026-10-27T17:46:08.153Z",
       "statut": "en_attente"
     },
     {
@@ -6624,7 +6532,7 @@
       "domicile": false,
       "dateMatch": "2026-10-31T15:30:00Z",
       "probabilitePredite": 33.4,
-      "dateEnregistrement": "2026-10-27T11:52:26.980Z",
+      "dateEnregistrement": "2026-10-27T17:46:08.153Z",
       "statut": "en_attente"
     },
     {
@@ -6637,7 +6545,7 @@
       "domicile": true,
       "dateMatch": "2026-10-31T15:30:00Z",
       "probabilitePredite": 81.4,
-      "dateEnregistrement": "2026-10-27T11:52:26.980Z",
+      "dateEnregistrement": "2026-10-27T17:46:08.153Z",
       "statut": "en_attente"
     },
     {
@@ -6650,7 +6558,7 @@
       "domicile": false,
       "dateMatch": "2026-11-01T13:30:00Z",
       "probabilitePredite": 62.5,
-      "dateEnregistrement": "2026-10-27T11:52:26.980Z",
+      "dateEnregistrement": "2026-10-27T17:46:08.153Z",
       "statut": "en_attente"
     },
     {
@@ -6663,7 +6571,7 @@
       "domicile": true,
       "dateMatch": "2026-10-31T20:00:00Z",
       "probabilitePredite": 72.6,
-      "dateEnregistrement": "2026-10-27T11:52:26.980Z",
+      "dateEnregistrement": "2026-10-27T17:46:08.153Z",
       "statut": "en_attente"
     },
     {
@@ -6676,7 +6584,7 @@
       "domicile": false,
       "dateMatch": "2026-11-01T11:15:00Z",
       "probabilitePredite": 55.9,
-      "dateEnregistrement": "2026-10-27T11:52:26.980Z",
+      "dateEnregistrement": "2026-10-27T17:46:08.153Z",
       "statut": "en_attente"
     },
     {
@@ -6689,7 +6597,7 @@
       "domicile": true,
       "dateMatch": "2026-11-01T15:45:00Z",
       "probabilitePredite": 71.3,
-      "dateEnregistrement": "2026-10-27T11:52:26.980Z",
+      "dateEnregistrement": "2026-10-27T17:46:08.153Z",
       "statut": "en_attente"
     },
     {
@@ -6702,7 +6610,7 @@
       "domicile": false,
       "dateMatch": "2026-10-31T17:45:00Z",
       "probabilitePredite": 77.7,
-      "dateEnregistrement": "2026-10-27T11:52:26.980Z",
+      "dateEnregistrement": "2026-10-27T17:46:08.153Z",
       "statut": "en_attente"
     },
     {
@@ -6715,7 +6623,7 @@
       "domicile": false,
       "dateMatch": "2026-10-31T17:45:00Z",
       "probabilitePredite": 68.3,
-      "dateEnregistrement": "2026-10-27T11:52:26.980Z",
+      "dateEnregistrement": "2026-10-27T17:46:08.153Z",
       "statut": "en_attente"
     },
     {
@@ -6728,7 +6636,7 @@
       "domicile": true,
       "dateMatch": "2026-10-31T17:45:00Z",
       "probabilitePredite": 95,
-      "dateEnregistrement": "2026-10-27T11:52:26.980Z",
+      "dateEnregistrement": "2026-10-27T17:46:08.153Z",
       "statut": "en_attente"
     },
     {
@@ -6741,7 +6649,7 @@
       "domicile": false,
       "dateMatch": "2026-10-31T15:30:00Z",
       "probabilitePredite": 75.3,
-      "dateEnregistrement": "2026-10-27T11:52:26.980Z",
+      "dateEnregistrement": "2026-10-27T17:46:08.153Z",
       "statut": "en_attente"
     },
     {
@@ -6754,7 +6662,7 @@
       "domicile": true,
       "dateMatch": "2026-10-31T15:30:00Z",
       "probabilitePredite": 91.4,
-      "dateEnregistrement": "2026-10-27T11:52:26.980Z",
+      "dateEnregistrement": "2026-10-27T17:46:08.153Z",
       "statut": "en_attente"
     },
     {
@@ -6767,7 +6675,7 @@
       "domicile": true,
       "dateMatch": "2026-11-01T15:45:00Z",
       "probabilitePredite": 90.9,
-      "dateEnregistrement": "2026-10-27T11:52:26.980Z",
+      "dateEnregistrement": "2026-10-27T17:46:08.153Z",
       "statut": "en_attente"
     },
     {
@@ -6780,7 +6688,7 @@
       "domicile": false,
       "dateMatch": "2026-11-01T13:30:00Z",
       "probabilitePredite": 85,
-      "dateEnregistrement": "2026-10-27T11:52:26.980Z",
+      "dateEnregistrement": "2026-10-27T17:46:08.153Z",
       "statut": "en_attente"
     },
     {
@@ -6793,7 +6701,72 @@
       "domicile": true,
       "dateMatch": "2026-10-31T20:00:00Z",
       "probabilitePredite": 87.1,
-      "dateEnregistrement": "2026-10-27T11:52:26.980Z",
+      "dateEnregistrement": "2026-10-27T17:46:08.153Z",
+      "statut": "en_attente"
+    },
+    {
+      "id": "1915-btts-2026-10-31T17:45:00Z",
+      "equipeId": 1915,
+      "equipeNom": "NEC",
+      "competition": "Eredivisie",
+      "categorie": "btts",
+      "adversaire": "Heerenveen",
+      "domicile": false,
+      "dateMatch": "2026-10-31T17:45:00Z",
+      "probabilitePredite": 64.6,
+      "dateEnregistrement": "2026-10-27T17:46:08.153Z",
+      "statut": "en_attente"
+    },
+    {
+      "id": "672-btts-2026-10-31T17:45:00Z",
+      "equipeId": 672,
+      "equipeNom": "Willem II",
+      "competition": "Eredivisie",
+      "categorie": "btts",
+      "adversaire": "PSV",
+      "domicile": false,
+      "dateMatch": "2026-10-31T17:45:00Z",
+      "probabilitePredite": 64.2,
+      "dateEnregistrement": "2026-10-27T17:46:08.153Z",
+      "statut": "en_attente"
+    },
+    {
+      "id": "677-btts-2026-11-01T15:45:00Z",
+      "equipeId": 677,
+      "equipeNom": "Groningen",
+      "competition": "Eredivisie",
+      "categorie": "btts",
+      "adversaire": "Sparta",
+      "domicile": true,
+      "dateMatch": "2026-11-01T15:45:00Z",
+      "probabilitePredite": 80.1,
+      "dateEnregistrement": "2026-10-27T17:46:08.153Z",
+      "statut": "en_attente"
+    },
+    {
+      "id": "676-btts-2026-11-01T13:30:00Z",
+      "equipeId": 676,
+      "equipeNom": "Utrecht",
+      "competition": "Eredivisie",
+      "categorie": "btts",
+      "adversaire": "Telstar",
+      "domicile": false,
+      "dateMatch": "2026-11-01T13:30:00Z",
+      "probabilitePredite": 73.2,
+      "dateEnregistrement": "2026-10-27T17:46:08.153Z",
+      "statut": "en_attente"
+    },
+    {
+      "id": "678-btts-2026-10-31T20:00:00Z",
+      "equipeId": 678,
+      "equipeNom": "Ajax",
+      "competition": "Eredivisie",
+      "categorie": "btts",
+      "adversaire": "AZ",
+      "domicile": true,
+      "dateMatch": "2026-10-31T20:00:00Z",
+      "probabilitePredite": 70.7,
+      "dateEnregistrement": "2026-10-27T17:46:08.153Z",
       "statut": "en_attente"
     },
     {
@@ -6806,7 +6779,7 @@
       "domicile": false,
       "dateMatch": "2026-11-01T15:45:00Z",
       "probabilitePredite": 85,
-      "dateEnregistrement": "2026-10-27T11:52:26.980Z",
+      "dateEnregistrement": "2026-10-27T17:46:08.153Z",
       "statut": "en_attente"
     },
     {
@@ -6819,7 +6792,1229 @@
       "domicile": false,
       "dateMatch": "2026-11-01T13:30:00Z",
       "probabilitePredite": 85,
-      "dateEnregistrement": "2026-10-27T11:52:26.980Z",
+      "dateEnregistrement": "2026-10-27T17:46:08.153Z",
+      "statut": "en_attente"
+    },
+    {
+      "id": "6806-btts-2026-11-01T15:45:00Z",
+      "equipeId": 6806,
+      "equipeNom": "Sparta",
+      "competition": "Eredivisie",
+      "categorie": "btts",
+      "adversaire": "Groningen",
+      "domicile": false,
+      "dateMatch": "2026-11-01T15:45:00Z",
+      "probabilitePredite": 80.1,
+      "dateEnregistrement": "2026-10-27T17:46:08.153Z",
+      "statut": "en_attente"
+    },
+    {
+      "id": "546-quiMarquent-2026-10-30T20:05:00Z",
+      "equipeId": 546,
+      "equipeNom": "RC Lens",
+      "competition": "Ligue 1",
+      "categorie": "quiMarquent",
+      "adversaire": "Lille",
+      "domicile": false,
+      "dateMatch": "2026-10-30T20:05:00Z",
+      "probabilitePredite": 40,
+      "dateEnregistrement": "2026-10-27T17:45:54.002Z",
+      "statut": "en_attente"
+    },
+    {
+      "id": "546-marqueToujours-2026-10-30T20:05:00Z",
+      "equipeId": 546,
+      "equipeNom": "RC Lens",
+      "competition": "Ligue 1",
+      "categorie": "marqueToujours",
+      "adversaire": "Lille",
+      "domicile": false,
+      "dateMatch": "2026-10-30T20:05:00Z",
+      "probabilitePredite": 74.7,
+      "dateEnregistrement": "2026-10-27T17:45:54.002Z",
+      "statut": "en_attente"
+    },
+    {
+      "id": "546-btts-2026-10-30T20:05:00Z",
+      "equipeId": 546,
+      "equipeNom": "RC Lens",
+      "competition": "Ligue 1",
+      "categorie": "btts",
+      "adversaire": "Lille",
+      "domicile": false,
+      "dateMatch": "2026-10-30T20:05:00Z",
+      "probabilitePredite": 57,
+      "dateEnregistrement": "2026-10-27T17:45:54.002Z",
+      "statut": "en_attente"
+    },
+    {
+      "id": "521-marqueToujours-2026-10-30T20:05:00Z",
+      "equipeId": 521,
+      "equipeNom": "Lille",
+      "competition": "Ligue 1",
+      "categorie": "marqueToujours",
+      "adversaire": "RC Lens",
+      "domicile": true,
+      "dateMatch": "2026-10-30T20:05:00Z",
+      "probabilitePredite": 76.2,
+      "dateEnregistrement": "2026-10-27T17:45:54.002Z",
+      "statut": "en_attente"
+    },
+    {
+      "id": "511-invaincues-2026-11-01T19:45:00Z",
+      "equipeId": 511,
+      "equipeNom": "Toulouse",
+      "competition": "Ligue 1",
+      "categorie": "invaincues",
+      "adversaire": "Marseille",
+      "domicile": false,
+      "dateMatch": "2026-11-01T19:45:00Z",
+      "probabilitePredite": 56,
+      "dateEnregistrement": "2026-10-27T17:45:54.002Z",
+      "statut": "en_attente"
+    },
+    {
+      "id": "521-invaincues-2026-10-30T20:05:00Z",
+      "equipeId": 521,
+      "equipeNom": "Lille",
+      "competition": "Ligue 1",
+      "categorie": "invaincues",
+      "adversaire": "RC Lens",
+      "domicile": true,
+      "dateMatch": "2026-10-30T20:05:00Z",
+      "probabilitePredite": 63.9,
+      "dateEnregistrement": "2026-10-27T17:45:54.002Z",
+      "statut": "en_attente"
+    },
+    {
+      "id": "516-quiMarquent-2026-11-01T19:45:00Z",
+      "equipeId": 516,
+      "equipeNom": "Marseille",
+      "competition": "Ligue 1",
+      "categorie": "quiMarquent",
+      "adversaire": "Toulouse",
+      "domicile": true,
+      "dateMatch": "2026-11-01T19:45:00Z",
+      "probabilitePredite": 54.1,
+      "dateEnregistrement": "2026-10-27T17:45:54.002Z",
+      "statut": "en_attente"
+    },
+    {
+      "id": "516-marqueToujours-2026-11-01T19:45:00Z",
+      "equipeId": 516,
+      "equipeNom": "Marseille",
+      "competition": "Ligue 1",
+      "categorie": "marqueToujours",
+      "adversaire": "Toulouse",
+      "domicile": true,
+      "dateMatch": "2026-11-01T19:45:00Z",
+      "probabilitePredite": 83.7,
+      "dateEnregistrement": "2026-10-27T17:45:54.002Z",
+      "statut": "en_attente"
+    },
+    {
+      "id": "519-marqueToujours-2026-11-01T14:00:00Z",
+      "equipeId": 519,
+      "equipeNom": "Auxerre",
+      "competition": "Ligue 1",
+      "categorie": "marqueToujours",
+      "adversaire": "Strasbourg",
+      "domicile": false,
+      "dateMatch": "2026-11-01T14:00:00Z",
+      "probabilitePredite": 84.7,
+      "dateEnregistrement": "2026-10-27T17:45:54.002Z",
+      "statut": "en_attente"
+    },
+    {
+      "id": "519-btts-2026-11-01T14:00:00Z",
+      "equipeId": 519,
+      "equipeNom": "Auxerre",
+      "competition": "Ligue 1",
+      "categorie": "btts",
+      "adversaire": "Strasbourg",
+      "domicile": false,
+      "dateMatch": "2026-11-01T14:00:00Z",
+      "probabilitePredite": 71.7,
+      "dateEnregistrement": "2026-10-27T17:45:54.002Z",
+      "statut": "en_attente"
+    },
+    {
+      "id": "524-invaincues-2026-10-30T18:00:00Z",
+      "equipeId": 524,
+      "equipeNom": "PSG",
+      "competition": "Ligue 1",
+      "categorie": "invaincues",
+      "adversaire": "Le Havre",
+      "domicile": false,
+      "dateMatch": "2026-10-30T18:00:00Z",
+      "probabilitePredite": 79.2,
+      "dateEnregistrement": "2026-10-27T17:45:54.002Z",
+      "statut": "en_attente"
+    },
+    {
+      "id": "524-quiMarquent-2026-10-30T18:00:00Z",
+      "equipeId": 524,
+      "equipeNom": "PSG",
+      "competition": "Ligue 1",
+      "categorie": "quiMarquent",
+      "adversaire": "Le Havre",
+      "domicile": false,
+      "dateMatch": "2026-10-30T18:00:00Z",
+      "probabilitePredite": 57.7,
+      "dateEnregistrement": "2026-10-27T17:45:54.002Z",
+      "statut": "en_attente"
+    },
+    {
+      "id": "524-marqueToujours-2026-10-30T18:00:00Z",
+      "equipeId": 524,
+      "equipeNom": "PSG",
+      "competition": "Ligue 1",
+      "categorie": "marqueToujours",
+      "adversaire": "Le Havre",
+      "domicile": false,
+      "dateMatch": "2026-10-30T18:00:00Z",
+      "probabilitePredite": 85.6,
+      "dateEnregistrement": "2026-10-27T17:45:54.002Z",
+      "statut": "en_attente"
+    },
+    {
+      "id": "525-invaincues-2026-11-02T19:45:00Z",
+      "equipeId": 525,
+      "equipeNom": "Lorient",
+      "competition": "Ligue 1",
+      "categorie": "invaincues",
+      "adversaire": "Brest",
+      "domicile": true,
+      "dateMatch": "2026-11-02T19:45:00Z",
+      "probabilitePredite": 62.2,
+      "dateEnregistrement": "2026-10-27T17:45:54.002Z",
+      "statut": "en_attente"
+    },
+    {
+      "id": "529-quiMarquent-2026-10-30T18:00:00Z",
+      "equipeId": 529,
+      "equipeNom": "Stade Rennais",
+      "competition": "Ligue 1",
+      "categorie": "quiMarquent",
+      "adversaire": "Nice",
+      "domicile": false,
+      "dateMatch": "2026-10-30T18:00:00Z",
+      "probabilitePredite": 52.2,
+      "dateEnregistrement": "2026-10-27T17:45:54.002Z",
+      "statut": "en_attente"
+    },
+    {
+      "id": "512-marqueToujours-2026-11-02T19:45:00Z",
+      "equipeId": 512,
+      "equipeNom": "Brest",
+      "competition": "Ligue 1",
+      "categorie": "marqueToujours",
+      "adversaire": "Lorient",
+      "domicile": false,
+      "dateMatch": "2026-11-02T19:45:00Z",
+      "probabilitePredite": 71.3,
+      "dateEnregistrement": "2026-10-27T17:45:54.002Z",
+      "statut": "en_attente"
+    },
+    {
+      "id": "522-marqueToujours-2026-10-30T18:00:00Z",
+      "equipeId": 522,
+      "equipeNom": "Nice",
+      "competition": "Ligue 1",
+      "categorie": "marqueToujours",
+      "adversaire": "Stade Rennais",
+      "domicile": true,
+      "dateMatch": "2026-10-30T18:00:00Z",
+      "probabilitePredite": 74.7,
+      "dateEnregistrement": "2026-10-27T17:45:54.002Z",
+      "statut": "en_attente"
+    },
+    {
+      "id": "529-marqueToujours-2026-10-30T18:00:00Z",
+      "equipeId": 529,
+      "equipeNom": "Stade Rennais",
+      "competition": "Ligue 1",
+      "categorie": "marqueToujours",
+      "adversaire": "Nice",
+      "domicile": false,
+      "dateMatch": "2026-10-30T18:00:00Z",
+      "probabilitePredite": 82.6,
+      "dateEnregistrement": "2026-10-27T17:45:54.002Z",
+      "statut": "en_attente"
+    },
+    {
+      "id": "512-btts-2026-11-02T19:45:00Z",
+      "equipeId": 512,
+      "equipeNom": "Brest",
+      "competition": "Ligue 1",
+      "categorie": "btts",
+      "adversaire": "Lorient",
+      "domicile": false,
+      "dateMatch": "2026-11-02T19:45:00Z",
+      "probabilitePredite": 49.6,
+      "dateEnregistrement": "2026-10-27T17:45:54.002Z",
+      "statut": "en_attente"
+    },
+    {
+      "id": "522-btts-2026-10-30T18:00:00Z",
+      "equipeId": 522,
+      "equipeNom": "Nice",
+      "competition": "Ligue 1",
+      "categorie": "btts",
+      "adversaire": "Stade Rennais",
+      "domicile": true,
+      "dateMatch": "2026-10-30T18:00:00Z",
+      "probabilitePredite": 61.7,
+      "dateEnregistrement": "2026-10-27T17:45:54.002Z",
+      "statut": "en_attente"
+    },
+    {
+      "id": "546-invaincues-2026-10-30T20:05:00Z",
+      "equipeId": 546,
+      "equipeNom": "RC Lens",
+      "competition": "Ligue 1",
+      "categorie": "invaincues",
+      "adversaire": "Lille",
+      "domicile": false,
+      "dateMatch": "2026-10-30T20:05:00Z",
+      "probabilitePredite": 61.1,
+      "dateEnregistrement": "2026-10-27T17:45:54.001Z",
+      "statut": "en_attente"
+    },
+    {
+      "id": "516-invaincues-2026-11-01T19:45:00Z",
+      "equipeId": 516,
+      "equipeNom": "Marseille",
+      "competition": "Ligue 1",
+      "categorie": "invaincues",
+      "adversaire": "Toulouse",
+      "domicile": true,
+      "dateMatch": "2026-11-01T19:45:00Z",
+      "probabilitePredite": 66.2,
+      "dateEnregistrement": "2026-10-27T17:45:54.001Z",
+      "statut": "en_attente"
+    },
+    {
+      "id": "18-marqueToujours-2026-10-31T14:30:00Z",
+      "equipeId": 18,
+      "equipeNom": "M'gladbach",
+      "competition": "Bundesliga",
+      "categorie": "marqueToujours",
+      "adversaire": "SC Paderborn",
+      "domicile": true,
+      "dateMatch": "2026-10-31T14:30:00Z",
+      "probabilitePredite": 76,
+      "dateEnregistrement": "2026-10-27T17:45:39.880Z",
+      "statut": "en_attente"
+    },
+    {
+      "id": "18-btts-2026-10-31T14:30:00Z",
+      "equipeId": 18,
+      "equipeNom": "M'gladbach",
+      "competition": "Bundesliga",
+      "categorie": "btts",
+      "adversaire": "SC Paderborn",
+      "domicile": true,
+      "dateMatch": "2026-10-31T14:30:00Z",
+      "probabilitePredite": 65.7,
+      "dateEnregistrement": "2026-10-27T17:45:39.880Z",
+      "statut": "en_attente"
+    },
+    {
+      "id": "15-marqueToujours-2026-10-30T19:30:00Z",
+      "equipeId": 15,
+      "equipeNom": "Mainz",
+      "competition": "Bundesliga",
+      "categorie": "marqueToujours",
+      "adversaire": "Elversberg",
+      "domicile": false,
+      "dateMatch": "2026-10-30T19:30:00Z",
+      "probabilitePredite": 89.1,
+      "dateEnregistrement": "2026-10-27T17:45:39.880Z",
+      "statut": "en_attente"
+    },
+    {
+      "id": "12-marqueToujours-2026-10-31T14:30:00Z",
+      "equipeId": 12,
+      "equipeNom": "Bremen",
+      "competition": "Bundesliga",
+      "categorie": "marqueToujours",
+      "adversaire": "Hoffenheim",
+      "domicile": true,
+      "dateMatch": "2026-10-31T14:30:00Z",
+      "probabilitePredite": 87.4,
+      "dateEnregistrement": "2026-10-27T17:45:39.880Z",
+      "statut": "en_attente"
+    },
+    {
+      "id": "16-marqueToujours-2026-10-31T14:30:00Z",
+      "equipeId": 16,
+      "equipeNom": "Augsburg",
+      "competition": "Bundesliga",
+      "categorie": "marqueToujours",
+      "adversaire": "Freiburg",
+      "domicile": true,
+      "dateMatch": "2026-10-31T14:30:00Z",
+      "probabilitePredite": 84.4,
+      "dateEnregistrement": "2026-10-27T17:45:39.880Z",
+      "statut": "en_attente"
+    },
+    {
+      "id": "12-btts-2026-10-31T14:30:00Z",
+      "equipeId": 12,
+      "equipeNom": "Bremen",
+      "competition": "Bundesliga",
+      "categorie": "btts",
+      "adversaire": "Hoffenheim",
+      "domicile": true,
+      "dateMatch": "2026-10-31T14:30:00Z",
+      "probabilitePredite": 75.6,
+      "dateEnregistrement": "2026-10-27T17:45:39.880Z",
+      "statut": "en_attente"
+    },
+    {
+      "id": "16-btts-2026-10-31T14:30:00Z",
+      "equipeId": 16,
+      "equipeNom": "Augsburg",
+      "competition": "Bundesliga",
+      "categorie": "btts",
+      "adversaire": "Freiburg",
+      "domicile": true,
+      "dateMatch": "2026-10-31T14:30:00Z",
+      "probabilitePredite": 73.8,
+      "dateEnregistrement": "2026-10-27T17:45:39.880Z",
+      "statut": "en_attente"
+    },
+    {
+      "id": "721-marqueToujours-2026-10-31T14:30:00Z",
+      "equipeId": 721,
+      "equipeNom": "RB Leipzig",
+      "competition": "Bundesliga",
+      "categorie": "marqueToujours",
+      "adversaire": "Schalke",
+      "domicile": false,
+      "dateMatch": "2026-10-31T14:30:00Z",
+      "probabilitePredite": 85.5,
+      "dateEnregistrement": "2026-10-27T17:45:39.880Z",
+      "statut": "en_attente"
+    },
+    {
+      "id": "2-marqueToujours-2026-10-31T14:30:00Z",
+      "equipeId": 2,
+      "equipeNom": "Hoffenheim",
+      "competition": "Bundesliga",
+      "categorie": "marqueToujours",
+      "adversaire": "Bremen",
+      "domicile": false,
+      "dateMatch": "2026-10-31T14:30:00Z",
+      "probabilitePredite": 86.5,
+      "dateEnregistrement": "2026-10-27T17:45:39.880Z",
+      "statut": "en_attente"
+    },
+    {
+      "id": "17-marqueToujours-2026-10-31T14:30:00Z",
+      "equipeId": 17,
+      "equipeNom": "Freiburg",
+      "competition": "Bundesliga",
+      "categorie": "marqueToujours",
+      "adversaire": "Augsburg",
+      "domicile": false,
+      "dateMatch": "2026-10-31T14:30:00Z",
+      "probabilitePredite": 87.4,
+      "dateEnregistrement": "2026-10-27T17:45:39.880Z",
+      "statut": "en_attente"
+    },
+    {
+      "id": "5-btts-2026-10-31T17:30:00Z",
+      "equipeId": 5,
+      "equipeNom": "Bayern",
+      "competition": "Bundesliga",
+      "categorie": "btts",
+      "adversaire": "Dortmund",
+      "domicile": true,
+      "dateMatch": "2026-10-31T17:30:00Z",
+      "probabilitePredite": 63.2,
+      "dateEnregistrement": "2026-10-27T17:45:39.880Z",
+      "statut": "en_attente"
+    },
+    {
+      "id": "17-btts-2026-10-31T14:30:00Z",
+      "equipeId": 17,
+      "equipeNom": "Freiburg",
+      "competition": "Bundesliga",
+      "categorie": "btts",
+      "adversaire": "Augsburg",
+      "domicile": false,
+      "dateMatch": "2026-10-31T14:30:00Z",
+      "probabilitePredite": 73.8,
+      "dateEnregistrement": "2026-10-27T17:45:39.880Z",
+      "statut": "en_attente"
+    },
+    {
+      "id": "4-invaincues-2026-10-31T17:30:00Z",
+      "equipeId": 4,
+      "equipeNom": "Dortmund",
+      "competition": "Bundesliga",
+      "categorie": "invaincues",
+      "adversaire": "Bayern",
+      "domicile": false,
+      "dateMatch": "2026-10-31T17:30:00Z",
+      "probabilitePredite": 44.5,
+      "dateEnregistrement": "2026-10-27T17:45:39.879Z",
+      "statut": "en_attente"
+    },
+    {
+      "id": "12-invaincues-2026-10-31T14:30:00Z",
+      "equipeId": 12,
+      "equipeNom": "Bremen",
+      "competition": "Bundesliga",
+      "categorie": "invaincues",
+      "adversaire": "Hoffenheim",
+      "domicile": true,
+      "dateMatch": "2026-10-31T14:30:00Z",
+      "probabilitePredite": 61.1,
+      "dateEnregistrement": "2026-10-27T17:45:39.879Z",
+      "statut": "en_attente"
+    },
+    {
+      "id": "12-quiMarquent-2026-10-31T14:30:00Z",
+      "equipeId": 12,
+      "equipeNom": "Bremen",
+      "competition": "Bundesliga",
+      "categorie": "quiMarquent",
+      "adversaire": "Hoffenheim",
+      "domicile": true,
+      "dateMatch": "2026-10-31T14:30:00Z",
+      "probabilitePredite": 61.3,
+      "dateEnregistrement": "2026-10-27T17:45:39.879Z",
+      "statut": "en_attente"
+    },
+    {
+      "id": "28-invaincues-2026-11-01T14:30:00Z",
+      "equipeId": 28,
+      "equipeNom": "Union Berlin",
+      "competition": "Bundesliga",
+      "categorie": "invaincues",
+      "adversaire": "1. FC Köln",
+      "domicile": true,
+      "dateMatch": "2026-11-01T14:30:00Z",
+      "probabilitePredite": 47.5,
+      "dateEnregistrement": "2026-10-27T17:45:39.879Z",
+      "statut": "en_attente"
+    },
+    {
+      "id": "5-invaincues-2026-10-31T17:30:00Z",
+      "equipeId": 5,
+      "equipeNom": "Bayern",
+      "competition": "Bundesliga",
+      "categorie": "invaincues",
+      "adversaire": "Dortmund",
+      "domicile": true,
+      "dateMatch": "2026-10-31T17:30:00Z",
+      "probabilitePredite": 76.1,
+      "dateEnregistrement": "2026-10-27T17:45:39.879Z",
+      "statut": "en_attente"
+    },
+    {
+      "id": "5-quiMarquent-2026-10-31T17:30:00Z",
+      "equipeId": 5,
+      "equipeNom": "Bayern",
+      "competition": "Bundesliga",
+      "categorie": "quiMarquent",
+      "adversaire": "Dortmund",
+      "domicile": true,
+      "dateMatch": "2026-10-31T17:30:00Z",
+      "probabilitePredite": 61.3,
+      "dateEnregistrement": "2026-10-27T17:45:39.879Z",
+      "statut": "en_attente"
+    },
+    {
+      "id": "2-quiMarquent-2026-10-31T14:30:00Z",
+      "equipeId": 2,
+      "equipeNom": "Hoffenheim",
+      "competition": "Bundesliga",
+      "categorie": "quiMarquent",
+      "adversaire": "Bremen",
+      "domicile": false,
+      "dateMatch": "2026-10-31T14:30:00Z",
+      "probabilitePredite": 59.4,
+      "dateEnregistrement": "2026-10-27T17:45:39.879Z",
+      "statut": "en_attente"
+    },
+    {
+      "id": "5-marqueToujours-2026-10-31T17:30:00Z",
+      "equipeId": 5,
+      "equipeNom": "Bayern",
+      "competition": "Bundesliga",
+      "categorie": "marqueToujours",
+      "adversaire": "Dortmund",
+      "domicile": true,
+      "dateMatch": "2026-10-31T17:30:00Z",
+      "probabilitePredite": 87.4,
+      "dateEnregistrement": "2026-10-27T17:45:39.879Z",
+      "statut": "en_attente"
+    },
+    {
+      "id": "586-invaincues-2026-10-27T19:45:00Z",
+      "equipeId": 586,
+      "equipeNom": "Torino",
+      "competition": "Serie A",
+      "categorie": "invaincues",
+      "adversaire": "Como 1907",
+      "domicile": true,
+      "dateMatch": "2026-10-27T19:45:00Z",
+      "probabilitePredite": 55.4,
+      "dateEnregistrement": "2026-10-27T17:45:25.771Z",
+      "statut": "en_attente"
+    },
+    {
+      "id": "586-quiMarquent-2026-10-27T19:45:00Z",
+      "equipeId": 586,
+      "equipeNom": "Torino",
+      "competition": "Serie A",
+      "categorie": "quiMarquent",
+      "adversaire": "Como 1907",
+      "domicile": true,
+      "dateMatch": "2026-10-27T19:45:00Z",
+      "probabilitePredite": 35.5,
+      "dateEnregistrement": "2026-10-27T17:45:25.771Z",
+      "statut": "en_attente"
+    },
+    {
+      "id": "5911-marqueToujours-2026-10-28T19:45:00Z",
+      "equipeId": 5911,
+      "equipeNom": "Monza",
+      "competition": "Serie A",
+      "categorie": "marqueToujours",
+      "adversaire": "Napoli",
+      "domicile": true,
+      "dateMatch": "2026-10-28T19:45:00Z",
+      "probabilitePredite": 79,
+      "dateEnregistrement": "2026-10-27T17:45:25.771Z",
+      "statut": "en_attente"
+    },
+    {
+      "id": "586-marqueToujours-2026-10-27T19:45:00Z",
+      "equipeId": 586,
+      "equipeNom": "Torino",
+      "competition": "Serie A",
+      "categorie": "marqueToujours",
+      "adversaire": "Como 1907",
+      "domicile": true,
+      "dateMatch": "2026-10-27T19:45:00Z",
+      "probabilitePredite": 71.3,
+      "dateEnregistrement": "2026-10-27T17:45:25.771Z",
+      "statut": "en_attente"
+    },
+    {
+      "id": "100-invaincues-2026-10-27T19:45:00Z",
+      "equipeId": 100,
+      "equipeNom": "Roma",
+      "competition": "Serie A",
+      "categorie": "invaincues",
+      "adversaire": "Cagliari",
+      "domicile": true,
+      "dateMatch": "2026-10-27T19:45:00Z",
+      "probabilitePredite": 84.1,
+      "dateEnregistrement": "2026-10-27T17:45:25.771Z",
+      "statut": "en_attente"
+    },
+    {
+      "id": "103-marqueToujours-2026-10-28T17:30:00Z",
+      "equipeId": 103,
+      "equipeNom": "Bologna",
+      "competition": "Serie A",
+      "categorie": "marqueToujours",
+      "adversaire": "Milan",
+      "domicile": false,
+      "dateMatch": "2026-10-28T17:30:00Z",
+      "probabilitePredite": 60.8,
+      "dateEnregistrement": "2026-10-27T17:45:25.771Z",
+      "statut": "en_attente"
+    },
+    {
+      "id": "7397-invaincues-2026-10-27T19:45:00Z",
+      "equipeId": 7397,
+      "equipeNom": "Como 1907",
+      "competition": "Serie A",
+      "categorie": "invaincues",
+      "adversaire": "Torino",
+      "domicile": false,
+      "dateMatch": "2026-10-27T19:45:00Z",
+      "probabilitePredite": 69.4,
+      "dateEnregistrement": "2026-10-27T17:45:25.771Z",
+      "statut": "en_attente"
+    },
+    {
+      "id": "108-invaincues-2026-10-28T17:30:00Z",
+      "equipeId": 108,
+      "equipeNom": "Inter",
+      "competition": "Serie A",
+      "categorie": "invaincues",
+      "adversaire": "Venezia FC",
+      "domicile": false,
+      "dateMatch": "2026-10-28T17:30:00Z",
+      "probabilitePredite": 85.5,
+      "dateEnregistrement": "2026-10-27T17:45:25.771Z",
+      "statut": "en_attente"
+    },
+    {
+      "id": "108-quiMarquent-2026-10-28T17:30:00Z",
+      "equipeId": 108,
+      "equipeNom": "Inter",
+      "competition": "Serie A",
+      "categorie": "quiMarquent",
+      "adversaire": "Venezia FC",
+      "domicile": false,
+      "dateMatch": "2026-10-28T17:30:00Z",
+      "probabilitePredite": 71.3,
+      "dateEnregistrement": "2026-10-27T17:45:25.771Z",
+      "statut": "en_attente"
+    },
+    {
+      "id": "108-marqueToujours-2026-10-28T17:30:00Z",
+      "equipeId": 108,
+      "equipeNom": "Inter",
+      "competition": "Serie A",
+      "categorie": "marqueToujours",
+      "adversaire": "Venezia FC",
+      "domicile": false,
+      "dateMatch": "2026-10-28T17:30:00Z",
+      "probabilitePredite": 91.8,
+      "dateEnregistrement": "2026-10-27T17:45:25.771Z",
+      "statut": "en_attente"
+    },
+    {
+      "id": "99-marqueToujours-2026-10-29T19:45:00Z",
+      "equipeId": 99,
+      "equipeNom": "Fiorentina",
+      "competition": "Serie A",
+      "categorie": "marqueToujours",
+      "adversaire": "Atalanta",
+      "domicile": true,
+      "dateMatch": "2026-10-29T19:45:00Z",
+      "probabilitePredite": 77.7,
+      "dateEnregistrement": "2026-10-27T17:45:25.771Z",
+      "statut": "en_attente"
+    },
+    {
+      "id": "99-btts-2026-10-29T19:45:00Z",
+      "equipeId": 99,
+      "equipeNom": "Fiorentina",
+      "competition": "Serie A",
+      "categorie": "btts",
+      "adversaire": "Atalanta",
+      "domicile": true,
+      "dateMatch": "2026-10-29T19:45:00Z",
+      "probabilitePredite": 67.8,
+      "dateEnregistrement": "2026-10-27T17:45:25.771Z",
+      "statut": "en_attente"
+    },
+    {
+      "id": "98-invaincues-2026-10-28T17:30:00Z",
+      "equipeId": 98,
+      "equipeNom": "Milan",
+      "competition": "Serie A",
+      "categorie": "invaincues",
+      "adversaire": "Bologna",
+      "domicile": true,
+      "dateMatch": "2026-10-28T17:30:00Z",
+      "probabilitePredite": 78.1,
+      "dateEnregistrement": "2026-10-27T17:45:25.771Z",
+      "statut": "en_attente"
+    },
+    {
+      "id": "102-quiMarquent-2026-10-29T19:45:00Z",
+      "equipeId": 102,
+      "equipeNom": "Atalanta",
+      "competition": "Serie A",
+      "categorie": "quiMarquent",
+      "adversaire": "Fiorentina",
+      "domicile": false,
+      "dateMatch": "2026-10-29T19:45:00Z",
+      "probabilitePredite": 61.1,
+      "dateEnregistrement": "2026-10-27T17:45:25.771Z",
+      "statut": "en_attente"
+    },
+    {
+      "id": "102-marqueToujours-2026-10-29T19:45:00Z",
+      "equipeId": 102,
+      "equipeNom": "Atalanta",
+      "competition": "Serie A",
+      "categorie": "marqueToujours",
+      "adversaire": "Fiorentina",
+      "domicile": false,
+      "dateMatch": "2026-10-29T19:45:00Z",
+      "probabilitePredite": 87.3,
+      "dateEnregistrement": "2026-10-27T17:45:25.771Z",
+      "statut": "en_attente"
+    },
+    {
+      "id": "98-marqueToujours-2026-10-28T17:30:00Z",
+      "equipeId": 98,
+      "equipeNom": "Milan",
+      "competition": "Serie A",
+      "categorie": "marqueToujours",
+      "adversaire": "Bologna",
+      "domicile": true,
+      "dateMatch": "2026-10-28T17:30:00Z",
+      "probabilitePredite": 80.3,
+      "dateEnregistrement": "2026-10-27T17:45:25.771Z",
+      "statut": "en_attente"
+    },
+    {
+      "id": "102-btts-2026-10-29T19:45:00Z",
+      "equipeId": 102,
+      "equipeNom": "Atalanta",
+      "competition": "Serie A",
+      "categorie": "btts",
+      "adversaire": "Fiorentina",
+      "domicile": false,
+      "dateMatch": "2026-10-29T19:45:00Z",
+      "probabilitePredite": 67.8,
+      "dateEnregistrement": "2026-10-27T17:45:25.771Z",
+      "statut": "en_attente"
+    },
+    {
+      "id": "110-invaincues-2026-11-01T14:00:00Z",
+      "equipeId": 110,
+      "equipeNom": "Lazio",
+      "competition": "Serie A",
+      "categorie": "invaincues",
+      "adversaire": "Cagliari",
+      "domicile": true,
+      "dateMatch": "2026-11-01T14:00:00Z",
+      "probabilitePredite": 83.6,
+      "dateEnregistrement": "2026-10-27T17:45:25.771Z",
+      "statut": "en_attente"
+    },
+    {
+      "id": "110-quiMarquent-2026-11-01T14:00:00Z",
+      "equipeId": 110,
+      "equipeNom": "Lazio",
+      "competition": "Serie A",
+      "categorie": "quiMarquent",
+      "adversaire": "Cagliari",
+      "domicile": true,
+      "dateMatch": "2026-11-01T14:00:00Z",
+      "probabilitePredite": 46.3,
+      "dateEnregistrement": "2026-10-27T17:45:25.771Z",
+      "statut": "en_attente"
+    },
+    {
+      "id": "110-marqueToujours-2026-11-01T14:00:00Z",
+      "equipeId": 110,
+      "equipeNom": "Lazio",
+      "competition": "Serie A",
+      "categorie": "marqueToujours",
+      "adversaire": "Cagliari",
+      "domicile": true,
+      "dateMatch": "2026-11-01T14:00:00Z",
+      "probabilitePredite": 79,
+      "dateEnregistrement": "2026-10-27T17:45:25.771Z",
+      "statut": "en_attente"
+    },
+    {
+      "id": "92-btts-2026-11-01T20:00:00Z",
+      "equipeId": 92,
+      "equipeNom": "Real Sociedad",
+      "competition": "La Liga",
+      "categorie": "btts",
+      "adversaire": "Athletic",
+      "domicile": false,
+      "dateMatch": "2026-11-01T20:00:00Z",
+      "probabilitePredite": 60.4,
+      "dateEnregistrement": "2026-10-27T17:45:11.522Z",
+      "statut": "en_attente"
+    },
+    {
+      "id": "263-marqueToujours-2026-10-31T20:00:00Z",
+      "equipeId": 263,
+      "equipeNom": "Alavés",
+      "competition": "La Liga",
+      "categorie": "marqueToujours",
+      "adversaire": "Barça",
+      "domicile": false,
+      "dateMatch": "2026-10-31T20:00:00Z",
+      "probabilitePredite": 71.3,
+      "dateEnregistrement": "2026-10-27T17:45:11.521Z",
+      "statut": "en_attente"
+    },
+    {
+      "id": "84-marqueToujours-2026-10-31T17:30:00Z",
+      "equipeId": 84,
+      "equipeNom": "Málaga",
+      "competition": "La Liga",
+      "categorie": "marqueToujours",
+      "adversaire": "Real Betis",
+      "domicile": false,
+      "dateMatch": "2026-10-31T17:30:00Z",
+      "probabilitePredite": 65,
+      "dateEnregistrement": "2026-10-27T17:45:11.521Z",
+      "statut": "en_attente"
+    },
+    {
+      "id": "263-btts-2026-10-31T20:00:00Z",
+      "equipeId": 263,
+      "equipeNom": "Alavés",
+      "competition": "La Liga",
+      "categorie": "btts",
+      "adversaire": "Barça",
+      "domicile": false,
+      "dateMatch": "2026-10-31T20:00:00Z",
+      "probabilitePredite": 68.1,
+      "dateEnregistrement": "2026-10-27T17:45:11.521Z",
+      "statut": "en_attente"
+    },
+    {
+      "id": "84-btts-2026-10-31T17:30:00Z",
+      "equipeId": 84,
+      "equipeNom": "Málaga",
+      "competition": "La Liga",
+      "categorie": "btts",
+      "adversaire": "Real Betis",
+      "domicile": false,
+      "dateMatch": "2026-10-31T17:30:00Z",
+      "probabilitePredite": 60.4,
+      "dateEnregistrement": "2026-10-27T17:45:11.521Z",
+      "statut": "en_attente"
+    },
+    {
+      "id": "78-marqueToujours-2026-10-31T13:00:00Z",
+      "equipeId": 78,
+      "equipeNom": "Atleti",
+      "competition": "La Liga",
+      "categorie": "marqueToujours",
+      "adversaire": "Levante",
+      "domicile": false,
+      "dateMatch": "2026-10-31T13:00:00Z",
+      "probabilitePredite": 85.8,
+      "dateEnregistrement": "2026-10-27T17:45:11.521Z",
+      "statut": "en_attente"
+    },
+    {
+      "id": "558-invaincues-2026-10-31T15:15:00Z",
+      "equipeId": 558,
+      "equipeNom": "Celta",
+      "competition": "La Liga",
+      "categorie": "invaincues",
+      "adversaire": "Rayo Vallecano",
+      "domicile": false,
+      "dateMatch": "2026-10-31T15:15:00Z",
+      "probabilitePredite": 77.5,
+      "dateEnregistrement": "2026-10-27T17:45:11.521Z",
+      "statut": "en_attente"
+    },
+    {
+      "id": "92-quiMarquent-2026-11-01T20:00:00Z",
+      "equipeId": 92,
+      "equipeNom": "Real Sociedad",
+      "competition": "La Liga",
+      "categorie": "quiMarquent",
+      "adversaire": "Athletic",
+      "domicile": false,
+      "dateMatch": "2026-11-01T20:00:00Z",
+      "probabilitePredite": 44.2,
+      "dateEnregistrement": "2026-10-27T17:45:11.521Z",
+      "statut": "en_attente"
+    },
+    {
+      "id": "88-marqueToujours-2026-10-31T13:00:00Z",
+      "equipeId": 88,
+      "equipeNom": "Levante",
+      "competition": "La Liga",
+      "categorie": "marqueToujours",
+      "adversaire": "Atleti",
+      "domicile": true,
+      "dateMatch": "2026-10-31T13:00:00Z",
+      "probabilitePredite": 69.9,
+      "dateEnregistrement": "2026-10-27T17:45:11.521Z",
+      "statut": "en_attente"
+    },
+    {
+      "id": "92-marqueToujours-2026-11-01T20:00:00Z",
+      "equipeId": 92,
+      "equipeNom": "Real Sociedad",
+      "competition": "La Liga",
+      "categorie": "marqueToujours",
+      "adversaire": "Athletic",
+      "domicile": false,
+      "dateMatch": "2026-11-01T20:00:00Z",
+      "probabilitePredite": 76.5,
+      "dateEnregistrement": "2026-10-27T17:45:11.521Z",
+      "statut": "en_attente"
+    },
+    {
+      "id": "86-marqueToujours-2026-11-01T15:15:00Z",
+      "equipeId": 86,
+      "equipeNom": "Real Madrid",
+      "competition": "La Liga",
+      "categorie": "marqueToujours",
+      "adversaire": "Santander",
+      "domicile": false,
+      "dateMatch": "2026-11-01T15:15:00Z",
+      "probabilitePredite": 92.2,
+      "dateEnregistrement": "2026-10-27T17:45:11.521Z",
+      "statut": "en_attente"
+    },
+    {
+      "id": "81-marqueToujours-2026-10-31T20:00:00Z",
+      "equipeId": 81,
+      "equipeNom": "Barça",
+      "competition": "La Liga",
+      "categorie": "marqueToujours",
+      "adversaire": "Alavés",
+      "domicile": true,
+      "dateMatch": "2026-10-31T20:00:00Z",
+      "probabilitePredite": 92.2,
+      "dateEnregistrement": "2026-10-27T17:45:11.521Z",
+      "statut": "en_attente"
+    },
+    {
+      "id": "88-btts-2026-10-31T13:00:00Z",
+      "equipeId": 88,
+      "equipeNom": "Levante",
+      "competition": "La Liga",
+      "categorie": "btts",
+      "adversaire": "Atleti",
+      "domicile": true,
+      "dateMatch": "2026-10-31T13:00:00Z",
+      "probabilitePredite": 64.6,
+      "dateEnregistrement": "2026-10-27T17:45:11.521Z",
+      "statut": "en_attente"
+    },
+    {
+      "id": "86-invaincues-2026-11-01T15:15:00Z",
+      "equipeId": 86,
+      "equipeNom": "Real Madrid",
+      "competition": "La Liga",
+      "categorie": "invaincues",
+      "adversaire": "Santander",
+      "domicile": false,
+      "dateMatch": "2026-11-01T15:15:00Z",
+      "probabilitePredite": 80.9,
+      "dateEnregistrement": "2026-10-27T17:45:11.521Z",
+      "statut": "en_attente"
+    },
+    {
+      "id": "559-marqueToujours-2026-11-01T13:00:00Z",
+      "equipeId": 559,
+      "equipeNom": "Sevilla FC",
+      "competition": "La Liga",
+      "categorie": "marqueToujours",
+      "adversaire": "Getafe",
+      "domicile": false,
+      "dateMatch": "2026-11-01T13:00:00Z",
+      "probabilitePredite": 78.8,
+      "dateEnregistrement": "2026-10-27T17:45:11.521Z",
+      "statut": "en_attente"
+    },
+    {
+      "id": "285-invaincues-2026-11-01T17:30:00Z",
+      "equipeId": 285,
+      "equipeNom": "Elche",
+      "competition": "La Liga",
+      "categorie": "invaincues",
+      "adversaire": "Valencia",
+      "domicile": true,
+      "dateMatch": "2026-11-01T17:30:00Z",
+      "probabilitePredite": 76.2,
+      "dateEnregistrement": "2026-10-27T17:45:11.520Z",
+      "statut": "en_attente"
+    },
+    {
+      "id": "78-invaincues-2026-10-31T13:00:00Z",
+      "equipeId": 78,
+      "equipeNom": "Atleti",
+      "competition": "La Liga",
+      "categorie": "invaincues",
+      "adversaire": "Levante",
+      "domicile": false,
+      "dateMatch": "2026-10-31T13:00:00Z",
+      "probabilitePredite": 73.2,
+      "dateEnregistrement": "2026-10-27T17:45:11.520Z",
+      "statut": "en_attente"
+    },
+    {
+      "id": "92-invaincues-2026-11-01T20:00:00Z",
+      "equipeId": 92,
+      "equipeNom": "Real Sociedad",
+      "competition": "La Liga",
+      "categorie": "invaincues",
+      "adversaire": "Athletic",
+      "domicile": false,
+      "dateMatch": "2026-11-01T20:00:00Z",
+      "probabilitePredite": 62.1,
+      "dateEnregistrement": "2026-10-27T17:45:11.520Z",
+      "statut": "en_attente"
+    },
+    {
+      "id": "349-btts-2026-10-31T15:00:00Z",
+      "equipeId": 349,
+      "equipeNom": "Ipswich Town",
+      "competition": "Premier League",
+      "categorie": "btts",
+      "adversaire": "Hull City",
+      "domicile": false,
+      "dateMatch": "2026-10-31T15:00:00Z",
+      "probabilitePredite": 56.4,
+      "dateEnregistrement": "2026-10-27T17:44:56.921Z",
+      "statut": "en_attente"
+    },
+    {
+      "id": "58-marqueToujours-2026-10-31T20:00:00Z",
+      "equipeId": 58,
+      "equipeNom": "Aston Villa",
+      "competition": "Premier League",
+      "categorie": "marqueToujours",
+      "adversaire": "Fulham",
+      "domicile": true,
+      "dateMatch": "2026-10-31T20:00:00Z",
+      "probabilitePredite": 69.5,
+      "dateEnregistrement": "2026-10-27T17:44:56.921Z",
+      "statut": "en_attente"
+    },
+    {
+      "id": "63-marqueToujours-2026-10-31T20:00:00Z",
+      "equipeId": 63,
+      "equipeNom": "Fulham",
+      "competition": "Premier League",
+      "categorie": "marqueToujours",
+      "adversaire": "Aston Villa",
+      "domicile": false,
+      "dateMatch": "2026-10-31T20:00:00Z",
+      "probabilitePredite": 71.3,
+      "dateEnregistrement": "2026-10-27T17:44:56.921Z",
+      "statut": "en_attente"
+    },
+    {
+      "id": "402-btts-2026-10-31T15:00:00Z",
+      "equipeId": 402,
+      "equipeNom": "Brentford",
+      "competition": "Premier League",
+      "categorie": "btts",
+      "adversaire": "Nottingham",
+      "domicile": true,
+      "dateMatch": "2026-10-31T15:00:00Z",
+      "probabilitePredite": 47.3,
+      "dateEnregistrement": "2026-10-27T17:44:56.921Z",
+      "statut": "en_attente"
+    },
+    {
+      "id": "349-marqueToujours-2026-10-31T15:00:00Z",
+      "equipeId": 349,
+      "equipeNom": "Ipswich Town",
+      "competition": "Premier League",
+      "categorie": "marqueToujours",
+      "adversaire": "Hull City",
+      "domicile": false,
+      "dateMatch": "2026-10-31T15:00:00Z",
+      "probabilitePredite": 71.3,
+      "dateEnregistrement": "2026-10-27T17:44:56.920Z",
+      "statut": "en_attente"
+    },
+    {
+      "id": "58-invaincues-2026-10-31T20:00:00Z",
+      "equipeId": 58,
+      "equipeNom": "Aston Villa",
+      "competition": "Premier League",
+      "categorie": "invaincues",
+      "adversaire": "Fulham",
+      "domicile": true,
+      "dateMatch": "2026-10-31T20:00:00Z",
+      "probabilitePredite": 62.2,
+      "dateEnregistrement": "2026-10-27T17:44:56.920Z",
+      "statut": "en_attente"
+    },
+    {
+      "id": "65-marqueToujours-2026-10-31T15:00:00Z",
+      "equipeId": 65,
+      "equipeNom": "Man City",
+      "competition": "Premier League",
+      "categorie": "marqueToujours",
+      "adversaire": "Brighton Hove",
+      "domicile": true,
+      "dateMatch": "2026-10-31T15:00:00Z",
+      "probabilitePredite": 81.5,
+      "dateEnregistrement": "2026-10-27T17:44:56.920Z",
+      "statut": "en_attente"
+    },
+    {
+      "id": "57-invaincues-2026-11-01T16:30:00Z",
+      "equipeId": 57,
+      "equipeNom": "Arsenal",
+      "competition": "Premier League",
+      "categorie": "invaincues",
+      "adversaire": "Liverpool",
+      "domicile": false,
+      "dateMatch": "2026-11-01T16:30:00Z",
+      "probabilitePredite": 71.5,
+      "dateEnregistrement": "2026-10-27T17:44:56.920Z",
+      "statut": "en_attente"
+    },
+    {
+      "id": "73-invaincues-2026-10-31T17:30:00Z",
+      "equipeId": 73,
+      "equipeNom": "Tottenham",
+      "competition": "Premier League",
+      "categorie": "invaincues",
+      "adversaire": "Crystal Palace",
+      "domicile": true,
+      "dateMatch": "2026-10-31T17:30:00Z",
+      "probabilitePredite": 72.9,
+      "dateEnregistrement": "2026-10-27T17:44:56.920Z",
+      "statut": "en_attente"
+    },
+    {
+      "id": "57-marqueToujours-2026-11-01T16:30:00Z",
+      "equipeId": 57,
+      "equipeNom": "Arsenal",
+      "competition": "Premier League",
+      "categorie": "marqueToujours",
+      "adversaire": "Liverpool",
+      "domicile": false,
+      "dateMatch": "2026-11-01T16:30:00Z",
+      "probabilitePredite": 73.1,
+      "dateEnregistrement": "2026-10-27T17:44:56.920Z",
+      "statut": "en_attente"
+    },
+    {
+      "id": "73-marqueToujours-2026-10-31T17:30:00Z",
+      "equipeId": 73,
+      "equipeNom": "Tottenham",
+      "competition": "Premier League",
+      "categorie": "marqueToujours",
+      "adversaire": "Crystal Palace",
+      "domicile": true,
+      "dateMatch": "2026-10-31T17:30:00Z",
+      "probabilitePredite": 81.5,
+      "dateEnregistrement": "2026-10-27T17:44:56.920Z",
+      "statut": "en_attente"
+    },
+    {
+      "id": "402-marqueToujours-2026-10-31T15:00:00Z",
+      "equipeId": 402,
+      "equipeNom": "Brentford",
+      "competition": "Premier League",
+      "categorie": "marqueToujours",
+      "adversaire": "Nottingham",
+      "domicile": true,
+      "dateMatch": "2026-10-31T15:00:00Z",
+      "probabilitePredite": 77.7,
+      "dateEnregistrement": "2026-10-27T17:44:56.920Z",
+      "statut": "en_attente"
+    },
+    {
+      "id": "1044-marqueToujours-2026-10-31T15:00:00Z",
+      "equipeId": 1044,
+      "equipeNom": "Bournemouth",
+      "competition": "Premier League",
+      "categorie": "marqueToujours",
+      "adversaire": "Leeds United",
+      "domicile": true,
+      "dateMatch": "2026-10-31T15:00:00Z",
+      "probabilitePredite": 67.5,
+      "dateEnregistrement": "2026-10-27T17:44:56.920Z",
       "statut": "en_attente"
     },
     {
@@ -6845,45 +8040,6 @@
       "domicile": true,
       "dateMatch": "2026-10-31T16:15:00Z",
       "probabilitePredite": 61.7,
-      "dateEnregistrement": "2026-10-27T11:52:12.904Z",
-      "statut": "en_attente"
-    },
-    {
-      "id": "546-btts-2026-10-30T20:05:00Z",
-      "equipeId": 546,
-      "equipeNom": "RC Lens",
-      "competition": "Ligue 1",
-      "categorie": "btts",
-      "adversaire": "Lille",
-      "domicile": false,
-      "dateMatch": "2026-10-30T20:05:00Z",
-      "probabilitePredite": 57,
-      "dateEnregistrement": "2026-10-27T11:52:12.904Z",
-      "statut": "en_attente"
-    },
-    {
-      "id": "519-btts-2026-11-01T14:00:00Z",
-      "equipeId": 519,
-      "equipeNom": "Auxerre",
-      "competition": "Ligue 1",
-      "categorie": "btts",
-      "adversaire": "Strasbourg",
-      "domicile": false,
-      "dateMatch": "2026-11-01T14:00:00Z",
-      "probabilitePredite": 71.7,
-      "dateEnregistrement": "2026-10-27T11:52:12.904Z",
-      "statut": "en_attente"
-    },
-    {
-      "id": "524-marqueToujours-2026-10-30T18:00:00Z",
-      "equipeId": 524,
-      "equipeNom": "PSG",
-      "competition": "Ligue 1",
-      "categorie": "marqueToujours",
-      "adversaire": "Le Havre",
-      "domicile": false,
-      "dateMatch": "2026-10-30T18:00:00Z",
-      "probabilitePredite": 85.6,
       "dateEnregistrement": "2026-10-27T11:52:12.904Z",
       "statut": "en_attente"
     },
@@ -6914,58 +8070,6 @@
       "statut": "en_attente"
     },
     {
-      "id": "546-marqueToujours-2026-10-30T20:05:00Z",
-      "equipeId": 546,
-      "equipeNom": "RC Lens",
-      "competition": "Ligue 1",
-      "categorie": "marqueToujours",
-      "adversaire": "Lille",
-      "domicile": false,
-      "dateMatch": "2026-10-30T20:05:00Z",
-      "probabilitePredite": 74.7,
-      "dateEnregistrement": "2026-10-27T11:52:12.903Z",
-      "statut": "en_attente"
-    },
-    {
-      "id": "521-marqueToujours-2026-10-30T20:05:00Z",
-      "equipeId": 521,
-      "equipeNom": "Lille",
-      "competition": "Ligue 1",
-      "categorie": "marqueToujours",
-      "adversaire": "RC Lens",
-      "domicile": true,
-      "dateMatch": "2026-10-30T20:05:00Z",
-      "probabilitePredite": 76.2,
-      "dateEnregistrement": "2026-10-27T11:52:12.903Z",
-      "statut": "en_attente"
-    },
-    {
-      "id": "516-marqueToujours-2026-11-01T19:45:00Z",
-      "equipeId": 516,
-      "equipeNom": "Marseille",
-      "competition": "Ligue 1",
-      "categorie": "marqueToujours",
-      "adversaire": "Toulouse",
-      "domicile": true,
-      "dateMatch": "2026-11-01T19:45:00Z",
-      "probabilitePredite": 83.7,
-      "dateEnregistrement": "2026-10-27T11:52:12.903Z",
-      "statut": "en_attente"
-    },
-    {
-      "id": "519-marqueToujours-2026-11-01T14:00:00Z",
-      "equipeId": 519,
-      "equipeNom": "Auxerre",
-      "competition": "Ligue 1",
-      "categorie": "marqueToujours",
-      "adversaire": "Strasbourg",
-      "domicile": false,
-      "dateMatch": "2026-11-01T14:00:00Z",
-      "probabilitePredite": 84.7,
-      "dateEnregistrement": "2026-10-27T11:52:12.903Z",
-      "statut": "en_attente"
-    },
-    {
       "id": "529-marqueToujours-2026-10-31T16:15:00Z",
       "equipeId": 529,
       "equipeNom": "Stade Rennais",
@@ -6979,58 +8083,6 @@
       "statut": "en_attente"
     },
     {
-      "id": "524-quiMarquent-2026-10-30T18:00:00Z",
-      "equipeId": 524,
-      "equipeNom": "PSG",
-      "competition": "Ligue 1",
-      "categorie": "quiMarquent",
-      "adversaire": "Le Havre",
-      "domicile": false,
-      "dateMatch": "2026-10-30T18:00:00Z",
-      "probabilitePredite": 57.7,
-      "dateEnregistrement": "2026-10-27T11:52:12.903Z",
-      "statut": "en_attente"
-    },
-    {
-      "id": "546-invaincues-2026-10-30T20:05:00Z",
-      "equipeId": 546,
-      "equipeNom": "RC Lens",
-      "competition": "Ligue 1",
-      "categorie": "invaincues",
-      "adversaire": "Lille",
-      "domicile": false,
-      "dateMatch": "2026-10-30T20:05:00Z",
-      "probabilitePredite": 61.1,
-      "dateEnregistrement": "2026-10-27T11:52:12.902Z",
-      "statut": "en_attente"
-    },
-    {
-      "id": "546-quiMarquent-2026-10-30T20:05:00Z",
-      "equipeId": 546,
-      "equipeNom": "RC Lens",
-      "competition": "Ligue 1",
-      "categorie": "quiMarquent",
-      "adversaire": "Lille",
-      "domicile": false,
-      "dateMatch": "2026-10-30T20:05:00Z",
-      "probabilitePredite": 40,
-      "dateEnregistrement": "2026-10-27T11:52:12.902Z",
-      "statut": "en_attente"
-    },
-    {
-      "id": "516-invaincues-2026-11-01T19:45:00Z",
-      "equipeId": 516,
-      "equipeNom": "Marseille",
-      "competition": "Ligue 1",
-      "categorie": "invaincues",
-      "adversaire": "Toulouse",
-      "domicile": true,
-      "dateMatch": "2026-11-01T19:45:00Z",
-      "probabilitePredite": 66.2,
-      "dateEnregistrement": "2026-10-27T11:52:12.902Z",
-      "statut": "en_attente"
-    },
-    {
       "id": "525-invaincues-2026-10-31T19:45:00Z",
       "equipeId": 525,
       "equipeNom": "Lorient",
@@ -7040,45 +8092,6 @@
       "domicile": true,
       "dateMatch": "2026-10-31T19:45:00Z",
       "probabilitePredite": 62.2,
-      "dateEnregistrement": "2026-10-27T11:52:12.902Z",
-      "statut": "en_attente"
-    },
-    {
-      "id": "511-invaincues-2026-11-01T19:45:00Z",
-      "equipeId": 511,
-      "equipeNom": "Toulouse",
-      "competition": "Ligue 1",
-      "categorie": "invaincues",
-      "adversaire": "Marseille",
-      "domicile": false,
-      "dateMatch": "2026-11-01T19:45:00Z",
-      "probabilitePredite": 56,
-      "dateEnregistrement": "2026-10-27T11:52:12.902Z",
-      "statut": "en_attente"
-    },
-    {
-      "id": "521-invaincues-2026-10-30T20:05:00Z",
-      "equipeId": 521,
-      "equipeNom": "Lille",
-      "competition": "Ligue 1",
-      "categorie": "invaincues",
-      "adversaire": "RC Lens",
-      "domicile": true,
-      "dateMatch": "2026-10-30T20:05:00Z",
-      "probabilitePredite": 63.9,
-      "dateEnregistrement": "2026-10-27T11:52:12.902Z",
-      "statut": "en_attente"
-    },
-    {
-      "id": "516-quiMarquent-2026-11-01T19:45:00Z",
-      "equipeId": 516,
-      "equipeNom": "Marseille",
-      "competition": "Ligue 1",
-      "categorie": "quiMarquent",
-      "adversaire": "Toulouse",
-      "domicile": true,
-      "dateMatch": "2026-11-01T19:45:00Z",
-      "probabilitePredite": 54.1,
       "dateEnregistrement": "2026-10-27T11:52:12.902Z",
       "statut": "en_attente"
     },
@@ -7096,331 +8109,6 @@
       "statut": "en_attente"
     },
     {
-      "id": "524-invaincues-2026-10-30T18:00:00Z",
-      "equipeId": 524,
-      "equipeNom": "PSG",
-      "competition": "Ligue 1",
-      "categorie": "invaincues",
-      "adversaire": "Le Havre",
-      "domicile": false,
-      "dateMatch": "2026-10-30T18:00:00Z",
-      "probabilitePredite": 79.2,
-      "dateEnregistrement": "2026-10-27T11:52:12.902Z",
-      "statut": "en_attente"
-    },
-    {
-      "id": "18-marqueToujours-2026-10-31T14:30:00Z",
-      "equipeId": 18,
-      "equipeNom": "M'gladbach",
-      "competition": "Bundesliga",
-      "categorie": "marqueToujours",
-      "adversaire": "SC Paderborn",
-      "domicile": true,
-      "dateMatch": "2026-10-31T14:30:00Z",
-      "probabilitePredite": 76,
-      "dateEnregistrement": "2026-10-27T11:51:58.944Z",
-      "statut": "en_attente"
-    },
-    {
-      "id": "18-btts-2026-10-31T14:30:00Z",
-      "equipeId": 18,
-      "equipeNom": "M'gladbach",
-      "competition": "Bundesliga",
-      "categorie": "btts",
-      "adversaire": "SC Paderborn",
-      "domicile": true,
-      "dateMatch": "2026-10-31T14:30:00Z",
-      "probabilitePredite": 65.7,
-      "dateEnregistrement": "2026-10-27T11:51:58.944Z",
-      "statut": "en_attente"
-    },
-    {
-      "id": "15-marqueToujours-2026-10-30T19:30:00Z",
-      "equipeId": 15,
-      "equipeNom": "Mainz",
-      "competition": "Bundesliga",
-      "categorie": "marqueToujours",
-      "adversaire": "Elversberg",
-      "domicile": false,
-      "dateMatch": "2026-10-30T19:30:00Z",
-      "probabilitePredite": 89.1,
-      "dateEnregistrement": "2026-10-27T11:51:58.944Z",
-      "statut": "en_attente"
-    },
-    {
-      "id": "12-marqueToujours-2026-10-31T14:30:00Z",
-      "equipeId": 12,
-      "equipeNom": "Bremen",
-      "competition": "Bundesliga",
-      "categorie": "marqueToujours",
-      "adversaire": "Hoffenheim",
-      "domicile": true,
-      "dateMatch": "2026-10-31T14:30:00Z",
-      "probabilitePredite": 87.4,
-      "dateEnregistrement": "2026-10-27T11:51:58.944Z",
-      "statut": "en_attente"
-    },
-    {
-      "id": "16-marqueToujours-2026-10-31T14:30:00Z",
-      "equipeId": 16,
-      "equipeNom": "Augsburg",
-      "competition": "Bundesliga",
-      "categorie": "marqueToujours",
-      "adversaire": "Freiburg",
-      "domicile": true,
-      "dateMatch": "2026-10-31T14:30:00Z",
-      "probabilitePredite": 84.4,
-      "dateEnregistrement": "2026-10-27T11:51:58.944Z",
-      "statut": "en_attente"
-    },
-    {
-      "id": "12-btts-2026-10-31T14:30:00Z",
-      "equipeId": 12,
-      "equipeNom": "Bremen",
-      "competition": "Bundesliga",
-      "categorie": "btts",
-      "adversaire": "Hoffenheim",
-      "domicile": true,
-      "dateMatch": "2026-10-31T14:30:00Z",
-      "probabilitePredite": 75.6,
-      "dateEnregistrement": "2026-10-27T11:51:58.944Z",
-      "statut": "en_attente"
-    },
-    {
-      "id": "16-btts-2026-10-31T14:30:00Z",
-      "equipeId": 16,
-      "equipeNom": "Augsburg",
-      "competition": "Bundesliga",
-      "categorie": "btts",
-      "adversaire": "Freiburg",
-      "domicile": true,
-      "dateMatch": "2026-10-31T14:30:00Z",
-      "probabilitePredite": 73.8,
-      "dateEnregistrement": "2026-10-27T11:51:58.944Z",
-      "statut": "en_attente"
-    },
-    {
-      "id": "2-marqueToujours-2026-10-31T14:30:00Z",
-      "equipeId": 2,
-      "equipeNom": "Hoffenheim",
-      "competition": "Bundesliga",
-      "categorie": "marqueToujours",
-      "adversaire": "Bremen",
-      "domicile": false,
-      "dateMatch": "2026-10-31T14:30:00Z",
-      "probabilitePredite": 86.5,
-      "dateEnregistrement": "2026-10-27T11:51:58.944Z",
-      "statut": "en_attente"
-    },
-    {
-      "id": "17-marqueToujours-2026-10-31T14:30:00Z",
-      "equipeId": 17,
-      "equipeNom": "Freiburg",
-      "competition": "Bundesliga",
-      "categorie": "marqueToujours",
-      "adversaire": "Augsburg",
-      "domicile": false,
-      "dateMatch": "2026-10-31T14:30:00Z",
-      "probabilitePredite": 87.4,
-      "dateEnregistrement": "2026-10-27T11:51:58.944Z",
-      "statut": "en_attente"
-    },
-    {
-      "id": "5-btts-2026-10-31T17:30:00Z",
-      "equipeId": 5,
-      "equipeNom": "Bayern",
-      "competition": "Bundesliga",
-      "categorie": "btts",
-      "adversaire": "Dortmund",
-      "domicile": true,
-      "dateMatch": "2026-10-31T17:30:00Z",
-      "probabilitePredite": 63.2,
-      "dateEnregistrement": "2026-10-27T11:51:58.944Z",
-      "statut": "en_attente"
-    },
-    {
-      "id": "17-btts-2026-10-31T14:30:00Z",
-      "equipeId": 17,
-      "equipeNom": "Freiburg",
-      "competition": "Bundesliga",
-      "categorie": "btts",
-      "adversaire": "Augsburg",
-      "domicile": false,
-      "dateMatch": "2026-10-31T14:30:00Z",
-      "probabilitePredite": 73.8,
-      "dateEnregistrement": "2026-10-27T11:51:58.944Z",
-      "statut": "en_attente"
-    },
-    {
-      "id": "4-invaincues-2026-10-31T17:30:00Z",
-      "equipeId": 4,
-      "equipeNom": "Dortmund",
-      "competition": "Bundesliga",
-      "categorie": "invaincues",
-      "adversaire": "Bayern",
-      "domicile": false,
-      "dateMatch": "2026-10-31T17:30:00Z",
-      "probabilitePredite": 44.5,
-      "dateEnregistrement": "2026-10-27T11:51:58.943Z",
-      "statut": "en_attente"
-    },
-    {
-      "id": "12-invaincues-2026-10-31T14:30:00Z",
-      "equipeId": 12,
-      "equipeNom": "Bremen",
-      "competition": "Bundesliga",
-      "categorie": "invaincues",
-      "adversaire": "Hoffenheim",
-      "domicile": true,
-      "dateMatch": "2026-10-31T14:30:00Z",
-      "probabilitePredite": 61.1,
-      "dateEnregistrement": "2026-10-27T11:51:58.943Z",
-      "statut": "en_attente"
-    },
-    {
-      "id": "12-quiMarquent-2026-10-31T14:30:00Z",
-      "equipeId": 12,
-      "equipeNom": "Bremen",
-      "competition": "Bundesliga",
-      "categorie": "quiMarquent",
-      "adversaire": "Hoffenheim",
-      "domicile": true,
-      "dateMatch": "2026-10-31T14:30:00Z",
-      "probabilitePredite": 61.3,
-      "dateEnregistrement": "2026-10-27T11:51:58.943Z",
-      "statut": "en_attente"
-    },
-    {
-      "id": "28-invaincues-2026-11-01T14:30:00Z",
-      "equipeId": 28,
-      "equipeNom": "Union Berlin",
-      "competition": "Bundesliga",
-      "categorie": "invaincues",
-      "adversaire": "1. FC Köln",
-      "domicile": true,
-      "dateMatch": "2026-11-01T14:30:00Z",
-      "probabilitePredite": 47.5,
-      "dateEnregistrement": "2026-10-27T11:51:58.943Z",
-      "statut": "en_attente"
-    },
-    {
-      "id": "721-marqueToujours-2026-10-31T14:30:00Z",
-      "equipeId": 721,
-      "equipeNom": "RB Leipzig",
-      "competition": "Bundesliga",
-      "categorie": "marqueToujours",
-      "adversaire": "Schalke",
-      "domicile": false,
-      "dateMatch": "2026-10-31T14:30:00Z",
-      "probabilitePredite": 85.5,
-      "dateEnregistrement": "2026-10-27T11:51:58.943Z",
-      "statut": "en_attente"
-    },
-    {
-      "id": "5-invaincues-2026-10-31T17:30:00Z",
-      "equipeId": 5,
-      "equipeNom": "Bayern",
-      "competition": "Bundesliga",
-      "categorie": "invaincues",
-      "adversaire": "Dortmund",
-      "domicile": true,
-      "dateMatch": "2026-10-31T17:30:00Z",
-      "probabilitePredite": 76.1,
-      "dateEnregistrement": "2026-10-27T11:51:58.943Z",
-      "statut": "en_attente"
-    },
-    {
-      "id": "5-quiMarquent-2026-10-31T17:30:00Z",
-      "equipeId": 5,
-      "equipeNom": "Bayern",
-      "competition": "Bundesliga",
-      "categorie": "quiMarquent",
-      "adversaire": "Dortmund",
-      "domicile": true,
-      "dateMatch": "2026-10-31T17:30:00Z",
-      "probabilitePredite": 61.3,
-      "dateEnregistrement": "2026-10-27T11:51:58.943Z",
-      "statut": "en_attente"
-    },
-    {
-      "id": "2-quiMarquent-2026-10-31T14:30:00Z",
-      "equipeId": 2,
-      "equipeNom": "Hoffenheim",
-      "competition": "Bundesliga",
-      "categorie": "quiMarquent",
-      "adversaire": "Bremen",
-      "domicile": false,
-      "dateMatch": "2026-10-31T14:30:00Z",
-      "probabilitePredite": 59.4,
-      "dateEnregistrement": "2026-10-27T11:51:58.943Z",
-      "statut": "en_attente"
-    },
-    {
-      "id": "5-marqueToujours-2026-10-31T17:30:00Z",
-      "equipeId": 5,
-      "equipeNom": "Bayern",
-      "competition": "Bundesliga",
-      "categorie": "marqueToujours",
-      "adversaire": "Dortmund",
-      "domicile": true,
-      "dateMatch": "2026-10-31T17:30:00Z",
-      "probabilitePredite": 87.4,
-      "dateEnregistrement": "2026-10-27T11:51:58.943Z",
-      "statut": "en_attente"
-    },
-    {
-      "id": "586-invaincues-2026-10-27T19:45:00Z",
-      "equipeId": 586,
-      "equipeNom": "Torino",
-      "competition": "Serie A",
-      "categorie": "invaincues",
-      "adversaire": "Como 1907",
-      "domicile": true,
-      "dateMatch": "2026-10-27T19:45:00Z",
-      "probabilitePredite": 55.4,
-      "dateEnregistrement": "2026-10-27T11:51:44.889Z",
-      "statut": "en_attente"
-    },
-    {
-      "id": "586-quiMarquent-2026-10-27T19:45:00Z",
-      "equipeId": 586,
-      "equipeNom": "Torino",
-      "competition": "Serie A",
-      "categorie": "quiMarquent",
-      "adversaire": "Como 1907",
-      "domicile": true,
-      "dateMatch": "2026-10-27T19:45:00Z",
-      "probabilitePredite": 35.5,
-      "dateEnregistrement": "2026-10-27T11:51:44.889Z",
-      "statut": "en_attente"
-    },
-    {
-      "id": "5911-marqueToujours-2026-10-28T19:45:00Z",
-      "equipeId": 5911,
-      "equipeNom": "Monza",
-      "competition": "Serie A",
-      "categorie": "marqueToujours",
-      "adversaire": "Napoli",
-      "domicile": true,
-      "dateMatch": "2026-10-28T19:45:00Z",
-      "probabilitePredite": 79,
-      "dateEnregistrement": "2026-10-27T11:51:44.889Z",
-      "statut": "en_attente"
-    },
-    {
-      "id": "586-marqueToujours-2026-10-27T19:45:00Z",
-      "equipeId": 586,
-      "equipeNom": "Torino",
-      "competition": "Serie A",
-      "categorie": "marqueToujours",
-      "adversaire": "Como 1907",
-      "domicile": true,
-      "dateMatch": "2026-10-27T19:45:00Z",
-      "probabilitePredite": 71.3,
-      "dateEnregistrement": "2026-10-27T11:51:44.889Z",
-      "statut": "en_attente"
-    },
-    {
       "id": "110-invaincues-2026-10-27T17:30:00Z",
       "equipeId": 110,
       "equipeNom": "Lazio",
@@ -7430,19 +8118,6 @@
       "domicile": false,
       "dateMatch": "2026-10-27T17:30:00Z",
       "probabilitePredite": 80,
-      "dateEnregistrement": "2026-10-27T11:51:44.889Z",
-      "statut": "en_attente"
-    },
-    {
-      "id": "100-invaincues-2026-10-27T19:45:00Z",
-      "equipeId": 100,
-      "equipeNom": "Roma",
-      "competition": "Serie A",
-      "categorie": "invaincues",
-      "adversaire": "Cagliari",
-      "domicile": true,
-      "dateMatch": "2026-10-27T19:45:00Z",
-      "probabilitePredite": 84.1,
       "dateEnregistrement": "2026-10-27T11:51:44.889Z",
       "statut": "en_attente"
     },
@@ -7460,19 +8135,6 @@
       "statut": "en_attente"
     },
     {
-      "id": "103-marqueToujours-2026-10-28T17:30:00Z",
-      "equipeId": 103,
-      "equipeNom": "Bologna",
-      "competition": "Serie A",
-      "categorie": "marqueToujours",
-      "adversaire": "Milan",
-      "domicile": false,
-      "dateMatch": "2026-10-28T17:30:00Z",
-      "probabilitePredite": 60.8,
-      "dateEnregistrement": "2026-10-27T11:51:44.889Z",
-      "statut": "en_attente"
-    },
-    {
       "id": "110-marqueToujours-2026-10-27T17:30:00Z",
       "equipeId": 110,
       "equipeNom": "Lazio",
@@ -7483,552 +8145,6 @@
       "dateMatch": "2026-10-27T17:30:00Z",
       "probabilitePredite": 86.5,
       "dateEnregistrement": "2026-10-27T11:51:44.889Z",
-      "statut": "en_attente"
-    },
-    {
-      "id": "108-quiMarquent-2026-10-28T17:30:00Z",
-      "equipeId": 108,
-      "equipeNom": "Inter",
-      "competition": "Serie A",
-      "categorie": "quiMarquent",
-      "adversaire": "Venezia FC",
-      "domicile": false,
-      "dateMatch": "2026-10-28T17:30:00Z",
-      "probabilitePredite": 71.3,
-      "dateEnregistrement": "2026-10-27T11:51:44.889Z",
-      "statut": "en_attente"
-    },
-    {
-      "id": "108-marqueToujours-2026-10-28T17:30:00Z",
-      "equipeId": 108,
-      "equipeNom": "Inter",
-      "competition": "Serie A",
-      "categorie": "marqueToujours",
-      "adversaire": "Venezia FC",
-      "domicile": false,
-      "dateMatch": "2026-10-28T17:30:00Z",
-      "probabilitePredite": 91.8,
-      "dateEnregistrement": "2026-10-27T11:51:44.889Z",
-      "statut": "en_attente"
-    },
-    {
-      "id": "99-marqueToujours-2026-10-29T19:45:00Z",
-      "equipeId": 99,
-      "equipeNom": "Fiorentina",
-      "competition": "Serie A",
-      "categorie": "marqueToujours",
-      "adversaire": "Atalanta",
-      "domicile": true,
-      "dateMatch": "2026-10-29T19:45:00Z",
-      "probabilitePredite": 77.7,
-      "dateEnregistrement": "2026-10-27T11:51:44.889Z",
-      "statut": "en_attente"
-    },
-    {
-      "id": "99-btts-2026-10-29T19:45:00Z",
-      "equipeId": 99,
-      "equipeNom": "Fiorentina",
-      "competition": "Serie A",
-      "categorie": "btts",
-      "adversaire": "Atalanta",
-      "domicile": true,
-      "dateMatch": "2026-10-29T19:45:00Z",
-      "probabilitePredite": 67.8,
-      "dateEnregistrement": "2026-10-27T11:51:44.889Z",
-      "statut": "en_attente"
-    },
-    {
-      "id": "98-invaincues-2026-10-28T17:30:00Z",
-      "equipeId": 98,
-      "equipeNom": "Milan",
-      "competition": "Serie A",
-      "categorie": "invaincues",
-      "adversaire": "Bologna",
-      "domicile": true,
-      "dateMatch": "2026-10-28T17:30:00Z",
-      "probabilitePredite": 78.1,
-      "dateEnregistrement": "2026-10-27T11:51:44.889Z",
-      "statut": "en_attente"
-    },
-    {
-      "id": "102-quiMarquent-2026-10-29T19:45:00Z",
-      "equipeId": 102,
-      "equipeNom": "Atalanta",
-      "competition": "Serie A",
-      "categorie": "quiMarquent",
-      "adversaire": "Fiorentina",
-      "domicile": false,
-      "dateMatch": "2026-10-29T19:45:00Z",
-      "probabilitePredite": 61.1,
-      "dateEnregistrement": "2026-10-27T11:51:44.889Z",
-      "statut": "en_attente"
-    },
-    {
-      "id": "102-marqueToujours-2026-10-29T19:45:00Z",
-      "equipeId": 102,
-      "equipeNom": "Atalanta",
-      "competition": "Serie A",
-      "categorie": "marqueToujours",
-      "adversaire": "Fiorentina",
-      "domicile": false,
-      "dateMatch": "2026-10-29T19:45:00Z",
-      "probabilitePredite": 87.3,
-      "dateEnregistrement": "2026-10-27T11:51:44.889Z",
-      "statut": "en_attente"
-    },
-    {
-      "id": "98-marqueToujours-2026-10-28T17:30:00Z",
-      "equipeId": 98,
-      "equipeNom": "Milan",
-      "competition": "Serie A",
-      "categorie": "marqueToujours",
-      "adversaire": "Bologna",
-      "domicile": true,
-      "dateMatch": "2026-10-28T17:30:00Z",
-      "probabilitePredite": 80.3,
-      "dateEnregistrement": "2026-10-27T11:51:44.889Z",
-      "statut": "en_attente"
-    },
-    {
-      "id": "102-btts-2026-10-29T19:45:00Z",
-      "equipeId": 102,
-      "equipeNom": "Atalanta",
-      "competition": "Serie A",
-      "categorie": "btts",
-      "adversaire": "Fiorentina",
-      "domicile": false,
-      "dateMatch": "2026-10-29T19:45:00Z",
-      "probabilitePredite": 67.8,
-      "dateEnregistrement": "2026-10-27T11:51:44.889Z",
-      "statut": "en_attente"
-    },
-    {
-      "id": "7397-invaincues-2026-10-27T19:45:00Z",
-      "equipeId": 7397,
-      "equipeNom": "Como 1907",
-      "competition": "Serie A",
-      "categorie": "invaincues",
-      "adversaire": "Torino",
-      "domicile": false,
-      "dateMatch": "2026-10-27T19:45:00Z",
-      "probabilitePredite": 69.4,
-      "dateEnregistrement": "2026-10-27T11:51:44.888Z",
-      "statut": "en_attente"
-    },
-    {
-      "id": "108-invaincues-2026-10-28T17:30:00Z",
-      "equipeId": 108,
-      "equipeNom": "Inter",
-      "competition": "Serie A",
-      "categorie": "invaincues",
-      "adversaire": "Venezia FC",
-      "domicile": false,
-      "dateMatch": "2026-10-28T17:30:00Z",
-      "probabilitePredite": 85.5,
-      "dateEnregistrement": "2026-10-27T11:51:44.888Z",
-      "statut": "en_attente"
-    },
-    {
-      "id": "263-marqueToujours-2026-10-31T20:00:00Z",
-      "equipeId": 263,
-      "equipeNom": "Alavés",
-      "competition": "La Liga",
-      "categorie": "marqueToujours",
-      "adversaire": "Barça",
-      "domicile": false,
-      "dateMatch": "2026-10-31T20:00:00Z",
-      "probabilitePredite": 71.3,
-      "dateEnregistrement": "2026-10-27T11:51:31.085Z",
-      "statut": "en_attente"
-    },
-    {
-      "id": "84-marqueToujours-2026-10-31T17:30:00Z",
-      "equipeId": 84,
-      "equipeNom": "Málaga",
-      "competition": "La Liga",
-      "categorie": "marqueToujours",
-      "adversaire": "Real Betis",
-      "domicile": false,
-      "dateMatch": "2026-10-31T17:30:00Z",
-      "probabilitePredite": 65,
-      "dateEnregistrement": "2026-10-27T11:51:31.085Z",
-      "statut": "en_attente"
-    },
-    {
-      "id": "263-btts-2026-10-31T20:00:00Z",
-      "equipeId": 263,
-      "equipeNom": "Alavés",
-      "competition": "La Liga",
-      "categorie": "btts",
-      "adversaire": "Barça",
-      "domicile": false,
-      "dateMatch": "2026-10-31T20:00:00Z",
-      "probabilitePredite": 68.1,
-      "dateEnregistrement": "2026-10-27T11:51:31.085Z",
-      "statut": "en_attente"
-    },
-    {
-      "id": "84-btts-2026-10-31T17:30:00Z",
-      "equipeId": 84,
-      "equipeNom": "Málaga",
-      "competition": "La Liga",
-      "categorie": "btts",
-      "adversaire": "Real Betis",
-      "domicile": false,
-      "dateMatch": "2026-10-31T17:30:00Z",
-      "probabilitePredite": 60.4,
-      "dateEnregistrement": "2026-10-27T11:51:31.085Z",
-      "statut": "en_attente"
-    },
-    {
-      "id": "78-invaincues-2026-10-31T13:00:00Z",
-      "equipeId": 78,
-      "equipeNom": "Atleti",
-      "competition": "La Liga",
-      "categorie": "invaincues",
-      "adversaire": "Levante",
-      "domicile": false,
-      "dateMatch": "2026-10-31T13:00:00Z",
-      "probabilitePredite": 73.2,
-      "dateEnregistrement": "2026-10-27T11:51:31.085Z",
-      "statut": "en_attente"
-    },
-    {
-      "id": "78-marqueToujours-2026-10-31T13:00:00Z",
-      "equipeId": 78,
-      "equipeNom": "Atleti",
-      "competition": "La Liga",
-      "categorie": "marqueToujours",
-      "adversaire": "Levante",
-      "domicile": false,
-      "dateMatch": "2026-10-31T13:00:00Z",
-      "probabilitePredite": 85.8,
-      "dateEnregistrement": "2026-10-27T11:51:31.085Z",
-      "statut": "en_attente"
-    },
-    {
-      "id": "558-invaincues-2026-10-31T15:15:00Z",
-      "equipeId": 558,
-      "equipeNom": "Celta",
-      "competition": "La Liga",
-      "categorie": "invaincues",
-      "adversaire": "Rayo Vallecano",
-      "domicile": false,
-      "dateMatch": "2026-10-31T15:15:00Z",
-      "probabilitePredite": 77.5,
-      "dateEnregistrement": "2026-10-27T11:51:31.085Z",
-      "statut": "en_attente"
-    },
-    {
-      "id": "92-invaincues-2026-11-01T20:00:00Z",
-      "equipeId": 92,
-      "equipeNom": "Real Sociedad",
-      "competition": "La Liga",
-      "categorie": "invaincues",
-      "adversaire": "Athletic",
-      "domicile": false,
-      "dateMatch": "2026-11-01T20:00:00Z",
-      "probabilitePredite": 62.1,
-      "dateEnregistrement": "2026-10-27T11:51:31.085Z",
-      "statut": "en_attente"
-    },
-    {
-      "id": "92-quiMarquent-2026-11-01T20:00:00Z",
-      "equipeId": 92,
-      "equipeNom": "Real Sociedad",
-      "competition": "La Liga",
-      "categorie": "quiMarquent",
-      "adversaire": "Athletic",
-      "domicile": false,
-      "dateMatch": "2026-11-01T20:00:00Z",
-      "probabilitePredite": 44.2,
-      "dateEnregistrement": "2026-10-27T11:51:31.085Z",
-      "statut": "en_attente"
-    },
-    {
-      "id": "88-marqueToujours-2026-10-31T13:00:00Z",
-      "equipeId": 88,
-      "equipeNom": "Levante",
-      "competition": "La Liga",
-      "categorie": "marqueToujours",
-      "adversaire": "Atleti",
-      "domicile": true,
-      "dateMatch": "2026-10-31T13:00:00Z",
-      "probabilitePredite": 69.9,
-      "dateEnregistrement": "2026-10-27T11:51:31.085Z",
-      "statut": "en_attente"
-    },
-    {
-      "id": "92-marqueToujours-2026-11-01T20:00:00Z",
-      "equipeId": 92,
-      "equipeNom": "Real Sociedad",
-      "competition": "La Liga",
-      "categorie": "marqueToujours",
-      "adversaire": "Athletic",
-      "domicile": false,
-      "dateMatch": "2026-11-01T20:00:00Z",
-      "probabilitePredite": 76.5,
-      "dateEnregistrement": "2026-10-27T11:51:31.085Z",
-      "statut": "en_attente"
-    },
-    {
-      "id": "86-marqueToujours-2026-11-01T15:15:00Z",
-      "equipeId": 86,
-      "equipeNom": "Real Madrid",
-      "competition": "La Liga",
-      "categorie": "marqueToujours",
-      "adversaire": "Santander",
-      "domicile": false,
-      "dateMatch": "2026-11-01T15:15:00Z",
-      "probabilitePredite": 92.2,
-      "dateEnregistrement": "2026-10-27T11:51:31.085Z",
-      "statut": "en_attente"
-    },
-    {
-      "id": "81-marqueToujours-2026-10-31T20:00:00Z",
-      "equipeId": 81,
-      "equipeNom": "Barça",
-      "competition": "La Liga",
-      "categorie": "marqueToujours",
-      "adversaire": "Alavés",
-      "domicile": true,
-      "dateMatch": "2026-10-31T20:00:00Z",
-      "probabilitePredite": 92.2,
-      "dateEnregistrement": "2026-10-27T11:51:31.085Z",
-      "statut": "en_attente"
-    },
-    {
-      "id": "88-btts-2026-10-31T13:00:00Z",
-      "equipeId": 88,
-      "equipeNom": "Levante",
-      "competition": "La Liga",
-      "categorie": "btts",
-      "adversaire": "Atleti",
-      "domicile": true,
-      "dateMatch": "2026-10-31T13:00:00Z",
-      "probabilitePredite": 64.6,
-      "dateEnregistrement": "2026-10-27T11:51:31.085Z",
-      "statut": "en_attente"
-    },
-    {
-      "id": "92-btts-2026-11-01T20:00:00Z",
-      "equipeId": 92,
-      "equipeNom": "Real Sociedad",
-      "competition": "La Liga",
-      "categorie": "btts",
-      "adversaire": "Athletic",
-      "domicile": false,
-      "dateMatch": "2026-11-01T20:00:00Z",
-      "probabilitePredite": 60.4,
-      "dateEnregistrement": "2026-10-27T11:51:31.085Z",
-      "statut": "en_attente"
-    },
-    {
-      "id": "86-invaincues-2026-11-01T15:15:00Z",
-      "equipeId": 86,
-      "equipeNom": "Real Madrid",
-      "competition": "La Liga",
-      "categorie": "invaincues",
-      "adversaire": "Santander",
-      "domicile": false,
-      "dateMatch": "2026-11-01T15:15:00Z",
-      "probabilitePredite": 80.9,
-      "dateEnregistrement": "2026-10-27T11:51:31.085Z",
-      "statut": "en_attente"
-    },
-    {
-      "id": "559-marqueToujours-2026-11-01T13:00:00Z",
-      "equipeId": 559,
-      "equipeNom": "Sevilla FC",
-      "competition": "La Liga",
-      "categorie": "marqueToujours",
-      "adversaire": "Getafe",
-      "domicile": false,
-      "dateMatch": "2026-11-01T13:00:00Z",
-      "probabilitePredite": 78.8,
-      "dateEnregistrement": "2026-10-27T11:51:31.085Z",
-      "statut": "en_attente"
-    },
-    {
-      "id": "285-invaincues-2026-11-01T17:30:00Z",
-      "equipeId": 285,
-      "equipeNom": "Elche",
-      "competition": "La Liga",
-      "categorie": "invaincues",
-      "adversaire": "Valencia",
-      "domicile": true,
-      "dateMatch": "2026-11-01T17:30:00Z",
-      "probabilitePredite": 76.2,
-      "dateEnregistrement": "2026-10-27T11:51:31.084Z",
-      "statut": "en_attente"
-    },
-    {
-      "id": "349-btts-2026-10-31T15:00:00Z",
-      "equipeId": 349,
-      "equipeNom": "Ipswich Town",
-      "competition": "Premier League",
-      "categorie": "btts",
-      "adversaire": "Hull City",
-      "domicile": false,
-      "dateMatch": "2026-10-31T15:00:00Z",
-      "probabilitePredite": 56.4,
-      "dateEnregistrement": "2026-10-27T11:51:17.108Z",
-      "statut": "en_attente"
-    },
-    {
-      "id": "65-marqueToujours-2026-10-31T15:00:00Z",
-      "equipeId": 65,
-      "equipeNom": "Man City",
-      "competition": "Premier League",
-      "categorie": "marqueToujours",
-      "adversaire": "Brighton Hove",
-      "domicile": true,
-      "dateMatch": "2026-10-31T15:00:00Z",
-      "probabilitePredite": 81.5,
-      "dateEnregistrement": "2026-10-27T11:51:17.108Z",
-      "statut": "en_attente"
-    },
-    {
-      "id": "58-marqueToujours-2026-10-31T20:00:00Z",
-      "equipeId": 58,
-      "equipeNom": "Aston Villa",
-      "competition": "Premier League",
-      "categorie": "marqueToujours",
-      "adversaire": "Fulham",
-      "domicile": true,
-      "dateMatch": "2026-10-31T20:00:00Z",
-      "probabilitePredite": 69.5,
-      "dateEnregistrement": "2026-10-27T11:51:17.108Z",
-      "statut": "en_attente"
-    },
-    {
-      "id": "63-marqueToujours-2026-10-31T20:00:00Z",
-      "equipeId": 63,
-      "equipeNom": "Fulham",
-      "competition": "Premier League",
-      "categorie": "marqueToujours",
-      "adversaire": "Aston Villa",
-      "domicile": false,
-      "dateMatch": "2026-10-31T20:00:00Z",
-      "probabilitePredite": 71.3,
-      "dateEnregistrement": "2026-10-27T11:51:17.108Z",
-      "statut": "en_attente"
-    },
-    {
-      "id": "73-marqueToujours-2026-10-31T17:30:00Z",
-      "equipeId": 73,
-      "equipeNom": "Tottenham",
-      "competition": "Premier League",
-      "categorie": "marqueToujours",
-      "adversaire": "Crystal Palace",
-      "domicile": true,
-      "dateMatch": "2026-10-31T17:30:00Z",
-      "probabilitePredite": 81.5,
-      "dateEnregistrement": "2026-10-27T11:51:17.108Z",
-      "statut": "en_attente"
-    },
-    {
-      "id": "1044-marqueToujours-2026-10-31T15:00:00Z",
-      "equipeId": 1044,
-      "equipeNom": "Bournemouth",
-      "competition": "Premier League",
-      "categorie": "marqueToujours",
-      "adversaire": "Leeds United",
-      "domicile": true,
-      "dateMatch": "2026-10-31T15:00:00Z",
-      "probabilitePredite": 67.5,
-      "dateEnregistrement": "2026-10-27T11:51:17.108Z",
-      "statut": "en_attente"
-    },
-    {
-      "id": "402-btts-2026-10-31T15:00:00Z",
-      "equipeId": 402,
-      "equipeNom": "Brentford",
-      "competition": "Premier League",
-      "categorie": "btts",
-      "adversaire": "Nottingham",
-      "domicile": true,
-      "dateMatch": "2026-10-31T15:00:00Z",
-      "probabilitePredite": 47.3,
-      "dateEnregistrement": "2026-10-27T11:51:17.108Z",
-      "statut": "en_attente"
-    },
-    {
-      "id": "349-marqueToujours-2026-10-31T15:00:00Z",
-      "equipeId": 349,
-      "equipeNom": "Ipswich Town",
-      "competition": "Premier League",
-      "categorie": "marqueToujours",
-      "adversaire": "Hull City",
-      "domicile": false,
-      "dateMatch": "2026-10-31T15:00:00Z",
-      "probabilitePredite": 71.3,
-      "dateEnregistrement": "2026-10-27T11:51:17.107Z",
-      "statut": "en_attente"
-    },
-    {
-      "id": "58-invaincues-2026-10-31T20:00:00Z",
-      "equipeId": 58,
-      "equipeNom": "Aston Villa",
-      "competition": "Premier League",
-      "categorie": "invaincues",
-      "adversaire": "Fulham",
-      "domicile": true,
-      "dateMatch": "2026-10-31T20:00:00Z",
-      "probabilitePredite": 62.2,
-      "dateEnregistrement": "2026-10-27T11:51:17.107Z",
-      "statut": "en_attente"
-    },
-    {
-      "id": "57-invaincues-2026-11-01T16:30:00Z",
-      "equipeId": 57,
-      "equipeNom": "Arsenal",
-      "competition": "Premier League",
-      "categorie": "invaincues",
-      "adversaire": "Liverpool",
-      "domicile": false,
-      "dateMatch": "2026-11-01T16:30:00Z",
-      "probabilitePredite": 71.5,
-      "dateEnregistrement": "2026-10-27T11:51:17.107Z",
-      "statut": "en_attente"
-    },
-    {
-      "id": "73-invaincues-2026-10-31T17:30:00Z",
-      "equipeId": 73,
-      "equipeNom": "Tottenham",
-      "competition": "Premier League",
-      "categorie": "invaincues",
-      "adversaire": "Crystal Palace",
-      "domicile": true,
-      "dateMatch": "2026-10-31T17:30:00Z",
-      "probabilitePredite": 72.9,
-      "dateEnregistrement": "2026-10-27T11:51:17.107Z",
-      "statut": "en_attente"
-    },
-    {
-      "id": "57-marqueToujours-2026-11-01T16:30:00Z",
-      "equipeId": 57,
-      "equipeNom": "Arsenal",
-      "competition": "Premier League",
-      "categorie": "marqueToujours",
-      "adversaire": "Liverpool",
-      "domicile": false,
-      "dateMatch": "2026-11-01T16:30:00Z",
-      "probabilitePredite": 73.1,
-      "dateEnregistrement": "2026-10-27T11:51:17.107Z",
-      "statut": "en_attente"
-    },
-    {
-      "id": "402-marqueToujours-2026-10-31T15:00:00Z",
-      "equipeId": 402,
-      "equipeNom": "Brentford",
-      "competition": "Premier League",
-      "categorie": "marqueToujours",
-      "adversaire": "Nottingham",
-      "domicile": true,
-      "dateMatch": "2026-10-31T15:00:00Z",
-      "probabilitePredite": 77.7,
-      "dateEnregistrement": "2026-10-27T11:51:17.107Z",
       "statut": "en_attente"
     },
     {
@@ -21935,12 +22051,6 @@
       "serie": 8,
       "prochainsMatchs": [
         {
-          "date": "2026-10-27T17:30:00Z",
-          "competition": "Serie A",
-          "domicile": "Sassuolo",
-          "exterieur": "Lazio"
-        },
-        {
           "date": "2026-11-01T14:00:00Z",
           "competition": "Serie A",
           "domicile": "Lazio",
@@ -24781,7 +24891,7 @@
       "serie": 3,
       "prochainsMatchs": [
         {
-          "date": "2026-10-31T19:45:00Z",
+          "date": "2026-11-02T19:45:00Z",
           "competition": "Ligue 1",
           "domicile": "Lorient",
           "exterieur": "Brest"
@@ -25864,12 +25974,6 @@
       ],
       "serie": 6,
       "prochainsMatchs": [
-        {
-          "date": "2026-10-27T17:30:00Z",
-          "competition": "Serie A",
-          "domicile": "Sassuolo",
-          "exterieur": "Lazio"
-        },
         {
           "date": "2026-11-01T14:00:00Z",
           "competition": "Serie A",
@@ -27220,7 +27324,7 @@
       "serie": 3,
       "prochainsMatchs": [
         {
-          "date": "2026-10-31T16:15:00Z",
+          "date": "2026-10-30T18:00:00Z",
           "competition": "Ligue 1",
           "domicile": "Nice",
           "exterieur": "Stade Rennais"
@@ -31588,12 +31692,6 @@
       "serie": 8,
       "prochainsMatchs": [
         {
-          "date": "2026-10-27T17:30:00Z",
-          "competition": "Serie A",
-          "domicile": "Sassuolo",
-          "exterieur": "Lazio"
-        },
-        {
           "date": "2026-11-01T14:00:00Z",
           "competition": "Serie A",
           "domicile": "Lazio",
@@ -34499,7 +34597,7 @@
       "serie": 4,
       "prochainsMatchs": [
         {
-          "date": "2026-10-31T19:45:00Z",
+          "date": "2026-11-02T19:45:00Z",
           "competition": "Ligue 1",
           "domicile": "Lorient",
           "exterieur": "Brest"
@@ -35229,7 +35327,7 @@
       "serie": 4,
       "prochainsMatchs": [
         {
-          "date": "2026-10-31T16:15:00Z",
+          "date": "2026-10-30T18:00:00Z",
           "competition": "Ligue 1",
           "domicile": "Nice",
           "exterieur": "Stade Rennais"
@@ -37058,7 +37156,7 @@
       "serie": 3,
       "prochainsMatchs": [
         {
-          "date": "2026-10-31T16:15:00Z",
+          "date": "2026-10-30T18:00:00Z",
           "competition": "Ligue 1",
           "domicile": "Nice",
           "exterieur": "Stade Rennais"
@@ -39481,7 +39579,7 @@
       "serie": 8,
       "prochainsMatchs": [
         {
-          "date": "2026-10-31T19:45:00Z",
+          "date": "2026-11-02T19:45:00Z",
           "competition": "Ligue 1",
           "domicile": "Lorient",
           "exterieur": "Brest"
@@ -40641,12 +40739,6 @@
       "serie": 8,
       "prochainsMatchs": [
         {
-          "date": "2026-10-27T17:30:00Z",
-          "competition": "Serie A",
-          "domicile": "Sassuolo",
-          "exterieur": "Lazio"
-        },
-        {
           "date": "2026-11-02T17:30:00Z",
           "competition": "Serie A",
           "domicile": "Sassuolo",
@@ -41235,7 +41327,7 @@
       "serie": 7,
       "prochainsMatchs": [
         {
-          "date": "2026-10-31T16:15:00Z",
+          "date": "2026-10-30T18:00:00Z",
           "competition": "Ligue 1",
           "domicile": "Nice",
           "exterieur": "Stade Rennais"
@@ -45814,7 +45906,7 @@
       "serie": 3,
       "prochainsMatchs": [
         {
-          "date": "2026-10-31T19:45:00Z",
+          "date": "2026-11-01T16:15:00Z",
           "competition": "Ligue 1",
           "domicile": "Olympique Lyon",
           "exterieur": "Angers SCO"
@@ -47004,7 +47096,7 @@
       "serie": 4,
       "prochainsMatchs": [
         {
-          "date": "2026-10-31T19:45:00Z",
+          "date": "2026-11-02T19:45:00Z",
           "competition": "Ligue 1",
           "domicile": "Lorient",
           "exterieur": "Brest"
@@ -47471,7 +47563,7 @@
       "serie": 4,
       "prochainsMatchs": [
         {
-          "date": "2026-10-31T16:15:00Z",
+          "date": "2026-10-30T18:00:00Z",
           "competition": "Ligue 1",
           "domicile": "Nice",
           "exterieur": "Stade Rennais"
