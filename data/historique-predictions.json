@@ -22451,7 +22451,7 @@
       "domicile": false,
       "dateMatch": "2026-11-29T20:30:00Z",
       "probabilitePredite": 74.1,
-      "dateEnregistrement": "2026-11-25T21:25:31.076Z",
+      "dateEnregistrement": "2026-11-26T07:39:38.656Z",
       "statut": "en_attente"
     },
     {
@@ -23858,7 +23858,7 @@
       "domicile": true,
       "dateMatch": "2026-11-29T20:30:00Z",
       "probabilitePredite": 69.9,
-      "dateEnregistrement": "2026-11-25T21:25:31.076Z",
+      "dateEnregistrement": "2026-11-26T07:39:38.656Z",
       "statut": "en_attente"
     },
     {
@@ -23871,7 +23871,7 @@
       "domicile": true,
       "dateMatch": "2026-11-30T20:15:00Z",
       "probabilitePredite": 73.4,
-      "dateEnregistrement": "2026-11-25T21:25:31.076Z",
+      "dateEnregistrement": "2026-11-26T07:39:38.656Z",
       "statut": "en_attente"
     },
     {
@@ -23884,7 +23884,7 @@
       "domicile": true,
       "dateMatch": "2026-11-29T20:30:00Z",
       "probabilitePredite": 81.7,
-      "dateEnregistrement": "2026-11-25T21:25:31.076Z",
+      "dateEnregistrement": "2026-11-26T07:39:38.656Z",
       "statut": "en_attente"
     },
     {
@@ -23897,7 +23897,7 @@
       "domicile": true,
       "dateMatch": "2026-11-30T20:15:00Z",
       "probabilitePredite": 87.1,
-      "dateEnregistrement": "2026-11-25T21:25:31.076Z",
+      "dateEnregistrement": "2026-11-26T07:39:38.656Z",
       "statut": "en_attente"
     },
     {
@@ -23910,7 +23910,7 @@
       "domicile": false,
       "dateMatch": "2026-11-28T15:30:00Z",
       "probabilitePredite": 77.7,
-      "dateEnregistrement": "2026-11-25T21:25:31.076Z",
+      "dateEnregistrement": "2026-11-26T07:39:38.656Z",
       "statut": "en_attente"
     },
     {
@@ -24248,7 +24248,12 @@
       "dateMatch": "2026-11-25T23:00:00Z",
       "probabilitePredite": 61.8,
       "dateEnregistrement": "2026-11-25T21:25:59.450Z",
-      "statut": "en_attente"
+      "statut": "reussi",
+      "resultatReel": {
+        "score": "1-1",
+        "issue": "N"
+      },
+      "dateResolution": "2026-11-26T07:40:07.471Z"
     },
     {
       "id": "4287-marqueToujours-2026-11-22T19:00:00Z",
@@ -24458,7 +24463,7 @@
       "domicile": true,
       "dateMatch": "2026-11-30T20:00:00Z",
       "probabilitePredite": 75.1,
-      "dateEnregistrement": "2026-11-25T21:24:19.154Z",
+      "dateEnregistrement": "2026-11-26T07:38:28.481Z",
       "statut": "en_attente"
     },
     {
@@ -24471,7 +24476,7 @@
       "domicile": false,
       "dateMatch": "2026-11-28T14:30:00Z",
       "probabilitePredite": 83.1,
-      "dateEnregistrement": "2026-11-25T21:24:47.248Z",
+      "dateEnregistrement": "2026-11-26T07:38:56.694Z",
       "statut": "en_attente"
     },
     {
@@ -24484,7 +24489,7 @@
       "domicile": false,
       "dateMatch": "2026-11-28T14:30:00Z",
       "probabilitePredite": 93.3,
-      "dateEnregistrement": "2026-11-25T21:24:47.249Z",
+      "dateEnregistrement": "2026-11-26T07:38:56.694Z",
       "statut": "en_attente"
     },
     {
@@ -24497,7 +24502,7 @@
       "domicile": true,
       "dateMatch": "2026-11-28T14:30:00Z",
       "probabilitePredite": 77.7,
-      "dateEnregistrement": "2026-11-25T21:24:47.249Z",
+      "dateEnregistrement": "2026-11-26T07:38:56.694Z",
       "statut": "en_attente"
     },
     {
@@ -24510,7 +24515,7 @@
       "domicile": false,
       "dateMatch": "2026-11-28T14:30:00Z",
       "probabilitePredite": 64.5,
-      "dateEnregistrement": "2026-11-25T21:24:47.249Z",
+      "dateEnregistrement": "2026-11-26T07:38:56.694Z",
       "statut": "en_attente"
     },
     {
@@ -24523,7 +24528,7 @@
       "domicile": true,
       "dateMatch": "2026-11-28T14:30:00Z",
       "probabilitePredite": 50.8,
-      "dateEnregistrement": "2026-11-25T21:24:47.250Z",
+      "dateEnregistrement": "2026-11-26T07:38:56.694Z",
       "statut": "en_attente"
     },
     {
@@ -24590,7 +24595,7 @@
       "domicile": true,
       "dateMatch": "2026-11-28T13:00:00Z",
       "probabilitePredite": 73.5,
-      "dateEnregistrement": "2026-11-25T21:24:19.154Z",
+      "dateEnregistrement": "2026-11-26T07:38:28.481Z",
       "statut": "en_attente"
     },
     {
@@ -24603,7 +24608,7 @@
       "domicile": false,
       "dateMatch": "2026-11-28T17:00:00Z",
       "probabilitePredite": 80.6,
-      "dateEnregistrement": "2026-11-25T21:24:33.204Z",
+      "dateEnregistrement": "2026-11-26T07:38:42.771Z",
       "statut": "en_attente"
     },
     {
@@ -24616,7 +24621,7 @@
       "domicile": true,
       "dateMatch": "2026-11-29T17:00:00Z",
       "probabilitePredite": 75.3,
-      "dateEnregistrement": "2026-11-25T21:24:33.204Z",
+      "dateEnregistrement": "2026-11-26T07:38:42.771Z",
       "statut": "en_attente"
     },
     {
@@ -24629,7 +24634,7 @@
       "domicile": true,
       "dateMatch": "2026-11-29T17:00:00Z",
       "probabilitePredite": 68.6,
-      "dateEnregistrement": "2026-11-25T21:24:33.204Z",
+      "dateEnregistrement": "2026-11-26T07:38:42.771Z",
       "statut": "en_attente"
     },
     {
@@ -24642,7 +24647,7 @@
       "domicile": false,
       "dateMatch": "2026-11-28T17:00:00Z",
       "probabilitePredite": 86.5,
-      "dateEnregistrement": "2026-11-25T21:24:33.204Z",
+      "dateEnregistrement": "2026-11-26T07:38:42.772Z",
       "statut": "en_attente"
     },
     {
@@ -24655,7 +24660,7 @@
       "domicile": true,
       "dateMatch": "2026-11-29T17:00:00Z",
       "probabilitePredite": 90,
-      "dateEnregistrement": "2026-11-25T21:24:33.204Z",
+      "dateEnregistrement": "2026-11-26T07:38:42.772Z",
       "statut": "en_attente"
     },
     {
@@ -24668,7 +24673,7 @@
       "domicile": false,
       "dateMatch": "2026-11-29T14:30:00Z",
       "probabilitePredite": 70.9,
-      "dateEnregistrement": "2026-11-25T21:24:47.249Z",
+      "dateEnregistrement": "2026-11-26T07:38:56.694Z",
       "statut": "en_attente"
     },
     {
@@ -24681,7 +24686,7 @@
       "domicile": false,
       "dateMatch": "2026-11-28T17:30:00Z",
       "probabilitePredite": 59.8,
-      "dateEnregistrement": "2026-11-25T21:24:47.249Z",
+      "dateEnregistrement": "2026-11-26T07:38:56.694Z",
       "statut": "en_attente"
     },
     {
@@ -24694,7 +24699,7 @@
       "domicile": true,
       "dateMatch": "2026-11-29T18:30:00Z",
       "probabilitePredite": 65.9,
-      "dateEnregistrement": "2026-11-25T21:24:47.249Z",
+      "dateEnregistrement": "2026-11-26T07:38:56.694Z",
       "statut": "en_attente"
     },
     {
@@ -24707,7 +24712,7 @@
       "domicile": true,
       "dateMatch": "2026-11-29T14:30:00Z",
       "probabilitePredite": 47.8,
-      "dateEnregistrement": "2026-11-25T21:24:47.249Z",
+      "dateEnregistrement": "2026-11-26T07:38:56.694Z",
       "statut": "en_attente"
     },
     {
@@ -24720,7 +24725,7 @@
       "domicile": false,
       "dateMatch": "2026-11-29T14:30:00Z",
       "probabilitePredite": 67.2,
-      "dateEnregistrement": "2026-11-25T21:24:47.249Z",
+      "dateEnregistrement": "2026-11-26T07:38:56.694Z",
       "statut": "en_attente"
     },
     {
@@ -24733,7 +24738,7 @@
       "domicile": false,
       "dateMatch": "2026-11-29T18:30:00Z",
       "probabilitePredite": 42.1,
-      "dateEnregistrement": "2026-11-25T21:24:47.249Z",
+      "dateEnregistrement": "2026-11-26T07:38:56.694Z",
       "statut": "en_attente"
     },
     {
@@ -24759,7 +24764,7 @@
       "domicile": false,
       "dateMatch": "2026-11-29T14:30:00Z",
       "probabilitePredite": 87.8,
-      "dateEnregistrement": "2026-11-25T21:24:47.249Z",
+      "dateEnregistrement": "2026-11-26T07:38:56.694Z",
       "statut": "en_attente"
     },
     {
@@ -24772,7 +24777,7 @@
       "domicile": false,
       "dateMatch": "2026-11-28T17:30:00Z",
       "probabilitePredite": 78.8,
-      "dateEnregistrement": "2026-11-25T21:24:47.249Z",
+      "dateEnregistrement": "2026-11-26T07:38:56.694Z",
       "statut": "en_attente"
     },
     {
@@ -24785,7 +24790,7 @@
       "domicile": false,
       "dateMatch": "2026-11-29T18:30:00Z",
       "probabilitePredite": 78.8,
-      "dateEnregistrement": "2026-11-25T21:24:47.249Z",
+      "dateEnregistrement": "2026-11-26T07:38:56.694Z",
       "statut": "en_attente"
     },
     {
@@ -24798,7 +24803,7 @@
       "domicile": true,
       "dateMatch": "2026-11-29T18:30:00Z",
       "probabilitePredite": 81.7,
-      "dateEnregistrement": "2026-11-25T21:24:47.249Z",
+      "dateEnregistrement": "2026-11-26T07:38:56.694Z",
       "statut": "en_attente"
     },
     {
@@ -24811,7 +24816,7 @@
       "domicile": true,
       "dateMatch": "2026-11-29T14:30:00Z",
       "probabilitePredite": 82.6,
-      "dateEnregistrement": "2026-11-25T21:24:47.249Z",
+      "dateEnregistrement": "2026-11-26T07:38:56.694Z",
       "statut": "en_attente"
     },
     {
@@ -24824,7 +24829,7 @@
       "domicile": true,
       "dateMatch": "2026-11-28T19:45:00Z",
       "probabilitePredite": 80.5,
-      "dateEnregistrement": "2026-11-25T21:25:02.665Z",
+      "dateEnregistrement": "2026-11-26T07:39:10.752Z",
       "statut": "en_attente"
     },
     {
@@ -24837,7 +24842,7 @@
       "domicile": true,
       "dateMatch": "2026-11-28T19:45:00Z",
       "probabilitePredite": 50.3,
-      "dateEnregistrement": "2026-11-25T21:25:02.665Z",
+      "dateEnregistrement": "2026-11-26T07:39:10.752Z",
       "statut": "en_attente"
     },
     {
@@ -24850,7 +24855,7 @@
       "domicile": true,
       "dateMatch": "2026-11-28T19:45:00Z",
       "probabilitePredite": 82.6,
-      "dateEnregistrement": "2026-11-25T21:25:02.665Z",
+      "dateEnregistrement": "2026-11-26T07:39:10.752Z",
       "statut": "en_attente"
     },
     {
@@ -24863,7 +24868,7 @@
       "domicile": true,
       "dateMatch": "2026-11-28T19:45:00Z",
       "probabilitePredite": 79.8,
-      "dateEnregistrement": "2026-11-25T21:25:02.665Z",
+      "dateEnregistrement": "2026-11-26T07:39:10.753Z",
       "statut": "en_attente"
     },
     {
@@ -24876,7 +24881,7 @@
       "domicile": true,
       "dateMatch": "2026-11-28T17:45:00Z",
       "probabilitePredite": 82,
-      "dateEnregistrement": "2026-11-25T21:25:16.634Z",
+      "dateEnregistrement": "2026-11-26T07:39:24.699Z",
       "statut": "en_attente"
     },
     {
@@ -24889,7 +24894,7 @@
       "domicile": true,
       "dateMatch": "2026-11-28T20:00:00Z",
       "probabilitePredite": 79.1,
-      "dateEnregistrement": "2026-11-25T21:25:16.635Z",
+      "dateEnregistrement": "2026-11-26T07:39:24.700Z",
       "statut": "en_attente"
     },
     {
@@ -24902,7 +24907,7 @@
       "domicile": true,
       "dateMatch": "2026-11-28T17:45:00Z",
       "probabilitePredite": 73.7,
-      "dateEnregistrement": "2026-11-25T21:25:16.635Z",
+      "dateEnregistrement": "2026-11-26T07:39:24.700Z",
       "statut": "en_attente"
     },
     {
@@ -24915,7 +24920,7 @@
       "domicile": true,
       "dateMatch": "2026-11-28T20:00:00Z",
       "probabilitePredite": 93.3,
-      "dateEnregistrement": "2026-11-25T21:25:16.635Z",
+      "dateEnregistrement": "2026-11-26T07:39:24.700Z",
       "statut": "en_attente"
     },
     {
@@ -24928,7 +24933,7 @@
       "domicile": true,
       "dateMatch": "2026-11-28T17:45:00Z",
       "probabilitePredite": 94.8,
-      "dateEnregistrement": "2026-11-25T21:25:16.636Z",
+      "dateEnregistrement": "2026-11-26T07:39:24.700Z",
       "statut": "en_attente"
     },
     {
@@ -24941,7 +24946,7 @@
       "domicile": true,
       "dateMatch": "2026-11-29T13:30:00Z",
       "probabilitePredite": 88.4,
-      "dateEnregistrement": "2026-11-25T21:25:16.636Z",
+      "dateEnregistrement": "2026-11-26T07:39:24.700Z",
       "statut": "en_attente"
     },
     {
@@ -24954,7 +24959,7 @@
       "domicile": false,
       "dateMatch": "2026-11-29T11:15:00Z",
       "probabilitePredite": 84.3,
-      "dateEnregistrement": "2026-11-25T21:25:16.636Z",
+      "dateEnregistrement": "2026-11-26T07:39:24.700Z",
       "statut": "en_attente"
     },
     {
@@ -24967,7 +24972,7 @@
       "domicile": true,
       "dateMatch": "2026-11-29T13:30:00Z",
       "probabilitePredite": 77.5,
-      "dateEnregistrement": "2026-11-25T21:25:16.636Z",
+      "dateEnregistrement": "2026-11-26T07:39:24.701Z",
       "statut": "en_attente"
     },
     {
@@ -24980,7 +24985,7 @@
       "domicile": false,
       "dateMatch": "2026-11-29T11:15:00Z",
       "probabilitePredite": 69.1,
-      "dateEnregistrement": "2026-11-25T21:25:16.636Z",
+      "dateEnregistrement": "2026-11-26T07:39:24.701Z",
       "statut": "en_attente"
     },
     {
@@ -25030,7 +25035,12 @@
       "dateMatch": "2026-11-25T19:45:00Z",
       "probabilitePredite": 81.3,
       "dateEnregistrement": "2026-11-25T07:48:35.375Z",
-      "statut": "en_attente"
+      "statut": "reussi",
+      "resultatReel": {
+        "score": "3-1",
+        "issue": "V"
+      },
+      "dateResolution": "2026-11-26T07:39:52.579Z"
     },
     {
       "id": "332-invaincues-2026-11-25T19:45:00Z",
@@ -25043,7 +25053,12 @@
       "dateMatch": "2026-11-25T19:45:00Z",
       "probabilitePredite": 80.8,
       "dateEnregistrement": "2026-11-21T18:56:14.970Z",
-      "statut": "en_attente"
+      "statut": "reussi",
+      "resultatReel": {
+        "score": "2-0",
+        "issue": "V"
+      },
+      "dateResolution": "2026-11-26T07:39:52.580Z"
     },
     {
       "id": "70-invaincues-2026-11-25T20:00:00Z",
@@ -25056,7 +25071,12 @@
       "dateMatch": "2026-11-25T20:00:00Z",
       "probabilitePredite": 85.9,
       "dateEnregistrement": "2026-11-25T07:48:35.375Z",
-      "statut": "en_attente"
+      "statut": "reussi",
+      "resultatReel": {
+        "score": "2-1",
+        "issue": "V"
+      },
+      "dateResolution": "2026-11-26T07:39:52.580Z"
     },
     {
       "id": "68-quiMarquent-2026-11-24T19:45:00Z",
@@ -25087,7 +25107,12 @@
       "dateMatch": "2026-11-25T19:45:00Z",
       "probabilitePredite": 62,
       "dateEnregistrement": "2026-11-21T18:56:14.970Z",
-      "statut": "en_attente"
+      "statut": "reussi",
+      "resultatReel": {
+        "score": "2-0",
+        "issue": "V"
+      },
+      "dateResolution": "2026-11-26T07:39:52.580Z"
     },
     {
       "id": "70-quiMarquent-2026-11-25T20:00:00Z",
@@ -25100,7 +25125,12 @@
       "dateMatch": "2026-11-25T20:00:00Z",
       "probabilitePredite": 52.2,
       "dateEnregistrement": "2026-11-21T18:56:14.970Z",
-      "statut": "en_attente"
+      "statut": "reussi",
+      "resultatReel": {
+        "score": "2-1",
+        "issue": "V"
+      },
+      "dateResolution": "2026-11-26T07:39:52.580Z"
     },
     {
       "id": "76-marqueToujours-2026-11-24T20:00:00Z",
@@ -25149,7 +25179,12 @@
       "dateMatch": "2026-11-25T19:45:00Z",
       "probabilitePredite": 88.9,
       "dateEnregistrement": "2026-11-25T07:48:35.375Z",
-      "statut": "en_attente"
+      "statut": "reussi",
+      "resultatReel": {
+        "score": "3-1",
+        "issue": "V"
+      },
+      "dateResolution": "2026-11-26T07:39:52.580Z"
     },
     {
       "id": "72-marqueToujours-2026-11-24T19:45:00Z",
@@ -25180,7 +25215,12 @@
       "dateMatch": "2026-11-25T19:45:00Z",
       "probabilitePredite": 66.7,
       "dateEnregistrement": "2026-11-25T07:48:35.375Z",
-      "statut": "en_attente"
+      "statut": "reussi",
+      "resultatReel": {
+        "score": "1-3",
+        "issue": "D"
+      },
+      "dateResolution": "2026-11-26T07:39:52.580Z"
     },
     {
       "id": "356-marqueToujours-2026-11-24T19:45:00Z",
@@ -25211,7 +25251,12 @@
       "dateMatch": "2026-11-25T19:45:00Z",
       "probabilitePredite": 87.8,
       "dateEnregistrement": "2026-11-21T18:56:14.970Z",
-      "statut": "en_attente"
+      "statut": "reussi",
+      "resultatReel": {
+        "score": "2-0",
+        "issue": "V"
+      },
+      "dateResolution": "2026-11-26T07:39:52.580Z"
     },
     {
       "id": "69-marqueToujours-2026-11-24T19:45:00Z",
@@ -25242,7 +25287,12 @@
       "dateMatch": "2026-11-25T20:00:00Z",
       "probabilitePredite": 80.1,
       "dateEnregistrement": "2026-11-25T07:48:35.376Z",
-      "statut": "en_attente"
+      "statut": "reussi",
+      "resultatReel": {
+        "score": "2-1",
+        "issue": "V"
+      },
+      "dateResolution": "2026-11-26T07:39:52.580Z"
     },
     {
       "id": "563-marqueToujours-2026-11-24T19:45:00Z",
@@ -25308,7 +25358,7 @@
       "domicile": true,
       "dateMatch": "2026-11-29T16:30:00Z",
       "probabilitePredite": 65.5,
-      "dateEnregistrement": "2026-11-25T21:24:05.039Z",
+      "dateEnregistrement": "2026-11-26T07:38:14.456Z",
       "statut": "en_attente"
     },
     {
@@ -25321,7 +25371,7 @@
       "domicile": false,
       "dateMatch": "2026-11-29T14:05:00Z",
       "probabilitePredite": 70.4,
-      "dateEnregistrement": "2026-11-25T21:24:05.039Z",
+      "dateEnregistrement": "2026-11-26T07:38:14.456Z",
       "statut": "en_attente"
     },
     {
@@ -25334,7 +25384,7 @@
       "domicile": false,
       "dateMatch": "2026-11-28T17:30:00Z",
       "probabilitePredite": 68,
-      "dateEnregistrement": "2026-11-25T21:24:05.039Z",
+      "dateEnregistrement": "2026-11-26T07:38:14.456Z",
       "statut": "en_attente"
     },
     {
@@ -25347,7 +25397,7 @@
       "domicile": true,
       "dateMatch": "2026-11-29T14:05:00Z",
       "probabilitePredite": 58,
-      "dateEnregistrement": "2026-11-25T21:24:05.040Z",
+      "dateEnregistrement": "2026-11-26T07:38:14.457Z",
       "statut": "en_attente"
     },
     {
@@ -25360,7 +25410,7 @@
       "domicile": false,
       "dateMatch": "2026-11-29T14:05:00Z",
       "probabilitePredite": 35.5,
-      "dateEnregistrement": "2026-11-25T21:24:05.040Z",
+      "dateEnregistrement": "2026-11-26T07:38:14.457Z",
       "statut": "en_attente"
     },
     {
@@ -25373,7 +25423,7 @@
       "domicile": true,
       "dateMatch": "2026-11-29T16:30:00Z",
       "probabilitePredite": 74.1,
-      "dateEnregistrement": "2026-11-25T21:24:05.040Z",
+      "dateEnregistrement": "2026-11-26T07:38:14.457Z",
       "statut": "en_attente"
     },
     {
@@ -25386,7 +25436,7 @@
       "domicile": false,
       "dateMatch": "2026-11-28T15:00:00Z",
       "probabilitePredite": 66.7,
-      "dateEnregistrement": "2026-11-25T21:24:05.040Z",
+      "dateEnregistrement": "2026-11-26T07:38:14.457Z",
       "statut": "en_attente"
     },
     {
@@ -25399,7 +25449,7 @@
       "domicile": false,
       "dateMatch": "2026-11-29T14:05:00Z",
       "probabilitePredite": 74.1,
-      "dateEnregistrement": "2026-11-25T21:24:05.040Z",
+      "dateEnregistrement": "2026-11-26T07:38:14.457Z",
       "statut": "en_attente"
     },
     {
@@ -25412,7 +25462,7 @@
       "domicile": true,
       "dateMatch": "2026-11-29T14:05:00Z",
       "probabilitePredite": 65,
-      "dateEnregistrement": "2026-11-25T21:24:05.040Z",
+      "dateEnregistrement": "2026-11-26T07:38:14.457Z",
       "statut": "en_attente"
     },
     {
@@ -25425,7 +25475,7 @@
       "domicile": false,
       "dateMatch": "2026-11-28T15:00:00Z",
       "probabilitePredite": 58.2,
-      "dateEnregistrement": "2026-11-25T21:24:05.040Z",
+      "dateEnregistrement": "2026-11-26T07:38:14.457Z",
       "statut": "en_attente"
     },
     {
@@ -25438,7 +25488,7 @@
       "domicile": true,
       "dateMatch": "2026-11-29T14:05:00Z",
       "probabilitePredite": 45.1,
-      "dateEnregistrement": "2026-11-25T21:24:05.040Z",
+      "dateEnregistrement": "2026-11-26T07:38:14.457Z",
       "statut": "en_attente"
     },
     {
@@ -25451,7 +25501,7 @@
       "domicile": true,
       "dateMatch": "2026-11-28T20:00:00Z",
       "probabilitePredite": 83.9,
-      "dateEnregistrement": "2026-11-25T21:24:19.154Z",
+      "dateEnregistrement": "2026-11-26T07:38:28.481Z",
       "statut": "en_attente"
     },
     {
@@ -25464,7 +25514,7 @@
       "domicile": true,
       "dateMatch": "2026-11-28T20:00:00Z",
       "probabilitePredite": 59.4,
-      "dateEnregistrement": "2026-11-25T21:24:19.154Z",
+      "dateEnregistrement": "2026-11-26T07:38:28.481Z",
       "statut": "en_attente"
     },
     {
@@ -25477,7 +25527,7 @@
       "domicile": true,
       "dateMatch": "2026-11-28T13:00:00Z",
       "probabilitePredite": 83.5,
-      "dateEnregistrement": "2026-11-25T21:24:19.155Z",
+      "dateEnregistrement": "2026-11-26T07:38:28.481Z",
       "statut": "en_attente"
     },
     {
@@ -25490,7 +25540,7 @@
       "domicile": true,
       "dateMatch": "2026-11-28T20:00:00Z",
       "probabilitePredite": 86.5,
-      "dateEnregistrement": "2026-11-25T21:24:19.155Z",
+      "dateEnregistrement": "2026-11-26T07:38:28.482Z",
       "statut": "en_attente"
     },
     {
@@ -25503,7 +25553,7 @@
       "domicile": false,
       "dateMatch": "2026-11-28T14:00:00Z",
       "probabilitePredite": 76.5,
-      "dateEnregistrement": "2026-11-25T21:24:33.204Z",
+      "dateEnregistrement": "2026-11-26T07:38:42.772Z",
       "statut": "en_attente"
     },
     {
@@ -25516,7 +25566,7 @@
       "domicile": true,
       "dateMatch": "2026-11-28T17:30:00Z",
       "probabilitePredite": 65.5,
-      "dateEnregistrement": "2026-11-25T21:24:47.248Z",
+      "dateEnregistrement": "2026-11-26T07:38:56.694Z",
       "statut": "en_attente"
     },
     {
@@ -25529,7 +25579,7 @@
       "domicile": true,
       "dateMatch": "2026-11-27T19:45:00Z",
       "probabilitePredite": 61.5,
-      "dateEnregistrement": "2026-11-25T21:25:02.665Z",
+      "dateEnregistrement": "2026-11-26T07:39:10.752Z",
       "statut": "en_attente"
     },
     {
@@ -25542,7 +25592,7 @@
       "domicile": true,
       "dateMatch": "2026-11-27T19:45:00Z",
       "probabilitePredite": 74.1,
-      "dateEnregistrement": "2026-11-25T21:25:02.665Z",
+      "dateEnregistrement": "2026-11-26T07:39:10.752Z",
       "statut": "en_attente"
     },
     {
@@ -25555,7 +25605,7 @@
       "domicile": false,
       "dateMatch": "2026-11-29T19:45:00Z",
       "probabilitePredite": 66.7,
-      "dateEnregistrement": "2026-11-25T21:25:02.665Z",
+      "dateEnregistrement": "2026-11-26T07:39:10.752Z",
       "statut": "en_attente"
     },
     {
@@ -25568,7 +25618,7 @@
       "domicile": false,
       "dateMatch": "2026-11-29T19:45:00Z",
       "probabilitePredite": 46.2,
-      "dateEnregistrement": "2026-11-25T21:25:02.665Z",
+      "dateEnregistrement": "2026-11-26T07:39:10.753Z",
       "statut": "en_attente"
     },
     {
@@ -25581,7 +25631,7 @@
       "domicile": true,
       "dateMatch": "2026-11-29T15:45:00Z",
       "probabilitePredite": 53.5,
-      "dateEnregistrement": "2026-11-25T21:25:16.634Z",
+      "dateEnregistrement": "2026-11-26T07:39:24.699Z",
       "statut": "en_attente"
     },
     {
@@ -25594,7 +25644,7 @@
       "domicile": false,
       "dateMatch": "2026-11-29T13:30:00Z",
       "probabilitePredite": 77.9,
-      "dateEnregistrement": "2026-11-25T21:25:16.634Z",
+      "dateEnregistrement": "2026-11-26T07:39:24.699Z",
       "statut": "en_attente"
     },
     {
@@ -25607,7 +25657,7 @@
       "domicile": false,
       "dateMatch": "2026-11-29T11:15:00Z",
       "probabilitePredite": 52.2,
-      "dateEnregistrement": "2026-11-25T21:25:16.635Z",
+      "dateEnregistrement": "2026-11-26T07:39:24.700Z",
       "statut": "en_attente"
     },
     {
@@ -25620,7 +25670,7 @@
       "domicile": false,
       "dateMatch": "2026-11-28T15:30:00Z",
       "probabilitePredite": 88.9,
-      "dateEnregistrement": "2026-11-25T21:25:16.635Z",
+      "dateEnregistrement": "2026-11-26T07:39:24.700Z",
       "statut": "en_attente"
     },
     {
@@ -25633,7 +25683,7 @@
       "domicile": true,
       "dateMatch": "2026-11-27T19:00:00Z",
       "probabilitePredite": 93.6,
-      "dateEnregistrement": "2026-11-25T21:25:16.636Z",
+      "dateEnregistrement": "2026-11-26T07:39:24.700Z",
       "statut": "en_attente"
     },
     {
@@ -25646,7 +25696,7 @@
       "domicile": true,
       "dateMatch": "2026-11-29T15:45:00Z",
       "probabilitePredite": 76.5,
-      "dateEnregistrement": "2026-11-25T21:25:16.636Z",
+      "dateEnregistrement": "2026-11-26T07:39:24.700Z",
       "statut": "en_attente"
     },
     {
@@ -25659,7 +25709,7 @@
       "domicile": false,
       "dateMatch": "2026-11-29T13:30:00Z",
       "probabilitePredite": 85.8,
-      "dateEnregistrement": "2026-11-25T21:25:16.636Z",
+      "dateEnregistrement": "2026-11-26T07:39:24.701Z",
       "statut": "en_attente"
     },
     {
@@ -25672,7 +25722,7 @@
       "domicile": false,
       "dateMatch": "2026-11-28T15:30:00Z",
       "probabilitePredite": 71.3,
-      "dateEnregistrement": "2026-11-25T21:25:16.636Z",
+      "dateEnregistrement": "2026-11-26T07:39:24.701Z",
       "statut": "en_attente"
     },
     {
@@ -25685,7 +25735,7 @@
       "domicile": true,
       "dateMatch": "2026-11-27T19:00:00Z",
       "probabilitePredite": 76.1,
-      "dateEnregistrement": "2026-11-25T21:25:16.636Z",
+      "dateEnregistrement": "2026-11-26T07:39:24.701Z",
       "statut": "en_attente"
     },
     {
@@ -25842,7 +25892,7 @@
       "domicile": false,
       "dateMatch": "2026-11-29T19:00:00Z",
       "probabilitePredite": 84.1,
-      "dateEnregistrement": "2026-11-25T21:25:59.450Z",
+      "dateEnregistrement": "2026-11-26T07:40:07.471Z",
       "statut": "en_attente"
     },
     {
@@ -25855,7 +25905,7 @@
       "domicile": false,
       "dateMatch": "2026-11-27T23:00:00Z",
       "probabilitePredite": 62.4,
-      "dateEnregistrement": "2026-11-25T21:25:59.450Z",
+      "dateEnregistrement": "2026-11-26T07:40:07.471Z",
       "statut": "en_attente"
     },
     {
@@ -25868,7 +25918,7 @@
       "domicile": false,
       "dateMatch": "2026-11-27T23:00:00Z",
       "probabilitePredite": 42.1,
-      "dateEnregistrement": "2026-11-25T21:25:59.450Z",
+      "dateEnregistrement": "2026-11-26T07:40:07.471Z",
       "statut": "en_attente"
     },
     {
@@ -25899,7 +25949,7 @@
       "domicile": false,
       "dateMatch": "2026-11-29T19:00:00Z",
       "probabilitePredite": 86.5,
-      "dateEnregistrement": "2026-11-25T21:25:59.450Z",
+      "dateEnregistrement": "2026-11-26T07:40:07.472Z",
       "statut": "en_attente"
     },
     {
@@ -25912,7 +25962,7 @@
       "domicile": false,
       "dateMatch": "2026-11-27T23:00:00Z",
       "probabilitePredite": 78.8,
-      "dateEnregistrement": "2026-11-25T21:25:59.451Z",
+      "dateEnregistrement": "2026-11-26T07:40:07.472Z",
       "statut": "en_attente"
     },
     {
@@ -25943,7 +25993,7 @@
       "domicile": false,
       "dateMatch": "2026-11-29T19:00:00Z",
       "probabilitePredite": 43.6,
-      "dateEnregistrement": "2026-11-25T21:25:59.451Z",
+      "dateEnregistrement": "2026-11-26T07:40:07.472Z",
       "statut": "en_attente"
     },
     {
@@ -25956,7 +26006,7 @@
       "domicile": false,
       "dateMatch": "2026-11-27T23:00:00Z",
       "probabilitePredite": 58.1,
-      "dateEnregistrement": "2026-11-25T21:25:59.451Z",
+      "dateEnregistrement": "2026-11-26T07:40:07.472Z",
       "statut": "en_attente"
     },
     {
@@ -25969,7 +26019,7 @@
       "domicile": false,
       "dateMatch": "2026-11-29T19:45:00Z",
       "probabilitePredite": 63.9,
-      "dateEnregistrement": "2026-11-25T21:24:33.204Z",
+      "dateEnregistrement": "2026-11-26T07:38:42.771Z",
       "statut": "en_attente"
     },
     {
@@ -25982,7 +26032,7 @@
       "domicile": false,
       "dateMatch": "2026-11-27T19:45:00Z",
       "probabilitePredite": 82,
-      "dateEnregistrement": "2026-11-25T21:24:33.204Z",
+      "dateEnregistrement": "2026-11-26T07:38:42.771Z",
       "statut": "en_attente"
     },
     {
@@ -25995,7 +26045,7 @@
       "domicile": false,
       "dateMatch": "2026-11-29T19:45:00Z",
       "probabilitePredite": 33.3,
-      "dateEnregistrement": "2026-11-25T21:24:33.204Z",
+      "dateEnregistrement": "2026-11-26T07:38:42.771Z",
       "statut": "en_attente"
     },
     {
@@ -26021,7 +26071,7 @@
       "domicile": false,
       "dateMatch": "2026-11-28T19:45:00Z",
       "probabilitePredite": 76.5,
-      "dateEnregistrement": "2026-11-25T21:24:33.204Z",
+      "dateEnregistrement": "2026-11-26T07:38:42.772Z",
       "statut": "en_attente"
     },
     {
@@ -26034,7 +26084,7 @@
       "domicile": false,
       "dateMatch": "2026-11-29T19:45:00Z",
       "probabilitePredite": 69.9,
-      "dateEnregistrement": "2026-11-25T21:24:33.204Z",
+      "dateEnregistrement": "2026-11-26T07:38:42.772Z",
       "statut": "en_attente"
     },
     {
@@ -26047,7 +26097,7 @@
       "domicile": false,
       "dateMatch": "2026-11-27T19:45:00Z",
       "probabilitePredite": 85,
-      "dateEnregistrement": "2026-11-25T21:24:33.204Z",
+      "dateEnregistrement": "2026-11-26T07:38:42.772Z",
       "statut": "en_attente"
     },
     {
@@ -26060,7 +26110,7 @@
       "domicile": false,
       "dateMatch": "2026-11-27T19:45:00Z",
       "probabilitePredite": 48.8,
-      "dateEnregistrement": "2026-11-25T21:24:33.205Z",
+      "dateEnregistrement": "2026-11-26T07:38:42.772Z",
       "statut": "en_attente"
     },
     {
@@ -26073,7 +26123,7 @@
       "domicile": false,
       "dateMatch": "2026-11-27T19:45:00Z",
       "probabilitePredite": 78.8,
-      "dateEnregistrement": "2026-11-25T21:25:02.665Z",
+      "dateEnregistrement": "2026-11-26T07:39:10.752Z",
       "statut": "en_attente"
     },
     {
@@ -26086,7 +26136,7 @@
       "domicile": false,
       "dateMatch": "2026-11-29T13:30:00Z",
       "probabilitePredite": 59.4,
-      "dateEnregistrement": "2026-11-25T21:25:16.634Z",
+      "dateEnregistrement": "2026-11-26T07:39:24.699Z",
       "statut": "en_attente"
     },
     {
@@ -26099,7 +26149,7 @@
       "domicile": false,
       "dateMatch": "2026-11-29T19:00:00Z",
       "probabilitePredite": 82.4,
-      "dateEnregistrement": "2026-11-25T21:25:16.635Z",
+      "dateEnregistrement": "2026-11-26T07:39:24.700Z",
       "statut": "en_attente"
     },
     {
@@ -26112,7 +26162,7 @@
       "domicile": false,
       "dateMatch": "2026-11-29T19:00:00Z",
       "probabilitePredite": 68.6,
-      "dateEnregistrement": "2026-11-25T21:25:16.635Z",
+      "dateEnregistrement": "2026-11-26T07:39:24.700Z",
       "statut": "en_attente"
     },
     {
@@ -26125,7 +26175,7 @@
       "domicile": false,
       "dateMatch": "2026-11-28T20:00:00Z",
       "probabilitePredite": 80.8,
-      "dateEnregistrement": "2026-11-25T21:25:16.636Z",
+      "dateEnregistrement": "2026-11-26T07:39:24.700Z",
       "statut": "en_attente"
     },
     {
@@ -26138,7 +26188,7 @@
       "domicile": false,
       "dateMatch": "2026-11-29T13:30:00Z",
       "probabilitePredite": 88.4,
-      "dateEnregistrement": "2026-11-25T21:25:16.636Z",
+      "dateEnregistrement": "2026-11-26T07:39:24.700Z",
       "statut": "en_attente"
     },
     {
@@ -26151,7 +26201,7 @@
       "domicile": false,
       "dateMatch": "2026-11-29T19:00:00Z",
       "probabilitePredite": 90,
-      "dateEnregistrement": "2026-11-25T21:25:16.636Z",
+      "dateEnregistrement": "2026-11-26T07:39:24.701Z",
       "statut": "en_attente"
     },
     {
@@ -26164,7 +26214,7 @@
       "domicile": false,
       "dateMatch": "2026-11-28T20:00:00Z",
       "probabilitePredite": 73.6,
-      "dateEnregistrement": "2026-11-25T21:25:16.636Z",
+      "dateEnregistrement": "2026-11-26T07:39:24.701Z",
       "statut": "en_attente"
     },
     {
@@ -26178,7 +26228,12 @@
       "dateMatch": "2026-11-25T19:45:00Z",
       "probabilitePredite": 78.8,
       "dateEnregistrement": "2026-11-25T07:48:35.375Z",
-      "statut": "en_attente"
+      "statut": "reussi",
+      "resultatReel": {
+        "score": "1-0",
+        "issue": "V"
+      },
+      "dateResolution": "2026-11-26T07:39:52.580Z"
     },
     {
       "id": "328-marqueToujours-2026-11-25T19:45:00Z",
@@ -26191,7 +26246,12 @@
       "dateMatch": "2026-11-25T19:45:00Z",
       "probabilitePredite": 68.3,
       "dateEnregistrement": "2026-11-25T07:48:35.375Z",
-      "statut": "en_attente"
+      "statut": "echoue",
+      "resultatReel": {
+        "score": "0-2",
+        "issue": "D"
+      },
+      "dateResolution": "2026-11-26T07:39:52.580Z"
     },
     {
       "id": "59-btts-2026-11-25T19:45:00Z",
@@ -26204,7 +26264,12 @@
       "dateMatch": "2026-11-25T19:45:00Z",
       "probabilitePredite": 55.4,
       "dateEnregistrement": "2026-11-25T07:48:35.376Z",
-      "statut": "en_attente"
+      "statut": "echoue",
+      "resultatReel": {
+        "score": "1-0",
+        "issue": "V"
+      },
+      "dateResolution": "2026-11-26T07:39:52.580Z"
     },
     {
       "id": "328-btts-2026-11-25T19:45:00Z",
@@ -26217,7 +26282,12 @@
       "dateMatch": "2026-11-25T19:45:00Z",
       "probabilitePredite": 57.9,
       "dateEnregistrement": "2026-11-25T07:48:35.376Z",
-      "statut": "en_attente"
+      "statut": "echoue",
+      "resultatReel": {
+        "score": "0-2",
+        "issue": "D"
+      },
+      "dateResolution": "2026-11-26T07:39:52.580Z"
     },
     {
       "id": "78-marqueToujours-2026-11-28T17:30:00Z",
@@ -26229,7 +26299,7 @@
       "domicile": false,
       "dateMatch": "2026-11-28T17:30:00Z",
       "probabilitePredite": 78.8,
-      "dateEnregistrement": "2026-11-25T21:24:19.155Z",
+      "dateEnregistrement": "2026-11-26T07:38:28.481Z",
       "statut": "en_attente"
     },
     {
@@ -26255,7 +26325,7 @@
       "domicile": true,
       "dateMatch": "2026-11-29T20:00:00Z",
       "probabilitePredite": 82.6,
-      "dateEnregistrement": "2026-11-25T21:24:19.155Z",
+      "dateEnregistrement": "2026-11-26T07:38:28.482Z",
       "statut": "en_attente"
     },
     {
@@ -26268,7 +26338,7 @@
       "domicile": false,
       "dateMatch": "2026-11-29T15:15:00Z",
       "probabilitePredite": 92.9,
-      "dateEnregistrement": "2026-11-25T21:24:19.155Z",
+      "dateEnregistrement": "2026-11-26T07:38:28.482Z",
       "statut": "en_attente"
     },
     {
@@ -26294,7 +26364,7 @@
       "domicile": false,
       "dateMatch": "2026-11-29T15:15:00Z",
       "probabilitePredite": 62.3,
-      "dateEnregistrement": "2026-11-25T21:24:19.155Z",
+      "dateEnregistrement": "2026-11-26T07:38:28.482Z",
       "statut": "en_attente"
     },
     {
@@ -26307,7 +26377,7 @@
       "domicile": false,
       "dateMatch": "2026-11-30T19:45:00Z",
       "probabilitePredite": 83.7,
-      "dateEnregistrement": "2026-11-25T21:24:33.204Z",
+      "dateEnregistrement": "2026-11-26T07:38:42.771Z",
       "statut": "en_attente"
     },
     {
@@ -26320,7 +26390,7 @@
       "domicile": false,
       "dateMatch": "2026-11-30T19:45:00Z",
       "probabilitePredite": 65.7,
-      "dateEnregistrement": "2026-11-25T21:24:33.204Z",
+      "dateEnregistrement": "2026-11-26T07:38:42.771Z",
       "statut": "en_attente"
     },
     {
@@ -26333,7 +26403,7 @@
       "domicile": true,
       "dateMatch": "2026-11-29T11:30:00Z",
       "probabilitePredite": 77.7,
-      "dateEnregistrement": "2026-11-25T21:24:33.204Z",
+      "dateEnregistrement": "2026-11-26T07:38:42.771Z",
       "statut": "en_attente"
     },
     {
@@ -26346,7 +26416,7 @@
       "domicile": true,
       "dateMatch": "2026-11-28T19:45:00Z",
       "probabilitePredite": 86.5,
-      "dateEnregistrement": "2026-11-25T21:24:33.204Z",
+      "dateEnregistrement": "2026-11-26T07:38:42.772Z",
       "statut": "en_attente"
     },
     {
@@ -26359,7 +26429,7 @@
       "domicile": false,
       "dateMatch": "2026-11-30T19:45:00Z",
       "probabilitePredite": 86.5,
-      "dateEnregistrement": "2026-11-25T21:24:33.204Z",
+      "dateEnregistrement": "2026-11-26T07:38:42.772Z",
       "statut": "en_attente"
     },
     {
@@ -26372,7 +26442,7 @@
       "domicile": true,
       "dateMatch": "2026-11-29T11:30:00Z",
       "probabilitePredite": 61.7,
-      "dateEnregistrement": "2026-11-25T21:24:33.205Z",
+      "dateEnregistrement": "2026-11-26T07:38:42.772Z",
       "statut": "en_attente"
     },
     {
@@ -26385,7 +26455,7 @@
       "domicile": false,
       "dateMatch": "2026-11-30T19:45:00Z",
       "probabilitePredite": 56.5,
-      "dateEnregistrement": "2026-11-25T21:24:33.205Z",
+      "dateEnregistrement": "2026-11-26T07:38:42.772Z",
       "statut": "en_attente"
     },
     {
@@ -26398,7 +26468,7 @@
       "domicile": true,
       "dateMatch": "2026-11-28T14:30:00Z",
       "probabilitePredite": 89.5,
-      "dateEnregistrement": "2026-11-25T21:24:47.249Z",
+      "dateEnregistrement": "2026-11-26T07:38:56.694Z",
       "statut": "en_attente"
     },
     {
@@ -26411,7 +26481,7 @@
       "domicile": false,
       "dateMatch": "2026-11-29T16:30:00Z",
       "probabilitePredite": 87.1,
-      "dateEnregistrement": "2026-11-25T21:24:47.249Z",
+      "dateEnregistrement": "2026-11-26T07:38:56.694Z",
       "statut": "en_attente"
     },
     {
@@ -26424,7 +26494,7 @@
       "domicile": true,
       "dateMatch": "2026-11-28T14:30:00Z",
       "probabilitePredite": 71.1,
-      "dateEnregistrement": "2026-11-25T21:24:47.249Z",
+      "dateEnregistrement": "2026-11-26T07:38:56.694Z",
       "statut": "en_attente"
     },
     {
@@ -26437,7 +26507,7 @@
       "domicile": false,
       "dateMatch": "2026-11-29T16:30:00Z",
       "probabilitePredite": 71.4,
-      "dateEnregistrement": "2026-11-25T21:24:47.250Z",
+      "dateEnregistrement": "2026-11-26T07:38:56.695Z",
       "statut": "en_attente"
     },
     {
@@ -26450,7 +26520,7 @@
       "domicile": false,
       "dateMatch": "2026-11-27T19:45:00Z",
       "probabilitePredite": 64.3,
-      "dateEnregistrement": "2026-11-25T21:25:02.665Z",
+      "dateEnregistrement": "2026-11-26T07:39:10.752Z",
       "statut": "en_attente"
     },
     {
@@ -26463,7 +26533,7 @@
       "domicile": false,
       "dateMatch": "2026-11-29T14:00:00Z",
       "probabilitePredite": 59.4,
-      "dateEnregistrement": "2026-11-25T21:25:02.665Z",
+      "dateEnregistrement": "2026-11-26T07:39:10.752Z",
       "statut": "en_attente"
     },
     {
@@ -26476,7 +26546,7 @@
       "domicile": false,
       "dateMatch": "2026-11-29T14:00:00Z",
       "probabilitePredite": 86.5,
-      "dateEnregistrement": "2026-11-25T21:25:02.665Z",
+      "dateEnregistrement": "2026-11-26T07:39:10.752Z",
       "statut": "en_attente"
     },
     {
@@ -26489,7 +26559,7 @@
       "domicile": false,
       "dateMatch": "2026-11-29T16:15:00Z",
       "probabilitePredite": 80.8,
-      "dateEnregistrement": "2026-11-25T21:25:02.665Z",
+      "dateEnregistrement": "2026-11-26T07:39:10.752Z",
       "statut": "en_attente"
     },
     {
@@ -26502,7 +26572,7 @@
       "domicile": false,
       "dateMatch": "2026-11-29T16:15:00Z",
       "probabilitePredite": 67.7,
-      "dateEnregistrement": "2026-11-25T21:25:02.665Z",
+      "dateEnregistrement": "2026-11-26T07:39:10.753Z",
       "statut": "en_attente"
     },
     {
@@ -26515,7 +26585,7 @@
       "domicile": true,
       "dateMatch": "2026-11-29T13:30:00Z",
       "probabilitePredite": 43.7,
-      "dateEnregistrement": "2026-11-25T21:25:16.634Z",
+      "dateEnregistrement": "2026-11-26T07:39:24.699Z",
       "statut": "en_attente"
     },
     {
@@ -26528,7 +26598,7 @@
       "domicile": true,
       "dateMatch": "2026-11-29T13:30:00Z",
       "probabilitePredite": 76.5,
-      "dateEnregistrement": "2026-11-25T21:25:16.636Z",
+      "dateEnregistrement": "2026-11-26T07:39:24.700Z",
       "statut": "en_attente"
     },
     {
@@ -26541,7 +26611,7 @@
       "domicile": true,
       "dateMatch": "2026-11-27T23:00:00Z",
       "probabilitePredite": 62.4,
-      "dateEnregistrement": "2026-11-25T21:25:59.450Z",
+      "dateEnregistrement": "2026-11-26T07:40:07.471Z",
       "statut": "en_attente"
     },
     {
@@ -26580,7 +26650,7 @@
       "domicile": false,
       "dateMatch": "2026-11-29T21:30:00Z",
       "probabilitePredite": 76.5,
-      "dateEnregistrement": "2026-11-25T21:25:59.450Z",
+      "dateEnregistrement": "2026-11-26T07:40:07.471Z",
       "statut": "en_attente"
     },
     {
@@ -26593,7 +26663,7 @@
       "domicile": false,
       "dateMatch": "2026-11-29T21:30:00Z",
       "probabilitePredite": 74.1,
-      "dateEnregistrement": "2026-11-25T21:25:59.450Z",
+      "dateEnregistrement": "2026-11-26T07:40:07.471Z",
       "statut": "en_attente"
     },
     {
@@ -26606,7 +26676,7 @@
       "domicile": false,
       "dateMatch": "2026-11-26T23:00:00Z",
       "probabilitePredite": 66.7,
-      "dateEnregistrement": "2026-11-25T21:25:59.450Z",
+      "dateEnregistrement": "2026-11-26T07:40:07.472Z",
       "statut": "en_attente"
     },
     {
@@ -26619,7 +26689,7 @@
       "domicile": true,
       "dateMatch": "2026-11-27T23:00:00Z",
       "probabilitePredite": 77.7,
-      "dateEnregistrement": "2026-11-25T21:25:59.450Z",
+      "dateEnregistrement": "2026-11-26T07:40:07.472Z",
       "statut": "en_attente"
     },
     {
@@ -26645,7 +26715,7 @@
       "domicile": false,
       "dateMatch": "2026-11-29T21:30:00Z",
       "probabilitePredite": 52.1,
-      "dateEnregistrement": "2026-11-25T21:25:59.451Z",
+      "dateEnregistrement": "2026-11-26T07:40:07.472Z",
       "statut": "en_attente"
     },
     {
@@ -26658,7 +26728,7 @@
       "domicile": false,
       "dateMatch": "2026-11-29T15:15:00Z",
       "probabilitePredite": 83.7,
-      "dateEnregistrement": "2026-11-25T21:24:19.154Z",
+      "dateEnregistrement": "2026-11-26T07:38:28.481Z",
       "statut": "en_attente"
     },
     {
@@ -26671,7 +26741,7 @@
       "domicile": false,
       "dateMatch": "2026-11-29T15:15:00Z",
       "probabilitePredite": 72.5,
-      "dateEnregistrement": "2026-11-25T21:24:19.154Z",
+      "dateEnregistrement": "2026-11-26T07:38:28.481Z",
       "statut": "en_attente"
     },
     {
@@ -26684,7 +26754,7 @@
       "domicile": false,
       "dateMatch": "2026-11-29T13:00:00Z",
       "probabilitePredite": 72.7,
-      "dateEnregistrement": "2026-11-25T21:24:19.155Z",
+      "dateEnregistrement": "2026-11-26T07:38:28.482Z",
       "statut": "en_attente"
     },
     {
@@ -26733,7 +26803,7 @@
       "domicile": true,
       "dateMatch": "2026-11-29T21:30:00Z",
       "probabilitePredite": 71.3,
-      "dateEnregistrement": "2026-11-25T21:25:59.450Z",
+      "dateEnregistrement": "2026-11-26T07:40:07.471Z",
       "statut": "en_attente"
     },
     {
@@ -26746,7 +26816,7 @@
       "domicile": false,
       "dateMatch": "2026-11-28T12:30:00Z",
       "probabilitePredite": 83.3,
-      "dateEnregistrement": "2026-11-25T21:25:45.348Z",
+      "dateEnregistrement": "2026-11-26T07:39:52.580Z",
       "statut": "en_attente"
     },
     {
@@ -26759,7 +26829,7 @@
       "domicile": false,
       "dateMatch": "2026-11-28T12:30:00Z",
       "probabilitePredite": 72.2,
-      "dateEnregistrement": "2026-11-25T21:25:45.348Z",
+      "dateEnregistrement": "2026-11-26T07:39:52.580Z",
       "statut": "en_attente"
     },
     {
@@ -26771,8 +26841,8 @@
       "adversaire": "Southampton",
       "domicile": false,
       "dateMatch": "2026-11-27T20:00:00Z",
-      "probabilitePredite": 68.3,
-      "dateEnregistrement": "2026-11-25T21:25:45.348Z",
+      "probabilitePredite": 69.8,
+      "dateEnregistrement": "2026-11-26T07:39:52.580Z",
       "statut": "en_attente"
     },
     {
@@ -26785,7 +26855,7 @@
       "domicile": true,
       "dateMatch": "2026-11-28T15:00:00Z",
       "probabilitePredite": 60.4,
-      "dateEnregistrement": "2026-11-25T21:25:45.348Z",
+      "dateEnregistrement": "2026-11-26T07:39:52.580Z",
       "statut": "en_attente"
     },
     {
@@ -26798,7 +26868,7 @@
       "domicile": true,
       "dateMatch": "2026-11-28T12:30:00Z",
       "probabilitePredite": 50.3,
-      "dateEnregistrement": "2026-11-25T21:25:45.348Z",
+      "dateEnregistrement": "2026-11-26T07:39:52.580Z",
       "statut": "en_attente"
     },
     {
@@ -26811,7 +26881,7 @@
       "domicile": true,
       "dateMatch": "2026-11-28T15:00:00Z",
       "probabilitePredite": 60,
-      "dateEnregistrement": "2026-11-25T21:25:45.348Z",
+      "dateEnregistrement": "2026-11-26T07:39:52.580Z",
       "statut": "en_attente"
     },
     {
@@ -26824,7 +26894,7 @@
       "domicile": false,
       "dateMatch": "2026-11-28T12:30:00Z",
       "probabilitePredite": 85.6,
-      "dateEnregistrement": "2026-11-25T21:25:45.348Z",
+      "dateEnregistrement": "2026-11-26T07:39:52.580Z",
       "statut": "en_attente"
     },
     {
@@ -26837,7 +26907,7 @@
       "domicile": false,
       "dateMatch": "2026-11-28T12:30:00Z",
       "probabilitePredite": 84,
-      "dateEnregistrement": "2026-11-25T21:25:45.348Z",
+      "dateEnregistrement": "2026-11-26T07:39:52.581Z",
       "statut": "en_attente"
     },
     {
@@ -26849,8 +26919,8 @@
       "adversaire": "Blackburn",
       "domicile": false,
       "dateMatch": "2026-11-28T12:30:00Z",
-      "probabilitePredite": 80.4,
-      "dateEnregistrement": "2026-11-25T21:25:45.348Z",
+      "probabilitePredite": 77.7,
+      "dateEnregistrement": "2026-11-26T07:39:52.581Z",
       "statut": "en_attente"
     },
     {
@@ -26863,7 +26933,7 @@
       "domicile": true,
       "dateMatch": "2026-11-29T12:00:00Z",
       "probabilitePredite": 87.5,
-      "dateEnregistrement": "2026-11-25T21:25:45.348Z",
+      "dateEnregistrement": "2026-11-26T07:39:52.581Z",
       "statut": "en_attente"
     },
     {
@@ -26876,7 +26946,7 @@
       "domicile": false,
       "dateMatch": "2026-11-28T15:00:00Z",
       "probabilitePredite": 65.3,
-      "dateEnregistrement": "2026-11-25T21:25:45.348Z",
+      "dateEnregistrement": "2026-11-26T07:39:52.581Z",
       "statut": "en_attente"
     },
     {
@@ -26889,7 +26959,7 @@
       "domicile": false,
       "dateMatch": "2026-11-28T15:00:00Z",
       "probabilitePredite": 77.7,
-      "dateEnregistrement": "2026-11-25T21:25:45.348Z",
+      "dateEnregistrement": "2026-11-26T07:39:52.581Z",
       "statut": "en_attente"
     },
     {
@@ -26902,7 +26972,7 @@
       "domicile": true,
       "dateMatch": "2026-11-28T15:00:00Z",
       "probabilitePredite": 75.7,
-      "dateEnregistrement": "2026-11-25T21:25:45.348Z",
+      "dateEnregistrement": "2026-11-26T07:39:52.581Z",
       "statut": "en_attente"
     },
     {
@@ -26915,7 +26985,7 @@
       "domicile": true,
       "dateMatch": "2026-11-28T12:30:00Z",
       "probabilitePredite": 73.1,
-      "dateEnregistrement": "2026-11-25T21:25:45.348Z",
+      "dateEnregistrement": "2026-11-26T07:39:52.581Z",
       "statut": "en_attente"
     },
     {
@@ -26928,7 +26998,7 @@
       "domicile": true,
       "dateMatch": "2026-11-28T15:00:00Z",
       "probabilitePredite": 57.1,
-      "dateEnregistrement": "2026-11-25T21:25:45.349Z",
+      "dateEnregistrement": "2026-11-26T07:39:52.581Z",
       "statut": "en_attente"
     },
     {
@@ -26941,7 +27011,7 @@
       "domicile": true,
       "dateMatch": "2026-11-29T12:00:00Z",
       "probabilitePredite": 72.6,
-      "dateEnregistrement": "2026-11-25T21:25:45.349Z",
+      "dateEnregistrement": "2026-11-26T07:39:52.581Z",
       "statut": "en_attente"
     },
     {
@@ -26979,8 +27049,8 @@
       "adversaire": "Bristol City",
       "domicile": true,
       "dateMatch": "2026-11-28T15:00:00Z",
-      "probabilitePredite": 83,
-      "dateEnregistrement": "2026-11-25T21:25:45.348Z",
+      "probabilitePredite": 83.7,
+      "dateEnregistrement": "2026-11-26T07:39:52.580Z",
       "statut": "en_attente"
     },
     {
@@ -26992,8 +27062,8 @@
       "adversaire": "West Ham",
       "domicile": false,
       "dateMatch": "2026-11-28T15:00:00Z",
-      "probabilitePredite": 81.8,
-      "dateEnregistrement": "2026-11-25T21:25:45.348Z",
+      "probabilitePredite": 81.3,
+      "dateEnregistrement": "2026-11-26T07:39:52.580Z",
       "statut": "en_attente"
     },
     {
@@ -27005,8 +27075,8 @@
       "adversaire": "Charlton",
       "domicile": true,
       "dateMatch": "2026-11-28T12:30:00Z",
-      "probabilitePredite": 78.5,
-      "dateEnregistrement": "2026-11-25T21:25:45.348Z",
+      "probabilitePredite": 77.7,
+      "dateEnregistrement": "2026-11-26T07:39:52.581Z",
       "statut": "en_attente"
     },
     {
@@ -27018,8 +27088,8 @@
       "adversaire": "Bristol City",
       "domicile": true,
       "dateMatch": "2026-11-28T15:00:00Z",
-      "probabilitePredite": 86.5,
-      "dateEnregistrement": "2026-11-25T21:25:45.348Z",
+      "probabilitePredite": 87.4,
+      "dateEnregistrement": "2026-11-26T07:39:52.581Z",
       "statut": "en_attente"
     },
     {
@@ -27044,8 +27114,8 @@
       "adversaire": "Birmingham",
       "domicile": false,
       "dateMatch": "2026-11-28T15:00:00Z",
-      "probabilitePredite": 63.2,
-      "dateEnregistrement": "2026-11-25T21:25:45.348Z",
+      "probabilitePredite": 61,
+      "dateEnregistrement": "2026-11-26T07:39:52.581Z",
       "statut": "en_attente"
     },
     {
@@ -27057,8 +27127,8 @@
       "adversaire": "West Ham",
       "domicile": false,
       "dateMatch": "2026-11-28T15:00:00Z",
-      "probabilitePredite": 83.2,
-      "dateEnregistrement": "2026-11-25T21:25:45.348Z",
+      "probabilitePredite": 84,
+      "dateEnregistrement": "2026-11-26T07:39:52.581Z",
       "statut": "en_attente"
     },
     {
@@ -27085,6 +27155,58 @@
       "dateMatch": "2026-11-28T15:00:00Z",
       "probabilitePredite": 63,
       "dateEnregistrement": "2026-11-25T21:25:45.349Z",
+      "statut": "en_attente"
+    },
+    {
+      "id": "59-invaincues-2026-11-28T12:30:00Z",
+      "equipeId": 59,
+      "equipeNom": "Blackburn",
+      "competition": "Championship",
+      "categorie": "invaincues",
+      "adversaire": "Charlton",
+      "domicile": true,
+      "dateMatch": "2026-11-28T12:30:00Z",
+      "probabilitePredite": 62.1,
+      "dateEnregistrement": "2026-11-26T07:39:52.580Z",
+      "statut": "en_attente"
+    },
+    {
+      "id": "74-quiMarquent-2026-11-28T15:00:00Z",
+      "equipeId": 74,
+      "equipeNom": "West Brom",
+      "competition": "Championship",
+      "categorie": "quiMarquent",
+      "adversaire": "Bristol City",
+      "domicile": true,
+      "dateMatch": "2026-11-28T15:00:00Z",
+      "probabilitePredite": 61.3,
+      "dateEnregistrement": "2026-11-26T07:39:52.580Z",
+      "statut": "en_attente"
+    },
+    {
+      "id": "60-btts-2026-11-28T15:00:00Z",
+      "equipeId": 60,
+      "equipeNom": "Bolton",
+      "competition": "Championship",
+      "categorie": "btts",
+      "adversaire": "Birmingham",
+      "domicile": false,
+      "dateMatch": "2026-11-28T15:00:00Z",
+      "probabilitePredite": 53,
+      "dateEnregistrement": "2026-11-26T07:39:52.581Z",
+      "statut": "en_attente"
+    },
+    {
+      "id": "1779-invaincues-2026-11-29T21:30:00Z",
+      "equipeId": 1779,
+      "equipeNom": "Corinthians",
+      "competition": "Série A",
+      "categorie": "invaincues",
+      "adversaire": "Grêmio",
+      "domicile": true,
+      "dateMatch": "2026-11-29T21:30:00Z",
+      "probabilitePredite": 63.1,
+      "dateEnregistrement": "2026-11-26T07:40:07.471Z",
       "statut": "en_attente"
     }
   ]
